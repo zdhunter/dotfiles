@@ -1,0 +1,2247 @@
+2014-04-16 16:41:29	 ++ 	rawks (~alex@189.153.57.41) has joined #vidyadev
+2014-04-16 16:41:29	 - 	Topic for #vidyadev is "Under new ownership | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-04-16 16:41:29	 - 	Topic set by Plesioth (~wat@67.221.218.72) on lun, 17 feb 2014
+2014-04-16 16:41:29	 - 	Nicks #vidyadev: [@[]J @ChanServ @Inverness @Plesioth @poisonarms \marrub alloyed Alpha64 Aqo argoneus arikel BlueProtoman chichi Chuck-Norris Clobot Commando125 custos-mundi davexunit DEElekgolo eska_ fluffnguff FuriousGamer87 Fuuzetsu Guest95886 guy1 hekaronkiros ief015 JetAlone Kaira- KingsleyT malinus Maruinslun MASTERlinker MechaCrash|away Morgawr nintendev pikatwo pkmnBlue Pupnik q66 rawks sedriss Seisatsu SenorCrunch Shpuld sstrandberg stepvhen Theworld tilde Tyrfing Udderdude visiON_132 wareya wdnz Yomic zapu]
+2014-04-16 16:41:29	 - 	Channel #vidyadev: 56 nicks (5 ops, 0 halfops, 0 voices, 51 normals)
+2014-04-16 16:41:29	hekaronkiros	boy...guy uses adpopulum and strawmans like there's no tomorrow.
+2014-04-16 16:41:31	 - 	Mode #vidyadev [+Cnst]
+2014-04-16 16:41:31	 - 	Channel created on jue, 02 sep 2010
+2014-04-16 16:41:45	rawks	is this the /agdg/ irc
+2014-04-16 16:42:16	hekaronkiros	yeah
+2014-04-16 16:42:33	rawks	any progress in here or is it yet another circlejerk
+2014-04-16 16:42:43	 ++ 	factorysettings (~factoryse@ip98-180-8-191.ga.at.cox.net) has joined #vidyadev
+2014-04-16 16:43:19	pkmnBlue	rawks: not really a circle jerk and sometimes progress
+2014-04-16 16:43:27	pkmnBlue	rawks: lots of nodev obviously though
+2014-04-16 16:43:53	rawks	i heard the skyrogue dev got financed by the NASA
+2014-04-16 16:44:05	Alpha64	i don't even know what that is
+2014-04-16 16:44:15	Alpha64	that shitty plane game?
+2014-04-16 16:44:24	rawks	the 3D roguesquadron like
+2014-04-16 16:44:26	rawks	ya
+2014-04-16 16:45:31	 !! 	davexunit (~user@fsf/member/davexunit) has quit (Quit: Later)
+2014-04-16 16:46:11	rawks	so what are you working on
+2014-04-16 16:46:30	JetAlone	i heard delkos a cunt
+2014-04-16 16:46:36	JetAlone	just what ive been hearing
+2014-04-16 16:46:44	rawks	ur mums a cunt bicth
+2014-04-16 16:46:50	JetAlone	shut up delko
+2014-04-16 16:47:02	rawks	meet me inrl m8
+2014-04-16 16:47:51	JetAlone	https://www.dropbox.com/s/8qjvrxkdt5gdp8z/perfect.gif
+2014-04-16 16:47:53	MASTERlinker	[Dropbox - perfect.gif]
+2014-04-16 16:48:27	JetAlone	are there any free screen recording software out there?
+2014-04-16 16:48:29	rawks	dat sum rpgmaker?
+2014-04-16 16:49:41	pkmnBlue	JetAlone: fraps?
+2014-04-16 16:49:58	JetAlone	is it free?
+2014-04-16 16:50:08	pkmnBlue	i believe so
+2014-04-16 16:50:13	pkmnBlue	i usually just pirate camtaisa or something
+2014-04-16 16:50:22	pkmnBlue	or use streaming software, then copy that file
+2014-04-16 16:50:23	 !! 	factorysettings (~factoryse@ip98-180-8-191.ga.at.cox.net) has quit (Quit: factorysettings)
+2014-04-16 16:50:38	rawks	that opensource streaming studio
+2014-04-16 16:50:39	JetAlone	ok i guess ill just pirate something
+2014-04-16 16:50:45	rawks	cant remember the name
+2014-04-16 16:55:57	JetAlone	obs
+2014-04-16 16:56:00	 !! 	JetAlone (63355f57@gateway/web/freenode/ip.99.53.95.87) has quit (Quit: Page closed)
+2014-04-16 16:56:36	 ++ 	factorysettings (~factoryse@ip98-180-8-191.ga.at.cox.net) has joined #vidyadev
+2014-04-16 16:56:38	hekaronkiros	took me quite long
+2014-04-16 16:56:40	hekaronkiros	but finaly
+2014-04-16 16:56:55	hekaronkiros	my damn xml-factory-loader manages to put things in place
+2014-04-16 16:59:50	Chuck-Norris	even black ppl?
+2014-04-16 17:02:06	rawks	no niggers where I live
+2014-04-16 17:03:16	Chuck-Norris	where
+2014-04-16 17:03:20	Chuck-Norris	do you live?
+2014-04-16 17:03:25	Chuck-Norris	cus Im going to have to move there
+2014-04-16 17:04:35	rawks	detroit
+2014-04-16 17:04:46	rawks	no niggers here boss, just respectable black people
+2014-04-16 17:07:48	 !! 	FuriousGamer87 (af91c3ee@gateway/web/freenode/ip.175.145.195.238) has quit (Ping timeout: 240 seconds)
+2014-04-16 17:08:29	Chuck-Norris	wait wat
+2014-04-18 19:04:40	 ++ 	rawks (~alex@189.153.68.234) has joined #vidyadev
+2014-04-18 19:04:40	 - 	Topic for #vidyadev is "Under new ownership | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-04-18 19:04:40	 - 	Topic set by Plesioth (~wat@67.221.218.72) on lun, 17 feb 2014
+2014-04-18 19:04:40	 - 	Nicks #vidyadev: [@[]J @ChanServ @Inverness @Plesioth @poisonarms \marrub alloyed_ Aqo argoneus arikel chichi Chuck-Norris DEElekgolo eska_ factorysettings Fuuzetsu Guest52161 guy1 Kaira- KingsleyT malinus Maruinslun MASTERlinker MechaCrash Morgawr nintendev Petit_Dejeuner pikatwo pkmnBlue Pupnik q66 rawks Seisatsu SenorCrunch Shpuld sstrandberg stepvhen Syzygy_ Tawre Theworld tilde toxicFork Udderdude visiON_132 wareya Watersauce wdnz Yomic zapu]
+2014-04-18 19:04:40	 - 	Channel #vidyadev: 49 nicks (5 ops, 0 halfops, 0 voices, 44 normals)
+2014-04-18 19:04:42	 - 	Mode #vidyadev [+Cnst]
+2014-04-18 19:04:42	 - 	Channel created on jue, 02 sep 2010
+2014-04-18 19:04:50	rawks	Hello my fellow developers
+2014-04-18 19:04:56	rawks	any progress?
+2014-04-18 19:12:20	Petit_Dejeuner	/ban rawks no shitposting :)
+2014-04-18 19:18:13	rawks	i guess tahts a no
+2014-04-18 19:20:52	 ++ 	Alpha64 (~Alpha64@unaffiliated/alpha64) has joined #vidyadev
+2014-04-18 19:21:05	rawks	anyone opengl here?
+2014-04-18 19:21:19	Petit_Dejeuner	A tiny bit.
+2014-04-18 19:24:27	 !! 	toxicFork (~JBouncer@host86-174-245-96.range86-174.btcentralplus.com) has quit (Ping timeout: 240 seconds)
+2014-04-18 19:27:50	 ++ 	oohal (~oohal@110.142.13.149) has joined #vidyadev
+2014-04-18 19:28:12	rawks	can you guys point to a location with some cool fragment shaders?
+2014-04-18 19:28:26	rawks	im trying to get a cel sahded look but It just looks weird
+2014-04-18 19:28:43	Petit_Dejeuner	"shaders' WOAH, too advanced for me
+2014-04-18 19:30:30	@Inverness	I wouldn't know myself, I don't think most people in this channel work with shaders
+2014-04-18 19:30:48	rawks	oh
+2014-04-18 19:30:55	rawks	so waht are you guys working on
+2014-04-18 19:31:07	Petit_Dejeuner	2D arcadey stuff mainly
+2014-04-18 19:31:40	 !! 	tilde (~tilde@host6-193-dynamic.2-79-r.retail.telecomitalia.it) has quit (Quit: [this message intentionally left blank])
+2014-04-18 19:57:22	 ++ 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-04-18 19:57:53	 !! 	Guest52161 (Pandah@panda-box.creative4-2.tg14.gathering.org) has quit (Ping timeout: 265 seconds)
+2014-04-18 20:09:55	factorysettings	Petit_Dejeuner!!!
+2014-04-18 20:10:11	Watersauce	I should probs make a game
+2014-04-18 20:11:09	Petit_Dejeuner	factorysettings!!!
+2014-04-18 20:11:26	factorysettings	have you seen what I did?
+2014-04-18 20:11:32	factorysettings	http://boards.4chan.org/vg/res/65751105#p65802520
+2014-04-18 20:11:33	MASTERlinker	[/vg/ - Video Game Generals]
+2014-04-18 20:11:40	factorysettings	I followed a tutorial and made this
+2014-04-18 20:11:54	Alpha64	i followed ur mom and made you
+2014-04-18 20:12:00	Petit_Dejeuner	factorysettings, is that berserker quest?
+2014-04-18 20:12:09	factorysettings	Petit_Dejeuner: what's dat
+2014-04-18 20:12:14	Petit_Dejeuner	:|
+2014-04-18 20:12:21	Petit_Dejeuner	The curse of the onyx medallion, you pleb
+2014-04-18 20:12:38	Petit_Dejeuner	But yeah, that's really cool.
+2014-04-18 20:12:42	Petit_Dejeuner	Unity?
+2014-04-18 20:12:55	factorysettings	yeah
+2014-04-18 20:13:14	Petit_Dejeuner	Now make them burrow out of the ground and hiss when you get too close.
+2014-04-18 20:13:15	 ++ 	BlueProtoman (~smitty@ool-457b5eca.dyn.optonline.net) has joined #vidyadev
+2014-04-18 20:13:28	factorysettings	pfft, yeah.. that would be cool
+2014-04-18 20:13:41	factorysettings	but I'm not really digging it. I want to make a different game
+2014-04-18 20:13:41	Petit_Dejeuner	Did you animate and model everything?
+2014-04-18 20:13:52	Alpha64	are you using pathfinding DEElekgolo 
+2014-04-18 20:13:53	Alpha64	factorysettings 
+2014-04-18 20:13:55	factorysettings	lolz no, that's all asset store stuff
+2014-04-18 20:14:03	Petit_Dejeuner	okay, lol
+2014-04-18 20:14:10	factorysettings	Alpha64: yeah, there's this A* path finder thing, but I don't like it
+2014-04-18 20:14:22	factorysettings	I really like boid stuff rather than path finding
+2014-04-18 20:14:25	Alpha64	the one bunlded with unity?
+2014-04-18 20:14:36	 !! 	Theworld (~TheWorld@c-98-203-229-192.hsd1.wa.comcast.net) has quit (Quit: Nettalk6 - www.ntalk.de)
+2014-04-18 20:14:39	factorysettings	no, hold on, lemme find it really quick
+2014-04-18 20:15:33	factorysettings	Alpha64: http://arongranberg.com/astar/
+2014-04-18 20:15:33	MASTERlinker	[A* Pathfinding Project]
+2014-04-18 20:15:48	Alpha64	oh i tried this
+2014-04-18 20:16:01	Alpha64	the big disadvantage is that you have to bake the navmesh
+2014-04-18 20:16:07	 ++ 	Theworld (~TheWorld@c-98-203-229-192.hsd1.wa.comcast.net) has joined #vidyadev
+2014-04-18 20:16:13	Alpha64	so you are better off using the builting navigation from unity 3
+2014-04-18 20:16:14	Alpha64	4
+2014-04-18 20:16:35	Alpha64	i managed to make a runtime navmesh generator but it was shitty
+2014-04-18 20:16:37	Petit_Dejeuner	Wait, did AGDG go to shit while Iw as gone?
+2014-04-18 20:16:53	Alpha64	i ain't good for this
+2014-04-18 20:17:24	factorysettings	I don't really look at AGDG
+2014-04-18 20:17:32	factorysettings	Alpha64: yeah, I don't really like it, but it is kinda neat
+2014-04-18 20:17:36	Theworld	Petit, you left? :O
+2014-04-18 20:17:46	Watersauce	eh
+2014-04-18 20:17:57	Watersauce	it's /agdg/
+2014-04-18 20:18:07	Petit_Dejeuner	Theworld, I haven't been following.
+2014-04-18 20:18:17	Watersauce	might as well show up on mondays and tuesday
+2014-04-18 20:18:52	factorysettings	what happens on mondays and tuesdays?
+2014-04-18 20:19:03	Petit_Dejeuner	Watersauce, When I was first on it there was no /vg/ and we kept falling off the board. We had the coolest devs.
+2014-04-18 20:19:10	factorysettings	^
+2014-04-18 20:19:13	factorysettings	those were the days
+2014-04-18 20:19:15	Petit_Dejeuner	OstrichBro, may he rip in pieces
+2014-04-18 20:19:42	Petit_Dejeuner	CavityExplorer2D, Red TicTacs
+2014-04-18 20:19:56	factorysettings	>factorysettings 
+2014-04-18 20:20:24	Petit_Dejeuner	Did you have a trip back then?
+2014-04-18 20:20:50	@[]J	back in the day we had to have offsite tools just to find the goddamn thread
+2014-04-18 20:21:17	Petit_Dejeuner	Spiderchan
+2014-04-18 20:21:21	@[]J	<3
+2014-04-18 20:21:31	Petit_Dejeuner	BEFORE THE CATALOG AND SEARCH FEATURES
+2014-04-18 20:21:38	Petit_Dejeuner	Hell, you still had to use noko then.
+2014-04-18 20:21:45	@[]J	and sage :V
+2014-04-18 20:21:53	Petit_Dejeuner	Most people here don't even know what noko is.
+2014-04-18 20:21:59	Petit_Dejeuner	er, in the threads, here you're all pretty cool
+2014-04-18 20:22:04	@[]J	oh oops, missed "had to"
+2014-04-18 20:22:16	Petit_Dejeuner	[]J, yeah, but I'm sure there are tons of people who don't know what sage is
+2014-04-18 20:22:25	Petit_Dejeuner	There are even other ones for even olderfags.
+2014-04-18 20:22:56	factorysettings	Petit_Dejeuner: I still use spiderchan
+2014-04-18 20:23:09	Petit_Dejeuner	You're a god damn american hero.
+2014-04-18 20:23:11	factorysettings	wait, you don't have to noko anymore?
+2014-04-18 20:24:05	Petit_Dejeuner	nope
+2014-04-18 20:24:08	@[]J	that shit was a kind of weird feature to begin with
+2014-04-18 20:24:15	Petit_Dejeuner	[]J, Still.
+2014-04-18 20:24:20	factorysettings	yeah, but it was cool once you knew
+2014-04-18 20:26:40	@Plesioth	[]J: >tfw tired so you don't expect to get much, if any, dev done
+2014-04-18 20:26:44	@Plesioth	FEELS BAD MAN
+2014-04-18 20:26:56	@[]J	:<
+2014-04-18 20:27:02	Watersauce	sounds pretty bad
+2014-04-18 20:27:07	factorysettings	at work today they announced that anyone logging <45 hours a week will get "flagged"
+2014-04-18 20:27:37	Alpha64	9 hours per day min ?
+2014-04-18 20:27:38	@Plesioth	[]J: I'mma try to finish my checklist for new demo
+2014-04-18 20:27:38	Alpha64	lol
+2014-04-18 20:27:41	Pupnik	is it crunch time factorysettings 
+2014-04-18 20:27:58	factorysettings	Pupnik: nop
+2014-04-18 20:28:07	factorysettings	I heard some people log 70 hours a week
+2014-04-18 20:28:16	Pupnik	what the hell do you do
+2014-04-18 20:28:17	factorysettings	and this 45 hour thing is a step to get everyone working closer to 60
+2014-04-18 20:28:21	factorysettings	>programman
+2014-04-18 20:28:36	Pupnik	sounds like cancer
+2014-04-18 20:28:38	factorysettings	I work on software for walgreens
+2014-04-18 20:28:51	Petit_Dejeuner	>all this retro pixel indie platformer tumblr shit
+2014-04-18 20:29:04	Watersauce	>no one doing smash clones
+2014-04-18 20:29:55	Pupnik	factorysettings, so what are the consequences gonna be for working <45 hours a week
+2014-04-18 20:29:56	Alpha64	lol factorysettings 
+2014-04-18 20:30:01	Alpha64	how retarded are the managers
+2014-04-18 20:30:26	Alpha64	crunch == technical debt
+2014-04-18 20:30:46	factorysettings	Pupnik: I think getting fired
+2014-04-18 20:30:55	Watersauce	factorysettings:  dude just work hard
+2014-04-18 20:31:04	Watersauce	you only have to stab 45
+2014-04-18 20:31:05	Watersauce	hours
+2014-04-18 20:31:12	factorysettings	Alpha64: yeaaah
+2014-04-18 20:31:32	Pupnik	join a union
+2014-04-18 20:31:47	Alpha64	work 5 hours per week
+2014-04-18 20:31:53	@Plesioth	[]J: I can only cross 2 1/3rd items off my demo checklist
+2014-04-18 20:31:54	@Plesioth	:V
+2014-04-18 20:31:54	Alpha64	do nothing for the rest
+2014-04-18 20:32:00	Alpha64	but look busy
+2014-04-18 20:32:05	factorysettings	Watersauce: 9 hours + the hour commute every day.. also if I want an hour for lunch
+2014-04-18 20:32:07	@Plesioth	Thinking of removing audio altogether from the checklist
+2014-04-18 20:32:09	factorysettings	that's 11 hours every day for work
+2014-04-18 20:32:21	@Plesioth	Don't think I'll have time for even lazy sound design
+2014-04-18 20:32:26	Watersauce	factorysettings: oh that sounds hard
+2014-04-18 20:32:42	Pupnik	does your contract say anything about hours?
+2014-04-18 20:32:50	Alpha64	he is from america Pupnik 
+2014-04-18 20:32:52	Alpha64	no such a thing
+2014-04-18 20:33:00	Petit_Dejeuner	Alpha64, The best way to win a race is by just shooting the start pistol every 50 meters.
+2014-04-18 20:33:15	Petit_Dejeuner	"Ready for the next sprint?"
+2014-04-18 20:33:38	Alpha64	stop!
+2014-04-18 20:33:38	Watersauce	thats how runners git gud
+2014-04-18 20:33:41	Alpha64	sprinting time!
+2014-04-18 20:33:51	@Plesioth	don't mention running, I threw up today running
+2014-04-18 20:33:54	@Plesioth	fuuuuck
+2014-04-18 20:34:02	factorysettings	Pupnik: yeah, what Alpha64 said
+2014-04-18 20:34:07	Pupnik	if you arent vomiting you arent trying
+2014-04-18 20:34:18	@Plesioth	fair enough Pupnik
+2014-04-18 20:34:31	Petit_Dejeuner	Pupnik, If you're vomiting you need to drink more water throughout the day or eat healthier.
+2014-04-18 20:34:37	Alpha64	are you the last one in the group Plesioth 
+2014-04-18 20:34:44	Alpha64	like funneh military movies
+2014-04-18 20:34:47	@Plesioth	I did it on my own Alpha64
+2014-04-18 20:34:59	@Plesioth	I don't know how far I ran or how fast
+2014-04-18 20:35:03	@Plesioth	I just ran till I puked
+2014-04-18 20:35:12	Alpha64	that's stupid man
+2014-04-18 20:35:27	@Plesioth	they're going to make me do that at boot camp
+2014-04-18 20:35:32	@Plesioth	may as well get used to it
+2014-04-18 20:35:35	Alpha64	no
+2014-04-18 20:35:42	Alpha64	you can't get training in two days
+2014-04-18 20:35:50	Alpha64	you can get a heart attack
+2014-04-18 20:36:02	Alpha64	or dehydration
+2014-04-18 20:36:09	Alpha64	which leads to that too
+2014-04-18 20:36:26	Petit_Dejeuner	er, that was Plesioth 
+2014-04-18 20:36:33	Petit_Dejeuner	drink more water
+2014-04-18 20:36:51	@Plesioth	Well yeah, I'm not skimping on water
+2014-04-18 20:37:01	@Plesioth	I can't imagine drinking more water than I already do
+2014-04-18 20:37:48	Petit_Dejeuner	You carry a water bottle everywhere you go?
+2014-04-18 20:38:12	@Plesioth	not literally everywhere
+2014-04-18 20:38:38	@Plesioth	I basically drink a lot before working out
+2014-04-18 20:38:44	@Plesioth	then a lot while working out
+2014-04-18 20:39:32	Petit_Dejeuner	You have to drink it all through out the day!
+2014-04-18 20:40:11	@Plesioth	I still drink a ton of liquid
+2014-04-18 20:40:16	@Plesioth	mostly water and tea
+2014-04-18 20:40:39	Petit_Dejeuner	That tea's gonna give you kidney stones, bro.
+2014-04-18 20:40:43	Petit_Dejeuner	Squatz and oatz.
+2014-04-18 20:40:53	@Plesioth	everything's gonna kill me man
+2014-04-18 20:47:26	 !! 	factorysettings (~factoryse@ip98-180-8-191.ga.at.cox.net) has quit (Quit: factorysettings)
+2014-04-18 20:47:46	@Plesioth	yo Theworld
+2014-04-18 20:51:10	@[]J	COFFEE TIME BITCHES
+2014-04-18 20:51:11	 *	[]J slurp
+2014-04-18 20:51:18	@Plesioth	[]J: are you a talesfag
+2014-04-18 20:52:25	@[]J	no
+2014-04-18 20:52:43	@[]J	I played one on the PSX because you were talking about the series and then later you were like "lol why did you play that one that one sucks
+2014-04-18 20:52:45	@[]J	:')
+2014-04-18 20:53:24	@Plesioth	ahh, I wanted to ping Theworld for combo advice as I'm just not finding any cool combos for Zelos besides Fierce Demon Fang -> Hell Pyre/Demon Spear/Super Lightning Blade
+2014-04-18 20:53:47	@Plesioth	also I did find that one neat []J
+2014-04-18 20:53:54	@Plesioth	although it wasn't a good one to start on
+2014-04-18 20:53:58	@[]J	2grindy
+2014-04-18 20:54:03	@[]J	fight every 4 goddamn seconds
+2014-04-18 20:54:19	@Plesioth	you might like Symphonia then
+2014-04-18 20:54:36	@Plesioth	fight every 4 seconds, NOT RANDOM THOUGH, also puzzles in dungeons out the ass
+2014-04-18 20:54:42	@Plesioth	but they're pretty zelda easy tho
+2014-04-18 20:54:45	@[]J	bleh
+2014-04-18 20:55:12	@Plesioth	you can avoid enemies easily with holy bottles if you don't want to fight
+2014-04-18 20:55:14	@[]J	I don't particularly care for puzzles (especially if they're easy)
+2014-04-18 20:55:27	@Plesioth	they're neat for their time though
+2014-04-18 20:55:33	@[]J	problem with avoiding fights in an RPG is that you get punished for not fighting :1
+2014-04-18 20:55:43	@Plesioth	was a damn amazing game when it came out because of all the shit that you didn't really see before in JRPGs
+2014-04-18 20:55:44	@[]J	I mean, obviously
+2014-04-18 20:55:51	@Plesioth	but it's Tales Of, bro
+2014-04-18 20:55:54	@Plesioth	git gud
+2014-04-18 20:55:58	@[]J	honka honka
+2014-04-18 20:56:03	Watersauce	>git gud at a grindfest
+2014-04-18 20:56:06	@[]J	^
+2014-04-18 20:56:08	Watersauce	man that is a bunch of bullshit
+2014-04-18 20:56:33	@Plesioth	https://dl.dropboxusercontent.com/u/11911775/pics/PVRSnap/Snapshot_20140408_201342.jpg this boss was 20 levels above me
+2014-04-18 20:56:34	@Plesioth	;3
+2014-04-18 20:56:34	MASTERlinker	[image/jpeg |  93KB]
+2014-04-18 20:56:43	@Plesioth	I git gud'd it
+2014-04-18 20:56:47	Watersauce	that goes for disgaea, casual fantasy and dork souls
+2014-04-18 20:57:00	@Plesioth	tales of is different though Watersauce
+2014-04-18 20:57:06	Watersauce	barely
+2014-04-18 20:57:12	@Plesioth	it's a pure skill game at the core, with stats as well
+2014-04-18 20:57:17	@Plesioth	you can git gud anything in the game
+2014-04-18 20:57:34	Watersauce	damn I can git gud at rolling a die!
+2014-04-18 20:57:48	@Plesioth	you've obviously never played Tales of if you're saying that
+2014-04-18 20:58:11	Watersauce	but seriously, tales of x is a memory game
+2014-04-18 20:58:25	@Plesioth	>memory game
+2014-04-18 20:58:28	@Plesioth	wut, how so
+2014-04-18 20:58:44	Watersauce	no wait
+2014-04-18 20:58:52	Watersauce	its like pokemon
+2014-04-18 20:58:56	@Plesioth	what
+2014-04-18 20:59:00	Watersauce	you grind your way out
+2014-04-18 20:59:03	@Plesioth	http://www.youtube.com/watch?v=YtEsfjYNUjE
+2014-04-18 20:59:03	MASTERlinker	[|YOUTUBE| Tales of Phantasia: Narikiri Dungeon X: Origin (Hard) | 4m9s |]
+2014-04-18 20:59:04	Watersauce	if you're bad
+2014-04-18 20:59:16	@Plesioth	you can do that or you can just plain git gud
+2014-04-18 20:59:37	@Plesioth	there's no enemy in the game you can't beat at level 1
+2014-04-18 20:59:51	@Plesioth	in any of the games except the SRPG spinoff
+2014-04-18 20:59:58	@Plesioth	that one is a dice roll
+2014-04-18 20:59:59	@Plesioth	lol
+2014-04-18 21:00:37	 !! 	Udderdude (~Udderdude@CPE602ad0911ca0-CM602ad0911c9d.cpe.net.cable.rogers.com) has quit
+2014-04-18 21:00:48	@Plesioth	also you're playing bad if you're taking hits on mania difficulty
+2014-04-18 21:00:55	@Plesioth	especially magic hits
+2014-04-18 21:01:18	@Plesioth	there's the option to choose not to get git gud but that doesn't mean the game doesn't allow git gud
+2014-04-18 21:01:35	Watersauce	but you can always grind your way
+2014-04-18 21:01:56	@Plesioth	that doesn't mean you can't just git gud
+2014-04-18 21:02:04	@Plesioth	and not grind
+2014-04-18 21:02:09	Watersauce	you can win by grinding
+2014-04-18 21:02:18	@Plesioth	also you have to grind a LOT for it to matter
+2014-04-18 21:02:23	@Plesioth	like 15~20 levels
+2014-04-18 21:02:32	@Plesioth	stats don't mean very much in tales of
+2014-04-18 21:03:31	@Plesioth	gear makes a lot of difference though, at least weapon
+2014-04-18 21:03:35	@Plesioth	armor doesn't do much either
+2014-04-18 21:06:44	Watersauce	eitherway
+2014-04-18 21:06:55	Watersauce	there's a lot of shit jrpgs
+2014-04-18 21:06:56	Watersauce	and rpgs
+2014-04-18 21:06:58	Watersauce	everywhere
+2014-04-18 21:06:59	@Plesioth	anyways yeah Watersauce, I beat a boss I was doing 1 or 2 damage to purely on git gud https://dl.dropboxusercontent.com/u/11911775/pics/PVRSnap/Snapshot_20140408_193813.jpg
+2014-04-18 21:07:00	MASTERlinker	[image/jpeg |  74KB]
+2014-04-18 21:07:22	@Plesioth	it honestly feels like you're just throwing the same bias of every jrpg on it when it doesn't really apply
+2014-04-18 21:07:31	Watersauce	maybe
+2014-04-18 21:07:51	Watersauce	I just dislike a lot of jrpgs
+2014-04-18 21:08:37	@Plesioth	it punishes you for grinding instead of git gud since you have to grind a lot on any reasonable difficulty (not normal or below) to just tank through it
+2014-04-18 21:09:25	@Plesioth	you can do it but it'd pretty much ruin the game for you
+2014-04-18 21:11:18	@Plesioth	so what jrpgs do you like, Watersauce
+2014-04-18 21:11:25	@Plesioth	as your statement implied that you do like some
+2014-04-18 21:11:31	Watersauce	come to think of it
+2014-04-18 21:11:35	Watersauce	I dont even like jrpgs
+2014-04-18 21:11:56	@Plesioth	not even the sheen magahmees tensays
+2014-04-18 21:11:56	@Plesioth	?
+2014-04-18 21:12:43	Watersauce	nah
+2014-04-18 21:12:55	rawks	does anyone knos if you have to get greenlit to get access to the steam api?
+2014-04-18 21:13:07	@Plesioth	SMT is pretty much git gud in turn based form
+2014-04-18 21:13:18	@Plesioth	>you know by now to bring dark resistance
+2014-04-18 21:13:22	@Plesioth	>DIDN'T BRING IT?
+2014-04-18 21:13:27	@Plesioth	>ENJOY YOUR OHKOS FAGGOT
+2014-04-18 21:13:31	@Inverness	http://syofigure.seesaa.net/article/300921722.html
+2014-04-18 21:13:33	MASTERlinker	[戦車ケーキ: 初心者がフィギュア作り]
+2014-04-18 21:13:49	@Plesioth	it punishes you hardcore for having a poor strategy
+2014-04-18 21:14:54	Watersauce	>poor strat
+2014-04-18 21:15:04	Watersauce	oh man a jrpg that actually makes me think!
+2014-04-18 21:15:31	 !! 	argoneus (~argoneus@unaffiliated/argoneus) has quit (Remote host closed the connection)
+2014-04-18 21:16:15	@Plesioth	but yeah it's one of the better JRPG series, that and Tales of
+2014-04-18 21:16:30	@Plesioth	mostly because they require more than mindless button mashing
+2014-04-18 21:16:44	@Plesioth	unless you want to put in a retarded amount of time grinding, of course
+2014-04-18 21:17:12	@Plesioth	SMT has some absolutely insane superbosses as well
+2014-04-18 21:17:30	@Plesioth	even if you max your stats somehow you aren't guaranteed a victory just on that
+2014-04-18 21:19:02	Watersauce	dunno man
+2014-04-18 21:19:06	@Plesioth	in fact that has pretty much nothing to do with your victory
+2014-04-18 21:19:21	@Plesioth	it's mostly understanding how he works
+2014-04-18 21:19:33	@Plesioth	all those bosses have special rules
+2014-04-18 21:19:54	Watersauce	oh man a jrpg that makes me read
+2014-04-18 21:20:06	@Plesioth	>read
+2014-04-18 21:20:12	@Plesioth	as in read your opponent, yes
+2014-04-18 21:20:49	@Plesioth	anyways I don't know why I'm bothering with it, you're obviously super biased on it and that's not likely to change
+2014-04-18 21:21:43	@Plesioth	even if the rpg was devil may cry execution level (some of the tales of games are) you'd still say it's grindy shit lol
+2014-04-18 21:21:55	@Plesioth	prolly playin' it on easy or something
+2014-04-18 21:21:57	@Plesioth	like a fgt
+2014-04-18 21:22:12	Watersauce	ok
+2014-04-18 21:22:16	Watersauce	im going to play
+2014-04-18 21:22:22	Watersauce	whatever
+2014-04-18 21:22:27	Watersauce	on the hardest shit
+2014-04-18 21:22:32	Watersauce	you name it
+2014-04-18 21:22:43	Watersauce	as I line up some coke while you think
+2014-04-18 21:22:46	Theworld	?
+2014-04-18 21:23:02	Theworld	  combos for?
+2014-04-18 21:23:08	@Plesioth	the issue with that is that that you have to unlock the hardest difficulty most of the time
+2014-04-18 21:23:19	@Plesioth	but I've not been able to beat eternia on mania
+2014-04-18 21:23:21	@Plesioth	so damn hard
+2014-04-18 21:23:26	Theworld	Plesioth, what you want combos for?
+2014-04-18 21:23:32	@Plesioth	Zelos
+2014-04-18 21:23:46	Theworld	I went through the late half of the game going
+2014-04-18 21:23:48	@Plesioth	[20:53] <@Plesioth> ahh, I wanted to ping Theworld for combo advice as I'm just not finding any cool combos for Zelos besides Fierce Demon Fang -> Hell Pyre/Demon Spear/Super Lightning Blade
+2014-04-18 21:24:03	Theworld	normal normal normal normal normal lightning blade, super lightening blade
+2014-04-18 21:24:21	@Plesioth	I had trouble comboing the thrusts
+2014-04-18 21:24:29	Theworld	I wasn't too into combos when I played tos lol
+2014-04-18 21:24:36	@Plesioth	I tried lightning blade > super sonic thrust > super lightning blade
+2014-04-18 21:24:45	@Plesioth	well it's pretty fun to make a nice skillset
+2014-04-18 21:24:49	Watersauce	ok its time to replay tales of eternia
+2014-04-18 21:24:57	@Plesioth	GOOD LUCK
+2014-04-18 21:25:02	@Plesioth	especially with the first boss
+2014-04-18 21:25:32	@Plesioth	my god his magic chaining is some bullshit
+2014-04-18 21:26:39	@Plesioth	make sure you grab a save file with hardcore difficulty, Watersauce
+2014-04-18 21:27:09	Watersauce	Plesioth: If I can
+2014-04-18 21:27:24	@Plesioth	it's PSX so you can find one on gamefags
+2014-04-18 21:27:52	Watersauce	time to go on gamefags
+2014-04-18 21:27:59	 !! 	q66 (~q66@enlightenment/developer/q66) has quit (Quit: Leaving)
+2014-04-18 21:28:16	@Plesioth	http://db.gamefaqs.com/console/psx/save/tales_of_destiny_2_c.gme
+2014-04-18 21:28:17	MASTERlinker	[application/force-download |  19KB]
+2014-04-18 21:28:26	@Plesioth	Save File #5-Clear game data. Hardcore mode unlocked. Monster Collection and Item Collection nearly filled up.
+2014-04-18 21:28:42	@Plesioth	I wish you the best of luck man
+2014-04-18 21:28:47	@Plesioth	especially with the first boss
+2014-04-18 21:28:56	@Plesioth	it heals you and lets you retry to you beat him
+2014-04-18 21:29:06	@Plesioth	but that won't be enough likely
+2014-04-18 21:29:53	@Plesioth	I cleared half the game on hardcore but I couldn't beat that boss. I had to dumb down the difficulty for him
+2014-04-18 21:30:17	@Plesioth	going bad to finish it on hardcore is on my to do list
+2014-04-18 21:30:22	@Plesioth	shit's bananas
+2014-04-18 21:32:09	@Plesioth	Welp, off to work, Watersauce
+2014-04-18 21:32:20	@Plesioth	let me know results
+2014-04-18 21:39:03	 !! 	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has quit (Quit: I can't irc well)
+2014-04-18 21:44:39	 ++ 	Guest11896 (~hej@c-4f661af7-74736162.cust.telenor.se) has joined #vidyadev
+2014-04-18 21:48:40	 !! 	Chuck-Norris (~hej@c-4f661af7-74736162.cust.telenor.se) has quit (Ping timeout: 276 seconds)
+2014-04-18 21:48:40	 - 	Guest11896 is now known as Chuck-Norris
+2014-04-18 22:19:53	 !! 	Maruinslun (~Maruinslu@185.17.1.164) has quit (Read error: Connection reset by peer)
+2014-04-18 22:24:47	 ++ 	factorysettings (~factoryse@98.180.8.191) has joined #vidyadev
+2014-04-18 22:30:22	 !! 	factorysettings (~factoryse@98.180.8.191) has quit (Quit: factorysettings)
+2014-04-18 22:39:01	rawks	so lets say i need an artist 
+2014-04-18 22:39:15	rawks	to get to work for free, just to get a project going for protfolio and shit
+2014-04-18 22:39:22	rawks	where should I look? 
+2014-04-18 22:40:08	 ++ 	Renoki (anthonydm@CPE7cb21bcd54a9-CM7cb21bcd54a6.cpe.net.cable.rogers.com) has joined #vidyadev
+2014-04-18 22:42:38	wareya	http://pastebin.com/raw.php?i=Wze1z4ce
+2014-04-18 22:42:39	MASTERlinker	[text/plain; charset=utf-8]
+2014-04-18 22:42:42	wareya	h-how's my roadmap guys
+2014-04-18 22:50:00	Renoki	I like Alpha 4
+2014-04-18 22:50:08	Renoki	GIBS, BLOOD, GORE
+2014-04-18 22:50:42	nintendev	lol people are getting flustered over my use of a pointer instead of stack-allocated variable
+2014-04-18 22:55:45	 !! 	nintendev (~hakubi@c-67-160-228-53.hsd1.ca.comcast.net) has quit (Quit: WeeChat 0.4.3)
+2014-04-18 22:56:52	 ++ 	nintendev (~hakubi@c-67-160-228-53.hsd1.ca.comcast.net) has joined #vidyadev
+2014-04-18 22:58:52	 ++ 	Maruinslun (~Maruinslu@185.17.1.164) has joined #vidyadev
+2014-04-18 23:08:44	 !! 	BlueProtoman (~smitty@ool-457b5eca.dyn.optonline.net) has quit (Quit: Leaving)
+2014-04-18 23:17:49	 ++ 	oohal_ (~oohal@ohallo2.lnk.telstra.net) has joined #vidyadev
+2014-04-18 23:21:11	 !! 	oohal (~oohal@110.142.13.149) has quit (Ping timeout: 258 seconds)
+2014-04-18 23:29:18	 ++ 	FuriousGamer87 (76640da5@gateway/web/freenode/ip.118.100.13.165) has joined #vidyadev
+2014-04-18 23:29:30	 !! 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-04-18 23:38:51	 ++ 	fluffnguff (~cookieson@ip68-102-207-13.ks.ok.cox.net) has joined #vidyadev
+2014-04-18 23:39:47	 !! 	Renoki (anthonydm@CPE7cb21bcd54a9-CM7cb21bcd54a6.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
+2014-04-18 23:39:57	 ++ 	Renoki (anthonydm@CPE7cb21bcd54a9-CM7cb21bcd54a6.cpe.net.cable.rogers.com) has joined #vidyadev
+2014-04-18 23:45:04	Watersauce	http://i.4cdn.org/vg/src/1397882454549.png
+2014-04-18 23:45:04	MASTERlinker	[image/png |  6KB]
+2014-04-19 00:07:32	 !! 	Petit_Dejeuner (~saefa@c-174-48-40-89.hsd1.fl.comcast.net) has quit (Read error: Connection timed out)
+2014-04-19 00:11:26	wareya	tfw debugging your framelimiter
+2014-04-19 00:12:16	Watersauce	11/10
+2014-04-19 00:12:46	wareya	http://i.imgur.com/qreupxp.png
+2014-04-19 00:12:47	MASTERlinker	[image/png |  70KB]
+2014-04-19 00:12:51	wareya	my framelimiter is accurate, you jelly?
+2014-04-19 00:13:08	Watersauce	>300 fps
+2014-04-19 00:13:15	Watersauce	dont you know you can only see 24 fps :^)
+2014-04-19 00:13:20	wareya	pls no
+2014-04-19 00:14:37	wareya	pls no
+2014-04-19 00:14:40	wareya	oops
+2014-04-19 00:14:41	wareya	wrong window
+2014-04-19 00:15:18	wareya	http://i.imgur.com/1PBGNz5.png
+2014-04-19 00:15:19	wareya	yesssss
+2014-04-19 00:15:19	MASTERlinker	[imgur: the simple image sharer | image/png |  43KB]
+2014-04-19 00:15:21	wareya	itworks
+2014-04-19 00:15:55	Watersauce	>250 fps
+2014-04-19 00:18:12	wareya	http://pastebin.com/ve6BRZ38
+2014-04-19 00:18:12	MASTERlinker	[[C++]     bool FrameLimit()      {          // Frame limit          double TimeWaitS;  - Pastebin.com]
+2014-04-19 00:19:17	nintendev	http://gafferongames.com/game-physics/fix-your-timestep/  ?
+2014-04-19 00:19:19	MASTERlinker	[Fix Your Timestep! - gafferongames.com]
+2014-04-19 00:20:01	wareya	http://wareya.tumblr.com/post/81226191435/making-gg2-suck-less-physics-simulation-scaling
+2014-04-19 00:20:02	MASTERlinker	[fake flannel fluff â Making GG2 suck less: physics simulation scaling methods]
+2014-04-19 00:20:56	wareya	already figured it out on my own nintendev sry
+2014-04-19 00:21:33	wareya	interping physics causes input lag
+2014-04-19 00:21:59	wareya	it's better to run them at a very high virtual framerate and "frameskip" important physics to the rendering framerate
+2014-04-19 00:22:16	wareya	that way you avoid judder as much as possible without causing any sort of timing pains
+2014-04-19 00:23:19	wareya	relying on vsync also causes input lag on certain drivers
+2014-04-19 00:24:03	 ++ 	Alpha64_ (~Alpha64@190.50.39.179) has joined #vidyadev
+2014-04-19 00:25:40	 ++ 	asdfman (~as@88-148-226-169.bb.dnainternet.fi) has joined #vidyadev
+2014-04-19 00:26:08	 !! 	Alpha64 (~Alpha64@unaffiliated/alpha64) has quit (Ping timeout: 265 seconds)
+2014-04-19 00:27:33	wareya	delta time is actually the right idea
+2014-04-19 00:27:43	wareya	the problem is that it only works on physics which are single operations
+2014-04-19 00:27:44	wareya	like
+2014-04-19 00:27:51	wareya	speed *= friction; each frame
+2014-04-19 00:28:11	wareya	you need to use higher order math to come up with the proper delta time function for more complicated pieces of math
+2014-04-19 00:28:21	wareya	like speed = (speed + acceleration) / friction
+2014-04-19 00:28:28	wareya	and nobody wants to do that because it's fucking hard
+2014-04-19 00:29:39	Aqo	some people like fucking hgard
+2014-04-19 00:31:30	nintendev	what are you making wareya
+2014-04-19 00:32:34	wareya	something like gg2
+2014-04-19 00:32:37	wareya	called quail
+2014-04-19 00:32:44	 !! 	Renoki (anthonydm@CPE7cb21bcd54a9-CM7cb21bcd54a6.cpe.net.cable.rogers.com) has quit
+2014-04-19 01:05:18	 !! 	Watersauce (789513f8@gateway/web/freenode/ip.120.149.19.248) has quit (Ping timeout: 240 seconds)
+2014-04-19 01:08:01	wareya	https://www.youtube.com/watch?v=g68Y5GGsEg4&feature=youtu.be
+2014-04-19 01:08:02	MASTERlinker	[|YOUTUBE| Get Dandy | 4m25s |]
+2014-04-19 01:23:49	@poisonarms	wareya, why do you like GG2 so much?
+2014-04-19 01:28:06	wareya	it's the only game I've ever played with good ctf
+2014-04-19 01:28:50	wareya	well TFC has good CTF but only with a bunnyhop mod
+2014-04-19 01:28:55	wareya	and it's a terrible game side from having good CTF
+2014-04-19 01:29:37	wareya	gg2 has more servers than tfc
+2014-04-19 01:29:37	wareya	lol
+2014-04-19 01:29:40	wareya	wow
+2014-04-19 01:32:33	@[]J	TFC: Teamfortress2 Fried Chicken
+2014-04-19 01:42:06	 !! 	Alpha64_ (~Alpha64@190.50.39.179) has quit (Quit: Leaving)
+2014-04-19 01:59:34	wareya	http://i.imgur.com/r3xPjAR.jpg
+2014-04-19 01:59:35	MASTERlinker	[imgur: the simple image sharer | image/jpeg |  178KB]
+2014-04-19 02:03:32	 ++ 	Synnro (~Synnro@222-155-234-143.jetstream.xtra.co.nz) has joined #vidyadev
+2014-04-19 02:03:38	 ++ 	Synnro_ (~Synnro@222-155-234-143.jetstream.xtra.co.nz) has joined #vidyadev
+2014-04-19 02:03:42	 !! 	Synnro_ (~Synnro@222-155-234-143.jetstream.xtra.co.nz) has quit (Client Quit)
+2014-04-19 02:05:55	 ++ 	poisonar1s (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has joined #vidyadev
+2014-04-19 02:13:09	 ++ 	Aqo_ (~Aqo@46.120.205.244) has joined #vidyadev
+2014-04-19 02:16:45	 !! 	Aqo (~Aqo@46.120.205.244) has quit (Ping timeout: 258 seconds)
+2014-04-19 02:16:53	 - 	Aqo_ is now known as Aqo
+2014-04-19 02:32:43	 !! 	DEElekgolo (~DEElekgol@76-217-145-111.lightspeed.irvnca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2014-04-19 18:36:11	 ++ 	rawks (~alex@189.153.68.234) has joined #vidyadev
+2014-04-19 18:36:11	 - 	Topic for #vidyadev is "Under new ownership | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-04-19 18:36:11	 - 	Topic set by Plesioth (~wat@67.221.218.72) on lun, 17 feb 2014
+2014-04-19 18:36:11	 - 	Nicks #vidyadev: [@[]J @ChanServ @Inverness @Plesioth @poisonarms \marrub alloyed_ Alpha64 Aqo arikel BlueProtoman chi-chi Chuck-Norris Clobot davexunit DEElekgolo eska_ factorysettings fluffnguff FuriousGamer87 Fuuzetsu Guest21241 guy1 hekaronkiros_ Kaira- malinus Maruinslun MASTERlinker MechaCrash Morgawr nintendev Petit_Dejeuner pikatwo pkmnBlue Pupnik q66 rawks Seisatsu SenorCrunch Shpuld Souler sstrandberg Syzygy__ Theworld2 tilde Tyrfing Udderdude wareya_ Watersauce wdnz Yomic zapu]
+2014-04-19 18:36:11	 - 	Channel #vidyadev: 52 nicks (5 ops, 0 halfops, 0 voices, 47 normals)
+2014-04-19 18:36:12	 - 	Mode #vidyadev [+Cnst]
+2014-04-19 18:36:13	 - 	Channel created on jue, 02 sep 2010
+2014-04-19 18:36:25	@Plesioth	https://dl.dropboxusercontent.com/u/11911775/pics/itemrover.webm :3
+2014-04-19 18:36:26	MASTERlinker	[video/webm |  1MB]
+2014-04-19 18:37:40	 !! 	Souler (~Pandah@Panda-box.creative4-2.tg14.gathering.org) has quit (Read error: Connection reset by peer)
+2014-04-19 18:44:31	@Plesioth	http://i.4cdn.org/vg/src/1397950870570.png ten teen teeen
+2014-04-19 18:44:32	MASTERlinker	[image/png |  2MB]
+2014-04-19 18:45:56	@Inverness	I want to make a json editor gui thing that uses a json schema to generate the fields and such
+2014-04-19 18:46:12	@Inverness	and then limits edits according to the schema
+2014-04-19 18:49:42	@Plesioth	I made a xml editor in a treeview once
+2014-04-19 18:49:53	@Plesioth	it was pretty alright to use
+2014-04-19 18:50:01	@Plesioth	https://dl.dropboxusercontent.com/u/11911775/pics/xmleditor.png
+2014-04-19 18:50:02	MASTERlinker	[image/png |  14KB]
+2014-04-19 18:50:24	@Plesioth	would that be pretty similar for JSON?
+2014-04-19 18:58:42	 !! 	hekaronkiros_ (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 245 seconds)
+2014-04-19 18:59:05	@Inverness	not really what I mean
+2014-04-19 19:00:25	Chuck-Norris	>penisparticles
+2014-04-19 19:00:26	Chuck-Norris	>true
+2014-04-19 19:00:30	Chuck-Norris	muh dick
+2014-04-19 19:00:45	Chuck-Norris	>penisslap.wav
+2014-04-19 19:00:47	@Plesioth	Inverness: I'm not sure I get what you mean then
+2014-04-19 19:01:04	@Plesioth	I mean, other than applying a schema to something like that right
+2014-04-19 19:07:04	 ++ 	oohal (~oohal@ohallo2.lnk.telstra.net) has joined #vidyadev
+2014-04-19 19:25:41	 ++ 	rawfodog (~rawfodog@bas8-montreal28-1242355411.dsl.bell.ca) has joined #vidyadev
+2014-04-19 19:29:08	 !! 	Tyrfing (~Tyrfing@2a02:908:f324:1300:3078:9e20:b96:9d92) has quit (Ping timeout: 246 seconds)
+2014-04-19 19:52:10	 !! 	Plesioth (~wat@67.221.218.72) has left #vidyadev
+2014-04-19 19:52:17	 ++ 	Plesioth (~wat@67.221.218.72) has joined #vidyadev
+2014-04-19 19:52:17	 - 	Mode #vidyadev [+o Plesioth] by ChanServ
+2014-04-19 19:52:20	@Plesioth	oop a doop
+2014-04-19 19:52:43	@Plesioth	http://i.imgur.com/LLtnu8h.gif nsfw~
+2014-04-19 19:52:43	MASTERlinker	[imgur: the simple image sharer | image/gif |  4MB]
+2014-04-19 19:52:46	oohal	i'll oop ur doop
+2014-04-19 20:00:43	nintendev	wow shit really changed with C++ on the c++11 standard
+2014-04-19 20:14:27	Alpha64	do you have the source for that Plesioth 
+2014-04-19 20:14:46	@Plesioth	nope
+2014-04-19 20:15:03	@Plesioth	it's a wine bottle though, obviously
+2014-04-19 20:15:05	Alpha64	i mean the xml editor
+2014-04-19 20:15:12	@Plesioth	oh
+2014-04-19 20:15:14	@Plesioth	well
+2014-04-19 20:15:15	@Plesioth	yeah
+2014-04-19 20:15:26	@Plesioth	just a sex
+2014-04-19 20:15:42	@Plesioth	I didn't make it a control though, and handled it in-form
+2014-04-19 20:15:45	@Plesioth	big mistake
+2014-04-19 20:16:04	@Plesioth	so if you wanna fork it and turn it into a control or something be my guest
+2014-04-19 20:16:37	Alpha64	just curious
+2014-04-19 20:18:08	@Plesioth	finally found it
+2014-04-19 20:18:14	@Plesioth	https://github.com/JustinHughart/GaiaPulse/blob/master/GaiaPulse/AnimationManager/CycleNodeProperties.cs
+2014-04-19 20:18:15	MASTERlinker	[GaiaPulse/GaiaPulse/AnimationManager/CycleNodeProperties.cs at master · JustinHughart/GaiaPulse · GitHub]
+2014-04-19 20:18:31	@Plesioth	there's all the logic of it, it just uses a tree view
+2014-04-19 20:18:50	@Plesioth	LoadXML() and SaveXML() is what you're looking at
+2014-04-19 20:19:26	@Plesioth	didn't have time to properly document it, sorry
+2014-04-19 20:21:48	@Plesioth	Did you need something like that Alpha64?
+2014-04-19 20:22:28	Alpha64	i'm writing a special data format
+2014-04-19 20:22:31	Alpha64	but i might ditch it
+2014-04-19 20:22:37	Alpha64	for a gooey editor
+2014-04-19 20:23:40	@Plesioth	Well, that example there is one way to do a gui XML editor
+2014-04-19 20:25:59	@Plesioth	Alpha64: IF YOU USE PLEASE CREDIT ME IN CREDITS AND THEN CREDIT MY BANK ACCOUNT
+2014-04-19 20:26:31	Alpha64	~~ zpezial thnkz to xXxPlesiothxXx ~~
+2014-04-19 20:27:05	@Plesioth	exactly.
+2014-04-19 20:27:13	@Plesioth	that's exactly what you should put in there
+2014-04-19 20:35:07	factorysettings	hey Alpha64, is there a way in Unity to get the button currently pressed?
+2014-04-19 20:35:17	factorysettings	or do you just make a list of if statements for each button?
+2014-04-19 20:35:35	Alpha64	you poll
+2014-04-19 20:35:41	factorysettings	>poll?
+2014-04-19 20:35:44	Alpha64	ifs
+2014-04-19 20:35:56	factorysettings	so a list of ifs
+2014-04-19 20:36:02	Alpha64	yes
+2014-04-19 20:36:28	factorysettings	if it were possible to get the button pressed, would a switch be more optimal?
+2014-04-19 20:37:09	factorysettings	whatevz, I'm gonna just do the ifs
+2014-04-19 20:38:06	Alpha64	there's no gain in a switch
+2014-04-19 20:38:24	Alpha64	you can't ask for buttons pressed
+2014-04-19 20:39:15	factorysettings	yeah, figured. I tried using the thirdperson controller, but I think I might just roll my own
+2014-04-19 20:39:29	Alpha64	roll your own
+2014-04-19 20:39:35	Alpha64	what kind of game is it
+2014-04-19 20:39:47	Alpha64	making character movement is tricky
+2014-04-19 20:40:30	factorysettings	gonna go for an isometric view
+2014-04-19 20:40:40	factorysettings	where the camera follows the player, with the player in the center of the screen
+2014-04-19 20:40:47	@Plesioth	>tfw 4chan X is borked
+2014-04-19 20:41:18	Alpha64	but what's the gameplay factorysettings 
+2014-04-19 20:41:24	Alpha64	platforming?
+2014-04-19 20:41:30	@Plesioth	gamegay more like it
+2014-04-19 20:41:52	factorysettings	for now, I'm thinking no jumping
+2014-04-19 20:42:12	@Plesioth	so you don't know what your game is supposed to be?
+2014-04-19 20:42:20	@Plesioth	in b4 >but I have a setting!
+2014-04-19 20:42:20	@Plesioth	<3
+2014-04-19 20:42:47	Alpha64	visual novel with cubes
+2014-04-19 20:43:06	@Plesioth	b-baka q-quad d-desu
+2014-04-19 20:43:10	factorysettings	It's not a platformer. I don't think there would be a lot of jumping
+2014-04-19 20:43:22	@Plesioth	so what IS it then
+2014-04-19 20:43:37	Alpha64	check your genre privilege
+2014-04-19 20:43:46	Alpha64	i bet that he wants to make something original
+2014-04-19 20:43:47	Alpha64	shame him
+2014-04-19 20:44:01	factorysettings	:| I just want to try it out and see
+2014-04-19 20:44:05	@Plesioth	this isn't even about genres lol
+2014-04-19 20:44:12	@Plesioth	this is like
+2014-04-19 20:44:23	@Plesioth	what kind of game is he trying to make, what is he trying to do
+2014-04-19 20:44:28	Alpha64	genre binary
+2014-04-19 20:44:31	@Plesioth	and what does he expect the player to do
+2014-04-19 20:44:41	Alpha64	genre bender
+2014-04-19 20:44:44	@Plesioth	so far all we got is "you walk around"
+2014-04-19 20:44:47	@Plesioth	lol
+2014-04-19 20:45:05	factorysettings	I just don't want jumping
+2014-04-19 20:45:12	@Plesioth	so what do you want?
+2014-04-19 20:45:14	@Plesioth	:V
+2014-04-19 20:45:18	factorysettings	it's my game idea don't touch it leave me alone <_<
+2014-04-19 20:45:20	factorysettings	>_>
+2014-04-19 20:45:31	Alpha64	does it have shooting
+2014-04-19 20:45:32	@Plesioth	original idea do not steal?
+2014-04-19 20:45:33	Alpha64	shooting is good
+2014-04-19 20:45:40	factorysettings	yeah, it'll have shooting
+2014-04-19 20:45:43	Alpha64	violence is great
+2014-04-19 20:46:02	@Plesioth	I love violence!
+2014-04-19 20:46:07	Alpha64	oh oh oh oh
+2014-04-19 20:46:14	Alpha64	gamedev surge
+2014-04-19 20:46:16	Alpha64	can't control it
+2014-04-19 20:46:21	 *	Alpha64 opens unity
+2014-04-19 20:46:44	@Plesioth	Alpha64: just like make game
+2014-04-19 20:46:46	Alpha64	how many of you like panzer dragoon
+2014-04-19 20:46:57	@Plesioth	I liked orta
+2014-04-19 20:47:11	@Plesioth	moreso when the dragon got crippled though
+2014-04-19 20:47:21	@Plesioth	and was running through the snow
+2014-04-19 20:47:24	@Plesioth	that shit was cash
+2014-04-19 20:48:26	@Plesioth	https://www.youtube.com/watch?v=fiNyz6SPSAQ
+2014-04-19 20:48:26	MASTERlinker	[|YOUTUBE| Panzer Dragoon Orta (HD) - Walkthrough (Part 6/11): Episode 5 / Eternal Glacies | 11m57s |]
+2014-04-19 20:49:05	Alpha64	tfw can't play panzer dragoon orta
+2014-04-19 20:49:38	@Plesioth	isn't there original xbox emus yet
+2014-04-19 20:49:43	Alpha64	nope
+2014-04-19 20:49:48	Alpha64	i have a 360
+2014-04-19 20:49:53	@Plesioth	what
+2014-04-19 20:49:58	@Plesioth	I played orta on my old 360
+2014-04-19 20:49:58	@Plesioth	=|
+2014-04-19 20:50:00	Alpha64	but apparently you can't play after level 6 i think
+2014-04-19 20:50:06	@Plesioth	nope
+2014-04-19 20:50:08	@Plesioth	I beat the game
+2014-04-19 20:50:22	@Plesioth	at least the NA ver is good
+2014-04-19 20:50:22	Alpha64	did you have to install anything
+2014-04-19 20:50:31	@Plesioth	Nope, don't believe so
+2014-04-19 20:50:48	Alpha64	i should try to get an iso then
+2014-04-19 20:50:54	@Plesioth	oh well
+2014-04-19 20:50:59	@Plesioth	I played on legit disc
+2014-04-19 20:51:13	@Plesioth	I don't know anything about how it plays on CFW
+2014-04-19 20:51:16	Alpha64	it should be the same
+2014-04-19 20:51:28	Alpha64	the problem was with the emulator
+2014-04-19 20:51:34	@Plesioth	it isn't always the same, Alpha64
+2014-04-19 20:51:42	Alpha64	( the 360 emulates original xbox )
+2014-04-19 20:51:49	@Plesioth	yes but you never know
+2014-04-19 20:52:02	@Plesioth	first rule of coding: expect unexpected errors
+2014-04-19 20:52:22	Alpha64	i feel like i should drop everything and make a panzer dragoon / Rez game
+2014-04-19 20:52:25	@Plesioth	for instance there's a lot of ps3 games that won't run on CFW
+2014-04-19 20:52:26	@Plesioth	:3
+2014-04-19 20:53:20	@Plesioth	but yeah man, if you have CFW it can't hurt to try it
+2014-04-19 20:53:29	@Plesioth	all you're losing is time, big whoop
+2014-04-19 20:53:38	Alpha64	( dvd9 are expensive :< )
+2014-04-19 20:54:11	@Plesioth	>not HDD loading
+2014-04-19 20:54:15	@Plesioth	nigga plox
+2014-04-19 20:54:28	Alpha64	>hdd
+2014-04-19 20:54:38	Alpha64	das 4 rich ppl dude
+2014-04-19 20:54:53	@Plesioth	oh I forget you're in retardedlyexpensiveland
+2014-04-19 20:54:57	Alpha64	also i need the modchip
+2014-04-19 20:55:02	Alpha64	which i don't have
+2014-04-19 20:55:15	@Plesioth	ehh, so what's up with that then
+2014-04-19 20:55:24	Alpha64	i modded the drive
+2014-04-19 20:55:27	@Plesioth	ahh
+2014-04-19 20:55:29	Alpha64	to read backups
+2014-04-19 20:55:32	Alpha64	but that's all
+2014-04-19 20:55:42	@Plesioth	fair enough then I suppose
+2014-04-19 20:56:20	Alpha64	it was like making a brain surgery
+2014-04-19 20:56:26	@Plesioth	time to go pick up chinese food and head to work, whee
+2014-04-19 20:56:42	Alpha64	good bye
+2014-04-19 20:56:52	@Plesioth	oh I know, I've done hardware operations before
+2014-04-19 20:56:55	@Plesioth	it's like fffu
+2014-04-19 20:57:16	Alpha64	dat boss
+2014-04-19 20:57:17	@Plesioth	mostly it was controllers but I did a um
+2014-04-19 20:57:25	@Plesioth	shit what's it called
+2014-04-19 20:57:38	@Plesioth	composite mod or whatever on a nes that didn't have it
+2014-04-19 20:57:46	Alpha64	yeah
+2014-04-19 20:57:46	@Plesioth	was pretty fun
+2014-04-19 20:58:00	@Plesioth	https://dl.dropboxusercontent.com/u/11911775/pics/random/IMG_20121026_080256.jpg :3
+2014-04-19 20:58:01	MASTERlinker	[image/jpeg |  635KB]
+2014-04-19 20:58:24	@Plesioth	welp off I go, peace
+2014-04-19 20:58:29	Alpha64	gb
+2014-04-19 21:00:18	rawfodog	hey, is duckduckgo AND startpage not working for you guys ?
+2014-04-19 21:00:29	rawfodog	only google loads, I wonder if I'm being mitm'd
+2014-04-19 21:00:42	rawfodog	I just installed some stuff so its a good possibility
+2014-04-19 21:13:10	 !! 	rawfodog (~rawfodog@bas8-montreal28-1242355411.dsl.bell.ca) has quit (Remote host closed the connection)
+2014-04-19 21:13:18	 ++ 	Sokuzah (Sokuzah@CPE-124-181-224-133.lnse4.win.bigpond.net.au) has joined #vidyadev
+2014-04-19 21:26:14	 !! 	q66 (~q66@enlightenment/developer/q66) has quit (Ping timeout: 252 seconds)
+2014-04-19 21:30:18	@Inverness	o.o
+2014-04-19 21:31:51	rawks	fuuuuck appchan is broken again
+2014-04-19 21:36:50	Alpha64	http://i.imgur.com/YcSjlMZ.png
+2014-04-19 21:36:51	MASTERlinker	[imgur: the simple image sharer | image/png |  33KB]
+2014-04-19 21:36:56	Alpha64	making levels with tiles is fun
+2014-04-19 21:37:48	wareya_	https://dl.dropboxusercontent.com/u/1811521/dreamvidya.jpg
+2014-04-19 21:37:49	MASTERlinker	[image/jpeg |  562KB]
+2014-04-19 21:38:40	 ++ 	q66 (~q66@host86-178-112-34.range86-178.btcentralplus.com) has joined #vidyadev
+2014-04-19 21:38:41	 !! 	q66 (~q66@host86-178-112-34.range86-178.btcentralplus.com) has quit (Changing host)
+2014-04-19 21:38:41	 ++ 	q66 (~q66@enlightenment/developer/q66) has joined #vidyadev
+2014-04-19 21:45:55	Udderdude	alpha64: what's that for
+2014-04-19 22:00:36	 ++ 	Tomoo (~Tomo@cpc67138-ely07-2-0-cust43.5-1.cable.virginm.net) has joined #vidyadev
+2014-04-19 22:08:01	Alpha64	my game
+2014-04-19 22:09:53	Udderdude	cool
+2014-04-19 22:10:03	Udderdude	looks like a pretty tight bottleneck
+2014-04-19 22:11:05	Alpha64	https://dl.dropboxusercontent.com/u/55147513/NewFloor/NewFloor.html Udderdude 
+2014-04-19 22:11:06	MASTERlinker	[Unity Web Player | Sanvein]
+2014-04-19 22:11:08	Alpha64	wasd + mouse
+2014-04-19 22:13:00	Udderdude	really like the 90s VR theme, it's like i'm really playing lawnmower man
+2014-04-19 22:13:36	 !! 	Tomoo (~Tomo@cpc67138-ely07-2-0-cust43.5-1.cable.virginm.net) has quit
+2014-04-19 22:13:41	Alpha64	:>
+2014-04-19 22:13:44	Alpha64	that's the idea
+2014-04-19 22:15:16	Alpha64	https://dl.dropboxusercontent.com/u/55147513/sanbuild2/sanbuild2.html this is more lawnmowery
+2014-04-19 22:15:17	MASTERlinker	[Unity Web Player | Sanvein]
+2014-04-19 22:15:40	Alpha64	FAZERCLAN PRESENTS
+2014-04-19 22:15:56	Alpha64	MACHINIMIA
+2014-04-19 22:18:44	Udderdude	420 blaze it
+2014-04-19 22:21:25	 !! 	Udderdude (~Udderdude@CPE602ad0911ca0-CM602ad0911c9d.cpe.net.cable.rogers.com) has quit
+2014-04-19 22:21:46	Alpha64	lawnsmoker man edition
+2014-04-19 22:22:23	 !! 	q66 (~q66@enlightenment/developer/q66) has quit (Quit: Leaving)
+2014-04-19 22:34:50	 !! 	factorysettings (~factoryse@ip98-180-8-191.ga.at.cox.net) has quit (Quit: factorysettings)
+2014-04-19 22:44:06	Alpha64	http://i.imgur.com/jo2uEqm.png
+2014-04-19 22:44:08	MASTERlinker	[imgur: the simple image sharer | image/png |  127KB]
+2014-04-19 22:47:11	 !! 	davexunit (~user@209-6-40-86.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com) has quit (Quit: Later)
+2014-04-19 23:19:20	 !! 	FuriousGamer87 (76640da5@gateway/web/freenode/ip.118.100.13.165) has quit (Quit: Page closed)
+2014-04-19 23:20:39	 ++ 	plokdev (~rayman@cpe-69-204-126-180.buffalo.res.rr.com) has joined #vidyadev
+2014-04-19 23:29:07	 !! 	oohal (~oohal@ohallo2.lnk.telstra.net) has quit (Ping timeout: 245 seconds)
+2014-04-19 23:30:13	@[]J	http://www.sickchirpse.com/wp-content/uploads/2012/09/toilet-train-your-cat.jpg
+2014-04-19 23:30:13	MASTERlinker	[image/jpeg |  62KB]
+2014-04-19 23:30:57	Alpha64	how-to-get-toxoplasmosys.jpg
+2014-04-19 23:36:15	@[]J	:v
+2014-04-19 23:44:32	 !! 	tilde (~tilde@host12-189-dynamic.9-79-r.retail.telecomitalia.it) has quit (Ping timeout: 245 seconds)
+2014-04-19 23:50:00	Alpha64	http://i.4cdn.org/vg/1397957534351.jpg Plesioth would love this shit
+2014-04-19 23:50:00	MASTERlinker	[image/jpeg |  580KB]
+2014-04-20 00:00:23	 ++ 	DarthBenedict (~DarthBene@124-171-72-72.dyn.iinet.net.au) has joined #vidyadev
+2014-04-20 00:07:29	 ++ 	FuriousGamer87 (7c523772@gateway/web/freenode/ip.124.82.55.114) has joined #vidyadev
+2014-04-20 00:38:58	 !! 	BlueProtoman (~smitty@ool-457b5eca.dyn.optonline.net) has quit (Quit: Leaving)
+2014-04-20 00:59:18	 ++ 	Tawre (~Tawre@195.241.50.84.dyn.estpak.ee) has joined #vidyadev
+2014-04-20 00:59:18	 !! 	Tawre (~Tawre@195.241.50.84.dyn.estpak.ee) has quit (Changing host)
+2014-04-20 00:59:18	 ++ 	Tawre (~Tawre@unaffiliated/tawre) has joined #vidyadev
+2014-04-20 01:15:51	 ++ 	asdfman (~as@88-148-226-169.bb.dnainternet.fi) has joined #vidyadev
+2014-04-20 01:21:14	@poisonarms	I need to figure out how to start this new project...
+2014-04-20 01:25:41	 ++ 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-04-20 01:28:41	 ++ 	hekaronkiros_ (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-04-20 01:29:33	 !! 	guy1 (~guy1@ip68-99-181-192.oc.oc.cox.net) has quit (Read error: Connection reset by peer)
+2014-04-20 01:29:57	 !! 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 245 seconds)
+2014-04-20 01:29:57	 !! 	plokdev (~rayman@cpe-69-204-126-180.buffalo.res.rr.com) has quit (Ping timeout: 245 seconds)
+2014-04-20 01:30:19	 ++ 	guy1 (~guy1@ip68-99-181-192.oc.oc.cox.net) has joined #vidyadev
+2014-04-20 01:38:02	Tawre	i want to play civilization
+2014-04-20 01:38:05	Tawre	but just turning on civ5
+2014-04-20 01:38:10	Tawre	makes me not want to play it
+2014-04-20 01:38:19	Tawre	fucking 10 minute loading times, shit music, shit alt tabbing 
+2014-04-20 01:38:24	asdfman	i've experienced the same
+2014-04-20 01:38:29	asdfman	thinking i want to play that game
+2014-04-20 01:38:32	asdfman	but quitting within 5 minutes
+2014-04-20 01:38:43	asdfman	played it too much
+2014-04-20 01:38:44	Watersauce	civ5
+2014-04-20 01:38:44	Watersauce	more like
+2014-04-20 01:38:45	Tawre	where the fuck is the borderless fullscreen
+2014-04-20 01:38:47	Watersauce	civ not so good
+2014-04-20 01:39:11	asdfman	civ 5 is probably my most played single player game since homm3
+2014-04-20 01:39:34	asdfman	i will not stand by idly and have you call it not so good
+2014-04-20 01:40:42	Watersauce	you can win by playing super passive.
+2014-04-20 01:43:47	Tawre	civ4 is fucking amazing though
+2014-04-20 01:45:04	Watersauce	civ4 > civ5
+2014-04-20 01:45:07	Watersauce	hands down
+2014-04-20 01:49:49	wareya_	https://www.youtube.com/watch?v=cdvTTg_x9TM&feature=youtu.be
+2014-04-20 01:49:49	MASTERlinker	[|YOUTUBE| airstrafing | 35s |]
+2014-04-20 01:49:51	wareya_	I DID IT
+2014-04-20 01:51:03	 ++ 	toxicFork (~JBouncer@host86-174-245-96.range86-174.btcentralplus.com) has joined #vidyadev
+2014-04-20 01:52:39	Tawre	where can i set hotkeys for civ5
+2014-04-20 01:59:50	Tawre	yesssss
+2014-04-20 01:59:58	Tawre	i can advance turns witah the mouse
+2014-04-20 02:06:33	 ++ 	oohal (~oohal@ohallo2.lnk.telstra.net) has joined #vidyadev
+2014-04-20 02:08:27	 ++ 	Deet- (~zigzagoon@c83-252-245-106.bredband.comhem.se) has joined #vidyadev
+2014-06-07 04:37:37	 > 	rawks (~alex@189.153.58.133) has joined #vidyadev
+2014-06-07 04:37:37	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-07 04:37:37	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014 20:11:34
+2014-06-07 04:37:37	 - 	Nicks #vidyadev: [@[]J @ChanServ @Haz @Invy @poisonarms \marrub alloyed Aqo arikel asdfman chichi Chuck-Norris Deet- Erwat eska_ fluffnguff Fuuzetsu guy1 hekaronkiros ief015 Kingsquee_ ludocode malinus Maruinslun MASTERlinker MechaCrash|away Morgawr Mortvert oohal Petit_Dejeuner pikatwo Pupnik_ rawks ROOTb sedriss Seisatsu SenorCrunch Shpuld Tawre visiON_132 wareya wdnz Yomic yoni0505]
+2014-06-07 04:37:37	 - 	Channel #vidyadev: 44 nicks (5 ops, 0 voices, 39 normals)
+2014-06-07 04:37:40	 - 	Mode #vidyadev [+Cnst]
+2014-06-07 04:37:40	 - 	Channel created on jue, 02 sep 2010 21:22:11
+2014-06-07 04:37:48	rawks	sup devs
+2014-06-07 04:42:08	visiON_132	hekaronkiros: make a WoW killer
+2014-06-07 04:42:17	hekaronkiros	>lel
+2014-06-07 04:42:43	hekaronkiros	I want to do something either graphical, procedural or about AI
+2014-06-07 04:44:30	rawks	you fagets have a tumblr?
+2014-06-07 04:44:33	visiON_132	make a Deep Blue killer chess AI
+2014-06-07 04:44:42	rawks	why is it so populra among /agdg?
+2014-06-07 04:45:05	visiON_132	they are redditors
+2014-06-07 04:45:59	rawks	well what do you use then
+2014-06-07 04:48:13	visiON_132	#vidyadev
+2014-06-07 04:52:58	hekaronkiros	I have a tumblr
+2014-06-07 04:53:08	hekaronkiros	but I use it to upload bad quality lewd drawings
+2014-06-07 04:53:50	hekaronkiros	>deep blue killer chess ai
+2014-06-07 04:53:59	hekaronkiros	though, actually
+2014-06-07 04:54:04	hekaronkiros	that's something I wanted to make
+2014-06-07 04:54:15	hekaronkiros	some learning emerging behaviour ai or something
+2014-06-07 04:54:21	hekaronkiros	that gets better witch each play
+2014-06-07 04:54:30	hekaronkiros	put it to play against some online game
+2014-06-07 04:54:33	hekaronkiros	and see what happens
+2014-06-07 05:04:07	Tawre	[12:44] <rawks> why is it so populra among /agdg? <--- because you need to use EVERYTHING available to gain exposure to what you're doing
+2014-06-07 05:05:02	visiON_132	cant do a scamstarter if nobody knows about your game
+2014-06-07 05:06:32	 > 	argoneus (~argoneus@unaffiliated/argoneus) has joined #vidyadev
+2014-06-07 05:17:00	Tawre	https://i.4cdn.org/v/1402136040927.jpg
+2014-06-07 05:17:00	MASTERlinker	[image/jpeg |  38KB]
+2014-06-07 05:17:48	visiON_132	did they say that to the jews
+2014-06-07 05:18:23	Tawre	did you read the text?
+2014-06-07 05:18:30	visiON_132	yes
+2014-06-07 05:18:58	Tawre	>in germany we don't say "let me hug you" we say "let me sacrifice your soul to the ruler of darkness" which translates to "i never want to let you go" and i think thats beautiful
+2014-06-07 05:19:39	visiON_132	sorry i dont into german that well
+2014-06-07 05:19:43	oohal	in reality, you're still gay
+2014-06-07 05:20:02	Tawre	in reality, i've never been gay
+2014-06-07 05:20:24	oohal	whatever you say faggot
+2014-06-07 05:34:32	 < 	Aqo (~Aqo@46.120.205.244) has quit (Quit: ChatZilla 0.9.90.1-rdmsoft [XULRunner 22.0/20130619132145])
+2014-06-07 05:38:32	visiON_132	http://www.bestoldgames.net/eng/old-games/prince-of-persia.php
+2014-06-07 05:38:32	MASTERlinker	[Prince of Persia download | BestOldGames.net]
+2014-06-07 05:38:37	visiON_132	can anyone here actually beat the game?
+2014-06-07 05:40:18	asdfman	pretty sure i beat it as a kid, that was one of my favorites
+2014-06-07 05:42:49	 > 	toxicFork (~JBouncer@host109-145-144-93.range109-145.btcentralplus.com) has joined #vidyadev
+2014-06-07 05:51:36	visiON_132	http://www.bestoldgames.net/eng/old-games/prehistorik-2.php
+2014-06-07 05:51:36	MASTERlinker	[Prehistorik 2 download | BestOldGames.net]
+2014-06-07 05:51:41	visiON_132	>tfw never got past the Tundra level
+2014-06-07 06:03:56	 < 	Kingsquee_ (~kingsley@d108-180-236-71.bchsia.telus.net) has quit (Quit: surprise, it was lupus)
+2014-06-07 06:14:27	 - 	MechaCrash|away is now known as MechaCrash
+2014-06-07 06:16:21	 > 	Kingsquee_ (~kingsley@d108-180-236-71.bchsia.telus.net) has joined #vidyadev
+2014-06-07 06:32:15	 > 	jdmarsh (~jdmarsh@host-78-151-107-123.as13285.net) has joined #vidyadev
+2014-06-07 06:33:10	 < 	jdmarsh (~jdmarsh@host-78-151-107-123.as13285.net) has quit (Client Quit)
+2014-06-07 06:35:37	 > 	q66 (~q66@host109-158-141-159.range109-158.btcentralplus.com) has joined #vidyadev
+2014-06-07 06:35:37	 < 	q66 (~q66@host109-158-141-159.range109-158.btcentralplus.com) has quit (Changing host)
+2014-06-07 06:35:37	 > 	q66 (~q66@enlightenment/developer/q66) has joined #vidyadev
+2014-06-07 06:36:55	 > 	Souler- (~Souler@171.59.189.109.customer.cdi.no) has joined #vidyadev
+2014-06-07 07:08:02	 > 	davexunit (~user@fsf/member/davexunit) has joined #vidyadev
+2014-06-07 07:10:28	 > 	pprnts (~mic@5468848A.cm-12-1c.dynamic.ziggo.nl) has joined #vidyadev
+2014-06-07 07:24:32	@[]J	http://i.imgur.com/QlFRDsh.jpg [NSFW]
+2014-06-07 07:24:34	MASTERlinker	[This guy. - Imgur | image/jpeg |  77KB]
+2014-06-07 07:25:00	@[]J	`Went to a Trash Talk 'secret show' in Melbourne last night, this dude straight up pissed into his own mouth in the middle of the mosh pit.`
+2014-06-07 07:27:30	visiON_132	the fuck
+2014-06-07 07:28:03	oohal	lol
+2014-06-07 07:30:22	 > 	Eldrich (~eldrich@wm190.internetdsl.tpnet.pl) has joined #vidyadev
+2014-06-07 07:32:50	 < 	Kingsquee_ (~kingsley@d108-180-236-71.bchsia.telus.net) has quit (Quit: surprise, it was lupus)
+2014-06-07 07:37:01	Deet-	straight up, ha
+2014-06-07 08:11:28	 < 	[]J (~Z@115.51.94.95) has quit (Ping timeout: 240 seconds)
+2014-06-07 08:11:57	 > 	[]J (~Z@115.51.94.95) has joined #vidyadev
+2014-06-07 08:11:57	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-07 08:19:37	 > 	Neetchuh (~Ruuube@cpc23-lewi14-2-0-cust959.2-4.cable.virginm.net) has joined #vidyadev
+2014-06-07 08:21:44	 > 	Fresh (5ce9220f@gateway/web/freenode/ip.92.233.34.15) has joined #vidyadev
+2014-06-07 08:25:38	 > 	BlueProtoman (~smitty@ool-457b5eca.dyn.optonline.net) has joined #vidyadev
+2014-06-07 08:31:02	 > 	sstrandberg (~sebastian@173.225.249.241) has joined #vidyadev
+2014-06-07 08:45:00	Neetchuh	Good starting unity tuts?
+2014-06-07 08:47:29	Shpuld	the official ones
+2014-06-07 08:47:34	Shpuld	on unity website
+2014-06-07 08:47:38	Shpuld	atleast that's how I got started
+2014-06-07 08:49:13	Neetchuh	Okay cool.
+2014-06-07 08:56:11	 < 	ludocode (~quassel@184.175.0.99) has quit (Ping timeout: 252 seconds)
+2014-06-07 09:03:47	asdfman	after you're done with those head to unitygems.com
+2014-06-07 09:03:55	MASTERlinker	[Unity Gems | Tutorials & Articles For Unity Developers]
+2014-06-07 09:12:52	Pupnik_	[]J, its either that, or on someone else
+2014-06-07 09:13:06	@[]J	:3
+2014-06-07 09:15:16	Fresh	Best experience for myself is jump in and make something, whenever you get stuck, check Google and keep the API docs open
+2014-06-07 09:17:19	 > 	ludocode (~quassel@23-91-133-114.cpe.pppoe.ca) has joined #vidyadev
+2014-06-07 09:32:58	@[]J	pretty much
+2014-06-07 09:33:31	@[]J	Neetchuh oh right, also bookmark stackoverflow.com / gamedev.stackexchange.com
+2014-06-07 09:33:33	MASTERlinker	[Stack Overflow]  ...  [Game Development Stack Exchange]
+2014-06-07 09:34:26	Neetchuh	Noted. Am jumping in head first as we speak. I'm creating some basic art assets to manipulate
+2014-06-07 09:39:15	sstrandberg	I really like these for unity tutorials, they focus on code more than using prebuilt controllers and shit
+2014-06-07 09:39:15	sstrandberg	http://catlikecoding.com/unity/tutorials/
+2014-06-07 09:39:19	MASTERlinker	[Unity C# Tutorials]
+2014-06-07 09:40:47	 > 	Lopaki (Lopaki@wu2415.wh-wurm.uni-ulm.de) has joined #vidyadev
+2014-06-07 09:42:57	 < 	Lopaki (Lopaki@wu2415.wh-wurm.uni-ulm.de) has quit (Client Quit)
+2014-06-07 10:12:00	asdfman	yes unitygems and catlike, i was going to mention catlike but since it's a lot of editorcode it may not be of interest to all
+2014-06-07 10:17:03	 < 	oohal (~oohal@ohallo2.lnk.telstra.net) has quit (Quit: Leaving)
+2014-06-07 10:25:29	 > 	ludocode_ (~quassel@76-10-150-95.dsl.teksavvy.com) has joined #vidyadev
+2014-06-07 10:26:16	 < 	ludocode (~quassel@23-91-133-114.cpe.pppoe.ca) has quit (Ping timeout: 260 seconds)
+2014-06-07 10:26:36	Tawre	are arrows deadly when shot into water?
+2014-06-07 10:27:07	Pupnik_	yes
+2014-06-07 10:32:02	Tawre	Pupnik_, really?
+2014-06-07 10:32:13	Tawre	got anything i could look up that would back it up?
+2014-06-07 10:32:54	Pupnik_	nope
+2014-06-07 10:33:32	Pupnik_	just think about it, i mean underwater harpoon launchers basically shoot arrows
+2014-06-07 10:33:53	Tawre	Pupnik_, yeash but they're shot from underwater
+2014-06-07 10:34:29	Pupnik_	you could also determine this experimentally by throwing a stick point first into water
+2014-06-07 10:34:52	Tawre	In addition to physical and technical limits applicable to the range of the speargun under the water, we need to take into consideration also the acute sense of the fish and with it its related reflexes, so we therefore talk about the operational range of the speargun, which is limited to 3-4 m. 
+2014-06-07 10:36:39	Tawre	Pupnik_, remember that
+2014-06-07 10:36:43	Tawre	if you're like 1 meter deep
+2014-06-07 10:36:50	Tawre	then guns probably won't even pierce your skin
+2014-06-07 10:36:58	Tawre	as the high powered rifle bullets will shatter when they hit water
+2014-06-07 10:37:03	Tawre	and the weaker ones won't have enough force
+2014-06-07 10:37:08	Pupnik_	bullets weigh a lot less than arrows
+2014-06-07 10:37:13	Tawre	yeah
+2014-06-07 10:37:17	Tawre	but they have a lot less drag
+2014-06-07 10:37:21	Tawre	and a lot more force behind them
+2014-06-07 10:37:41	Tawre	bowfishing is a thing
+2014-06-07 10:37:50	Tawre	and apparently you can only really hunt fish that are ~1m depth
+2014-06-07 10:38:31	Pupnik_	is that because of difficulty hitting the target or penetration though?
+2014-06-07 10:38:49	Tawre	penetration depth
+2014-06-07 10:39:10	Tawre	also those are modern bows and modern arrows
+2014-06-07 10:39:16	Tawre	i'd imagine it would be even worse "back when"
+2014-06-07 10:39:41	Pupnik_	i imagine it would be best using a very heavy arrow
+2014-06-07 10:40:18	Pupnik_	i dont see why it would be especially worse back then
+2014-06-07 10:40:45	Tawre	lower quality arrows
+2014-06-07 10:40:51	Pupnik_	probably a crossbow would be better, especially for aiming down
+2014-06-07 10:40:52	Tawre	probably a lot more drag as they aren't produced by machines etc
+2014-06-07 10:41:05	Tawre	yeah some ballista type shit
+2014-06-07 10:41:07	Tawre	is probably best
+2014-06-07 10:41:15	Tawre	but good luck aiming something like that
+2014-06-07 10:41:30	Pupnik_	is there any context for this discussion?
+2014-06-07 10:41:46	Tawre	well movies
+2014-06-07 10:41:48	Tawre	and like anything
+2014-06-07 10:41:52	Tawre	when somebody jumps into water
+2014-06-07 10:41:57	Tawre	there's a scene of other guys then shooting the water
+2014-06-07 10:42:02	Tawre	with guns or bows or whatever the fuck they have
+2014-06-07 10:42:07	Tawre	but apparently it doesn't even matter
+2014-06-07 10:50:41	 > 	[]Java (~Z@115.51.94.95) has joined #vidyadev
+2014-06-07 10:50:57	 < 	[]J (~Z@115.51.94.95) has quit (Ping timeout: 252 seconds)
+2014-06-07 10:51:03	 - 	[]Java is now known as []J
+2014-06-07 10:51:04	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-07 10:57:08	 < 	davexunit (~user@fsf/member/davexunit) has quit (Quit: Later)
+2014-06-07 11:01:13	 > 	Fresh_ (5ce9220f@gateway/web/freenode/ip.92.233.34.15) has joined #vidyadev
+2014-06-07 11:01:48	 < 	Fresh (5ce9220f@gateway/web/freenode/ip.92.233.34.15) has quit (Ping timeout: 240 seconds)
+2014-06-07 11:04:14	 - 	MechaCrash is now known as MechaCrash|away
+2014-06-07 11:07:58	 > 	davexunit (~user@fsf/member/davexunit) has joined #vidyadev
+2014-06-07 11:09:59	 > 	Alpha64 (~Alpha64@unaffiliated/alpha64) has joined #vidyadev
+2014-06-07 11:11:51	 - 	yoni0505 is now known as Enhex
+2014-06-07 11:42:29	 < 	ludocode_ (~quassel@76-10-150-95.dsl.teksavvy.com) has quit (Remote host closed the connection)
+2014-06-07 11:52:55	 > 	ROOTb_k (~RootB@201.171.147.21.dsl.dyn.telnor.net) has joined #vidyadev
+2014-06-07 11:53:57	 < 	ROOTb (redaxe@189.222.64.94.dsl.dyn.telnor.net) has quit (Ping timeout: 245 seconds)
+2014-06-07 11:59:46	 - 	MechaCrash|away is now known as MechaCrash
+2014-06-07 12:07:33	 > 	pkmnBlue (~MrRed@d66-183-42-172.bchsia.telus.net) has joined #vidyadev
+2014-06-07 12:11:26	rawks	dis cha dead
+2014-06-07 12:11:33	rawks	were my niggas at
+2014-06-07 12:12:44	@Haz	what's up
+2014-06-07 12:12:48	@Haz	pkmnBlue <3
+2014-06-07 12:12:57	pkmnBlue	hi Haz ~
+2014-06-07 12:12:58	 < 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-06-07 12:12:59	pkmnBlue	not much
+2014-06-07 12:13:04	pkmnBlue	about to take a shower and shave
+2014-06-07 12:13:17	pkmnBlue	going up to whistler today
+2014-06-07 12:13:40	@Haz	How exciting
+2014-06-07 12:14:07	pkmnBlue	well dont know what im doing there
+2014-06-07 12:14:14	pkmnBlue	friend just asked me if i wanted to go
+2014-06-07 12:14:17	*	pkmnBlue shrugs
+2014-06-07 12:14:23	pkmnBlue	Haz, any news with the muslim girl
+2014-06-07 12:15:08	Pupnik_	what is whistler
+2014-06-07 12:15:12	 > 	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has joined #vidyadev
+2014-06-07 12:25:19	@Haz	Pupnik_: http://en.wikipedia.org/wiki/Whistler,_British_Columbia
+2014-06-07 12:25:20	MASTERlinker	[Whistler, British Columbia - Wikipedia, the free encyclopedia]
+2014-06-07 12:27:03	@Haz	pkmnBlue what sort of news?
+2014-06-07 12:28:23	@Haz	I don't really know what you're expecting
+2014-06-07 12:28:37	Pupnik_	you converted her from muslim to jew
+2014-06-07 12:31:24	@Haz	Pupnik_ hazimes are a lot less interesting in 2014
+2014-06-07 12:31:35	@Haz	not that they were ever interesting, just that now they are less so
+2014-06-07 12:54:21	Chuck-Norris	hey Haz
+2014-06-07 12:54:25	Chuck-Norris	what you doing today
+2014-06-07 12:55:16	@Haz	DEVELOPING VIDEO GAMES
+2014-06-07 12:55:25	Chuck-Norris	sure
+2014-06-07 12:55:29	Chuck-Norris	thats what they all say
+2014-06-07 12:57:48	 < 	Fresh_ (5ce9220f@gateway/web/freenode/ip.92.233.34.15) has quit (Ping timeout: 240 seconds)
+2014-06-07 12:59:46	@Haz	Oh wait, I meant going to go hang out with a girl and her friends and smoke a bunch of pot
+2014-06-07 13:04:44	 > 	Nodevlurker (~pol5@S0106602ad06e7826.vc.shawcable.net) has joined #vidyadev
+2014-06-07 13:15:34	Chuck-Norris	oh ._.
+2014-06-07 13:15:38	Chuck-Norris	why you abandon me :(
+2014-06-07 13:15:41	Chuck-Norris	I thought we were bros
+2014-06-07 13:16:09	Chuck-Norris	pikatwo: Haz confirmed for jew
+2014-06-07 13:16:09	pikatwo	Chuck-Norris - without grind or humans?
+2014-06-07 13:16:16	Chuck-Norris	pikatwo: both
+2014-06-07 13:16:16	pikatwo	and i'm in the same boat Chuck-Norris
+2014-06-07 13:16:30	Chuck-Norris	pikatwo: feels bad right? :(
+2014-06-07 13:16:30	pikatwo	Chuck-Norris, you're twice as much a fag as i am
+2014-06-07 13:16:32	Chuck-Norris	;_;
+2014-06-07 13:26:54	 > 	DEElekgolo (~DEElekgol@76-217-145-111.lightspeed.irvnca.sbcglobal.net) has joined #vidyadev
+2014-06-07 13:28:17	@Haz	pikatwo I miss you
+2014-06-07 13:28:17	pikatwo	i know dat feel Haz
+2014-06-07 13:32:35	Chuck-Norris	pikatwo: do you hate Haz?
+2014-06-07 13:32:35	pikatwo	i doubt Chuck-Norris hates his mother or sisters
+2014-06-07 13:32:46	Chuck-Norris	pikatwo: but Haz isnt my mother nor sister
+2014-06-07 13:32:46	pikatwo	he just wants to share christmas with you Chuck-Norris 
+2014-06-07 13:32:52	Chuck-Norris	oh
+2014-06-07 13:35:33	wareya	http://i.4cdn.org/a/1402165485298.jpg
+2014-06-07 13:35:33	MASTERlinker	[image/jpeg |  214KB]
+2014-06-07 13:35:40	wareya	pikatwo: pika pi!
+2014-06-07 13:35:40	pikatwo	pearls of wisdom from master wareya
+2014-06-07 13:36:51	 > 	Kingsquee (~kingsley@d108-180-236-71.bchsia.telus.net) has joined #vidyadev
+2014-06-07 13:37:37	 > 	keepee (~chatzilla@host86-153-198-93.range86-153.btcentralplus.com) has joined #vidyadev
+2014-06-07 14:15:31	 > 	rawfodog (~rawfodog@65-110-200-126.cpe.pppoe.ca) has joined #vidyadev
+2014-06-07 14:21:47	 < 	rawfodog (~rawfodog@65-110-200-126.cpe.pppoe.ca) has quit (Ping timeout: 252 seconds)
+2014-06-07 15:02:43	rawks	any progress?
+2014-06-07 15:04:31	 > 	pprnts_ (~mic@5468848A.cm-12-1c.dynamic.ziggo.nl) has joined #vidyadev
+2014-06-07 15:07:17	 > 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-07 15:07:37	 < 	pprnts (~mic@5468848A.cm-12-1c.dynamic.ziggo.nl) has quit (Ping timeout: 252 seconds)
+2014-06-07 15:09:44	 > 	ludocode (~quassel@69-196-137-210.dsl.teksavvy.com) has joined #vidyadev
+2014-06-07 15:12:33	Chuck-Norris	no
+2014-06-07 15:49:51	visiON_132	aaaaaaaaaaaaaaaaaaaaaaaaaa
+2014-06-07 16:01:29	 > 	chi-chi (~noura@2.51.6.250) has joined #vidyadev
+2014-06-07 16:03:59	 < 	chichi (~noura@86.98.96.119) has quit (Ping timeout: 240 seconds)
+2014-06-07 16:14:52	 > 	ludocode_ (~quassel@69-196-178-239.dsl.teksavvy.com) has joined #vidyadev
+2014-06-07 16:18:24	 < 	ludocode (~quassel@69-196-137-210.dsl.teksavvy.com) has quit (Ping timeout: 252 seconds)
+2014-06-07 16:19:08	 - 	irc: disconnected from server
+2014-06-08 17:58:26	 > 	rawks (~alex@189.153.58.133) has joined #vidyadev
+2014-06-08 17:58:26	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-08 17:58:26	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014 20:11:34
+2014-06-08 17:58:26	 - 	Nicks #vidyadev: [@[]J @ChanServ @Haz @Inverness @poisonarms \marrub alloyed Alpha64 argoneus arikel asdfman BlueProtoman chi-chi Chuck-Norris davexunit DEElekgolo Enhex eska_ fluffnguff Fuuzetsu guy1 hekaronkiros ief015 Kaira- keepee Kingsquee ludocode malinus Maruinslun MASTERlinker MechaCrash Morgawr Neetchuh Nodevlurker Petit_Dejeuner_ pprnts Pupnik_ q66 rawfodog rawfodog_ rawks ROOTb_k sedriss Seisatsu SenorCrunch Shpuld Souler- sstrandberg stepvhen Syzygy Tawre toxicFork Trueyomic Udderdude visiON_132 wareya wdnz]
+2014-06-08 17:58:26	 - 	Channel #vidyadev: 57 nicks (5 ops, 0 voices, 52 normals)
+2014-06-08 17:58:27	 - 	Mode #vidyadev [+Cnst]
+2014-06-08 17:58:28	 - 	Channel created on jue, 02 sep 2010 21:22:11
+2014-06-08 18:00:48	 > 	homebrew (uid31851@gateway/web/irccloud.com/x-duyeialupxquivye) has joined #vidyadev
+2014-06-08 18:01:23	Tawre	Souler-, i'm surprised at how coherent that post is
+2014-06-08 18:22:25	 < 	sedriss (~sedriss@host-95-192-101-71.mobileonline.telia.com) has quit (Quit: zz)
+2014-06-08 18:23:18	 > 	TheWorld (~TheWorld@174-31-167-82.tukw.qwest.net) has joined #vidyadev
+2014-06-08 18:28:42	Fuuzetsu	>this sprite sheet only has sprites for jumping to the right
+2014-06-08 18:28:42	Fuuzetsu	WHY
+2014-06-08 19:17:25	hekaronkiros	wich spritesheet?
+2014-06-08 19:17:27	hekaronkiros	cna I see?
+2014-06-08 19:18:27	Alpha64	just fip it
+2014-06-08 19:18:29	Alpha64	flip
+2014-06-08 19:29:09	 < 	Souler- (~Souler@171.59.189.109.customer.cdi.no) has quit (Read error: Connection reset by peer)
+2014-06-08 19:38:55	davexunit	Fuuzetsu: are these fighting game sprites?
+2014-06-08 19:39:11	davexunit	its common for fighting games to just mirror sprites
+2014-06-08 19:41:25	 < 	asdfman (~as@88-148-247-11.bb.dnainternet.fi) has quit (Quit: Leaving)
+2014-06-08 19:43:37	Fuuzetsu	I don't even know what kind of game it is
+2014-06-08 19:44:04	davexunit	oh okay.  just taking a wild guess without much context.
+2014-06-08 19:44:04	 < 	toxicFork (~JBouncer@host86-146-202-211.range86-146.btcentralplus.com) has quit (Ping timeout: 260 seconds)
+2014-06-08 19:44:05	Fuuzetsu	it's from Dengeki Gakuen RPG: Cross of Venus
+2014-06-08 19:44:16	Fuuzetsu	http://spritedatabase.net/file/14081 here's the sheet
+2014-06-08 19:44:17	MASTERlinker	[Sprite Database : Shana]
+2014-06-08 19:44:34	Fuuzetsu	and yeah I'll probably mirror them
+2014-06-08 19:44:35	davexunit	oh, well I guess whoever ripped the sprites forgot that
+2014-06-08 19:45:52	davexunit	grr, have a fucking segfault.  damn it opengl.
+2014-06-08 19:46:27	 < 	rawfodog_ (~rawfodog@69-196-190-124.dsl.teksavvy.com) has quit (Ping timeout: 245 seconds)
+2014-06-08 19:46:36	 < 	rawfodog (~rawfodog@69-196-190-124.dsl.teksavvy.com) has quit (Ping timeout: 260 seconds)
+2014-06-08 19:47:34	Fuuzetsu	are you guys hyped for the OSS sel4 release?
+2014-06-08 19:47:57	Fuuzetsu	http://sel4.systems/
+2014-06-08 19:47:58	MASTERlinker	[Home | seL4]
+2014-06-08 19:47:59	Fuuzetsu	>50 days
+2014-06-08 19:47:59	Fuuzetsu	SOON
+2014-06-08 19:50:53	Alpha64	50 years until it's usable
+2014-06-08 19:53:11	 > 	Syzygy_ (~Syzygy@188-23-147-166.adsl.highway.telekom.at) has joined #vidyadev
+2014-06-08 19:56:49	 < 	Syzygy (~Syzygy@91-113-113-46.adsl.highway.telekom.at) has quit (Ping timeout: 252 seconds)
+2014-06-08 20:01:40	Fuuzetsu	it has been usable for years
+2014-06-08 20:01:48	Fuuzetsu	even that site runs on it
+2014-06-08 20:05:21	 > 	poisonarms_ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has joined #vidyadev
+2014-06-08 20:11:48	 < 	pprnts (~mic@5468848A.cm-12-1c.dynamic.ziggo.nl) has quit (Read error: Connection reset by peer)
+2014-06-08 20:13:33	 > 	pretendo (uid31543@gateway/web/irccloud.com/x-qwijnzoxvepovgxd) has joined #vidyadev
+2014-06-08 20:13:55	pretendo	Guys check out this smiley I invented 
+2014-06-08 20:16:58	@[]J	http://i.imgur.com/r6dMlyR.jpg
+2014-06-08 20:16:59	MASTERlinker	[imgur: the simple image sharer | image/jpeg |  66KB]
+2014-06-08 20:18:01	Alpha64	the sadness
+2014-06-08 20:18:04	Alpha64	in his soul
+2014-06-08 20:18:41	Pupnik_	the video that screen is from is horrifying
+2014-06-08 20:18:59	Alpha64	yeah
+2014-06-08 20:19:03	Alpha64	isn't that the cod convention
+2014-06-08 20:19:30	Pupnik_	https://www.youtube.com/watch?v=RKDfYkg1Le4 yeah
+2014-06-08 20:19:30	MASTERlinker	[|YOUTUBE| Game Fuel - Call of Duty XP | Mountain Dew | 2m39s |]
+2014-06-08 20:19:56	Alpha64	>34k views
+2014-06-08 20:20:18	Alpha64	MANTAN DAW
+2014-06-08 20:20:38	Alpha64	god face paint
+2014-06-08 20:20:48	Alpha64	it's like
+2014-06-08 20:21:06	Alpha64	meta juggalo
+2014-06-08 20:21:26	Pupnik_	except this is about consumption
+2014-06-08 20:21:38	Pupnik_	juggs just seem about getting wasted
+2014-06-08 20:22:04	 > 	pkmnBlue (~MrRed@d66-183-42-172.bchsia.telus.net) has joined #vidyadev
+2014-06-08 20:22:13	Pupnik_	sad lack of doritos in this video
+2014-06-08 20:22:19	Alpha64	what kind of brain dead person thinks that drinking soda is cool
+2014-06-08 20:22:37	Alpha64	i mean it's nice
+2014-06-08 20:22:43	Alpha64	but not "cool"
+2014-06-08 20:22:48	 > 	ssstrandberg (~sebastian@173.225.249.246) has joined #vidyadev
+2014-06-08 20:24:08	 < 	sstrandberg (~sebastian@173.225.249.246) has quit (Ping timeout: 240 seconds)
+2014-06-08 20:24:50	Alpha64	https://www.youtube.com/watch?v=7E2ALkvKYtk this is the gayest sht
+2014-06-08 20:24:51	MASTERlinker	[|YOUTUBE| Dale Earnhardt Jr., Danny Davis & P-Rod | Baja Blast | Baja Breakout | Mountain Dew | 2m16s |]
+2014-06-08 20:25:10	@Inverness	http://www.youtube.com/watch?v=yysbbPStfWw&feature=youtu.be&t=2m19s
+2014-06-08 20:25:10	MASTERlinker	[|YOUTUBE| Best action scene ever. ever. ever. -- Endhiran (Robot) | 9m49s |]
+2014-06-08 20:26:07	 < 	q66 (~q66@enlightenment/developer/q66) has quit (Quit: Leaving)
+2014-06-08 20:26:38	 < 	argoneus (~argoneus@unaffiliated/argoneus) has quit (Remote host closed the connection)
+2014-06-08 20:30:48	 > 	alloyed_ (~alloyed@162.243.241.34) has joined #vidyadev
+2014-06-08 20:31:00	 < 	alloyed_ (~alloyed@162.243.241.34) has quit (Client Quit)
+2014-06-08 20:35:41	 > 	oohal (~oohal@ohallo2.lnk.telstra.net) has joined #vidyadev
+2014-06-08 20:40:18	pretendo	Guys 
+2014-06-08 20:40:27	pretendo	I invented new emoticons 
+2014-06-08 20:40:29	pretendo	Check it 
+2014-06-08 20:40:38	pretendo	This is a baby ,
+2014-06-08 20:40:46	pretendo	~:)
+2014-06-08 20:40:52	oohal	no it's a fucking comma
+2014-06-08 20:59:16	 > 	sstrandberg (~sebastian@173.225.249.246) has joined #vidyadev
+2014-06-08 21:01:29	 > 	pkmnRed (~MrRed@d66-183-42-172.bchsia.telus.net) has joined #vidyadev
+2014-06-08 21:02:26	 < 	ssstrandberg (~sebastian@173.225.249.246) has quit (Ping timeout: 276 seconds)
+2014-06-08 21:04:47	 < 	pkmnBlue (~MrRed@d66-183-42-172.bchsia.telus.net) has quit (Ping timeout: 245 seconds)
+2014-06-08 21:10:21	 > 	rawfodog (~rawfodog@65-110-196-253.cpe.pppoe.ca) has joined #vidyadev
+2014-06-08 21:10:25	 < 	davexunit (~user@fsf/member/davexunit) has quit (Quit: Later)
+2014-06-08 21:10:30	 > 	rawfodog_ (~rawfodog@65-110-196-253.cpe.pppoe.ca) has joined #vidyadev
+2014-06-08 21:22:47	Nodevlurker	Not as good as my emoticon.
+2014-06-08 21:22:52	Nodevlurker	;v)
+2014-06-08 21:25:01	 < 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-06-08 21:30:47	Chuck-Norris	*<B:?
+2014-06-08 21:30:52	Chuck-Norris	*<B:
+2014-06-08 21:30:53	Chuck-Norris	aw
+2014-06-08 21:39:03	@[]J	http://i.imgur.com/R9wilnB.jpg  Maruinslun tier logic
+2014-06-08 21:39:05	MASTERlinker	[imgur: the simple image sharer | image/jpeg |  79KB]
+2014-06-08 21:39:59	Fuuzetsu	>can't even fucking spell
+2014-06-08 21:40:00	 < 	Udderdude (~Udderdude@CPE602ad0911ca0-CM602ad0911c9d.cpe.net.cable.rogers.com) has quit
+2014-06-08 21:40:04	Nodevlurker	4chan is down
+2014-06-08 21:40:07	Nodevlurker	get back to deving
+2014-06-08 21:40:17	Fuuzetsu	actually I just finished for tonight
+2014-06-08 21:40:23	Fuuzetsu	muh 11 commits
+2014-06-08 21:40:35	Pupnik_	whats your game Fuuzetsu 
+2014-06-08 21:40:54	Fuuzetsu	no idea yet, just fucking with rigging it all up at the moment
+2014-06-08 21:41:03	Fuuzetsu	probably going to come up with actual idea tomorrow
+2014-06-08 21:42:11	Fuuzetsu	>298 lines of Haskell, half of which is cutting up sprites
+2014-06-08 21:42:13	Fuuzetsu	glorious language
+2014-06-08 21:43:17	Fuuzetsu	tfw 30 lines an hour, sure is slow
+2014-06-08 21:43:19	Fuuzetsu	anyway I'm going to bed
+2014-06-08 21:49:48	 > 	Audacious (8bb6368a@gateway/web/freenode/ip.139.182.54.138) has joined #vidyadev
+2014-06-08 21:50:13	Chuck-Norris	>their is
+2014-06-08 21:53:34	 < 	rawfodog_ (~rawfodog@65-110-196-253.cpe.pppoe.ca) has quit (Quit: Ex-Chat)
+2014-06-08 21:53:52	Petit_Dejeuner_	"tfw 30 lines an hour, sure is slow" proof that you get less done with Haskell :link_to --hn
+2014-06-08 22:05:51	Chuck-Norris	:link_to wat
+2014-06-08 22:06:10	Chuck-Norris	also I thought that was common knowledge?
+2014-06-08 22:19:14	pkmnRed	http://docs.cryengine.com/download/attachments/15728675/eye%20examples.jpg?version=1&modificationDate=1399026016000&api=v2
+2014-06-08 22:19:14	MASTERlinker	[image/jpeg;charset=UTF-8 |  719KB]
+2014-06-08 22:28:02	Chuck-Norris	stuff you'll notice during a game
+2014-06-08 22:33:05	 > 	Chuck-Norriz (~hej@c-4f66bd5d-74736162.cust.telenor.se) has joined #vidyadev
+2014-06-08 22:33:06	 < 	Chuck-Norris (~hej@c-4f66bd5d-74736162.cust.telenor.se) has quit (Read error: Connection reset by peer)
+2014-06-08 22:33:06	 - 	Chuck-Norriz is now known as Chuck-Norris
+2014-06-08 22:44:08	 < 	pretendo (uid31543@gateway/web/irccloud.com/x-qwijnzoxvepovgxd) has quit (Quit: Connection closed for inactivity)
+2014-06-08 22:46:37	 < 	homebrew (uid31851@gateway/web/irccloud.com/x-duyeialupxquivye) has quit (Quit: Connection closed for inactivity)
+2014-06-08 22:53:02	 < 	Audacious (8bb6368a@gateway/web/freenode/ip.139.182.54.138) has quit (Quit: Page closed)
+2014-06-08 22:53:46	Chuck-Norris	wat
+2014-06-08 22:53:55	Chuck-Norris	theres inactivity disconnects?
+2014-06-08 22:55:04	sstrandberg	locally maybe
+2014-06-08 22:55:49	 < 	sstrandberg (~sebastian@173.225.249.246) has left #vidyadev ("Channel awfulness exceeded safe levels")
+2014-06-08 22:55:57	 > 	sstrandberg (~sebastian@173.225.249.246) has joined #vidyadev
+2014-06-08 23:01:00	 > 	ief015_ (~ief015@Powder/Staff/ief015) has joined #vidyadev
+2014-06-08 23:02:17	 < 	ief015 (~ief015@Powder/Staff/ief015) has quit (Ping timeout: 245 seconds)
+2014-06-08 23:03:18	 < 	rawfodog (~rawfodog@65-110-196-253.cpe.pppoe.ca) has quit (Ping timeout: 240 seconds)
+2014-06-08 23:10:23	Chuck-Norris	wat
+2014-06-08 23:11:37	sstrandberg	client plgin
+2014-06-08 23:55:44	 < 	BlueProtoman (~smitty@ool-457b5eca.dyn.optonline.net) has quit (Remote host closed the connection)
+2014-06-09 00:09:22	 > 	[]Java (~Z@123.9.214.62) has joined #vidyadev
+2014-06-09 00:11:02	 < 	[]J (~Z@182.121.185.36) has quit (Ping timeout: 240 seconds)
+2014-06-09 00:12:27	 > 	[]J (~Z@115.51.89.132) has joined #vidyadev
+2014-06-09 00:12:27	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-09 00:13:32	 < 	[]Java (~Z@123.9.214.62) has quit (Ping timeout: 240 seconds)
+2014-06-09 00:14:49	 > 	[]Java (~Z@123.7.42.237) has joined #vidyadev
+2014-06-09 00:17:04	 < 	[]J (~Z@115.51.89.132) has quit (Ping timeout: 260 seconds)
+2014-06-09 00:17:28	 - 	[]Java is now known as []J
+2014-06-09 00:17:28	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-09 00:19:08	 > 	[]Java (~Z@123.5.234.49) has joined #vidyadev
+2014-06-09 00:19:08	 < 	[]J (~Z@123.7.42.237) has quit (Read error: Connection reset by peer)
+2014-06-09 00:21:22	 > 	[]J (~Z@123.7.47.222) has joined #vidyadev
+2014-06-09 00:21:22	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-09 00:22:14	 < 	[]J (~Z@123.7.47.222) has quit (Client Quit)
+2014-06-09 00:23:32	 < 	[]Java (~Z@123.5.234.49) has quit (Ping timeout: 240 seconds)
+2014-06-09 00:30:18	 < 	Tawre (~Tawre@unaffiliated/tawre) has quit (Ping timeout: 240 seconds)
+2014-06-09 00:40:31	Petit_Dejeuner_	Chuck-Norris, hacker news
+2014-06-09 00:40:34	Petit_Dejeuner_	link to hackernews
+2014-06-09 00:41:21	 < 	ief015_ (~ief015@Powder/Staff/ief015) has quit (Read error: Connection reset by peer)
+2014-06-09 00:42:15	 > 	DarthBenedict (~DarthBene@124.171.143.148) has joined #vidyadev
+2014-06-09 00:57:49	 > 	[]J (~Z@123.7.42.150) has joined #vidyadev
+2014-06-09 00:57:49	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-09 00:59:14	 - 	Trueyomic is now known as Yomic
+2014-06-09 01:01:19	 > 	Chuck-Norriz (~hej@c-4f66bd5d-74736162.cust.telenor.se) has joined #vidyadev
+2014-06-09 01:01:19	 < 	Chuck-Norris (~hej@c-4f66bd5d-74736162.cust.telenor.se) has quit (Read error: Connection reset by peer)
+2014-06-09 01:01:20	 - 	Chuck-Norriz is now known as Chuck-Norris
+2014-06-09 01:01:30	 > 	homebrew (uid31851@gateway/web/irccloud.com/x-eavtryqmoxhnrfaj) has joined #vidyadev
+2014-06-09 01:10:31	 < 	Alpha64 (~Alpha64@unaffiliated/alpha64) has quit (Quit: Leaving)
+2014-06-09 01:17:36	 > 	Chuck-Norriz (~hej@79.102.189.93) has joined #vidyadev
+2014-06-09 01:17:37	 < 	Chuck-Norris (~hej@c-4f66bd5d-74736162.cust.telenor.se) has quit (Read error: Connection reset by peer)
+2014-06-09 01:17:37	 - 	Chuck-Norriz is now known as Chuck-Norris
+2014-06-09 01:23:57	 > 	Mortvert (~Mortvert@reddit/operator/mortvert) has joined #vidyadev
+2014-06-09 01:54:41	Nodevlurker	Ridley confirmed yet?
+2014-06-09 01:54:46	Nodevlurker	http://i.4cdn.org/v/1402267491459.png
+2014-06-09 01:54:47	MASTERlinker	[image/png |  11KB]
+2014-06-09 02:01:36	 < 	Petit_Dejeuner_ (~dasdasack@c-174-48-40-89.hsd1.fl.comcast.net) has quit (Ping timeout: 260 seconds)
+2014-06-09 02:21:38	 > 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-09 02:26:39	 < 	Kingsquee (~kingsley@d108-180-236-71.bchsia.telus.net) has quit (Quit: surprise, it was lupus)
+2014-06-09 02:32:25	 > 	toxicFork (~JBouncer@host86-146-202-211.range86-146.btcentralplus.com) has joined #vidyadev
+2014-06-09 02:46:07	 < 	pkmnRed (~MrRed@d66-183-42-172.bchsia.telus.net) has quit (Quit: <Barnabas> Faggots are a mean of escape for some, you know.)
+2014-06-09 02:58:29	 > 	Pupnik__ (~Destro@ppp118-209-141-203.lns20.mel6.internode.on.net) has joined #vidyadev
+2014-06-09 03:01:35	 < 	Pupnik_ (~Destro@ppp118-209-141-203.lns20.mel6.internode.on.net) has quit (Ping timeout: 240 seconds)
+2014-06-09 03:02:42	 < 	ludocode (~quassel@75-119-248-183.dsl.teksavvy.com) has quit (Ping timeout: 240 seconds)
+2014-06-09 03:07:48	 < 	chi-chi (~noura@2.51.6.250) has quit (Ping timeout: 240 seconds)
+2014-06-09 03:09:49	 > 	guy1_ (~guy1@ip68-99-181-192.oc.oc.cox.net) has joined #vidyadev
+2014-06-09 03:10:56	 > 	chichi (~noura@2.51.6.250) has joined #vidyadev
+2014-06-09 03:12:03	 < 	guy1 (~guy1@ip68-99-181-192.oc.oc.cox.net) has quit (Ping timeout: 240 seconds)
+2014-06-09 03:19:33	 > 	argoneus (~argoneus@unaffiliated/argoneus) has joined #vidyadev
+2014-06-09 03:20:52	 < 	chichi (~noura@2.51.6.250) has quit (Ping timeout: 240 seconds)
+2014-06-09 03:20:54	 < 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-06-09 03:22:02	 > 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-09 03:26:35	 < 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-06-09 03:28:39	 > 	ROOTb_k_x (redaxe@201.171.147.21.dsl.dyn.telnor.net) has joined #vidyadev
+2014-06-09 03:31:17	 < 	Nodevlurker (Nodevlurke@S0106602ad06e7826.vc.shawcable.net) has quit (Ping timeout: 240 seconds)
+2014-06-09 03:31:17	 < 	ROOTb_k (~RootB@201.171.147.21.dsl.dyn.telnor.net) has quit (Ping timeout: 240 seconds)
+2014-06-09 03:31:33	 > 	hekaronkiros_ (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-09 03:32:43	 > 	Nodevlurker (Nodevlurke@S0106602ad06e7826.vc.shawcable.net) has joined #vidyadev
+2014-06-09 03:46:17	 < 	DEElekgolo (~DEElekgol@76-217-145-111.lightspeed.irvnca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2014-06-09 03:59:17	 > 	hekaronkiros (~hekaronki@88.11.148.74) has joined #vidyadev
+2014-06-09 04:01:02	 < 	hekaronkiros_ (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-06-09 04:03:19	 > 	poisonarms__ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has joined #vidyadev
+2014-06-09 04:05:08	 > 	krz_ (~krzbendr@unaffiliated/krz-/x-0010234) has joined #vidyadev
+2014-06-09 04:05:25	 < 	hekaronkiros (~hekaronki@88.11.148.74) has quit (Ping timeout: 240 seconds)
+2014-06-09 04:05:25	 > 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-09 04:05:35	 < 	poisonarms_ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has quit (Ping timeout: 240 seconds)
+2014-06-09 04:14:39	 > 	hekaronkiros_ (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-09 04:14:39	 < 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-06-09 04:16:08	 > 	Eldrich (~eldrich@wm190.internetdsl.tpnet.pl) has joined #vidyadev
+2014-06-09 04:33:29	 < 	MASTERlinker (~MASTERlin@unaffiliated/malinus) has quit (Remote host closed the connection)
+2014-06-09 04:34:26	 > 	MASTERlinker (~MASTERlin@unaffiliated/malinus) has joined #vidyadev
+2014-06-09 04:42:31	 < 	hekaronkiros_ (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (*.net *.split)
+2014-06-09 04:44:20	 > 	asdfman (~as@88-148-247-11.bb.dnainternet.fi) has joined #vidyadev
+2014-06-09 04:47:42	 < 	MASTERlinker (~MASTERlin@unaffiliated/malinus) has quit (Remote host closed the connection)
+2014-06-09 04:48:05	 > 	MASTERlinker (~MASTERlin@unaffiliated/malinus) has joined #vidyadev
+2014-06-09 04:52:02	 > 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-09 04:56:15	 < 	MASTERlinker (~MASTERlin@unaffiliated/malinus) has quit (Remote host closed the connection)
+2014-06-09 04:56:44	 > 	MASTERlinker (~MASTERlin@unaffiliated/malinus) has joined #vidyadev
+2014-06-09 05:08:31	 > 	yoni0505 (~quassel@37.142.176.161) has joined #vidyadev
+2014-06-09 05:11:13	 < 	Enhex (~quassel@37.142.176.161) has quit (Ping timeout: 252 seconds)
+2014-06-09 05:23:35	 > 	Enhex (~quassel@37.142.176.161) has joined #vidyadev
+2014-06-09 05:26:02	 < 	yoni0505 (~quassel@37.142.176.161) has quit (Ping timeout: 245 seconds)
+2014-06-09 05:26:52	 < 	argoneus (~argoneus@unaffiliated/argoneus) has quit (Ping timeout: 245 seconds)
+2014-06-09 05:39:56	 > 	argoneus (~argoneus@unaffiliated/argoneus) has joined #vidyadev
+2014-06-09 05:40:01	 > 	[]Java (~Z@123.7.42.150) has joined #vidyadev
+2014-06-09 05:40:22	 < 	[]J (~Z@123.7.42.150) has quit (Disconnected by services)
+2014-06-09 05:40:23	 - 	[]Java is now known as []J
+2014-06-09 05:40:23	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-09 05:54:35	visiON_132	dead dongs
+2014-06-09 05:56:44	 > 	Souler- (~Souler@171.59.189.109.customer.cdi.no) has joined #vidyadev
+2014-06-09 06:00:40	@[]J	ya
+2014-06-09 06:03:37	visiON_132	>last message was 4 dongs ago
+2014-06-09 06:03:44	visiON_132	almost exactly
+2014-06-09 06:03:53	visiON_132	[09:54:46] - [13:54:34]
+2014-06-09 06:04:06	visiON_132	wait thats 5 dongs ago
+2014-06-09 06:04:13	@[]J	4 score and 6 dicks
+2014-06-09 06:04:32	visiON_132	no its 4 dongs, yea 4
+2014-06-09 06:04:40	visiON_132	:\
+2014-06-09 06:04:48	@[]J	dongs
+2014-06-09 06:13:18	 > 	argoneus_ (~argoneus@unaffiliated/argoneus) has joined #vidyadev
+2014-06-09 06:13:36	 < 	argoneus (~argoneus@unaffiliated/argoneus) has quit (Ping timeout: 260 seconds)
+2014-06-09 06:13:41	 - 	argoneus_ is now known as argoneus
+2014-06-09 06:14:37	 < 	argoneus (~argoneus@unaffiliated/argoneus) has quit (Client Quit)
+2014-06-09 06:14:54	 > 	Erwat (3e41216c@gateway/web/freenode/ip.62.65.33.108) has joined #vidyadev
+2014-06-09 06:20:45	 > 	[]Java (~Z@123.7.42.150) has joined #vidyadev
+2014-06-09 06:20:47	 < 	[]J (~Z@123.7.42.150) has quit (Disconnected by services)
+2014-06-09 06:20:48	 - 	[]Java is now known as []J
+2014-06-09 06:20:48	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-09 06:22:02	 > 	Udderdude (~Udderdude@CPE602ad0911ca0-CM602ad0911c9d.cpe.net.cable.rogers.com) has joined #vidyadev
+2014-06-09 06:27:47	Erwat	what do you guys think would be better to do
+2014-06-09 06:27:53	Erwat	an application level ping or a socket level ping?
+2014-06-09 06:28:53	@[]J	voting "application"
+2014-06-09 06:29:08	@[]J	at least when I tried it, socket level didn't behave like I expected
+2014-06-09 06:29:11	@[]J	forget what, though ;v
+2014-06-09 06:30:55	Erwat	well i'm thinking that application might be better as it'll show the actual ping you're getting to an actual server response
+2014-06-09 06:31:02	Erwat	rather than what the socket handler does
+2014-06-09 06:44:46	 > 	AnomalusUndrdog (~quassel@114.108.229.147) has joined #vidyadev
+2014-06-09 06:57:58	 < 	sstrandberg (~sebastian@173.225.249.246) has quit (Ping timeout: 240 seconds)
+2014-06-09 07:01:51	Erwat	one thing i wish i could do is separate parts of source files
+2014-06-09 07:01:57	Erwat	without making a separate class or similar
+2014-06-09 07:02:07	Erwat	i have like 3 methods which are related to one another
+2014-06-09 07:02:16	Erwat	but not necessarily to the rest of the methods (they don't need anything related to that
+2014-06-09 07:18:32	 < 	poisonarms__ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has quit (Ping timeout: 245 seconds)
+2014-06-09 07:20:52	 > 	poisonarms__ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has joined #vidyadev
+2014-06-09 07:41:39	 < 	[]J (~Z@123.7.42.150) has quit (Read error: Connection reset by peer)
+2014-06-09 07:41:43	 > 	[]Java (~Z@123.7.42.150) has joined #vidyadev
+2014-06-09 07:43:30	 - 	[]Java is now known as []J
+2014-06-09 07:43:30	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-09 07:48:44	visiON_132	hmmm
+2014-06-09 07:48:48	visiON_132	phys exam: 75 pts, grade: 4
+2014-06-09 07:48:56	visiON_132	still dont know others yet :(
+2014-06-09 07:51:26	Souler-	anyone wants to watch redline with me while we wait for E3?
+2014-06-09 08:19:22	Pupnik__	anything special happening at e3?
+2014-06-09 08:21:59	 > 	poisonarms___ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has joined #vidyadev
+2014-06-09 08:22:36	 < 	poisonarms__ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has quit (Read error: Connection reset by peer)
+2014-06-09 08:24:27	visiON_132	mirrors edge 2
+2014-06-09 08:26:32	 > 	sedriss (~sedriss@host-95-192-198-82.mobileonline.telia.com) has joined #vidyadev
+2014-06-09 08:35:15	 > 	DEElekgolo (~DEElekgol@76-217-145-111.lightspeed.irvnca.sbcglobal.net) has joined #vidyadev
+2014-06-09 08:37:36	 > 	pprnts (~mic@5468848A.cm-12-1c.dynamic.ziggo.nl) has joined #vidyadev
+2014-06-09 08:56:49	hekaronkiros	"Please teammember don't compile the project with vs2013 on my machine because it fucks up and I don't know how to fix it, I would have to make a new project, all the imports and shit and move the srcs, only do it if you know how to fix it."
+2014-06-09 08:56:51	hekaronkiros	does it anyone
+2014-06-09 08:56:54	hekaronkiros	anyway
+2014-06-09 08:57:03	hekaronkiros	leaves without telling me he fucked up the project
+2014-06-09 09:02:40	hekaronkiros	fuck, I hate open frameworks
+2014-06-09 09:03:05	Erwat	hekaronkiros: ikr
+2014-06-09 09:03:08	Erwat	it's so fucking stupid
+2014-06-09 09:03:12	Erwat	that using a different VS version
+2014-06-09 09:03:19	Erwat	completely bricks projects for older versions
+2014-06-09 09:03:25	hekaronkiros	The problem is that
+2014-06-09 09:03:35	hekaronkiros	there is probably a way to fix the problem without wiping out everything
+2014-06-09 09:03:55	hekaronkiros	but as each compilation takes 10 minutes
+2014-06-09 09:04:02	hekaronkiros	it's more easy to just wipe everything clean
+2014-06-09 09:06:03	Pupnik__	your program takes 10 minutes to compile?
+2014-06-09 09:06:37	hekaronkiros	no
+2014-06-09 09:06:44	hekaronkiros	my program takes 30' at most
+2014-06-09 09:06:50	hekaronkiros	but open frameworks takes 10 minutes.
+2014-06-09 09:06:54	Pupnik__	oh
+2014-06-09 09:07:52	 - 	irc: disconnected from server
+2014-06-10 10:28:24	 > 	rawks (~alex@189.153.58.133) has joined #vidyadev
+2014-06-10 10:28:24	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-10 10:28:24	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014 20:12:46
+2014-06-10 10:28:24	 - 	Nicks #vidyadev: [@[]J @ChanServ @Invy @poisonarms \marrub alloyed AnomalusUndrdog argoneus arikel asdfman BlueProtoman Chuck-Norris eld Enhex Erwat eska_ fluffnguff Fuuzetsu guy1_ homebrew Kaira- krz_ Lopaki malinus Maruinslun MASTERlinker MechaCrash Morgawr Neetchuh Nodevlurker pikatwo pkmnBlue poisonarms_____ Pupnik___ rawks ROOTb_k_x_l_d_j_ sedriss Seisatsu SenorCrunch Shpuld Sokuzah Souler- stepvhen Syzygy Tawre TheWorld visiON_132 wareya wdnz Yomic]
+2014-06-10 10:28:24	 - 	Channel #vidyadev: 50 nicks (4 ops, 0 voices, 46 normals)
+2014-06-10 10:28:26	 - 	Mode #vidyadev [+Cnst]
+2014-06-10 10:28:26	 - 	Channel created on jue, 02 sep 2010 21:22:11
+2014-06-10 10:28:34	rawks	the fuck is going on at /agdg/
+2014-06-10 10:28:45	Fuuzetsu	shitposting and noprogress
+2014-06-10 10:29:03	rawks	never seen the shitposting get this severe
+2014-06-10 10:29:17	Morgawr	Fuuzetsu: I guess
+2014-06-10 10:30:52	Morgawr	wow, junior software engineer is paid 1500 euros monthly
+2014-06-10 10:30:56	Morgawr	in warsaw
+2014-06-10 10:31:16	Morgawr	senior is 2400
+2014-06-10 10:31:20	Morgawr	pretty bad
+2014-06-10 10:33:19	Pupnik___	the poorer EU countries must suffer pretty bad brain drain
+2014-06-10 10:33:54	rawks	still better than mexico
+2014-06-10 10:36:43	Morgawr	the problem is if you want to work remotely 
+2014-06-10 10:36:46	Fuuzetsu	Morgawr: regular jobs get paid like 500-1000
+2014-06-10 10:37:33	Fuuzetsu	my housemate went to Poland this week (through some other EU countries), wonder what he'll think
+2014-06-10 10:38:37	Tawre	Morgawr, how is that pretty bad?
+2014-06-10 10:39:07	Morgawr	Tawre: I get paid 2700 EUR monthly (gross) as an intern at Google Dublin
+2014-06-10 10:39:21	Morgawr	2400 as senior software engineer is pretty bd
+2014-06-10 10:39:22	Morgawr	bad*
+2014-06-10 10:39:39	visiON_132	whats wrong with /agdg/?
+2014-06-10 10:39:40	Tawre	Morgawr, 1. google
+2014-06-10 10:39:44	Tawre	2. ireland
+2014-06-10 10:39:55	visiON_132	i dont see anything different
+2014-06-10 10:40:00	Morgawr	Tawre: yes, re-read what I said
+2014-06-10 10:40:12	Morgawr	17:27 < Morgawr> yeah I think it's not a great idea to live in a semi-expensive country like NL and work at a job in a  Polish company (remotely), idk
+2014-06-10 10:40:42	Morgawr	my girlfriend gets paid around 2200 monthly as a junior software developer here in Amsterdam
+2014-06-10 10:40:44	visiON_132	why would you even think about going to poland
+2014-06-10 10:40:44	Tawre	yeah, but it's not "pretty bad"
+2014-06-10 10:40:54	Tawre	Morgawr, yeah, but they're both countries
+2014-06-10 10:40:56	Morgawr	visiON_132: because there's a nice job there that I was interested in
+2014-06-10 10:41:00	Tawre	with average pay actually being ~2200€
+2014-06-10 10:41:12	Tawre	while poland is like average pay of ~700-800€
+2014-06-10 10:41:15	Morgawr	Tawre: yeah, my point is that it's unfeasible to work remotely for a polish company while living in the netherlands
+2014-06-10 10:41:25	Tawre	it depends on what you do i guess
+2014-06-10 10:41:47	Tawre	average net salary here is like 780€ here according to this map
+2014-06-10 10:42:09	Tawre	we have some people working at our company that the company spends 5k a month on or more
+2014-06-10 10:42:13	visiON_132	are we poorer than poland, Tawre?
+2014-06-10 10:42:19	Tawre	visiON_132, no
+2014-06-10 10:42:25	visiON_132	oh good
+2014-06-10 10:42:30	Tawre	http://en.wikipedia.org/wiki/List_of_European_countries_by_average_wage
+2014-06-10 10:42:30	MASTERlinker	[List of European countries by average wage - Wikipedia, the free encyclopedia]
+2014-06-10 10:42:31	Tawre	this map is funny
+2014-06-10 10:42:33	Morgawr	!WA gdp poland
+2014-06-10 10:42:35	Tawre	can you spot a pattern?
+2014-06-10 10:42:39	MASTERlinker	[WOLFRAM ALPHA | $489.8 billion per year  (world rank: 24th)  (2012 estimate)]
+2014-06-10 10:42:49	visiON_132	!WA gdp estonia
+2014-06-10 10:42:54	Tawre	the closer you get to russia the lower average net wage seems to go
+2014-06-10 10:42:55	MASTERlinker	[WOLFRAM ALPHA | $22.38 billion per year  (world rank: 106th)  (2012 estimate)]
+2014-06-10 10:43:24	visiON_132	haha we are ahead of latvia and lithuania
+2014-06-10 10:43:25	Pupnik___	woah finland has higher wages than sweden
+2014-06-10 10:43:38	Tawre	this is net salary
+2014-06-10 10:43:46	Tawre	and the data is possibly from different times
+2014-06-10 10:44:17	Pupnik___	swe 2012, fi 2013
+2014-06-10 10:44:21	Morgawr	dat norway doe
+2014-06-10 10:44:32	Fuuzetsu	that switzerland
+2014-06-10 10:44:39	Morgawr	yeah
+2014-06-10 10:45:01	Tawre	the ukraine one looks false though
+2014-06-10 10:45:06	Tawre	it can't be that low
+2014-06-10 10:45:39	rawks	I get 50 pesos a day as a senior opengl programmer in mexico
+2014-06-10 10:45:39	Morgawr	time to save up delicious dutch money and then move to portugal and live a rich life
+2014-06-10 10:46:05	Pupnik___	netherlands is barely better than italy
+2014-06-10 10:46:26	Morgawr	Pupnik___: that's the average though
+2014-06-10 10:46:36	Morgawr	there are more software jobs in NL than in Italy
+2014-06-10 10:46:38	Morgawr	and they pay better
+2014-06-10 10:46:46	Pupnik___	>average
+2014-06-10 10:46:53	Pupnik___	they should really say what kind of average they use
+2014-06-10 10:46:53	Morgawr	average wage
+2014-06-10 10:46:53	Tawre	i want to get paid more :<
+2014-06-10 10:46:58	visiON_132	http://i.4cdn.org/pol/1402415149635.jpg
+2014-06-10 10:46:59	MASTERlinker	[image/jpeg |  64KB]
+2014-06-10 10:47:02	visiON_132	i want to get paid :(
+2014-06-10 10:47:07	 < 	Lopaki (~Lopaki@wu2415.wh-wurm.uni-ulm.de) has quit (Quit: Leaving)
+2014-06-10 10:47:13	Morgawr	> The chart below reflects the average (mean) wage as reported by various data providers. The salary distribution is right-skewed, therefore more people earn less than the average gross salary.
+2014-06-10 10:47:26	Pupnik___	>using mean
+2014-06-10 10:47:53	Pupnik___	they should really use median for this kind of thing
+2014-06-10 10:47:56	Tawre	well most of us will be skewed to the right of that number anyway
+2014-06-10 10:48:41	Fuuzetsu	10 mins dog
+2014-06-10 10:50:44	Morgawr	>caring about E3
+2014-06-10 10:51:01	Fuuzetsu	>not caring about motherfucking project X
+2014-06-10 10:56:53	 < 	Sokuzah (Sokuzah@101.160.174.159) has quit
+2014-06-10 10:57:45	visiON_132	why would you waste time watching SHIT3
+2014-06-10 10:58:01	Fuuzetsu	>says the nodev on IRC
+2014-06-10 10:58:56	visiON_132	>one nodev calling out another nodev
+2014-06-10 10:59:09	Fuuzetsu	I did dev yesterda
+2014-06-10 10:59:12	Fuuzetsu	through 2 power outages
+2014-06-10 10:59:18	Fuuzetsu	and I dev shit that's not games anyway
+2014-06-10 10:59:30	Fuuzetsu	HAPPENING
+2014-06-10 11:00:12	Fuuzetsu	>no new Mario
+2014-06-10 11:00:40	visiON_132	>he wants another mario
+2014-06-10 11:00:44	visiON_132	just let it die
+2014-06-10 11:00:46	Fuuzetsu	I don't
+2014-06-10 11:01:11	argoneus	that e3
+2014-06-10 11:01:12	argoneus	wtf
+2014-06-10 11:02:01	 > 	DEElekgolo (~DEElekgol@76-217-145-111.lightspeed.irvnca.sbcglobal.net) has joined #vidyadev
+2014-06-10 11:04:25	Fuuzetsu	>Nintendo wins the whole thing 30 seconds in
+2014-06-10 11:08:39	Chuck-Norris	wtf
+2014-06-10 11:10:43	Chuck-Norris	DAT STARE
+2014-06-10 11:16:53	Fuuzetsu	>BLACK SCREEN
+2014-06-10 11:17:00	Chuck-Norris	they died
+2014-06-10 11:17:01	Chuck-Norris	._.
+2014-06-10 11:17:31	Fuuzetsu	holy fuck twitch why can't you just stream shit
+2014-06-10 11:18:12	Chuck-Norris	scared!
+2014-06-10 11:18:13	Fuuzetsu	FUCK TWITCH
+2014-06-10 11:18:18	Fuuzetsu	what if they show X while I'm not looking
+2014-06-10 11:18:23	Fuuzetsu	oh it's back
+2014-06-10 11:18:26	Fuuzetsu	fukcing twitch
+2014-06-10 11:18:27	Fuuzetsu	I swear
+2014-06-10 11:19:23	Chuck-Norris	oph boy here we go
+2014-06-10 11:19:29	 > 	Alpha64 (~Alpha64@unaffiliated/alpha64) has joined #vidyadev
+2014-06-10 11:19:43	Fuuzetsu	>fucking zelda
+2014-06-10 11:19:45	Fuuzetsu	NINTENDO
+2014-06-10 11:19:48	Fuuzetsu	X FUCKING WHERE
+2014-06-10 11:20:04	Chuck-Norris	PRESS X TO JASON
+2014-06-10 11:20:06	Alpha64	stream link?
+2014-06-10 11:20:12	Fuuzetsu	twitch.tv/twitch
+2014-06-10 11:20:12	MASTERlinker	[|REDIRECT| Twitch]
+2014-06-10 11:20:13	Chuck-Norris	^
+2014-06-10 11:21:06	Chuck-Norris	holy shit it looks amazing
+2014-06-10 11:21:32	Fuuzetsu	IT's no fucking project X is it
+2014-06-10 11:21:36	Alpha64	oh so a new zelda
+2014-06-10 11:21:37	Alpha64	at least
+2014-06-10 11:21:38	Fuuzetsu	they had this on fucking Wii
+2014-06-10 11:21:41	Alpha64	they will stop whining
+2014-06-10 11:22:47	Fuuzetsu	what the fuck is going on
+2014-06-10 11:22:49	Fuuzetsu	>lasers
+2014-06-10 11:23:10	Alpha64	lol
+2014-06-10 11:23:48	Fuuzetsu	fucking pokemon
+2014-06-10 11:23:49	Fuuzetsu	fuck
+2014-06-10 11:23:51	Fuuzetsu	XXXXXXXXXXXX
+2014-06-10 11:24:01	Alpha64	remake
+2014-06-10 11:24:38	Alpha64	liking nintendo shit must be hard
+2014-06-10 11:24:53	Chuck-Norris	no its very easy
+2014-06-10 11:25:12	Fuuzetsu	time for bayonetta
+2014-06-10 11:25:15	Chuck-Norris	fuck off gayonetta
+2014-06-10 11:25:22	Alpha64	a mature game for mature gamers likme }
+2014-06-10 11:25:24	Alpha64	me
+2014-06-10 11:25:37	Fuuzetsu	thought provoking themes!
+2014-06-10 11:25:56	Fuuzetsu	short hair though
+2014-06-10 11:25:59	Fuuzetsu	half as likely to purchase
+2014-06-10 11:26:12	Fuuzetsu	did the fucking voice actor change
+2014-06-10 11:26:45	Fuuzetsu	now with 100% more nintendo IP
+2014-06-10 11:28:47	Chuck-Norris	still not sure I care about this game
+2014-06-10 11:28:56	Fuuzetsu	M8
+2014-06-10 11:28:59	Fuuzetsu	WHERE IS FUCKING
+2014-06-10 11:29:01	Fuuzetsu	MONOLITH SOFT
+2014-06-10 11:30:08	Fuuzetsu	>some kirby shit
+2014-06-10 11:30:11	Fuuzetsu	holy fuck just
+2014-06-10 11:30:15	Fuuzetsu	show me what I want
+2014-06-10 11:30:23	Alpha64	maybe
+2014-06-10 11:30:28	Alpha64	you are too old for nintendo
+2014-06-10 11:30:44	Fuuzetsu	literally own their consoles for 1-2 games each
+2014-06-10 11:31:11	Chuck-Norris	oh boy here we dont go
+2014-06-10 11:31:14	Alpha64	there you have it
+2014-06-10 11:31:15	Fuuzetsu	YESYESYSEYSEYSE
+2014-06-10 11:31:16	Fuuzetsu	YESS
+2014-06-10 11:32:14	Chuck-Norris	the weeabo factor is high in this one
+2014-06-10 11:32:39	Fuuzetsu	>2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015 >2015
+2014-06-10 11:32:40	Fuuzetsu	 >2015 >2015 >2015 
+2014-06-10 11:32:41	Fuuzetsu	WHYYYYYY
+2014-06-10 11:32:45	Fuuzetsu	IT WAS MEANT TO BE 2014
+2014-06-10 11:32:47	Fuuzetsu	FUCKING FUCK
+2014-06-10 11:32:50	Chuck-Norris	oh boy here we go
+2014-06-10 11:32:55	Morgawr	are nintendrones mad?
+2014-06-10 11:32:55	Fuuzetsu	FUCK
+2014-06-10 11:33:03	Alpha64	you are getting trolled
+2014-06-10 11:33:06	Alpha64	astronomically
+2014-06-10 11:33:13	Morgawr	isn't nintendo for kids anyway?
+2014-06-10 11:33:21	Morgawr	isn't it weird for adults to play nintendo games?
+2014-06-10 11:33:36	visiON_132	youre older than 15 and you STILl play video games?
+2014-06-10 11:33:53	Chuck-Norris	obvious troll bait is strong in here
+2014-06-10 11:34:17	visiON_132	youre older than 12 and you STILl use game maker??
+2014-06-10 11:34:25	visiON_132	youre older than 6 and you STILl use unity???
+2014-06-10 11:34:44	Fuuzetsu	I'm mad as fuck abouth 2015
+2014-06-10 11:34:51	Fuuzetsu	but tfw it's Xenoblade Chronicles
+2014-06-10 11:35:22	Alpha64	a new ip
+2014-06-10 11:35:30	Alpha64	that looks shitty
+2014-06-10 11:35:34	Fuuzetsu	rest of conference doesn't matter m8
+2014-06-10 11:35:37	rawks	this is the shittiest nintendo e3
+2014-06-10 11:35:39	 > 	nyan_wet (~nyan_wet@77-253-11-60.adsl.inetia.pl) has joined #vidyadev
+2014-06-10 11:35:48	rawks	only good thing is the robot suicken sketches
+2014-06-10 11:36:03	nyan_wet	hej hej
+2014-06-10 11:37:35	nyan_wet	>mfw PRESSURE is on Steam
+2014-06-10 11:39:50	Fuuzetsu	dunno this squid thing mite b laff
+2014-06-10 11:40:26	Tawre	https://i.4cdn.org/tv/1402413495625.gif
+2014-06-10 11:40:26	MASTERlinker	[image/gif |  2MB]
+2014-06-10 11:40:49	visiON_132	>women
+2014-06-10 11:41:19	nyan_wet	I've been in that thread
+2014-06-10 11:41:31	Chuck-Norris	sure is 404 in here
+2014-06-10 11:42:08	visiON_132	this nerd didnt open the image fast enough
+2014-06-10 11:42:16	nyan_wet	do you even addons?
+2014-06-10 11:42:26	Tawre	nyan_wet, what do you use now?
+2014-06-10 11:42:35	Tawre	whatever the fuck i used has been broken
+2014-06-10 11:42:40	Chuck-Norris	oh boy here we go
+2014-06-10 11:42:42	Tawre	because wfuck webdevs
+2014-06-10 11:42:57	Fuuzetsu	>anime footage
+2014-06-10 11:42:59	Fuuzetsu	>english dub
+2014-06-10 11:43:01	Fuuzetsu	MY EARS
+2014-06-10 11:43:10	nyan_wet	Tawre: Reddchan - it turns 4chan into a redditlike subforum
+2014-06-10 11:43:30	visiON_132	why would you use that
+2014-06-10 11:43:44	Tawre	Fuuzetsu, is it an AMV too?
+2014-06-10 11:43:44	visiON_132	reddit looks horrible
+2014-06-10 11:43:51	Fuuzetsu	no
+2014-06-10 11:43:51	Tawre	what visiON_132 said
+2014-06-10 11:43:52	nyan_wet	visiON_132: I just made that up
+2014-06-10 11:43:59	nyan_wet	I've never seen reddit
+2014-06-10 11:44:10	nyan_wet	I use 4chan X
+2014-06-10 11:44:15	visiON_132	sure you do
+2014-06-10 11:44:17	nyan_wet	on my foxfire
+2014-06-10 11:45:23	Morgawr	>not using appchan
+2014-06-10 11:46:12	Tawre	http://24.media.tumblr.com/05faecbf33aaf001d27edb312fafe63e/tumblr_n413uzJHKh1s2yegdo1_r1_400.gif
+2014-06-10 11:46:12	MASTERlinker	[image/gif |  1MB]
+2014-06-10 11:46:31	 < 	guy1_ (~guy1@ip68-99-181-192.oc.oc.cox.net) has quit (Quit: adios)
+2014-06-10 11:46:41	Fuuzetsu	it's ogre
+2014-06-10 11:48:35	Chuck-Norris	LOOKS LIKE YOU CAUGHT ME PLAYING WITH MY TOYS
+2014-06-10 11:51:08	visiON_132	too bored to dev, too bored to play vidya, too bored to study, too bored to browse chan
+2014-06-10 11:51:14	visiON_132	#tireddev
+2014-06-10 11:54:46	Morgawr	take a walk outside, a stroll in the park or go get a beer at a bar or something
+2014-06-10 11:55:06	Alpha64	squat on the corner
+2014-06-10 11:55:07	Morgawr	all those activities make you stay in your room in front of a computer, it's most likely that that is making you feel tired
+2014-06-10 11:55:08	Alpha64	drinking vodka
+2014-06-10 11:55:15	Alpha64	it's customary there
+2014-06-10 11:55:23	Fuuzetsu	>art of the new IP pissing itself already released
+2014-06-10 11:55:26	Fuuzetsu	drawfags calm down
+2014-06-10 11:55:26	visiON_132	i was just outside squatting and smoking
+2014-06-10 11:55:31	argoneus	ahahaha
+2014-06-10 11:55:34	argoneus	that awkward staredown Chuck-Norris 
+2014-06-10 11:56:50	 > 	Eldrich (~eldrich@wm190.internetdsl.tpnet.pl) has joined #vidyadev
+2014-06-10 11:57:30	 > 	AnomalusUndrdog_ (~quassel@114.108.229.147) has joined #vidyadev
+2014-06-10 11:57:41	 < 	AnomalusUndrdog_ (~quassel@114.108.229.147) has quit (Read error: Connection reset by peer)
+2014-06-10 11:58:45	Chuck-Norris	O_O
+2014-06-10 12:00:09	 < 	sedriss (~sedriss@host-90-233-205-98.mobileonline.telia.com) has quit (Disconnected by services)
+2014-06-10 12:00:27	 > 	sedriss (~sedriss@host-90-233-205-98.mobileonline.telia.com) has joined #vidyadev
+2014-06-10 12:00:28	 < 	AnomalusUndrdog (~quassel@114.108.229.147) has quit (Ping timeout: 276 seconds)
+2014-06-10 12:04:22	 < 	Souler- (~Souler@171.59.189.109.customer.cdi.no) has quit (Ping timeout: 276 seconds)
+2014-06-10 12:06:38	 < 	homebrew (uid31851@gateway/web/irccloud.com/x-ksxizlhnshyulxvr) has quit (Quit: Connection closed for inactivity)
+2014-06-10 12:10:09	 > 	q66 (~q66@enlightenment/developer/q66) has joined #vidyadev
+2014-06-10 12:12:01	 > 	stepvhen_ (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has joined #vidyadev
+2014-06-10 12:12:04	 < 	nyan_wet (~nyan_wet@77-253-11-60.adsl.inetia.pl) has quit (Remote host closed the connection)
+2014-06-10 12:12:52	visiON_132	!WA weight capacity of a 747
+2014-06-10 12:13:18	 < 	stepvhen_ (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has quit (Client Quit)
+2014-06-10 12:13:33	visiON_132	ok a 747-8 has a 140 ton payload capcity
+2014-06-10 12:13:39	visiON_132	imagine if you filled it up with water, 140 tons of water
+2014-06-10 12:13:44	visiON_132	and you released it over a city during the winter
+2014-06-10 12:13:52	 > 	stepvhen_ (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has joined #vidyadev
+2014-06-10 12:13:54	 < 	krz_ (~krzbendr@unaffiliated/krz-/x-0010234) has quit (Quit: Leaving)
+2014-06-10 12:14:03	visiON_132	i wonder how much damage it would do
+2014-06-10 12:15:50	 < 	stepvhen_ (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has quit (Client Quit)
+2014-06-10 12:16:07	 < 	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-10 12:20:11	Pupnik___	you know there are specialised vehicles for that http://upload.wikimedia.org/wikipedia/commons/f/f8/S-64_Aircrane.jpg
+2014-06-10 12:20:11	MASTERlinker	[image/jpeg |  3MB]
+2014-06-10 12:20:50	Fuuzetsu	http://strawpoll.me/1869074/r hue
+2014-06-10 12:20:51	MASTERlinker	[Straw Poll]
+2014-06-10 12:20:54	Fuuzetsu	>EA 2%
+2014-06-10 12:21:16	Pupnik___	also, interesting that there is no cover on the turbines
+2014-06-10 12:25:33	argoneus	visiON_132: >747-8
+2014-06-10 12:25:44	argoneus	>not an a380
+2014-06-10 12:25:49	argoneus	wait
+2014-06-10 12:25:52	argoneus	>cargo
+2014-06-10 12:25:53	argoneus	>747-8
+2014-06-10 12:26:16	visiON_132	sorry i dont into plains
+2014-06-10 12:26:22	argoneus	visiON_132: this one is funny
+2014-06-10 12:26:28	argoneus	visiON_132: http://en.wikipedia.org/wiki/Airbus_Beluga
+2014-06-10 12:26:28	MASTERlinker	[Airbus Beluga - Wikipedia, the free encyclopedia]
+2014-06-10 12:26:38	argoneus	>that shape
+2014-06-10 12:26:50	Pupnik___	haha
+2014-06-10 12:26:53	Pupnik___	so ugly
+2014-06-10 12:27:13	visiON_132	that doesnt look aerodynamic at all
+2014-06-10 12:27:29	argoneus	MD-11 is my fav. cargo airplane
+2014-06-10 12:27:54	Morgawr	argoneus: BB time
+2014-06-10 12:28:00	argoneus	Morgawr: already watching nigga
+2014-06-10 12:28:07	visiON_132	but how much dmg would it do
+2014-06-10 12:28:13	Morgawr	\ufeff
+2014-06-10 12:28:13	visiON_132	if you dropped 140 tons of what would become ice on a city
+2014-06-10 12:28:18	argoneus	ice?
+2014-06-10 12:28:25	visiON_132	during winter
+2014-06-10 12:28:28	argoneus	if you dropped it on prague right now
+2014-06-10 12:28:30	visiON_132	the 140 tons of water would form into ice
+2014-06-10 12:28:33	argoneus	it's evaporate before it landed
+2014-06-10 12:28:38	visiON_132	>>>>>>>>>>>>>during winter
+2014-06-10 12:28:38	Pupnik___	it wouldn't make a 140 ton icecube
+2014-06-10 12:29:46	argoneus	Morgawr: >that tina stare at the beginning
+2014-06-10 12:30:54	argoneus	muh cute
+2014-06-10 12:31:13	Pupnik___	someone should make beluga-chan
+2014-06-10 12:31:21	Pupnik___	as a strike witch or something
+2014-06-10 12:31:35	 > 	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has joined #vidyadev
+2014-06-10 12:38:03	 > 	Souler- (~Souler@171.59.189.109.customer.cdi.no) has joined #vidyadev
+2014-06-10 12:38:08	 - 	Souler- is now known as Souler
+2014-06-10 12:38:10	 < 	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has quit (Quit: I can't irc well)
+2014-06-10 12:38:15	Morgawr	argoneus: http://harbarethsljoeth.morgawr.com:8080/resource/165 sudden loli attack
+2014-06-10 12:38:24	argoneus	Morgawr: kek
+2014-06-10 12:38:28	argoneus	just wait what's next
+2014-06-10 12:38:30	argoneus	;_;
+2014-06-10 12:38:31	argoneus	7
+2014-06-10 12:38:33	 > 	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has joined #vidyadev
+2014-06-10 12:38:51	Morgawr	inb4 errybody dies
+2014-06-10 12:39:55	argoneus	it's kawaii as fuck
+2014-06-10 12:41:00	Morgawr	you mean enju nibbling on cat ears?
+2014-06-10 12:41:58	Morgawr	http://harbarethsljoeth.morgawr.com:8080/resource/166 dat face literally "come fuck me now >:("
+2014-06-10 12:42:07	argoneus	Morgawr: :D
+2014-06-10 12:42:15	Souler	>want to be a game artist
+2014-06-10 12:42:15	Souler	>spend time drawing porn when bored
+2014-06-10 12:42:15	Souler	>unable to draw creative demonic characters
+2014-06-10 12:42:15	Souler	Now all I can draw is porn. Fuck.
+2014-06-10 12:42:31	argoneus	Souler: draw black bullet porn
+2014-06-10 12:42:33	Fuuzetsu	>still can't draw
+2014-06-10 12:42:36	argoneus	with kisara, of course
+2014-06-10 12:43:08	Morgawr	>not gastrea porn
+2014-06-10 12:43:10	Souler	argoneus, wut you mean
+2014-06-10 12:43:18	argoneus	Souler: draw kisara x tina
+2014-06-10 12:43:20	argoneus	I mean
+2014-06-10 12:43:23	argoneus	kisara x rentaro
+2014-06-10 12:43:28	argoneus	actually
+2014-06-10 12:43:30	argoneus	the first one is fine too
+2014-06-10 12:44:09	Morgawr	no CP pls
+2014-06-10 12:44:22	argoneus	it's not cp if they aren't human
+2014-06-10 12:44:50	Souler	lolwut
+2014-06-10 12:45:18	argoneus	Morgawr: oh fuck
+2014-06-10 12:45:19	argoneus	you were right
+2014-06-10 12:45:41	Morgawr	about what?
+2014-06-10 12:45:46	argoneus	about everyone dies
+2014-06-10 12:45:54	Morgawr	kek
+2014-06-10 12:46:26	Souler	NSFW http://puu.sh/9nBja/22fa179de9.jpg
+2014-06-10 12:46:26	MASTERlinker	[image/jpeg |  82KB]
+2014-06-10 12:46:41	Souler	foot is broken
+2014-06-10 12:46:41	argoneus	Souler: that's scary
+2014-06-10 12:46:43	Souler	I know
+2014-06-10 12:46:44	Souler	it's rushed
+2014-06-10 12:46:51	Souler	argoneus, all of my drawings scary
+2014-06-10 12:47:00	Pupnik___	did you finish the last one?
+2014-06-10 12:47:14	Souler	Pupnik___, which one was that
+2014-06-10 12:47:19	Souler	I'm just doing sketches
+2014-06-10 12:47:25	Pupnik___	uh... i dunno some nude with big tits
+2014-06-10 12:47:27	argoneus	this is dark as fuck
+2014-06-10 12:47:30	Souler	http://puu.sh/9nBnk/b1f433b1cc.jpg NSFW
+2014-06-10 12:47:31	MASTERlinker	[image/jpeg |  60KB]
+2014-06-10 12:47:37	Souler	Pupnik___, ^ this one?
+2014-06-10 12:47:39	Pupnik___	nope
+2014-06-10 12:47:50	Souler	Pupnik___, NSFW http://puu.sh/9nBqA/5316a66ac7.jpg this?
+2014-06-10 12:47:50	MASTERlinker	[image/jpeg |  58KB]
+2014-06-10 12:47:56	Pupnik___	nope
+2014-06-10 12:47:58	Souler	wtf
+2014-06-10 12:48:10	Pupnik___	we have to go deeper
+2014-06-10 12:48:17	Chuck-Norris	scary as fuck
+2014-06-10 12:48:22	Souler	awww yee
+2014-06-10 12:48:25	Souler	horror-porn
+2014-06-10 12:48:34	Pupnik___	these arent scary
+2014-06-10 12:48:55	Souler	There's that... NSFW http://puu.sh/9nBvT/5103f392ee.jpg
+2014-06-10 12:48:56	MASTERlinker	[image/jpeg |  109KB]
+2014-06-10 12:49:08	Pupnik___	until you pain their skin grey
+2014-06-10 12:49:23	Souler	hmm
+2014-06-10 12:49:26	Souler	you have greyphobia
+2014-06-10 12:49:36	Pupnik___	nah im just racist
+2014-06-10 12:49:58	Morgawr	argoneus: dey all ded
+2014-06-10 12:50:01	Morgawr	kek
+2014-06-10 12:50:10	argoneus	Morgawr: thanks for spoiling me before I got to the part
+2014-06-10 12:50:11	argoneus	fucking Morgawr 
+2014-06-10 12:50:18	Morgawr	couldn't have been more right
+2014-06-10 12:50:34	Morgawr	http://harbarethsljoeth.morgawr.com:8080/resource/165 before
+2014-06-10 12:50:37	Morgawr	http://harbarethsljoeth.morgawr.com:8080/resource/167 after
+2014-06-10 12:50:39	Morgawr	my sides
+2014-06-10 12:50:49	argoneus	>sides
+2014-06-10 12:51:00	Morgawr	my mains too
+2014-06-10 12:51:07	Fuuzetsu	nice spoiler faggot
+2014-06-10 12:51:09	argoneus	Morgawr: in the last scene enju looks like a zombie
+2014-06-10 12:51:16	Souler	Morgawr, that's sad
+2014-06-10 12:51:37	argoneus	>laughing at lolis dying
+2014-06-10 12:51:55	Morgawr	>not laughing at shitty 2D pandering side characters dying
+2014-06-10 12:52:42	Pupnik___	Souler, you must only post a few of your pieces in here
+2014-06-10 12:52:49	Pupnik___	i havent seen any of those before
+2014-06-10 12:53:15	argoneus	Morgawr: at that 165 picture
+2014-06-10 12:53:20	argoneus	Morgawr: >mfw tina still has a vagina on her back
+2014-06-10 12:53:23	Morgawr	argoneus: I blame Rentarou for raising that massive death flag of "what you want to do when you grow up" or whatever
+2014-06-10 12:53:37	Morgawr	argoneus: I don't think you've ever seen a vagina
+2014-06-10 12:53:42	argoneus	;)
+2014-06-10 12:53:51	argoneus	Morgawr: I don't think you've ever seen how kids draw vaginas
+2014-06-10 12:55:41	Morgawr	argoneus: >yfw Kisara-san planted the bomb and that's why Tina was up all night waiting for her to come back
+2014-06-10 12:55:51	Morgawr	remember how the kids didn't like her as a teacher? ;)
+2014-06-10 12:56:16	Fuuzetsu	https://code.facebook.com/projects/854888367872565/haxl/
+2014-06-10 12:56:17	MASTERlinker	[haxl | Open Source | Facebook Code | Facebook]
+2014-06-10 12:56:21	argoneus	Morgawr: I like how she hung up the moment the monolith exploded
+2014-06-10 12:56:24	argoneus	after screaming
+2014-06-10 12:56:27	argoneus	instead of shouting like
+2014-06-10 12:56:29	Morgawr	dat spoiler
+2014-06-10 12:56:30	argoneus	COME HERE MONOLITH DOWN
+2014-06-10 12:56:33	Morgawr	I haven't seen it happen yet
+2014-06-10 12:56:36	argoneus	oh
+2014-06-10 12:56:37	argoneus	fuck
+2014-06-10 12:56:37	Morgawr	still watchan :P
+2014-06-10 12:56:39	Morgawr	lol it's ok
+2014-06-10 12:56:42	argoneus	well
+2014-06-10 12:56:46	argoneus	you knew it was going to fall anyway
+2014-06-10 12:56:46	argoneus	:<
+2014-06-10 12:59:05	Morgawr	I need to download the ED of BB
+2014-06-10 12:59:08	Morgawr	now that it got released
+2014-06-10 12:59:11	argoneus	I need to download the OP
+2014-06-10 12:59:14	argoneus	I also want NGNL's OST
+2014-06-10 12:59:15	Morgawr	it's probably the best ED this season
+2014-06-10 12:59:15	argoneus	;_;
+2014-06-10 12:59:17	Morgawr	OP was released long time ago
+2014-06-10 12:59:23	Morgawr	it's from fripside so it's gud
+2014-06-10 12:59:24	argoneus	Morgawr: and sorry for epin spoiler
+2014-06-10 12:59:31	argoneus	but it wasn't that huge
+2014-06-10 12:59:32	Morgawr	lol no spoiler
+2014-06-10 12:59:35	Morgawr	:P
+2014-06-10 12:59:50	Morgawr	the only spoiler about this episode is that dey all ded
+2014-06-10 12:59:54	Fuuzetsu	oh hm
+2014-06-10 13:00:01	Fuuzetsu	my housemates have went off somewhere for a week
+2014-06-10 13:00:07	Fuuzetsu	>…has been idle for 151:00.08, on since 2014-05-16 15:47:07
+2014-06-10 13:00:08	Morgawr	argoneus: DAT PV
+2014-06-10 13:00:10	Morgawr	dat masked guy coming back
+2014-06-10 13:00:11	Fuuzetsu	fuck it's been a week
+2014-06-10 13:00:39	Souler	NSFW http://i.4cdn.org/v/1402421516991.jpg
+2014-06-10 13:00:39	MASTERlinker	[image/jpeg |  705KB]
+2014-06-10 13:01:00	visiON_132	footfags are disgusting
+2014-06-10 13:01:02	Fuuzetsu	pretty sure I saved that one already
+2014-06-10 13:01:04	Fuuzetsu	go away visiON_132 
+2014-06-10 13:01:19	argoneus	Souler: who is that
+2014-06-10 13:02:09	Souler	argoneus,  no clue
+2014-06-10 13:02:12	Souler	found in /v/
+2014-06-10 13:07:51	 > 	Deet- (~zigzagoon@c83-252-245-106.bredband.comhem.se) has joined #vidyadev
+2014-06-10 13:09:28	Souler	HYPE http://www.gamespot.com/videos/e3-2014-doom-teaser-trailer/2300-6419386/
+2014-06-10 13:17:10	 > 	Mortvert (~Mortvert@reddit/operator/mortvert) has joined #vidyadev
+2014-06-10 13:21:37	Enhex	>inb4 RAGE game design
+2014-06-10 13:22:59	 > 	Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) has joined #vidyadev
+2014-06-10 13:22:59	 - 	Mode #vidyadev [+o Haz] by ChanServ
+2014-06-10 13:27:28	@Haz	pikatwo I found out whether or not she had nipple rings!
+2014-06-10 13:27:44	pikatwo	Haz, from that thread
+2014-06-10 13:27:56	Souler	http://puu.sh/9nF0w/5d490e2b7a.jpg
+2014-06-10 13:27:56	MASTERlinker	[image/jpeg |  79KB]
+2014-06-10 13:28:00	@Haz	no pikatwo from the other thread
+2014-06-10 13:28:00	pikatwo	Haz what's the fucking server
+2014-06-10 13:28:08	@Haz	pikatwo pls no yelling
+2014-06-10 13:28:08	pikatwo	Haz, shut up with the pussy out shit.
+2014-06-10 13:28:13	@Haz	;_;
+2014-06-10 13:28:16	Souler	Enhex, only 80GB because megatextures
+2014-06-10 13:28:24	@Haz	That looks cool Souler
+2014-06-10 13:29:48	Souler	not happy with wings
+2014-06-10 13:29:50	Souler	redoing them
+2014-06-10 13:30:36	 < 	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has quit (Quit: I can't irc well)
+2014-06-10 13:32:20	 > 	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has joined #vidyadev
+2014-06-10 14:18:27	 - 	irc: disconnected from server
+2014-06-10 14:18:53	 > 	rawks (~alex@189.153.58.133) has joined #vidyadev
+2014-06-10 14:18:54	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-10 14:18:54	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014 20:11:34
+2014-06-10 14:18:54	 - 	Nicks #vidyadev: [@[]J @ChanServ @Haz @Invy @poisonarms \marrub alloyed Alpha64 argoneus arikel asdfman BlueProtoman Chuck-Norris DEElekgolo Deet- eld Eldrich Enhex Erwat eska_ fluffnguff Fuuzetsu hekaronkiros Kaira- malinus Maruinslun MASTERlinker MechaCrash Morgawr Mortvert Neetchuh Nodevlurker nyan_wet pikatwo pkmnBlue poisonarms_____ Pupnik___ q66 rawks ROOTb_k_x_l_d_j_ sedriss Seisatsu SenorCrunch Shpuld Souler stepvhen Syzygy Tawre TheWorld visiON_132 wareya wdnz Yomic]
+2014-06-10 14:18:54	 - 	Channel #vidyadev: 53 nicks (5 ops, 0 voices, 48 normals)
+2014-06-10 14:18:54	 - 	Mode #vidyadev [+Cnst]
+2014-06-10 14:18:54	 - 	Channel created on jue, 02 sep 2010 21:22:11
+2014-06-10 14:22:32	 < 	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 260 seconds)
+2014-06-10 14:26:36	Nodevlurker	so
+2014-06-10 14:26:40	Nodevlurker	how was the Nintendo conference
+2014-06-10 14:26:41	Nodevlurker	I missed
+2014-06-10 14:27:57	Nodevlurker	is it still going?
+2014-06-10 14:28:12	Nodevlurker	wait wot
+2014-06-10 14:28:13	Nodevlurker	shrek is in
+2014-06-10 14:38:43	Syzygy	halp
+2014-06-10 14:38:46	Syzygy	I do not understand
+2014-06-10 14:38:53	Syzygy	why the fuck my code isn't called
+2014-06-10 14:41:34	Chuck-Norris	because
+2014-06-10 14:41:50	Syzygy	http://pastebin.com/Ez72HUAt here is relevant code
+2014-06-10 14:41:51	MASTERlinker	[[C++] in main.cpp:  CameraNode* activeCamera;      CameraNode* playerCamera = new Came - Pastebin.com]
+2014-06-10 14:42:04	Syzygy	I can upload all the classes if you want.
+2014-06-10 14:46:46	 < 	poisonarms_____ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2014-06-10 15:06:42	 > 	Lopaki (Lopaki@wu2415.wh-wurm.uni-ulm.de) has joined #vidyadev
+2014-06-10 15:14:04	Deet-	maybe this is a case of visual studio optimizing the program when you build it
+2014-06-10 15:14:06	Deet-	if you're using VS
+2014-06-10 15:14:19	Deet-	are you doing anything with controller after you set it?
+2014-06-10 15:18:32	Syzygy	yeah
+2014-06-10 15:19:13	Syzygy	turns out it's probably because I was in release mode and said optimizations, the collisionDescription was invalid so the characterController was always null
+2014-06-10 15:19:26	Syzygy	my character still gets swallowed by the mesh though
+2014-06-10 15:30:25	Morgawr	guys
+2014-06-10 15:30:26	Morgawr	just so you know
+2014-06-10 15:30:28	Morgawr	Civ V on Linux now
+2014-06-10 15:30:35	Morgawr	there literally is no reason to stay on Windows now
+2014-06-10 15:32:34	 - 	irc: disconnected from server
+2014-06-11 16:49:51	>>	rawks (~alex@189.153.35.214) has joined #vidyadev
+2014-06-11 16:49:51	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-11 16:49:51	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014
+2014-06-11 16:49:51	 - 	Nicks #vidyadev: [@ChanServ @Haz @Invy @poisonarms \marrub alloyed Alpha64 AnomalusUndrdog argoneus arikel asdfman BlueProtoman chi-chi Chuck-Norris Cruncho\ DEElekgolo Eldrich Enhex Erwat eska_ fluffnguff Fuuzetsu hekaronkiros ief015 Kaira- KingsleyT malinus MASTERlinker MechaCrash Morgawr Mort Neetchuh Nodevlurker pikatwo_ poisonarms_____ pprnts pretendo Pupnik___ q66 rawks Renoki sedriss Seisatsu Shpuld stepvhen Syzygy Tawre TheWorld theWorld__ visiON_132 wareya wdnz Yomic]
+2014-06-11 16:49:51	 - 	Channel #vidyadev: 53 nicks (4 ops, 0 voices, 49 normals)
+2014-06-11 16:49:53	 - 	Mode #vidyadev [+Cnst]
+2014-06-11 16:49:53	 - 	Channel created on jue, 02 sep 2010
+2014-06-11 16:50:59	>>	Tawre_ (~Tawre@102.242.50.84.dyn.estpak.ee) has joined #vidyadev
+2014-06-11 16:50:59	<<	Tawre_ (~Tawre@102.242.50.84.dyn.estpak.ee) has quit (Changing host)
+2014-06-11 16:50:59	>>	Tawre_ (~Tawre@unaffiliated/tawre) has joined #vidyadev
+2014-06-11 16:52:33	<<	asdfman (~as@88-148-247-11.bb.dnainternet.fi) has quit (Quit: Leaving)
+2014-06-11 16:53:45	<<	Tawre (~Tawre@unaffiliated/tawre) has quit (Ping timeout: 272 seconds)
+2014-06-11 16:54:43	rawks	asdasd
+2014-06-11 17:03:03	 - 	Tawre_ is now known as Tawre
+2014-06-11 17:03:06	Tawre	what
+2014-06-11 17:04:09	<<	pretendo (uid31543@gateway/web/irccloud.com/x-wllozllghjoiagwn) has quit (Quit: Connection closed for inactivity)
+2014-06-11 17:07:12	hekaronkiros	what what
+2014-06-11 17:08:07	Tawre	apparently i don't have internet
+2014-06-11 17:08:23	Tawre	i'm gettingi a message that says that i've asked to disable internet connectivity until june 2015
+2014-06-11 17:08:37	Tawre	it blocks everything that's int he http port i think
+2014-06-11 17:08:43	Tawre	or maybe it blocks making new connections, i'm not sure
+2014-06-11 17:09:53	@Haz	Why would you ask for that?
+2014-06-11 17:15:17	>>	factorysettings (~factoryse@ip98-180-26-190.ga.at.cox.net) has joined #vidyadev
+2014-06-11 17:20:21	<<	Eldrich (~eldrich@wm190.internetdsl.tpnet.pl) has quit
+2014-06-11 17:41:39	 - 	irc: disconnected from server
+2014-06-11 18:24:05	>>	rawks (~alex@189.153.160.150) has joined #vidyadev
+2014-06-11 18:24:05	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-11 18:24:05	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014
+2014-06-11 18:24:05	 - 	Nicks #vidyadev: [@ChanServ @Haz @Invy @poisonarms \marrub alloyed Alpha64 AnomalusUndrdog argoneus arikel BlueProtoman chi-chi Chuck-Norris Cruncho\ davexunit DEElekgolo Enhex Erwat eska_ factorysettings FanGrille fluffnguff Fuuzetsu hekaronkiros ief015 Kaira- KingsleyT malinus Maruinslun MASTERlinker MechaCrash Morgawr Mort Neetchuh pikatwo_ poisonarms_____ pprnts Pupnik___ q66 rawks Renoki sedriss Seisatsu Shpuld Syzygy TheWorld theWorld__ visiON_132 wareya wdnz]
+2014-06-11 18:24:05	 - 	Channel #vidyadev: 50 nicks (4 ops, 0 voices, 46 normals)
+2014-06-11 18:24:05	 - 	Mode #vidyadev [+Cnst]
+2014-06-11 18:24:05	 - 	Channel created on jue, 02 sep 2010
+2014-06-11 18:24:05	hekaronkiros	Going to sleep guys, maek gaem, have fun.
+2014-06-11 18:35:41	<<	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 264 seconds)
+2014-06-11 18:43:59	<<	sedriss (~sedriss@host-95-198-82-250.mobileonline.telia.com) has quit (Quit: zz)
+2014-06-11 18:46:26	>>	pretendo (uid31543@gateway/web/irccloud.com/x-xzalerdwwczfouuh) has joined #vidyadev
+2014-06-11 18:51:13	<<	Mort (~Mortvert@reddit/operator/mortvert) has quit
+2014-06-11 19:02:14	>>	[]J (~Z@123.5.160.15) has joined #vidyadev
+2014-06-11 19:02:14	 - 	Mode #vidyadev [+o []J] by ChanServ
+2014-06-11 19:05:13	factorysettings	so, I just bought a wii u
+2014-06-11 19:05:29	Renoki	nice
+2014-06-11 19:12:16	factorysettings	mario kart is fun
+2014-06-11 19:27:39	Alpha64	who needs fun game
+2014-06-11 19:27:39	Alpha64	s
+2014-06-11 19:27:51	Alpha64	what you want is games that rationalize anal sex between men
+2014-06-11 19:27:56	Alpha64	and other important topics
+2014-06-11 19:35:33	>>	sHazam (~Haz@c-98-250-127-53.hsd1.mi.comcast.net) has joined #vidyadev
+2014-06-11 19:35:34	 - 	Mode #vidyadev [+o sHazam] by ChanServ
+2014-06-11 19:37:38	<<	Haz (~Haz@c-98-250-127-53.hsd1.mi.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-11 19:53:22	Chuck-Norris	did someone say anal sex?
+2014-06-11 19:53:24	Chuck-Norris	with men
+2014-06-11 19:54:55	@[]J	gaynal sex
+2014-06-11 19:56:26	Chuck-Norris	fucking love it
+2014-06-11 19:56:28	Chuck-Norris	wait
+2014-06-11 19:57:02	<<	q66 (~q66@enlightenment/developer/q66) has quit (Quit: Leaving)
+2014-06-11 19:57:20	Chuck-Norris	west philadelphia born and raised, we had analsex most of my days
+2014-06-11 20:01:00	>>	oohal (~oohal@ohallo2.lnk.telstra.net) has joined #vidyadev
+2014-06-11 20:06:14	<<	factorysettings (~factoryse@ip98-180-26-190.ga.at.cox.net) has quit (Quit: factorysettings)
+2014-06-11 20:07:11	@[]J	I got in one little gayorgy and my mom got scared
+2014-06-11 20:10:23	oohal	>not inviting your mom to the gayorgy
+2014-06-11 20:16:02	<<	argoneus (~argoneus@unaffiliated/argoneus) has quit (Quit: Leaving)
+2014-06-11 20:16:46	Chuck-Norris	_OO
+2014-06-11 20:16:49	Chuck-Norris	O_O
+2014-06-11 20:24:05	>>	Chuck-Norriz (~hej@79.102.136.12) has joined #vidyadev
+2014-06-11 20:26:33	>>	pkmnBlue (~MrRed@d66-183-42-172.bchsia.telus.net) has joined #vidyadev
+2014-06-11 20:26:43	<<	Chuck-Norris (~hej@79.102.189.93) has quit (Ping timeout: 240 seconds)
+2014-06-11 20:26:44	 - 	Chuck-Norriz is now known as Chuck-Norris
+2014-06-11 20:32:33	>>	TheWorld_ (~TheWorld@174-31-167-82.tukw.qwest.net) has joined #vidyadev
+2014-06-11 20:33:33	<<	theWorld__ (~TheWorld@174-31-167-82.tukw.qwest.net) has quit (Ping timeout: 252 seconds)
+2014-06-11 20:33:38	<<	TheWorld (~TheWorld@174-31-167-82.tukw.qwest.net) has quit (Ping timeout: 240 seconds)
+2014-06-11 20:37:58	<<	TheWorld_ (~TheWorld@174-31-167-82.tukw.qwest.net) has quit (Ping timeout: 272 seconds)
+2014-06-11 20:38:45	>>	TheWorld (~TheWorld@174-31-167-82.tukw.qwest.net) has joined #vidyadev
+2014-06-11 20:56:44	>>	Lopaki (Lopaki@wu2415.wh-wurm.uni-ulm.de) has joined #vidyadev
+2014-06-11 21:00:08	Lopaki	Getting your shit together, at 4:00 AM GMT +1
+2014-06-11 21:02:41	<<	davexunit (~user@fsf/member/davexunit) has quit (Quit: Later)
+2014-06-11 21:08:49	Chuck-Norris	aw shit its 04
+2014-06-11 21:08:52	Chuck-Norris	Thu Jun 12 04:08:45 2014
+2014-06-11 21:12:02	>>	factorysettings (~factoryse@ip98-180-26-190.ga.at.cox.net) has joined #vidyadev
+2014-06-11 21:14:32	Lopaki	:)
+2014-06-11 21:18:05	>>	guy1 (~guy1@ip68-99-181-192.oc.oc.cox.net) has joined #vidyadev
+2014-06-11 21:20:55	>>	Chuck-Norriz (~hej@79.102.136.227) has joined #vidyadev
+2014-06-11 21:22:03	>>	keepee (~chatzilla@host86-153-198-93.range86-153.btcentralplus.com) has joined #vidyadev
+2014-06-11 21:24:49	<<	Chuck-Norris (~hej@79.102.136.12) has quit (Ping timeout: 272 seconds)
+2014-06-11 21:24:50	 - 	Chuck-Norriz is now known as Chuck-Norris
+2014-06-11 21:29:01	<<	pkmnBlue (~MrRed@d66-183-42-172.bchsia.telus.net) has quit (Quit: <Barnabas> Faggots are a mean of escape for some, you know.)
+2014-06-11 21:34:42	<<	factorysettings (~factoryse@ip98-180-26-190.ga.at.cox.net) has quit (Quit: factorysettings)
+2014-06-11 21:42:36	<<	Enhex (~quassel@37.142.176.161) has quit (Remote host closed the connection)
+2014-06-11 21:42:54	>>	Enhex (~quassel@37.142.176.161) has joined #vidyadev
+2014-06-11 21:45:33	Chuck-Norris	what if zelda was a faggot
+2014-06-11 21:45:45	Chuck-Norris	oh wait then he would be Tingle
+2014-06-11 22:08:05	<<	BlueProtoman (~smitty@ool-457b5eca.dyn.optonline.net) has quit (Ping timeout: 264 seconds)
+2014-06-11 22:34:19	>>	TheWorld_ (~TheWorld@174-31-167-82.tukw.qwest.net) has joined #vidyadev
+2014-06-11 22:43:20	Maruinslun	Chuck-Norris, didn't you name your asshole tingle?
+2014-06-11 22:45:43	Chuck-Norris	yes I did
+2014-06-11 22:45:52	Chuck-Norris	want to see it?
+2014-06-11 22:47:14	Chuck-Norris	Maruinslun: https://dl.dropboxusercontent.com/u/26332463/asshole.jpg
+2014-06-11 22:47:50	Maruinslun	"Server ran out of memory"
+2014-06-11 22:47:57	Maruinslun	Chuck-Norris, is your asshole that huge?
+2014-06-11 22:48:03	Chuck-Norris	yes
+2014-06-11 22:48:05	Chuck-Norris	quite loose
+2014-06-11 22:48:29	pretendo	Cyanogenmod or replicant 
+2014-06-11 23:00:52	>>	ief015_ (~ief015@Powder/Staff/ief015) has joined #vidyadev
+2014-06-11 23:01:52	<<	ief015 (~ief015@Powder/Staff/ief015) has quit (Ping timeout: 245 seconds)
+2014-06-11 23:17:31	<<	TheWorld (~TheWorld@174-31-167-82.tukw.qwest.net) has quit (Read error: Connection reset by peer)
+2014-06-11 23:17:56	>>	TheWorld (~TheWorld@174-31-167-82.tukw.qwest.net) has joined #vidyadev
+2014-06-11 23:18:46	>>	ief015 (~ief015@Powder/Staff/ief015) has joined #vidyadev
+2014-06-11 23:19:32	>>	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-11 23:19:55	<<	ief015_ (~ief015@Powder/Staff/ief015) has quit (Ping timeout: 240 seconds)
+2014-06-11 23:34:51	<<	KingsleyT (~kingsley@d108-180-135-141.bchsia.telus.net) has quit (Quit: it was lupus)
+2014-06-11 23:39:54	<<	Renoki (~Renoki@CPE7cb21bcd54a9-CM7cb21bcd54a6.cpe.net.cable.rogers.com) has quit (Quit: Goodnight!)
+2014-06-11 23:51:48	>>	pkmnBlue (~MrRed@d66-183-42-172.bchsia.telus.net) has joined #vidyadev
+2014-06-11 23:59:43	Chuck-Norris	pikatwo_: you here?
+2014-06-11 23:59:47	pikatwo_	actually, they can be wrong most of the time Chuck-Norris
+2014-06-12 00:00:03	Chuck-Norris	oh...but are you wrong now pikatwo_?
+2014-06-12 00:00:04	pikatwo_	Chuck-Norris, the online stereotype is that every single person is a white male in their 20s
+2014-06-12 00:08:35	>>	Tawre (~Tawre@unaffiliated/tawre) has joined #vidyadev
+2014-06-12 00:10:50	<<	Lopaki (Lopaki@wu2415.wh-wurm.uni-ulm.de) has quit (Read error: Connection reset by peer)
+2014-06-12 00:33:11	>>	ief015_ (~ief015@Powder/Staff/ief015) has joined #vidyadev
+2014-06-12 00:35:29	<<	ief015 (~ief015@Powder/Staff/ief015) has quit (Ping timeout: 244 seconds)
+2014-06-12 00:40:12	<<	Tawre (~Tawre@unaffiliated/tawre) has quit (Ping timeout: 245 seconds)
+2014-06-12 00:45:30	>>	Nodevlurker (~Anonymous@S0106602ad06e7826.vc.shawcable.net) has joined #vidyadev
+2014-06-12 00:47:37	<<	poisonarms_____ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has quit (Quit: Lingo - http://www.lingoirc.com)
+2014-06-12 00:47:54	>>	poisonarms_ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has joined #vidyadev
+2014-06-12 00:53:39	<<	ief015_ (~ief015@Powder/Staff/ief015) has quit (Ping timeout: 240 seconds)
+2014-06-12 01:13:51	<<	AnomalusUndrdog (~quassel@114.108.229.147) has quit (Remote host closed the connection)
+2014-06-12 01:14:09	<<	pretendo (uid31543@gateway/web/irccloud.com/x-xzalerdwwczfouuh) has quit (Quit: Connection closed for inactivity)
+2014-06-12 01:19:28	>>	Souler (~Pandah@131.84-48-53.nextgentel.com) has joined #vidyadev
+2014-06-12 01:22:18	>>	Mortvert (~Mortvert@reddit/operator/mortvert) has joined #vidyadev
+2014-06-12 01:34:57	<<	Alpha64 (~Alpha64@unaffiliated/alpha64) has quit (Quit: Leaving)
+2014-06-12 02:07:20	>>	jdmarsh (~jdmarsh@host-78-151-107-123.as13285.net) has joined #vidyadev
+2014-06-12 02:13:40	<<	jdmarsh (~jdmarsh@host-78-151-107-123.as13285.net) has quit (Quit: Leaving)
+2014-06-12 02:14:47	hekaronkiros	I'll buy an old flash in ebay
+2014-06-12 02:15:25	<<	pkmnBlue (~MrRed@d66-183-42-172.bchsia.telus.net) has quit (Read error: Connection reset by peer)
+2014-06-12 02:20:04	>>	asdfman (~as@88-148-247-11.bb.dnainternet.fi) has joined #vidyadev
+2014-06-12 02:21:59	>>	pretendo (uid31543@gateway/web/irccloud.com/x-sgxdqhhlaeqksqfm) has joined #vidyadev
+2014-06-12 02:40:14	<<	keepee (~chatzilla@host86-153-198-93.range86-153.btcentralplus.com) has quit (Ping timeout: 272 seconds)
+2014-06-12 02:46:43	<<	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 244 seconds)
+2014-06-12 02:51:00	<<	Nodevlurker (~Anonymous@S0106602ad06e7826.vc.shawcable.net) has quit (Ping timeout: 272 seconds)
+2014-06-12 02:57:42	>>	eld (~eld@195.117.226.210) has joined #vidyadev
+2014-06-12 03:03:07	>>	Nodevlurker (Nodevlurke@S0106602ad06e7826.vc.shawcable.net) has joined #vidyadev
+2014-06-12 03:18:12	>>	keepee (~chatzilla@host86-153-198-93.range86-153.btcentralplus.com) has joined #vidyadev
+2014-06-12 03:21:39	Souler	HHHNG
+2014-06-12 03:21:42	Souler	crimsonland on store
+2014-06-12 03:32:31	 - 	MechaCrash is now known as MechaCrash|away
+2014-06-12 03:35:27	<<	DEElekgolo (~DEElekgol@76-217-145-111.lightspeed.irvnca.sbcglobal.net) has quit (Quit: Leaving)
+2014-06-12 03:37:21	visiON_132	rip
+2014-06-12 03:37:26	visiON_132	there will never be a crimsonland 2
+2014-06-12 03:51:15	Souler	visiON_132, there might if enough people show interest in the first one. Devs said so at least
+2014-06-12 03:51:39	Souler	I remember reading back in the old days when devs were actually working on crimsonland 2
+2014-06-12 04:03:43	<<	Chuck-Norris (~hej@79.102.136.227) has quit (Quit: Girls are like wireless Internet. Some are easier to access than others.)
+2014-06-12 04:19:17	>>	theWorld__ (~TheWorld@75-172-79-40.tukw.qwest.net) has joined #vidyadev
+2014-06-12 04:19:55	<<	FanGrille (~mIRC@24-212-155-43.cable.teksavvy.com) has quit (Ping timeout: 240 seconds)
+2014-06-12 04:20:09	<<	pprnts (~mic@5468848A.cm-12-1c.dynamic.ziggo.nl) has quit (Ping timeout: 240 seconds)
+2014-06-12 04:21:39	<<	TheWorld_ (~TheWorld@174-31-167-82.tukw.qwest.net) has quit (Ping timeout: 240 seconds)
+2014-06-12 04:21:42	asdfman	twitch.tv/gcdhack <- time for 12h dev stream
+2014-06-12 04:21:43	MASTERlinker	[|REDIRECT| Twitch]
+2014-06-12 04:21:58	asdfman	you don't have to watch though, i'm just creating a scenario where someone might potentially watch so that i can't procrastinate
+2014-06-12 04:22:02	>>	TheWorld_ (~TheWorld@75-172-79-40.tukw.qwest.net) has joined #vidyadev
+2014-06-12 04:22:05	asdfman	(it works wonders)
+2014-06-12 04:22:09	<<	TheWorld (~TheWorld@174-31-167-82.tukw.qwest.net) has quit (Ping timeout: 240 seconds)
+2014-06-12 04:23:02	<<	poisonarms_ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2014-06-12 04:31:04	Erwat	asdfman: that's a nice idea
+2014-06-12 04:31:22	asdfman	it is the secret to getting shit done
+2014-06-12 04:31:27	Erwat	i don't have internet at home :<
+2014-06-12 04:31:33	asdfman	at least for me personally
+2014-06-12 04:31:37	Erwat	it's shut off
+2014-06-12 04:31:39	Erwat	until 2015
+2014-06-12 04:31:40	Erwat	june
+2014-06-12 04:32:42	>>	yoni0505 (~quassel@37.142.176.161) has joined #vidyadev
+2014-06-12 04:33:51	Souler	I'm tempted to get Nexus 5 but I don't like ireplacable battery :/
+2014-06-12 04:34:09	<<	pretendo (uid31543@gateway/web/irccloud.com/x-sgxdqhhlaeqksqfm) has quit (Quit: Connection closed for inactivity)
+2014-06-12 04:35:05	<<	Enhex (~quassel@37.142.176.161) has quit (Ping timeout: 264 seconds)
+2014-06-12 04:51:31	<<	theWorld__ (~TheWorld@75-172-79-40.tukw.qwest.net) has quit (Ping timeout: 240 seconds)
+2014-06-12 04:51:55	<<	TheWorld_ (~TheWorld@75-172-79-40.tukw.qwest.net) has quit (Ping timeout: 240 seconds)
+2014-06-12 04:52:34	Erwat	21st century networked communications are quickly becoming nightmarish.  Between 0-day exploits and cyberlocking extortions, identity theft and account hijacking/lockouts, TVs and appliances reporting to OEM servers, password defeating tables and algorithms, database breaches and POS soft&hard ware hacking, geolocation and cell phone record access, router backdoors and rootkits, botnets and DNS spoofing, leaky SSL code, Java flaws and
+2014-06-12 04:52:38	>>	TheWorld (~TheWorld@75-172-79-40.tukw.qwest.net) has joined #vidyadev
+2014-06-12 04:52:38	>>	TheWorld_ (~TheWorld@75-172-79-40.tukw.qwest.net) has joined #vidyadev
+2014-06-12 04:52:52	Souler	http://youtu.be/AFTwthNrL_w
+2014-06-12 04:52:53	MASTERlinker	[|YOUTUBE| Phonebloks - Hello Industry! | 2m21s |]
+2014-06-12 04:53:02	Erwat	 and myriad flavours of buffer overflows, obsolete and unpatched OSes, broken/cracked wifi encryption protocols, packet sniffers and DPI... and every country's national snooping brigades, I think that sometimes were not being paranoid; they are really out to get us. 
+2014-06-12 04:54:38	>>	theWorld__ (~TheWorld@75-172-79-40.tukw.qwest.net) has joined #vidyadev
+2014-06-12 04:56:43	<<	TheWorld_ (~TheWorld@75-172-79-40.tukw.qwest.net) has quit (Ping timeout: 240 seconds)
+2014-06-12 04:56:54	<<	TheWorld (~TheWorld@75-172-79-40.tukw.qwest.net) has quit (Ping timeout: 252 seconds)
+2014-06-12 04:58:04	>>	TheWorld (~TheWorld@75-172-79-40.tukw.qwest.net) has joined #vidyadev
+2014-06-12 04:59:12	visiON_132	im quite sure the jews are behind that Erwat
+2014-06-12 06:24:54	>>	argoneus (~argoneus@unaffiliated/argoneus) has joined #vidyadev
+2014-06-12 06:43:01	>>	Udderdude (~Udderdude@CPE602ad0911ca0-CM602ad0911c9d.cpe.net.cable.rogers.com) has joined #vidyadev
+2014-06-12 06:54:07	>>	sedriss (~sedriss@host-90-237-97-17.mobileonline.telia.com) has joined #vidyadev
+2014-06-12 07:07:43	>>	pprnts (~mic@5468848A.cm-12-1c.dynamic.ziggo.nl) has joined #vidyadev
+2014-06-12 07:16:22	<<	sedriss (~sedriss@host-90-237-97-17.mobileonline.telia.com) has quit (Ping timeout: 272 seconds)
+2014-06-12 07:32:52	 - 	irc: disconnected from server
+2014-06-12 11:59:19	>>	rawks (~alex@189.153.160.150) has joined #vidyadev
+2014-06-12 11:59:19	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-12 11:59:19	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014
+2014-06-12 11:59:19	 - 	Nicks #vidyadev: [@[]J @ChanServ @Invy @poisonarms @sHazam \marrub alloyed Aqo argoneus arikel asdfman BlueProtoman chi-chi Cruncho\ DEElekgolo Deet- Enhex Erwat eska_ fluffnguff Fuuzetsu homebrew Kaira- Lopaki malinus Maruinslun MASTERlinker MechaCrash|away Morgawr Mortvert Neetchuh Nodevlurker pikatwo_ poisonarms_ pprnts Pupnik___ rawks Seisatsu Syzygy Tawre TheWorld theWorld__ Udderdude visiON_132 wareya wdnz]
+2014-06-12 11:59:19	 - 	Channel #vidyadev: 46 nicks (5 ops, 0 voices, 41 normals)
+2014-06-12 11:59:22	 - 	Mode #vidyadev [+Cnst]
+2014-06-12 11:59:22	 - 	Channel created on jue, 02 sep 2010
+2014-06-12 11:59:30	rawks	good morning /agdg/
+2014-06-12 12:00:37	>>	Eldrich (~eldrich@wm190.internetdsl.tpnet.pl) has joined #vidyadev
+2014-06-12 12:04:37	>>	q66 (~q66@enlightenment/developer/q66) has joined #vidyadev
+2014-06-12 12:09:24	Lopaki	anyone heard of the twitter-bug?
+2014-06-12 12:25:29	Morgawr	argoneus: dat NGNL
+2014-06-12 12:25:35	Morgawr	Lopaki: what twitter bug?
+2014-06-12 12:33:37	Lopaki	https://www.youtube.com/watch?v=zv0kZKC6GAM
+2014-06-12 12:33:38	MASTERlinker	[|YOUTUBE| How The Self-Retweeting Tweet Worked: Cross-Site Scripting (XSS) and Twitter | 6m17s |]
+2014-06-12 12:33:53	<<	Eldrich (~eldrich@wm190.internetdsl.tpnet.pl) has quit
+2014-06-12 12:34:04	Lopaki	I love how that guy who executed the self-retweeting tweet is someone I know and just met 2 weeks ago XD
+2014-06-12 12:35:28	argoneus	Morgawr: dat jibril on the cart scaring people
+2014-06-12 12:35:39	Morgawr	argoneus: lel
+2014-06-12 12:36:02	visiON_132	>read news
+2014-06-12 12:36:06	visiON_132	>eesti epeenaiskond
+2014-06-12 12:36:11	visiON_132	>first thing i notice is "epeen"
+2014-06-12 12:36:17	visiON_132	(the word is epee)
+2014-06-12 12:54:28	>>	Alpha64 (~Alpha64@unaffiliated/alpha64) has joined #vidyadev
+2014-06-12 13:04:17	>>	ief015 (~ief015@Powder/Staff/ief015) has joined #vidyadev
+2014-06-12 13:08:26	>>	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-12 13:12:52	>>	Shpuld (kaukoran@amadeus.cc.tut.fi) has joined #vidyadev
+2014-06-12 13:18:48	<<	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Remote host closed the connection)
+2014-06-12 13:19:12	>>	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-12 13:31:28	>>	Chuck-Norris (~hej@79.102.49.132) has joined #vidyadev
+2014-06-12 13:54:42	<<	Lopaki (Lopaki@wu2415.wh-wurm.uni-ulm.de) has quit (Quit: Leaving)
+2014-06-12 14:02:52	<<	homebrew (uid31851@gateway/web/irccloud.com/x-tqcpyeddrtacistp) has quit (*.net *.split)
+2014-06-12 14:02:58	<<	MASTERlinker (~MASTERlin@unaffiliated/malinus) has quit (*.net *.split)
+2014-06-12 14:03:21	>>	homebrew (uid31851@gateway/web/irccloud.com/x-cptyujewynzdvryd) has joined #vidyadev
+2014-06-12 14:03:51	>>	MASTERlinker (~MASTERlin@unaffiliated/malinus) has joined #vidyadev
+2014-06-12 14:05:17	>>	sedriss (~sedriss@host-95-192-195-181.mobileonline.telia.com) has joined #vidyadev
+2014-06-12 14:09:15	>>	Souler- (~Souler@171.59.189.109.customer.cdi.no) has joined #vidyadev
+2014-06-12 14:09:56	>>	Syzygy_ (~Syzygy@62-46-165-17.adsl.highway.telekom.at) has joined #vidyadev
+2014-06-12 14:10:11	Aqo	http://i.imgur.com/Req36Y6.jpg
+2014-06-12 14:10:13	MASTERlinker	[imgur: the simple image sharer | image/jpeg |  568KB]
+2014-06-12 14:13:30	<<	Syzygy (~Syzygy@62-46-164-177.adsl.highway.telekom.at) has quit (Ping timeout: 252 seconds)
+2014-06-12 14:27:25	<<	Aqo (~Aqo@46.120.205.244) has quit (Read error: Connection reset by peer)
+2014-06-12 14:30:52	>>	Aqo (~Aqo@46.120.205.244) has joined #vidyadev
+2014-06-12 14:31:30	<<	Aqo (~Aqo@46.120.205.244) has quit (Read error: Connection reset by peer)
+2014-06-12 14:37:39	>>	Aqo (~Aqo@46.120.205.244) has joined #vidyadev
+2014-06-12 14:49:57	>>	Aqo_ (~Aqo@87.69.161.26) has joined #vidyadev
+2014-06-12 14:52:29	<<	Aqo (~Aqo@46.120.205.244) has quit (Ping timeout: 264 seconds)
+2014-06-12 14:52:38	 - 	Aqo_ is now known as Aqo
+2014-06-12 14:52:58	>>	keepee (~chatzilla@host86-153-198-93.range86-153.btcentralplus.com) has joined #vidyadev
+2014-06-12 15:02:20	>>	Aqo_ (~Aqo@46.120.205.244) has joined #vidyadev
+2014-06-12 15:04:31	<<	Aqo (~Aqo@87.69.161.26) has quit (Ping timeout: 244 seconds)
+2014-06-12 15:04:36	Chuck-Norris	westside motherfuckers
+2014-06-12 15:04:46	 - 	Aqo_ is now known as Aqo
+2014-06-12 15:40:24	@sHazam	EAST SIDE BITCH
+2014-06-12 15:40:33	@sHazam	YOU TRYING TO GET SHOT
+2014-06-12 15:46:29	<<	keepee (~chatzilla@host86-153-198-93.range86-153.btcentralplus.com) has quit (Ping timeout: 264 seconds)
+2014-06-12 15:47:34	>>	Eldrich (~eldrich@wm190.internetdsl.tpnet.pl) has joined #vidyadev
+2014-06-12 15:50:37	<<	Deet- (~zigzagoon@c83-252-245-106.bredband.comhem.se) has quit (Ping timeout: 245 seconds)
+2014-06-12 16:02:07	>>	davexunit (~NickServ@173.127.78.89) has joined #vidyadev
+2014-06-12 16:04:38	<<	davexunit (~NickServ@173.127.78.89) has quit (Read error: Connection reset by peer)
+2014-06-12 16:05:02	>>	davexunit (~NickServ@173.127.78.89) has joined #vidyadev
+2014-06-12 16:05:08	<<	davexunit (~NickServ@173.127.78.89) has quit (Client Quit)
+2014-06-12 16:05:42	>>	davexunit (~NickServ@fsf/member/davexunit) has joined #vidyadev
+2014-06-12 16:10:14	<<	davexunit (~NickServ@fsf/member/davexunit) has quit (Client Quit)
+2014-06-12 16:12:38	<<	poisonarms_ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2014-06-12 16:20:39	>>	poisonarms_ (~poisonarm@cpe-70-117-67-205.austin.res.rr.com) has joined #vidyadev
+2014-06-12 16:27:51	<<	Souler- (~Souler@171.59.189.109.customer.cdi.no) has quit (Read error: Connection reset by peer)
+2014-06-12 16:40:42	<<	poisonarms_ (~poisonarm@cpe-70-117-67-205.austin.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2014-06-12 16:43:35	<<	asdfman (~as@88-148-247-11.bb.dnainternet.fi) has quit (Quit: Leaving)
+2014-06-12 16:47:36	<<	pprnts (~mic@5468848A.cm-12-1c.dynamic.ziggo.nl) has quit (Quit: Leaving)
+2014-06-12 16:55:38	>>	poisonarms_ (~poisonarm@cpe-70-117-67-205.austin.res.rr.com) has joined #vidyadev
+2014-06-12 17:10:26	>>	factorysettings (~factoryse@ip98-180-26-190.ga.at.cox.net) has joined #vidyadev
+2014-06-12 17:11:41	>>	FanGrille (~mIRC@24-212-155-43.cable.teksavvy.com) has joined #vidyadev
+2014-06-12 17:12:58	>>	oriong (~oriong@ppp-94-64-214-68.home.otenet.gr) has joined #vidyadev
+2014-06-12 17:25:04	poisonarms_	Look at all this not talking.
+2014-06-12 17:29:14	<<	Mortvert (~Mortvert@reddit/operator/mortvert) has quit
+2014-06-12 17:35:45	argoneus	look at this poisonarms 
+2014-06-12 17:42:56	>>	Chuck-Norriz (~hej@79.102.49.132) has joined #vidyadev
+2014-06-12 17:42:56	<<	Chuck-Norris (~hej@79.102.49.132) has quit (Read error: Connection reset by peer)
+2014-06-12 17:42:56	 - 	Chuck-Norriz is now known as Chuck-Norris
+2014-06-12 17:51:10	<<	factorysettings (~factoryse@ip98-180-26-190.ga.at.cox.net) has quit (Quit: factorysettings)
+2014-06-12 18:07:31	<<	Eldrich (~eldrich@wm190.internetdsl.tpnet.pl) has quit
+2014-06-12 18:09:58	<<	poisonarms_ (~poisonarm@cpe-70-117-67-205.austin.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2014-06-12 18:11:41	<<	FanGrille (~mIRC@24-212-155-43.cable.teksavvy.com) has quit (Read error: Connection reset by peer)
+2014-06-12 18:13:49	 *	Alpha64 hides
+2014-06-12 18:16:23	>>	poisonarms_ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has joined #vidyadev
+2014-06-12 18:16:48	Chuck-Norris	pikatwo_: where did Alpha64 go?
+2014-06-12 18:17:12	pikatwo_	i was considering it, Chuck-Norris
+2014-06-12 18:18:34	Chuck-Norris	considering what pikatwo_?
+2014-06-12 18:18:35	pikatwo_	Chuck-Norris, also there's the thing that our degrees are accepted throughout europe
+2014-06-12 18:24:20	<<	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-06-12 18:50:42	>>	Kingsquee (~kingsley@d154-20-151-30.bchsia.telus.net) has joined #vidyadev
+2014-06-12 19:10:30	@Invy	o.o
+2014-06-12 19:10:53	<<	Alpha64 (~Alpha64@unaffiliated/alpha64) has left #vidyadev ("Leaving")
+2014-06-12 19:22:48	<<	Kingsquee (~kingsley@d154-20-151-30.bchsia.telus.net) has quit (Ping timeout: 272 seconds)
+2014-06-12 19:23:28	>>	Yomic (Yomic@173.217.227.158) has joined #vidyadev
+2014-06-12 19:24:12	Yomic	Anyone know a pair of GBA emulators (one for PC and another for android) that have compatible saves?
+2014-06-12 19:35:46	>>	Kingsquee (~kingsley@d154-20-151-30.bchsia.telus.net) has joined #vidyadev
+2014-06-12 19:39:34	@Invy	http://i.4cdn.org/a/1402583738243.jpg
+2014-06-12 19:39:34	MASTERlinker	[image/jpeg |  128KB]
+2014-06-12 19:39:57	@Invy	having two different emulators with compatible saves seems rather unlikely
+2014-06-12 19:40:30	 - 	Invy is now known as Inverness
+2014-06-12 19:42:54	@sHazam	wow
+2014-06-12 19:43:06	@sHazam	I think I'm convinced that ass is far more important than I ever thought before
+2014-06-12 19:43:18	 - 	sHazam is now known as Haz
+2014-06-12 19:46:56	>>	saus (408640bb@gateway/web/freenode/ip.64.134.64.187) has joined #vidyadev
+2014-06-12 19:47:06	saus	word
+2014-06-12 19:47:14	saus	any opengl bros on?
+2014-06-12 19:49:33	saus	b-bros ;_;
+2014-06-12 19:49:50	@Inverness	I know a tiny bit
+2014-06-12 19:50:13	<<	sedriss (~sedriss@host-95-192-195-181.mobileonline.telia.com) has quit (Ping timeout: 245 seconds)
+2014-06-12 19:52:37	saus	oo
+2014-06-12 19:53:04	saus	I have my depth and stencil packed into a single texture in my fbo with the internalformat 24_8
+2014-06-12 19:53:20	saus	which I think is 24f for depth and unsigned int for stencil
+2014-06-12 19:53:24	>>	oohal (~oohal@ohallo2.lnk.telstra.net) has joined #vidyadev
+2014-06-12 19:53:41	saus	but how do fuck would I access one or the other at the fragment level
+2014-06-12 19:54:04	@Inverness	woosh, right over my head, I've only messed with opengl with the old fixed pipeline
+2014-06-12 19:54:11	@Inverness	not familiar with shaders
+2014-06-12 19:54:35	saus	ohh
+2014-06-12 19:54:44	@Inverness	I assume there is someone to sample only part of the texture data
+2014-06-12 19:54:47	@Inverness	someway*
+2014-06-12 19:55:04	saus	yeah fug
+2014-06-12 19:55:25	saus	I think it packs a depth and stencil in each channel 
+2014-06-12 19:55:37	saus	so accessing the channel is just giving me stencil values
+2014-06-12 19:56:21	<<	argoneus (~argoneus@unaffiliated/argoneus) has quit (Quit: Leaving)
+2014-06-12 20:02:02	<<	q66 (~q66@enlightenment/developer/q66) has quit (Quit: Leaving)
+2014-06-12 20:36:34	>>	keepee (~chatzilla@host86-153-198-93.range86-153.btcentralplus.com) has joined #vidyadev
+2014-06-12 20:54:26	<<	saus (408640bb@gateway/web/freenode/ip.64.134.64.187) has quit (Ping timeout: 246 seconds)
+2014-06-12 20:54:47	>>	ludocode (~quassel@69-196-185-51.dsl.teksavvy.com) has joined #vidyadev
+2014-06-12 20:54:57	<<	BlueProtoman (~smitty@ool-457b5eca.dyn.optonline.net) has quit (Read error: Connection reset by peer)
+2014-06-12 21:01:24	>>	Tawre_ (~Tawre@unaffiliated/tawre) has joined #vidyadev
+2014-06-12 21:02:52	>>	guy1 (~guy1@ip68-99-181-192.oc.oc.cox.net) has joined #vidyadev
+2014-06-12 21:04:20	<<	Tawre (~Tawre@unaffiliated/tawre) has quit (Ping timeout: 240 seconds)
+2014-06-12 21:12:41	>>	Renoki (~Renoki@CPE7cb21bcd54a9-CM7cb21bcd54a6.cpe.net.cable.rogers.com) has joined #vidyadev
+2014-06-12 21:29:42	<<	oriong (~oriong@ppp-94-64-214-68.home.otenet.gr) has left #vidyadev
+2014-06-12 21:48:14	 - 	Tawre_ is now known as Tawre
+2014-06-12 21:50:42	>>	KingsleyT (~kingsley@d154-20-151-30.bchsia.telus.net) has joined #vidyadev
+2014-06-12 22:02:03	<<	Renoki (~Renoki@CPE7cb21bcd54a9-CM7cb21bcd54a6.cpe.net.cable.rogers.com) has quit (Quit: Goodnight!)
+2014-06-12 22:07:13	<<	Udderdude (~Udderdude@CPE602ad0911ca0-CM602ad0911c9d.cpe.net.cable.rogers.com) has quit
+2014-06-12 22:12:32	<<	poisonarms_ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has quit (Read error: Connection reset by peer)
+2014-06-12 22:13:07	>>	poisonarms_ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has joined #vidyadev
+2014-06-12 22:14:30	@Inverness	"CD Projekt was giving away Witcher3 Statues yesterday at E3, turns out they all came with a free copy of Witcher3 as well."
+2014-06-12 22:14:34	@Inverness	ha
+2014-06-12 22:15:46	@[]J	:I
+2014-06-12 22:18:09	Chuck-Norris	what if the witcher was a grill
+2014-06-12 22:29:04	<<	Kingsquee (~kingsley@d154-20-151-30.bchsia.telus.net) has quit (Ping timeout: 240 seconds)
+2014-06-12 22:30:53	>>	pkmnBlue (~MrRed@d66-183-42-172.bchsia.telus.net) has joined #vidyadev
+2014-06-12 22:35:43	Maruinslun	Propane.
+2014-06-12 22:37:12	Chuck-Norris	out the ass
+2014-06-12 22:53:55	<<	pkmnBlue (~MrRed@d66-183-42-172.bchsia.telus.net) has quit (Quit: <BlueSkies> WOOOT WOOOT all aboard the alcoholism treain)
+2014-06-12 23:00:55	>>	ief015_ (~ief015@Powder/Staff/ief015) has joined #vidyadev
+2014-06-12 23:00:55	<<	ief015_ (~ief015@Powder/Staff/ief015) has quit (Client Quit)
+2014-06-12 23:01:19	>>	ief015_ (~ief015@Powder/Staff/ief015) has joined #vidyadev
+2014-06-12 23:02:32	<<	Yomic (Yomic@173.217.227.158) has quit
+2014-06-12 23:02:36	<<	ief015 (~ief015@Powder/Staff/ief015) has quit (Ping timeout: 252 seconds)
+2014-06-12 23:03:27	 - 	irc: disconnected from server
+2014-06-13 11:01:01	>>	rawks (~alex@189.153.160.150) has joined #vidyadev
+2014-06-13 11:01:01	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-13 11:01:01	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014
+2014-06-13 11:01:01	 - 	Nicks #vidyadev: [@[]J @ChanServ @Haz @Inverness @poisonarms \marrub alloyed Aqo argoneus arikel asdfman BlueProtoman chi-chi Chuck-Norris Cruncho\ Enhex eska_ fluffnguff Fuuzetsu ief015 Kaira- keepee malinus Maruinslun MASTERlinker MechaCrash|away Morgawr Mortvert Neetchuh pikatwo_ Pupnik___ rawks sedriss Seisatsu Shpuld Souler- Syzygy__ Tawre TheWorld theWorld__ Udderdude visiON_132 wareya wdnz]
+2014-06-13 11:01:01	 - 	Channel #vidyadev: 44 nicks (5 ops, 0 voices, 39 normals)
+2014-06-13 11:01:03	 - 	Mode #vidyadev [+Cnst]
+2014-06-13 11:01:04	 - 	Channel created on jue, 02 sep 2010
+2014-06-13 11:07:53	>>	FanGrille (~mIRC@24-212-155-43.cable.teksavvy.com) has joined #vidyadev
+2014-06-13 11:10:06	>>	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has joined #vidyadev
+2014-06-13 11:25:17	<<	stepvhen (~stepvhen@c-69-246-204-233.hsd1.in.comcast.net) has quit (Quit: Lost terminal)
+2014-06-13 11:31:58	>>	poisonarms_ (~poisonarm@cpe-70-117-93-248.austin.res.rr.com) has joined #vidyadev
+2014-06-13 11:40:42	 - 	irc: disconnected from server
+2014-06-15 10:36:49	>>	rawks (~alex@189.153.48.67) has joined #vidyadev
+2014-06-15 10:36:49	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-15 10:36:49	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014
+2014-06-15 10:36:49	 - 	Nicks #vidyadev: [@ChanServ @Inverness @poisonarms \marrub alloyed Aqo argoneus arikel asdfman BlueProtoman chi-chi Chuck-Norris Cruncho\ Deet- Eldrich Enhex eska_ factorysettings FanGrille Fuuzetsu Getterac7 guy1 homebrew Kaira- keepee ludocode malinus Maruinslun MASTERlinker MechaCrash Morgawr Mortvert Neetchuh Nodevlurker pikatwo pkmnBlue pprnts Pupnik___ q66 rawks Renoki Seisatsu Shpuld Souler Syzygy_ Tawre TheWorld visiON_132 wareya wdnz Ymr]
+2014-06-15 10:36:49	 - 	Channel #vidyadev: 51 nicks (3 ops, 0 voices, 48 normals)
+2014-06-15 10:36:49	 - 	Notice(hobana.freenode.net) -> #vidyadev: [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2014-06-15 10:36:51	 - 	Mode #vidyadev [+Cnst]
+2014-06-15 10:36:52	 - 	Channel created on jue, 02 sep 2010
+2014-06-15 10:41:27	 - 	irc: disconnected from server
+2014-06-23 16:59:42	>>	rawks (~alex@189.153.49.206) has joined #vidyadev
+2014-06-23 16:59:42	 - 	Topic for #vidyadev is "Any orifice will do! | Rules: NEVER TELL YOUR PARENTS http://pastebin.com/S8iNPxi1 | Read this before asking questions: http://pastebin.com/fUFkbQMT | ##agdg for 24 hour on topic dev | Have an issue? PM an OP with a log! (Plesioth, Inverness, []J, poisonarms, abjorn, Haz, firecrackers)"
+2014-06-23 16:59:42	 - 	Topic set by Haz (~Haz@c-71-205-198-49.hsd1.mi.comcast.net) on sáb, 17 may 2014
+2014-06-23 16:59:42	 - 	Nicks #vidyadev: [@[]J @ChanServ @Inverness @poisonarms @sHazam \marrub alloyed Alpha64 Aqo argoneus arikel_ BlueProtoman chi-chi Chuck-Norris Cruncho\ Custos-Mundi DEElekgolo Enhex eska_ fluffnguff Fuuzetsu Guest1168 Guest54242 ief015_ Kaira- Kebapmanager keepee Kingsquee_ krz_ malinus Maruinslun MASTERlinker Morgawr Nodevlurker nyan_wet pikatwo pprnts Pupnik q66 rawks sedriss Seisatsu Shpuld stepvhen Syzygy_ Tawre wareya]
+2014-06-23 16:59:42	 - 	Channel #vidyadev: 47 nicks (5 ops, 0 voices, 42 normals)
+2014-06-23 16:59:43	 - 	Mode #vidyadev [+Cnst]
+2014-06-23 16:59:43	 - 	Channel created on jue, 02 sep 2010
+2014-06-23 16:59:43	Custos-Mundi	Well, the blinding effect is easy: cognitive dissonance.
+2014-06-23 17:00:07	Kebapmanager	exactly, ( didint knew the english term for it)
+2014-06-23 17:00:16	Custos-Mundi	We all have narratives that are enabled by cog. diss. and we just never think about it enough that it surfaces, so we all live happily in a lie we call memory or sense of self.
+2014-06-23 17:00:19	Kebapmanager	I still find it prrety fascinating
+2014-06-23 17:00:35	Kebapmanager	now you going deep man lol
+2014-06-23 17:00:49	Syzygy_	question, if i have a vec3Pointer += vec3 * float * float, how can I get this to work without changing the memory adress of vec3 pointer?
+2014-06-23 17:01:05	Custos-Mundi	For some people the "lie" just reaches further and encompasses fundamental beliefs brought forth by various factors (education / indoctrination / culture, experience, regret, panic, etc.)
+2014-06-23 17:01:05	Syzygy_	*of the
+2014-06-23 17:01:36	Kebapmanager	yeah
+2014-06-23 17:01:39	Kebapmanager	thats true
+2014-06-23 17:01:39	Custos-Mundi	What's vec3? float[3] ?
+2014-06-23 17:01:55	Syzygy_	vec3 is a glm::vec3
+2014-06-23 17:01:58	Kebapmanager	I think its Vector ( c++ Syzygy_ ?)
+2014-06-23 17:02:03	Kebapmanager	nevermind ..
+2014-06-23 17:02:06	Syzygy_	it's c++
+2014-06-23 17:02:19	Kebapmanager	I know, but I do not know what is glm lol
+2014-06-23 17:02:32	Chuck-Norris	what are you even trying to do?
+2014-06-23 17:02:34	Syzygy_	it's a math library, basically it's an object
+2014-06-23 17:02:47	Custos-Mundi	Syzygy_: your only chance will be to find an overloaded operator.
+2014-06-23 17:02:58	Custos-Mundi	Or a way to access the members.
+2014-06-23 17:03:18	rawks	its an struct with overloaded operators to simulate GLSL vecs
+2014-06-23 17:03:18	Syzygy_	they're overloaded, but not for pointer += nonPointer
+2014-06-23 17:03:21	Kebapmanager	derefferecing would change adress right?
+2014-06-23 17:03:30	Syzygy_	i believe so
+2014-06-23 17:03:44	Syzygy_	I could access the members, that should work iirc
+2014-06-23 17:03:50	Kebapmanager	we can print out memory locations right?
+2014-06-23 17:03:53	Syzygy_	but I would prefer doing it as a single thing
+2014-06-23 17:03:53	Custos-Mundi	Well, that's a solution.
+2014-06-23 17:04:00	Custos-Mundi	Hm.
+2014-06-23 17:04:10	Syzygy_	I can, actually let me try what happens if i mess around
+2014-06-23 17:04:23	Custos-Mundi	If there's no appropriate overloaded operator or specific functions that enable you to do it, I don't see how else you could do it.
+2014-06-23 17:05:43	Kebapmanager	IntelliJ IDE - I write comment // WHAT TO DO NIGGA, he gives me " typo in word NIGGA" ....
+2014-06-23 17:06:01	Chuck-Norris	typical java
+2014-06-23 17:06:06	Kebapmanager	lol
+2014-06-23 17:06:21	Custos-Mundi	Have you tried finding the interface for "NIGGA"?
+2014-06-23 17:06:27	Kebapmanager	let me try
+2014-06-23 17:06:35	Custos-Mundi	I'm pretty sure it's "lower_mammal".
+2014-06-23 17:06:43	Chuck-Norris	XD
+2014-06-23 17:06:45	Kebapmanager	ahhahahaa XD
+2014-06-23 17:07:45	Kebapmanager	wait, there is built in encapsulation in intellJ that I can use lol ?
+2014-06-23 17:07:48	Kebapmanager	seriusly?
+2014-06-23 17:07:59	Kebapmanager	this doesnt even feel like programming anymore, its more like building blocks
+2014-06-23 17:08:15	Kebapmanager	anyway I am off guys
+2014-06-23 17:08:15	Kebapmanager	cya
+2014-06-23 17:08:20	Custos-Mundi	bb
+2014-06-23 17:08:43	<<	Kebapmanager (~Kebapmana@141-136-131-159.dsl.iskon.hr) has quit (Quit: Leaving)
+2014-06-23 17:08:58	Chuck-Norris	>.hr
+2014-06-23 17:09:12	Chuck-Norris	mfw hes from /hr/
+2014-06-23 17:12:00	Custos-Mundi	hr ?
+2014-06-23 17:12:07	Custos-Mundi	Oh, domain.
+2014-06-23 17:12:20	Custos-Mundi	What about it?
+2014-06-23 17:15:10	>>	hekaronkiros (~hekaronki@74.Red-88-11-148.dynamicIP.rima-tde.net) has joined #vidyadev
+2014-06-23 17:15:45	Chuck-Norris	you wouldnt masturbate in a car
+2014-06-23 17:17:21	hekaronkiros	guys, what would be the easiest way to do a filling text in style of the old school rpgs?
+2014-06-23 17:17:55	Custos-Mundi	Chuck-Norris: elaborate?
+2014-06-23 17:18:07	Chuck-Norris	Custos-Mundi: ;)
+2014-06-23 17:18:24	>>	factorysettings (~factoryse@ip98-180-26-190.ga.at.cox.net) has joined #vidyadev
+2014-06-23 17:18:26	Custos-Mundi	hekaronkiros: on a terminal? in OGL? In some other context?
+2014-06-23 17:18:36	Custos-Mundi	Chuck-Norris: *whoooosh*
+2014-06-23 17:18:38	hekaronkiros	I'm happy with filling a swting slowly
+2014-06-23 17:18:42	hekaronkiros	string
+2014-06-23 17:18:46	hekaronkiros	though now that I think about it
+2014-06-23 17:18:49	hekaronkiros	that's just it.
+2014-06-23 17:19:21	Chuck-Norris	youve finally found it
+2014-06-23 17:19:28	Chuck-Norris	the true meaning of string
+2014-06-23 17:20:17	Custos-Mundi	So you pretty much want somestring[0:t] where t=amount of timesteps gone by?
+2014-06-23 17:20:48	hekaronkiros	yeah
+2014-06-23 17:20:55	hekaronkiros	I also want to play a sound with each letter
+2014-06-23 17:20:56	Syzygy_	any idea how i can get the camera position from the view projection matrix?
+2014-06-23 17:20:57	Custos-Mundi	Seems a bit ineffective, but I guess your strings are short enough so it won't matter.
+2014-06-23 17:21:12	hekaronkiros	are small one or two lines phrases
+2014-06-23 17:21:42	Custos-Mundi	Syzygy_: has been quite a while since I've done 3d computer graphics. But I assume you work w/ 4x4 matrices all the time?
+2014-06-23 17:21:54	Syzygy_	yeah
+2014-06-23 17:21:54	Custos-Mundi	Where you have a token m(4;4) component?
+2014-06-23 17:22:00	Custos-Mundi	Hm...
+2014-06-23 17:22:42	Syzygy_	not sure about the syntax, but yes m[3][3]
+2014-06-23 17:22:55	Custos-Mundi	Ah sry, used mathematical notation w/ indexing beginning at 1
+2014-06-23 17:22:56	Syzygy_	m[0][0] to m[3][3]
+2014-06-23 17:23:33	Custos-Mundi	Hm, I just wanted to suggest "Hey, why not just right-multiply w/ a translation matrix".
+2014-06-23 17:23:37	Custos-Mundi	But I'm pretty sure I'm wrong.
+2014-06-23 17:23:41	Custos-Mundi	Damn, so long...
+2014-06-23 17:23:42	Syzygy_	so am i.
+2014-06-23 17:24:32	Syzygy_	with a regular view matrix I believe you can get the camera position from inverting the matrix and accessing [3][0], [3][1], and [3][2]
+2014-06-23 17:24:53	Syzygy_	but I'm unsure about what happens if i do that with a view projection matrix
+2014-06-23 17:26:14	Custos-Mundi	Well, unfortunately I won't be of much help in that regard. But ty for reminding me to brush up on it :)
+2014-06-23 17:26:42	Syzygy_	uuuhm... glad i could help i guess
+2014-06-23 17:26:56	Custos-Mundi	:))
+2014-06-23 17:34:04	hekaronkiros	I need placeholder screens for game over and win scenarios
+2014-06-23 17:34:13	hekaronkiros	does anybody know where I can get some cool ones?
+2014-06-23 17:42:37	Alpha64	ms paint
+2014-06-23 17:43:57	hekaronkiros	I want something that looks cool and doesn't take more than 1 minutes to make
+2014-06-23 17:57:51	<<	pprnts (~mic@5468848A.cm-12-1c.dynamic.ziggo.nl) has quit (Quit: Leaving)
+2014-06-23 17:59:39	Chuck-Norris	paint
+2014-06-23 17:59:43	Chuck-Norris	and hten spend 2 minutes on it
+2014-06-23 18:09:04	<<	sedriss (~sedriss@host-90-232-91-214.mobileonline.telia.com) has quit (Ping timeout: 240 seconds)
+2014-06-23 18:26:31	Pupnik	http://www.zeonsolutions.com/blog/wp-content/uploads/2014/03/game_over.jpg over 9000 hours in google
+2014-06-23 18:26:31	MASTERlinker	[image/jpeg |  21KB]
+2014-06-23 18:36:37	Chuck-Norris	could do that in 1 min in paint
+2014-06-23 19:05:00	<<	q66 (~quaker66@enlightenment/developer/q66) has quit (Ping timeout: 252 seconds)
+2014-06-23 19:10:25	>>	q66 (~quaker66@enlightenment/developer/q66) has joined #vidyadev
+2014-06-23 19:17:07	<<	chi-chi (~noura@86.99.70.196) has quit (Ping timeout: 240 seconds)
+2014-06-23 19:31:50	Alpha64	nyan_wet http://i.imgur.com/Q6Vr1Fh.jpg
+2014-06-23 19:31:52	MASTERlinker	[imgur: the simple image sharer | image/jpeg |  80KB]
+2014-06-23 19:32:05	Syzygy_	looks like poop
+2014-06-23 19:32:26	nyan_wet	holy fuck Alpha64 
+2014-06-23 19:32:30	nyan_wet	that's amazing :D
+2014-06-23 19:32:34	Alpha64	:>
+2014-06-23 19:38:22	>>	chichi (~noura@bba514236.alshamil.net.ae) has joined #vidyadev
+2014-06-23 19:44:15	>>	chi-chi (~noura@bba514236.alshamil.net.ae) has joined #vidyadev
+2014-06-23 19:44:33	@Inverness	makes me think of Vice City
+2014-06-23 19:47:07	<<	chichi (~noura@bba514236.alshamil.net.ae) has quit (Ping timeout: 240 seconds)
+2014-06-23 19:48:33	<<	factorysettings (~factoryse@ip98-180-26-190.ga.at.cox.net) has quit (Quit: factorysettings)
+2014-06-23 19:48:53	Alpha64	that's somehow the goal
+2014-06-23 19:49:48	>>	davexunit (~user@fsf/member/davexunit) has joined #vidyadev
+2014-06-23 19:56:07	>>	factorysettings (~factoryse@ip98-180-26-190.ga.at.cox.net) has joined #vidyadev
+2014-06-23 19:59:25	<<	q66 (~quaker66@enlightenment/developer/q66) has quit (Quit: Leaving)
+2014-06-23 20:07:19	 - 	irc: disconnected from server

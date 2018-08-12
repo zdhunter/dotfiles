@@ -1,0 +1,975 @@
+2015-11-01 03:12:32	>	rawks (~alex@189.153.75.225) has joined #dwarffortress
+2015-11-01 03:12:32	⇄	Topic for #dwarffortress is "This is a dwarven skull channel topic. On it are finely carven runes spelling "Dwarf Fortress General Chat - http://www.bay12games.com/dwarves/". On it are exquisite inscribed runes spelling "Check the wiki: http://dwarffortresswiki.org/". It menaces with spikes of dwarven bone. *Note: We are often playing with our fortresses, so please be patient after asking a question. :)"
+2015-11-01 03:12:32	⇄	Topic set by brocifer on lun, 02 abr 2012 17:38:33
+2015-11-01 03:12:32	⇄	Channel #dwarffortress: 151 nicks (2 ops, 0 voices, 149 normals)
+2015-11-01 03:12:34	⇄	Channel created on mié, 21 jul 2010 14:45:39
+2015-11-01 03:12:54	rawks	sup
+2015-11-01 04:00:33	<	lambwich (~avis@bas2-toronto08-2925232030.dsl.bell.ca) has quit (Ping timeout: 256 seconds)
+2015-11-01 04:01:07	>	Tohuwabohu (~LoyID@p5B384CE3.dip0.t-ipconnect.de) has joined #dwarffortress
+2015-11-01 04:03:30	>	Skid (~Skid@S01067cbfb1eebd02.ca.shawcable.net) has joined #dwarffortress
+2015-11-01 04:17:10	<	xrm (~asd@x50abb8bd.dyn.telefonica.de) has quit (Ping timeout: 265 seconds)
+2015-11-01 04:22:58	<	RavingManiac (~RavingMan@203.132.77.37) has quit (Ping timeout: 265 seconds)
+2015-11-01 04:29:59	<	txtsd (~txtsd@103.39.31.247) has quit (Quit: WeeChat 1.3)
+2015-11-01 04:33:07	<	Lokathor (~Lokathor^@75.174.92.155) has quit (Ping timeout: 250 seconds)
+2015-11-01 04:33:41	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-01 04:42:21	>	Ikoru (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has joined #dwarffortress
+2015-11-01 04:45:23	>	LASER_WOLF (~LASER_WOL@89.9.174.252) has joined #dwarffortress
+2015-11-01 05:02:39	<	txtsd (~txtsd@103.39.31.247) has quit (Ping timeout: 240 seconds)
+2015-11-01 05:04:28	<	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has quit (Ping timeout: 272 seconds)
+2015-11-01 05:07:22	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-01 05:11:16	>	jaboja (~jaboja@erq224.neoplus.adsl.tpnet.pl) has joined #dwarffortress
+2015-11-01 05:14:35	>	lubos_ (~lubos@ip-37-221-254-246.cust.tlapnet.cz) has joined #dwarffortress
+2015-11-01 05:18:09	<	txtsd (~txtsd@103.39.31.247) has quit (Quit: WeeChat 1.3)
+2015-11-01 05:25:46	>	Thihi (~tapio@89-27-44-232.bb.dnainternet.fi) has joined #dwarffortress
+2015-11-01 05:26:01	Thihi	\o/ skeletal 64bit df program \o/
+2015-11-01 05:26:39	Thayli	a bit old news by now
+2015-11-01 05:26:43	Thihi	I just noticed.
+2015-11-01 05:26:59	Thayli	probably won't see a proper 64bit version for quite some time
+2015-11-01 05:27:00	Thihi	Haven't been playing since last fall after my clear glass above ground fortress finished.
+2015-11-01 05:27:03	Thihi	Sure,
+2015-11-01 05:27:09	Thihi	But it's great that he is working on that.
+2015-11-01 05:27:17	Thayli	I agree
+2015-11-01 05:28:02	<	Tohuwabohu (~LoyID@p5B384CE3.dip0.t-ipconnect.de) has quit (Ping timeout: 250 seconds)
+2015-11-01 05:28:25	Thihi	I almost started to talk to you about Watership Down and then I realized Bigwigs real name was Thlayli and not Thayli.
+2015-11-01 05:28:38	Thayli	I get that a lot :P
+2015-11-01 05:28:52	Thayli	I should re-read that book
+2015-11-01 05:29:09	Thihi	Me too.
+2015-11-01 05:29:13	>	Ququman (~quassel@mne69-5-82-230-76-144.fbx.proxad.net) has joined #dwarffortress
+2015-11-01 05:41:53	Thihi	Oh wow, spythie is gone? :3
+2015-11-01 05:42:00	Thihi	Happy days.
+2015-11-01 05:42:47	>	smoke_fumus (~smoke_fum@188.35.176.90) has joined #dwarffortress
+2015-11-01 05:49:51	>	Kulgur (~lemming@host86-163-251-18.range86-163.btcentralplus.com) has joined #dwarffortress
+2015-11-01 05:57:46	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-01 06:04:14	⇄	Worm|Off is now known as Cyberworm
+2015-11-01 06:05:12	>	DepressedRacoon (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has joined #dwarffortress
+2015-11-01 06:19:00	<	txtsd (~txtsd@103.39.31.247) has quit (Read error: Connection reset by peer)
+2015-11-01 06:26:14	>	ORCACommander (~ORCAComma@c-98-217-138-1.hsd1.nh.comcast.net) has joined #dwarffortress
+2015-11-01 06:58:36	<	jaboja (~jaboja@erq224.neoplus.adsl.tpnet.pl) has quit (Remote host closed the connection)
+2015-11-01 07:04:36	⇄	ORCACommander is now known as ORCA|Away
+2015-11-01 07:11:17	>	Scourje (uid63311@gateway/web/irccloud.com/x-kayitxbauoxkqgsi) has joined #dwarffortress
+2015-11-01 07:12:06	<	Scourje (uid63311@gateway/web/irccloud.com/x-kayitxbauoxkqgsi) has quit (Changing host)
+2015-11-01 07:12:06	>	Scourje (uid63311@unaffiliated/scourje) has joined #dwarffortress
+2015-11-01 07:12:06	<	Scourje (uid63311@unaffiliated/scourje) has quit (Changing host)
+2015-11-01 07:12:06	>	Scourje (uid63311@gateway/web/irccloud.com/x-kayitxbauoxkqgsi) has joined #dwarffortress
+2015-11-01 07:12:09	<	MrElendig (~oh@archlinux/op/pdpc.supporter.active.mrelendig) has quit (Quit: WeeChat 1.4-dev)
+2015-11-01 07:13:03	>	Lawman0 (~Lawman@c-73-198-40-207.hsd1.nj.comcast.net) has joined #dwarffortress
+2015-11-01 07:14:43	sandbox	"we're cutting all the corners for the release now"
+2015-11-01 07:43:57	>	BoosterGold (~BG@cpe-74-74-238-76.rochester.res.rr.com) has joined #dwarffortress
+2015-11-01 08:09:24	>	EvaShark (~bubbles@cpc76564-dals22-2-0-cust612.20-2.cable.virginm.net) has joined #dwarffortress
+2015-11-01 08:12:03	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-01 08:21:04	<	qrg (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit
+2015-11-01 08:21:44	>	qrg (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has joined #dwarffortress
+2015-11-01 08:22:19	qrg	なんか、2000*1400px くらいの画像データをテキストに変換したやつをそのまま貼り付けてしまった
+2015-11-01 08:22:28	qrg	Google 検索のサムネイル画像がそういう形式で
+2015-11-01 08:22:43	qrg	URL を貼りたかった
+2015-11-01 08:23:16	qrg	sorry its mistake
+2015-11-01 08:25:11	>	Levitator (~j@50.123.185.183) has joined #dwarffortress
+2015-11-01 08:27:24	>	onget_ (~onget@softbank220035014133.bbtec.net) has joined #dwarffortress
+2015-11-01 08:28:02	<	txtsd (~txtsd@103.39.31.247) has quit (Read error: Connection reset by peer)
+2015-11-01 08:28:47	>	DepRac (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has joined #dwarffortress
+2015-11-01 08:32:15	>	Erlin (~Erlin@FLH1Acb190.kyt.mesh.ad.jp) has joined #dwarffortress
+2015-11-01 08:32:52	<	DepressedRacoon (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has quit (Ping timeout: 268 seconds)
+2015-11-01 08:34:39	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-01 08:35:30	<	Nitrodev (~Nitrodev@dcx8fryy55462mf7wm54y-3.rev.dnainternet.fi) has quit (Read error: Connection reset by peer)
+2015-11-01 08:35:55	>	damdam_ (dcd7eb62@gateway/web/freenode/ip.220.215.235.98) has joined #dwarffortress
+2015-11-01 08:39:04	>	Adrian219 (~Thunderbi@5ED6CE86.cm-7-7d.dynamic.ziggo.nl) has joined #dwarffortress
+2015-11-01 08:40:45	>	ander_ (~ander@c-73-18-88-78.hsd1.mi.comcast.net) has joined #dwarffortress
+2015-11-01 08:41:50	<	txtsd (~txtsd@103.39.31.247) has quit (Ping timeout: 240 seconds)
+2015-11-01 08:44:54	>	nuget102 (~nuget102@cpe-75-176-99-230.carolina.res.rr.com) has joined #dwarffortress
+2015-11-01 08:45:20	nuget102	Ello
+2015-11-01 08:46:11	>	Anarchid (~anarchid@82.131.109.113.cable.starman.ee) has joined #dwarffortress
+2015-11-01 08:47:44	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-01 08:47:50	ander_	'alo
+2015-11-01 08:54:15	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 09:04:44	>	Nitrodev (~Nitrodev@dcx8fryy55462mf7wm54y-3.rev.dnainternet.fi) has joined #dwarffortress
+2015-11-01 09:07:38	<	Wonkyth_ (~quassel@d110-33-209-103.mas801.nsw.optusnet.com.au) has quit (Ping timeout: 260 seconds)
+2015-11-01 09:09:35	ander_	Anybody know what to do about PyLNP (Linux) displaying all dwarves as corpses and not using proper graphics for animals?
+2015-11-01 09:11:44	>	Iriel (~Iriel@173-8-135-209-SFBA.hfc.comcastbusiness.net) has joined #dwarffortress
+2015-11-01 09:13:43	>	instago (~instago4@153.90.88.15) has joined #dwarffortress
+2015-11-01 09:15:44	>	PingRac (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has joined #dwarffortress
+2015-11-01 09:18:34	>	Anon (~drunkard@186.18.1.50) has joined #dwarffortress
+2015-11-01 09:18:47	<	DepRac (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2015-11-01 09:18:49	⇄	Anon is now known as Guest775
+2015-11-01 09:21:38	ander_	Nevermind. Works out of the box. I must have mucked something up somehow.
+2015-11-01 09:31:22	>	MgDark (~MgDark@186.14.107.183) has joined #dwarffortress
+2015-11-01 09:32:42	>	DepRac (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has joined #dwarffortress
+2015-11-01 09:35:46	<	PingRac (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has quit (Ping timeout: 268 seconds)
+2015-11-01 09:35:59	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 09:37:10	<	Lawman0 (~Lawman@c-73-198-40-207.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-11-01 09:46:18	<	warmist_ (~warmist@78-58-132-129.static.zebra.lt) has quit (Ping timeout: 272 seconds)
+2015-11-01 09:46:32	<	damdam_ (dcd7eb62@gateway/web/freenode/ip.220.215.235.98) has quit (Quit: Page closed)
+2015-11-01 09:47:56	<	ander_ (~ander@c-73-18-88-78.hsd1.mi.comcast.net) has quit (Quit: Leaving)
+2015-11-01 09:48:12	>	MgDark_ (~MgDark@190.198.102.201) has joined #dwarffortress
+2015-11-01 09:50:40	<	MgDark (~MgDark@186.14.107.183) has quit (Ping timeout: 265 seconds)
+2015-11-01 09:50:47	⇄	MgDark_ is now known as MgDark
+2015-11-01 09:52:15	<	DepRac (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has quit (Quit: Leaving)
+2015-11-01 09:53:07	 *	Thihi does the no-spythie dance
+2015-11-01 09:58:44	<	Guest775 (~drunkard@186.18.1.50) has quit (Quit: Leaving)
+2015-11-01 10:09:49	>	Lawman0 (~Lawman@c-73-198-40-207.hsd1.nj.comcast.net) has joined #dwarffortress
+2015-11-01 10:11:22	<	Kulgur (~lemming@host86-163-251-18.range86-163.btcentralplus.com) has quit (Quit: Leaving)
+2015-11-01 10:12:25	>	Kulgur (~Someguy@host86-163-251-18.range86-163.btcentralplus.com) has joined #dwarffortress
+2015-11-01 10:20:25	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Remote host closed the connection)
+2015-11-01 10:24:33	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 10:26:17	<	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Ping timeout: 250 seconds)
+2015-11-01 10:38:29	>	Thutmose (~elpat@cpe-245-52-66-208.caribcable.com) has joined #dwarffortress
+2015-11-01 10:54:03	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2015-11-01 11:02:06	<	jawbo (~jared@192.241.173.213) has quit (Ping timeout: 240 seconds)
+2015-11-01 11:02:26	<	SirFinkus (~textual@c-73-140-116-124.hsd1.wa.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-11-01 11:02:30	>	jawbo (~jared@192.241.173.213) has joined #dwarffortress
+2015-11-01 11:06:26	<	Erlin (~Erlin@FLH1Acb190.kyt.mesh.ad.jp) has left #dwarffortress ("Leaving...")
+2015-11-01 11:13:16	<	Iriel (~Iriel@173-8-135-209-SFBA.hfc.comcastbusiness.net) has quit (Quit: Iriel)
+2015-11-01 11:14:27	<	Japa (~Japa@123.63.216.13) has quit (Quit: Leaving)
+2015-11-01 11:14:33	>	lambwich (~avis@199.119.233.148) has joined #dwarffortress
+2015-11-01 11:21:10	>	Velocifaptor (~Velocifap@c-73-35-243-87.hsd1.wa.comcast.net) has joined #dwarffortress
+2015-11-01 11:21:11	Velocifaptor	http://www.saltybet.com/
+2015-11-01 11:21:17	<	Velocifaptor (~Velocifap@c-73-35-243-87.hsd1.wa.comcast.net) has quit (Client Quit)
+2015-11-01 11:24:20	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 11:26:01	>	Lokathor (~Lokathor^@75.174.92.155) has joined #dwarffortress
+2015-11-01 11:28:09	<	jawbo (~jared@192.241.173.213) has quit (Ping timeout: 255 seconds)
+2015-11-01 11:33:05	>	zlug (~^_-@unaffiliated/icetooth) has joined #dwarffortress
+2015-11-01 11:35:02	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 11:42:19	<	Adrian219 (~Thunderbi@5ED6CE86.cm-7-7d.dynamic.ziggo.nl) has quit (Ping timeout: 244 seconds)
+2015-11-01 11:45:03	>	lemon_snowCone (~lemonyarc@103.21.234.178) has joined #dwarffortress
+2015-11-01 11:46:59	<	lambwich (~avis@199.119.233.148) has quit (Ping timeout: 264 seconds)
+2015-11-01 11:48:50	>	lambwich (~avis@bas2-toronto08-1096792169.dsl.bell.ca) has joined #dwarffortress
+2015-11-01 11:54:41	>	jawbo (~jared@192.241.173.213) has joined #dwarffortress
+2015-11-01 11:56:22	<	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Ping timeout: 268 seconds)
+2015-11-01 11:57:20	>	Havohey (~Havohey@host-89-242-24-40.as13285.net) has joined #dwarffortress
+2015-11-01 12:06:51	>	lemon_snowCone (~lemonyarc@103.21.234.178) has joined #dwarffortress
+2015-11-01 12:14:13	>	Iriel (~Iriel@173-8-135-209-SFBA.hfc.comcastbusiness.net) has joined #dwarffortress
+2015-11-01 12:15:39	>	DepressedRacoon (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has joined #dwarffortress
+2015-11-01 12:22:30	<	Muta (~Muta@caladan.boot.sh) has quit (Ping timeout: 240 seconds)
+2015-11-01 12:28:00	>	Adrian219 (~Thunderbi@5ED6CE86.cm-7-7d.dynamic.ziggo.nl) has joined #dwarffortress
+2015-11-01 12:33:31	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Remote host closed the connection)
+2015-11-01 12:46:19	<	Adrian219 (~Thunderbi@5ED6CE86.cm-7-7d.dynamic.ziggo.nl) has quit (Remote host closed the connection)
+2015-11-01 13:00:01	>	kyshtynbai (~ivan@2a04:b540:1000:1::6) has joined #dwarffortress
+2015-11-01 13:01:06	>	phoochka (~phoochka@cpe-69-204-170-235.nycap.res.rr.com) has joined #dwarffortress
+2015-11-01 13:03:40	>	Grognor (uid58722@gateway/web/irccloud.com/x-tcvcfbqfvjecgsfo) has joined #dwarffortress
+2015-11-01 13:06:15	>	DepRac (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has joined #dwarffortress
+2015-11-01 13:09:00	>	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has joined #dwarffortress
+2015-11-01 13:09:50	<	DepressedRacoon (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2015-11-01 13:11:31	<	Nitrodev (~Nitrodev@dcx8fryy55462mf7wm54y-3.rev.dnainternet.fi) has quit (Read error: Connection reset by peer)
+2015-11-01 13:11:37	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 13:13:27	<	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2015-11-01 13:21:09	<	phoochka (~phoochka@cpe-69-204-170-235.nycap.res.rr.com) has quit (Quit: leaving)
+2015-11-01 13:21:24	<	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Ping timeout: 265 seconds)
+2015-11-01 13:22:35	>	Callidus (~Callidus2@cpe-65-185-115-236.cinci.res.rr.com) has joined #dwarffortress
+2015-11-01 13:27:46	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 13:27:58	>	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has joined #dwarffortress
+2015-11-01 13:30:41	>	Muta (Muta@2600:3c02::f03c:91ff:fe93:e02d) has joined #dwarffortress
+2015-11-01 13:34:03	>	lapinozz (~lapinozz@modemcable105.97-160-184.mc.videotron.ca) has joined #dwarffortress
+2015-11-01 13:34:21	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 13:39:39	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 240 seconds)
+2015-11-01 13:42:48	>	PirateRogue (~timothy@108-193-49-79.lightspeed.chrlnc.sbcglobal.net) has joined #dwarffortress
+2015-11-01 13:44:05	<	PirateRogue (~timothy@108-193-49-79.lightspeed.chrlnc.sbcglobal.net) has left #dwarffortress
+2015-11-01 13:53:18	>	oldtopman (~oldtopman@unaffiliated/oldtopman) has joined #dwarffortress
+2015-11-01 13:56:24	>	lambwich_ (~avis@bas2-toronto08-1096792169.dsl.bell.ca) has joined #dwarffortress
+2015-11-01 13:58:17	>	SirFinkus (~textual@c-73-140-116-124.hsd1.wa.comcast.net) has joined #dwarffortress
+2015-11-01 14:00:06	<	lambwich (~avis@bas2-toronto08-1096792169.dsl.bell.ca) has quit (Ping timeout: 240 seconds)
+2015-11-01 14:32:10	<	Lawman0 (~Lawman@c-73-198-40-207.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-11-01 14:36:28	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 14:41:07	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 246 seconds)
+2015-11-01 14:43:57	>	Keyboard1ire (~llama@98.196.38.177) has joined #dwarffortress
+2015-11-01 14:45:35	Keyboard1ire	hey #dwarffortress
+2015-11-01 14:45:46	Keyboard1ire	I was recently invaded by a weretapir, and did not realize my cage traps would be useless against it
+2015-11-01 14:46:00	Keyboard1ire	so I was forced to send my completely unarmed and unprotected military against it, and they somehow defeated it
+2015-11-01 14:46:11	Keyboard1ire	in the confusion, one member of my military appears to have trapped himself in a cage
+2015-11-01 14:46:23	Keyboard1ire	does this mean he's infected? if so, do I just... leave him there?
+2015-11-01 14:46:55	Keyboard1ire	also, the weretapir's weapon of choice was a pig tail fiber sock, which I find to be hilarious
+2015-11-01 14:47:10	⇄	Keyboard1ire is now known as KeyboardFire
+2015-11-01 14:47:40	⇄	KeyboardFire is now known as Guest30851
+2015-11-01 14:49:20	Skid	No. It means he was knocked down/stunned while on a trap tile.
+2015-11-01 14:50:14	ruan	best to check the combat logs
+2015-11-01 14:50:21	ruan	if he got bitten, leave him there
+2015-11-01 14:52:08	⇄	Guest30851 is now known as Keyboard1ire
+2015-11-01 14:52:31	Keyboard1ire	ah, I see. nope, nothing about him getting bitten
+2015-11-01 14:52:36	Keyboard1ire	so I can safely release him from the cage?
+2015-11-01 14:54:16	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 14:58:59	 *	CuriousShadow listens for the screams.
+2015-11-01 15:06:40	<	Grognor (uid58722@gateway/web/irccloud.com/x-tcvcfbqfvjecgsfo) has quit (Quit: Connection closed for inactivity)
+2015-11-01 15:06:49	Keyboard1ire	welp, his arm is in pain and his hand and leg are broken, but he appears to still be alive
+2015-11-01 15:08:17	 *	CuriousShadow hides a collection of useless artifacts in a closet.
+2015-11-01 15:09:17	<	Iriel (~Iriel@173-8-135-209-SFBA.hfc.comcastbusiness.net) has quit (Quit: Iriel)
+2015-11-01 15:09:17	⇄	Keyboard1ire is now known as KeyboardFire
+2015-11-01 15:11:24	>	TheBloke (~TheBloke@host86-173-118-72.range86-173.btcentralplus.com) has joined #dwarffortress
+2015-11-01 15:16:08	>	Tohuwabohu (~LoyID@p5B384CE3.dip0.t-ipconnect.de) has joined #dwarffortress
+2015-11-01 15:16:15	Taneb	Do Tapirs even have teeth
+2015-11-01 15:16:46	Taneb	Hmm, apparently so
+2015-11-01 15:26:35	<	lapinozz (~lapinozz@modemcable105.97-160-184.mc.videotron.ca) has quit (Ping timeout: 250 seconds)
+2015-11-01 15:37:13	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 15:41:45	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 250 seconds)
+2015-11-01 15:43:47	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 15:47:06	<	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2015-11-01 15:47:09	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 15:50:16	>	lapinozz (~lapinozz@69.9.82.72) has joined #dwarffortress
+2015-11-01 15:53:15	⇄	Cyberworm is now known as Worm|Off
+2015-11-01 15:53:55	⇄	Worm|Off is now known as Cyberworm
+2015-11-01 15:55:29	⇄	Cyberworm is now known as Worm|Off
+2015-11-01 15:56:39	⇄	Worm|Off is now known as Cyberworm
+2015-11-01 15:57:52	<	DepRac (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has quit (Quit: Leaving)
+2015-11-01 15:57:59	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 16:00:40	⇄	Cyberworm is now known as Worm|Off
+2015-11-01 16:00:43	>	Skid2 (~Skid@50.69.2.208) has joined #dwarffortress
+2015-11-01 16:01:37	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Remote host closed the connection)
+2015-11-01 16:02:37	⇄	Worm|Off is now known as Cyberworm
+2015-11-01 16:02:50	<	Skid (~Skid@S01067cbfb1eebd02.ca.shawcable.net) has quit (Ping timeout: 265 seconds)
+2015-11-01 16:03:51	>	Skid (~Skid@S01067cbfb1eebd02.ca.shawcable.net) has joined #dwarffortress
+2015-11-01 16:05:44	<	Skid2 (~Skid@50.69.2.208) has quit (Ping timeout: 265 seconds)
+2015-11-01 16:06:25	>	Atarlost (~quassel@71-210-20-40.eugn.qwest.net) has joined #dwarffortress
+2015-11-01 16:10:43	>	xrm (~asd@x50abb8bd.dyn.telefonica.de) has joined #dwarffortress
+2015-11-01 16:10:45	<	lambwich_ (~avis@bas2-toronto08-1096792169.dsl.bell.ca) has quit (Ping timeout: 255 seconds)
+2015-11-01 16:13:02	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 16:13:16	<	Tohuwabohu (~LoyID@p5B384CE3.dip0.t-ipconnect.de) has quit (Ping timeout: 272 seconds)
+2015-11-01 16:15:45	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 16:25:10	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 16:27:44	rawks	guys its been years since I played, were can I refresh my memory?
+2015-11-01 16:27:49	rawks	any updated guides?
+2015-11-01 16:29:24	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 16:31:34	Skid	The wiki has guides that are up to date.
+2015-11-01 16:34:20	onget_	Neighbors is a limited range as tower.
+2015-11-01 16:38:53	<	TheBloke (~TheBloke@host86-173-118-72.range86-173.btcentralplus.com) has quit
+2015-11-01 16:39:19	<	lapinozz (~lapinozz@69.9.82.72) has quit (Ping timeout: 240 seconds)
+2015-11-01 16:41:55	MgDark	??boggart
+2015-11-01 16:44:04	 *	Skid points MgDark to ##crawl.
+2015-11-01 16:45:07	HellTiger_NB	??rat
+2015-11-01 16:52:16	>	pineapple (~pineapple@matrix.theblob.org) has joined #dwarffortress
+2015-11-01 16:53:15	pineapple	is there any reason why a finished goods bin won't appear in the move goods to depot screen?
+2015-11-01 16:57:16	<	oldtopman (~oldtopman@unaffiliated/oldtopman) has quit (Remote host closed the connection)
+2015-11-01 16:57:37	sandbox	monthly report http://www.bay12forums.com/smf/index.php?topic=153856.msg6585412#msg6585412
+2015-11-01 17:00:47	>	lapinozz (~lapinozz@69.9.82.72) has joined #dwarffortress
+2015-11-01 17:07:02	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 17:09:38	>	Ikoru2 (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has joined #dwarffortress
+2015-11-01 17:14:57	>	serq (~serq@unaffiliated/serq) has joined #dwarffortress
+2015-11-01 17:15:49	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Remote host closed the connection)
+2015-11-01 17:15:53	<	Seylerius (~seylerius@104.152.206.27) has quit (Remote host closed the connection)
+2015-11-01 17:18:10	<	Havohey (~Havohey@host-89-242-24-40.as13285.net) has quit (Quit: Havohey)
+2015-11-01 17:20:31	<	sandbox (~sandbox@host-89-241-228-148.as13285.net) has quit (Quit: Leaving)
+2015-11-01 17:23:39	>	Wonkyth (~quassel@d220-237-34-120.mas801.nsw.optusnet.com.au) has joined #dwarffortress
+2015-11-01 17:23:47	>	Seylerius (~seylerius@104.152.206.27) has joined #dwarffortress
+2015-11-01 17:26:23	nuget102	I'm debating on what to play... :c How to Survive 2, KSP, or DF.
+2015-11-01 17:27:29	nuget102	null
+2015-11-01 17:28:59	<	zlug (~^_-@unaffiliated/icetooth) has quit (Ping timeout: 240 seconds)
+2015-11-01 17:32:43	<	LASER_WOLF (~LASER_WOL@89.9.174.252) has quit (Read error: Connection reset by peer)
+2015-11-01 17:34:35	⇄	Cyberworm is now known as Worm|Off
+2015-11-01 17:35:28	>	sacje (~sacje@unaffiliated/klet) has joined #dwarffortress
+2015-11-01 17:43:43	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 17:53:49	<	Anarchid (~anarchid@82.131.109.113.cable.starman.ee) has quit (Remote host closed the connection)
+2015-11-01 17:54:15	>	lambwich (~avis@bas2-toronto08-1096792169.dsl.bell.ca) has joined #dwarffortress
+2015-11-01 17:59:11	KeyboardFire	could someone make the RNG stop hating me and give me iron please >.<
+2015-11-01 18:08:27	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 18:10:50	>	zlug (~^_-@unaffiliated/icetooth) has joined #dwarffortress
+2015-11-01 18:16:33	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 18:28:35	<	Ikoru (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has quit (Ping timeout: 250 seconds)
+2015-11-01 18:30:56	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Remote host closed the connection)
+2015-11-01 18:32:29	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 18:35:59	nuget102	KeyboardFire, goblinite!
+2015-11-01 18:36:14	nuget102	All you need is one piece, if you're willing to kind of hacky some.
+2015-11-01 18:37:30	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 265 seconds)
+2015-11-01 18:40:49	<	sacje (~sacje@unaffiliated/klet) has quit (Ping timeout: 244 seconds)
+2015-11-01 18:41:19	>	Lawman0 (~Lawman@c-73-198-40-207.hsd1.nj.comcast.net) has joined #dwarffortress
+2015-11-01 18:43:03	>	TheBloke (~TheBloke@host86-173-118-72.range86-173.btcentralplus.com) has joined #dwarffortress
+2015-11-01 18:49:09	KeyboardFire	nuget102: kind of hacky some...?
+2015-11-01 18:49:36	KeyboardFire	and how does one obtain goblinite without goblins
+2015-11-01 18:52:42	nuget102	KeyboardFire, some items when smelted provide you more metal than they use.
+2015-11-01 18:52:49	nuget102	You can also trade for iron.
+2015-11-01 18:52:54	nuget102	Humans? Dwarfs?
+2015-11-01 18:53:01	nuget102	Modded elves?
+2015-11-01 18:53:42	<	lubos_ (~lubos@ip-37-221-254-246.cust.tlapnet.cz) has quit (Quit: Leaving)
+2015-11-01 18:53:52	>	lubos_ (~lubos@ip-37-221-254-246.cust.tlapnet.cz) has joined #dwarffortress
+2015-11-01 18:54:56	<	lubos_ (~lubos@ip-37-221-254-246.cust.tlapnet.cz) has quit (Remote host closed the connection)
+2015-11-01 18:57:56	>	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has joined #dwarffortress
+2015-11-01 18:59:10	HellTiger_NB	http://img-9gag-fun.9cache.com/photo/a1Y8omv_460s_v2.jpg
+2015-11-01 19:02:22	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 19:03:25	<	Kulgur (~Someguy@host86-163-251-18.range86-163.btcentralplus.com) has quit (Quit: Leaving)
+2015-11-01 19:10:30	<	SirFinkus (~textual@c-73-140-116-124.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-11-01 19:10:46	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 19:12:25	dfbugbot	Dwarf Fortress Development Log 11/01/2015: (Toady One) Here's [ the report to start the month ](http://www.bay12games.com/forum/index.php?topic=153856.0) . Here is [ a Future of the Fortress reply ](http://www.bay12games.com/forum/index.php?topic=140544.msg6583653#msg6583653) . And here's [a list of remaining items](https://www.patreon.com/posts/october-draws-to-3644102) if you missed it. Now we
+2015-11-01 19:12:26	dfbugbot	just need to settle in and get some final work done.
+2015-11-01 19:14:43	nuget102	14 items to go guys :D
+2015-11-01 19:19:47	ProzacElf	for what?
+2015-11-01 19:20:42	<	serq (~serq@unaffiliated/serq) has quit (Remote host closed the connection)
+2015-11-01 19:22:19	<	onget_ (~onget@softbank220035014133.bbtec.net) has quit (Ping timeout: 240 seconds)
+2015-11-01 19:23:49	zlug	how high is cpu usage supposed to be?
+2015-11-01 19:24:09	<	Ququman (~quassel@mne69-5-82-230-76-144.fbx.proxad.net) has quit (Read error: Connection reset by peer)
+2015-11-01 19:24:38	>	oleum (~petra@118-93-246-79.dsl.dyn.ihug.co.nz) has joined #dwarffortress
+2015-11-01 19:25:45	>	Ikoru (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has joined #dwarffortress
+2015-11-01 19:26:32	<	EvaShark (~bubbles@cpc76564-dals22-2-0-cust612.20-2.cable.virginm.net) has quit (Ping timeout: 250 seconds)
+2015-11-01 19:27:25	Skid	Very high.
+2015-11-01 19:27:57	Skid	Dwarf pathfinding and water simulation eats CPU alive.
+2015-11-01 19:28:47	zlug	lol water simulation...  erhrh 
+2015-11-01 19:29:43	zlug	sorry  it just seemed odd that the overworld screen is eating up so much cpu time.  are you being serious or is my system screwed up?
+2015-11-01 19:30:00	TheBloke	And there's almost no multi-threading, so the number of cores you have is pretty irrelevant.  Having dual core helps a little, as the graphic rendering happens in a second core, but that is usually only a small amount of processing.   I've overclocked my (admittedly a few years old) quad core CPU to 4.2ghz and I'm still lucky to get 30 FPS a few years into a 3x3 embark with temperature 
+2015-11-01 19:30:00	TheBloke	and weather turned off.  
+2015-11-01 19:30:51	zlug	most of the cpu time is in x11 it would seem  :(
+2015-11-01 19:31:23	TheBloke	zlug: When the game is active (not paused), it always uses 100% of one core for me.  What computational FPS I get is the variable, not the overall CPU usage
+2015-11-01 19:32:13	TheBloke	I don't know how it shows up on Linux,  but it does sound surprising that x11 is using more CPU than DF
+2015-11-01 19:32:23	zlug	i'm getting 97% x11  48% df
+2015-11-01 19:32:29	zlug	fucking hate x0rg uggh
+2015-11-01 19:32:58	oleum	I doubt it would be much faster in textmode
+2015-11-01 19:33:19	zlug	textmode wouldn't even work,  i didn't try framebuffer though
+2015-11-01 19:33:26	zlug	it was crying about pango or something with textmode
+2015-11-01 19:33:30	<	Lawman0 (~Lawman@c-73-198-40-207.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-11-01 19:33:34	TheBloke	Maybe you're not getting any GPU hardware encoding?  What graphics mode do you have set?
+2015-11-01 19:33:36	zlug	which is an x11 font renderer iirc
+2015-11-01 19:33:54	zlug	2D, i set it back to default when i couldn't get text mode to work
+2015-11-01 19:34:34	TheBloke	I think 2D is the non-OpenGL mode?  have you tried STANDARD?   Or inded, have you tried DFHack with TWBT, which is also an OpenGL mode I believe and also looks a lot nicer
+2015-11-01 19:36:27	TheBloke	Yeah, from init.txt "However, all 2D modes are normally far slower than even STANDARD, which may be the slowest OpenGL mode."
+2015-11-01 19:37:42	TheBloke	I'm not sure what OpenGL modes it is saying are faster than STANDARD - maybe VBO for example?  I've not used any of those, I started immediately with TWBT mode via DFHack - as provided by the PereidexisErrant's PyLNP starter pack (which I think is Windows only but there's a Linux equivalent)
+2015-11-01 19:38:18	TheBloke	But am fairly confident in saying that STANDARD should definitely use less CPU than 2D, because then it should be GPU accelerated rather than 100% on the CPU.  That x11 usage should drop down a lot.
+2015-11-01 19:38:50	zlug	ok testing out standard now
+2015-11-01 19:39:00	zlug	thanks TheBloke 
+2015-11-01 19:39:52	zlug	yep, x11 is now very dteady at 35-38 % of one core
+2015-11-01 19:39:54	zlug	steady
+2015-11-01 19:40:30	zlug	much better , thanks a million
+2015-11-01 19:45:04	TheBloke	Good stuff.  Do consider getting DFHack + TWBT though.  It might be faster than STANDARD (given STANDARD is apparently the slowest accelerated mode), and even if its not, it looks way better and provides for more sophisticated tilesets.  
+2015-11-01 19:45:07	TheBloke	I'm still quite new and I don't fully understand what it does, but I do know that a) it ensures text always displays as text when using graphical tilesets (eg you don't see a picture of a coffin instead of the number 0), b) it allows you to smoothly zoom the graphical part of the screen without the text parts (sidebar menu) getting stupidly large or small,  c) it provides a system of 
+2015-11-01 19:45:07	TheBloke	tileset overrides that some tileset creators are using to make more sophisticated graphical sets - Spacefox is the one I use
+2015-11-01 19:47:29	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 19:51:36	lethosor	incidentally, DF falls back to STANDARD if it doesn't recognize your PRINT_MODE setting, which is what twbt takes advantage of (since it relies on opengl)
+2015-11-01 19:52:39	TheBloke	lethosor: Ah good to know.  init.txt says STANDARD is the slowest of the OpenGL modes - a) what modes are faster,  b) does TWBT use one of those fastest modes, or is it using a modified STANDARD?
+2015-11-01 19:52:47	lethosor	it
+2015-11-01 19:52:48	>	Lawman0 (~Lawman@c-73-198-40-207.hsd1.nj.comcast.net) has joined #dwarffortress
+2015-11-01 19:54:04	lethosor	VBO/ACCUM_BUFFER/FRAME_BUFFER are OpenGL-based and probably faster, but also less reliable/available (there were memory leaks present in a few at one point)
+2015-11-01 19:54:59	lethosor	twbt uses STANDARD in a sense, since that what DF uses when it sees PRINT_MODE:TWBT, but it's probably a little slower due to the extra logic it adds
+2015-11-01 19:55:11	<	nuget102 (~nuget102@cpe-75-176-99-230.carolina.res.rr.com) has quit (Quit: Leaving)
+2015-11-01 19:55:32	<	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has quit (Ping timeout: 268 seconds)
+2015-11-01 19:58:58	TheBloke	OK makes sense, thanks.
+2015-11-01 19:59:22	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 20:08:59	zlug	omg  dat water rendering,   it is very nice looking but i think i need to refresh my thermal paste before i get into this game
+2015-11-01 20:09:49	>	Grognor (uid58722@gateway/web/irccloud.com/x-pjfizhlwkhdghcuu) has joined #dwarffortress
+2015-11-01 20:13:45	>	lubos (~lubos@ip-37-221-254-246.cust.tlapnet.cz) has joined #dwarffortress
+2015-11-01 20:23:02	<	TheBloke (~TheBloke@host86-173-118-72.range86-173.btcentralplus.com) has quit
+2015-11-01 20:23:33	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-01 20:26:54	zlug	too bad the renderer isn't open source :(
+2015-11-01 20:27:52	<	Ikoru (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has quit (Ping timeout: 272 seconds)
+2015-11-01 20:29:18	>	sacje (~sacje@50-81-223-29.client.mchsi.com) has joined #dwarffortress
+2015-11-01 20:29:18	<	sacje (~sacje@50-81-223-29.client.mchsi.com) has quit (Changing host)
+2015-11-01 20:29:18	>	sacje (~sacje@unaffiliated/klet) has joined #dwarffortress
+2015-11-01 20:31:18	<	lubos (~lubos@ip-37-221-254-246.cust.tlapnet.cz) has quit (Ping timeout: 260 seconds)
+2015-11-01 20:31:48	>	AltReality (~noneya@99-57-74-231.lightspeed.frokca.sbcglobal.net) has joined #dwarffortress
+2015-11-01 20:32:02	<	AltReality (~noneya@99-57-74-231.lightspeed.frokca.sbcglobal.net) has quit (Client Quit)
+2015-11-01 20:32:16	>	AltReality (~noneya@99-57-74-231.lightspeed.frokca.sbcglobal.net) has joined #dwarffortress
+2015-11-01 20:36:53	>	jopbem (b811ecde@gateway/web/freenode/ip.184.17.236.222) has joined #dwarffortress
+2015-11-01 20:38:35	<	jopbem (b811ecde@gateway/web/freenode/ip.184.17.236.222) has quit (Client Quit)
+2015-11-01 20:50:07	>	emacsomancer (~user@gateway/vpn/privateinternetaccess/emacsomancer) has joined #dwarffortress
+2015-11-01 20:53:44	lethosor	zlug: the renderer is open source, assuming you mean DF's
+2015-11-01 20:54:01	lethosor	https://github.com/Baughn/Dwarf-Fortress--libgraphics-/
+2015-11-01 20:54:02	zlug	ooo where ats?  damn i'm dumb
+2015-11-01 20:54:12	lethosor	it's not easy to compile, though
+2015-11-01 20:54:26	lethosor	but there's a sample tetris program which I assume looks a lot like DF
+2015-11-01 20:54:41	zlug	i just want to see what their bounding volume heirarchy is
+2015-11-01 20:54:58	>	Iriel (~Iriel@173-8-135-209-SFBA.hfc.comcastbusiness.net) has joined #dwarffortress
+2015-11-01 20:55:12	lethosor	hm?
+2015-11-01 20:55:22	⇄	emacsomancer is now known as emacsomancer0
+2015-11-01 20:55:42	lethosor	libgraphics is just the part that draws tiles to the screen
+2015-11-01 20:55:53	lethosor	(and does other non-game-related things)
+2015-11-01 20:57:02	>	emacsomancer (~user@104.156.228.71) has joined #dwarffortress
+2015-11-01 21:00:13	zlug	it's just straight tile arrays?
+2015-11-01 21:00:57	>	nuget102 (~nuget102@cpe-75-176-99-230.carolina.res.rr.com) has joined #dwarffortress
+2015-11-01 21:01:17	zlug	if it's broken into chunks, like 16x16 or whatever size proves optimal you could save a whole bunch of tile_updates
+2015-11-01 21:01:27	zlug	update_tile
+2015-11-01 21:01:30	zlug	's
+2015-11-01 21:01:49	nuget102	ello
+2015-11-01 21:02:17	<	emacsomancer0 (~user@gateway/vpn/privateinternetaccess/emacsomancer) has quit (Remote host closed the connection)
+2015-11-01 21:06:07	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 21:09:11	<	lapinozz (~lapinozz@69.9.82.72) has quit (Ping timeout: 264 seconds)
+2015-11-01 21:10:23	>	cmoney (~cmoneylul@2601:ca:c202:a130:65cd:12c3:8dc:87ba) has joined #dwarffortress
+2015-11-01 21:10:43	<	cmoney (~cmoneylul@2601:ca:c202:a130:65cd:12c3:8dc:87ba) has quit (Remote host closed the connection)
+2015-11-01 21:13:46	oleum	loel
+2015-11-01 21:13:53	>	Wooplin (~Wooplin@unaffiliated/wooplin) has joined #dwarffortress
+2015-11-01 21:15:23	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 21:16:51	zlug	12x12
+2015-11-01 21:19:36	⇄	emacsomancer is now known as emacsomancer0
+2015-11-01 21:22:00	>	emacsomancer (~user@gateway/vpn/privateinternetaccess/emacsomancer) has joined #dwarffortress
+2015-11-01 21:25:29	<	Marikc0 (~Marikc_0_@104-2-225-34.lightspeed.chrlnc.sbcglobal.net) has quit (Quit: Leaving)
+2015-11-01 21:25:56	>	Marikc0 (~Marikc_0_@104-2-225-34.lightspeed.chrlnc.sbcglobal.net) has joined #dwarffortress
+2015-11-01 21:26:32	>	Ikoru (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has joined #dwarffortress
+2015-11-01 21:29:36	>	alt52337 (0user@c-73-157-22-36.hsd1.wa.comcast.net) has joined #dwarffortress
+2015-11-01 21:30:42	<	alt23909 (0user@c-73-157-22-36.hsd1.wa.comcast.net) has quit (Ping timeout: 255 seconds)
+2015-11-01 21:34:38	lethosor	zlug: DF only actually renders changed tiles, IIRC
+2015-11-01 21:35:20	lethosor	you can check with "rendermax trippy", for example - only tiles that change will be displayed in weird colors
+2015-11-01 21:35:57	zlug	each character is a single opengl draw call?
+2015-11-01 21:42:18	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 21:43:00	<	nuget102 (~nuget102@cpe-75-176-99-230.carolina.res.rr.com) has quit (Quit: Leaving)
+2015-11-01 21:45:19	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Remote host closed the connection)
+2015-11-01 21:46:14	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-01 22:00:25	<	smoke_fumus (~smoke_fum@188.35.176.90) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2015-11-01 22:03:44	>	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has joined #dwarffortress
+2015-11-01 22:04:37	<	sacje (~sacje@unaffiliated/klet) has quit (Quit: sacje)
+2015-11-01 22:13:20	>	Acemuto10 (4b752774@gateway/web/freenode/ip.75.117.39.116) has joined #dwarffortress
+2015-11-01 22:13:34	<	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit
+2015-11-01 22:13:44	Acemuto10	Helloo
+2015-11-01 22:13:52	>	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has joined #dwarffortress
+2015-11-01 22:15:18	>	Japa (~Japa@123.63.216.13) has joined #dwarffortress
+2015-11-01 22:17:57	<	Acemuto10 (4b752774@gateway/web/freenode/ip.75.117.39.116) has quit (Ping timeout: 246 seconds)
+2015-11-01 22:25:34	<	MgDark (~MgDark@190.198.102.201) has quit (Ping timeout: 244 seconds)
+2015-11-01 22:27:47	<	Ikoru (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has quit (Ping timeout: 264 seconds)
+2015-11-01 22:29:50	<	Lawman0 (~Lawman@c-73-198-40-207.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-11-01 22:30:48	<	Thutmose (~elpat@cpe-245-52-66-208.caribcable.com) has left #dwarffortress
+2015-11-01 22:33:35	>	Thutmose (~elpat@cpe-245-52-66-208.caribcable.com) has joined #dwarffortress
+2015-11-01 22:34:50	<	Thutmose (~elpat@cpe-245-52-66-208.caribcable.com) has quit (Client Quit)
+2015-11-01 22:36:36	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-01 22:44:03	<	instago (~instago4@153.90.88.15) has quit (Read error: Connection reset by peer)
+2015-11-01 22:46:59	<	KeyboardFire (~llama@98.196.38.177) has quit (Ping timeout: 240 seconds)
+2015-11-01 23:11:33	<	emacsomancer0 (~user@104.156.228.71) has quit (Ping timeout: 250 seconds)
+2015-11-01 23:13:22	<	emacsomancer (~user@gateway/vpn/privateinternetaccess/emacsomancer) has left #dwarffortress ("ERC (IRC client for Emacs 24.5.1)")
+2015-11-01 23:16:22	<	xrm (~asd@x50abb8bd.dyn.telefonica.de) has quit (Ping timeout: 260 seconds)
+2015-11-01 23:16:24	<	Scourje (uid63311@gateway/web/irccloud.com/x-kayitxbauoxkqgsi) has quit (Quit: Connection closed for inactivity)
+2015-11-01 23:24:53	>	Ikoru (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has joined #dwarffortress
+2015-11-02 23:11:57	>	rawks (~alex@189.153.75.225) has joined #dwarffortress
+2015-11-02 23:11:57	⇄	Topic for #dwarffortress is "This is a dwarven skull channel topic. On it are finely carven runes spelling "Dwarf Fortress General Chat - http://www.bay12games.com/dwarves/". On it are exquisite inscribed runes spelling "Check the wiki: http://dwarffortresswiki.org/". It menaces with spikes of dwarven bone. *Note: We are often playing with our fortresses, so please be patient after asking a question. :)"
+2015-11-02 23:11:57	⇄	Topic set by brocifer on lun, 02 abr 2012 17:38:33
+2015-11-02 23:11:57	⇄	Channel #dwarffortress: 162 nicks (2 ops, 0 voices, 160 normals)
+2015-11-02 23:11:59	⇄	Channel created on mié, 21 jul 2010 14:45:39
+2015-11-02 23:15:31	<	Zorbeltuss (~Zoe@c-0d44e155.013-97-6762673.cust.bredbandsbolaget.se) has quit (Read error: Connection reset by peer)
+2015-11-02 23:19:35	<	Beautato (~beautato@wh.iterabb.it) has quit (Ping timeout: 268 seconds)
+2015-11-02 23:20:22	>	Beautato (~beautato@wh.iterabb.it) has joined #dwarffortress
+2015-11-02 23:23:15	<	cmoney (~cmoneylul@c-50-155-54-140.hsd1.ga.comcast.net) has quit (Remote host closed the connection)
+2015-11-02 23:29:22	milki	colours which are completely untuitive
+2015-11-02 23:29:24	milki	of course
+2015-11-02 23:34:25	>	onget_ (~onget@softbank220035014133.bbtec.net) has joined #dwarffortress
+2015-11-02 23:37:53	>	Grognor (uid58722@gateway/web/irccloud.com/x-dlpccmpbfvtevxwc) has joined #dwarffortress
+2015-11-02 23:46:25	<	Scourje (uid63311@gateway/web/irccloud.com/x-myrldqnwdjhggnuk) has quit (Quit: Connection closed for inactivity)
+2015-11-02 23:48:47	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-02 23:50:10	<	Beautato (~beautato@wh.iterabb.it) has quit (Ping timeout: 240 seconds)
+2015-11-02 23:51:07	>	Beautato (~beautato@wh.iterabb.it) has joined #dwarffortress
+2015-11-02 23:53:52	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 244 seconds)
+2015-11-03 00:12:13	<	lambwich (~avis@bas2-toronto08-1096792169.dsl.bell.ca) has quit (Ping timeout: 246 seconds)
+2015-11-03 00:23:19	<	qrg (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit (Ping timeout: 244 seconds)
+2015-11-03 00:38:08	>	Velocifaptor (~Velocifap@c-73-35-243-87.hsd1.wa.comcast.net) has joined #dwarffortress
+2015-11-03 00:42:04	>	Wonkyth (~quassel@74-115-6-141.anchorfree.com) has joined #dwarffortress
+2015-11-03 00:43:18	<	Wonkyth_ (~quassel@74-115-6-142.anchorfree.com) has quit (Ping timeout: 272 seconds)
+2015-11-03 00:50:51	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-03 00:53:35	<	Wonkyth (~quassel@74-115-6-141.anchorfree.com) has quit (Ping timeout: 264 seconds)
+2015-11-03 00:55:24	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 250 seconds)
+2015-11-03 00:56:07	>	Wonkyth (~quassel@d220-237-34-120.mas801.nsw.optusnet.com.au) has joined #dwarffortress
+2015-11-03 01:03:36	>	sacje (~sacje@unaffiliated/klet) has joined #dwarffortress
+2015-11-03 01:04:10	>	lemon_snowCone (~lemonyarc@103.21.234.178) has joined #dwarffortress
+2015-11-03 01:04:18	<	Iriel (~Iriel@173-8-135-209-SFBA.hfc.comcastbusiness.net) has quit (Quit: Iriel)
+2015-11-03 01:08:53	>	Callidus (~Callidus2@cpe-65-185-115-236.cinci.res.rr.com) has joined #dwarffortress
+2015-11-03 01:24:59	>	qrg (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has joined #dwarffortress
+2015-11-03 01:48:41	>	lubos (~lubos@ip-94-112-83-63.net.upcbroadband.cz) has joined #dwarffortress
+2015-11-03 02:02:31	>	RavingManiac (~RavingMan@203.132.77.37) has joined #dwarffortress
+2015-11-03 02:31:09	<	sacje (~sacje@unaffiliated/klet) has quit (Quit: sacje)
+2015-11-03 02:38:00	⇄	lubos is now known as Guest22731
+2015-11-03 02:49:54	<	Mitzi (~me@cpc2-nrwh4-0-0-cust192.4-4.cable.virginm.net) has quit (Quit: toodle pip old fruit!)
+2015-11-03 02:50:48	>	Mitzi (~me@cpc2-nrwh4-0-0-cust192.4-4.cable.virginm.net) has joined #dwarffortress
+2015-11-03 02:52:37	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-03 02:56:05	<	Lokathor (~Lokathor^@75.174.92.155) has quit (Read error: Connection reset by peer)
+2015-11-03 02:57:10	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 250 seconds)
+2015-11-03 02:59:42	<	txtsd (~txtsd@103.39.31.247) has quit (Read error: Connection reset by peer)
+2015-11-03 03:01:12	>	Tohuwabohu (~LoyID@141.89.173.53) has joined #dwarffortress
+2015-11-03 03:01:38	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-03 03:05:13	<	Levitator (~j@50.123.185.183) has quit (Quit: Leaving.)
+2015-11-03 03:05:18	<	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Ping timeout: 260 seconds)
+2015-11-03 03:05:48	<	Velocifaptor (~Velocifap@c-73-35-243-87.hsd1.wa.comcast.net) has quit (Quit: Leaving)
+2015-11-03 03:08:02	>	sandbox (~sandbox@host-89-241-228-148.as13285.net) has joined #dwarffortress
+2015-11-03 03:14:50	<	Guest22731 (~lubos@ip-94-112-83-63.net.upcbroadband.cz) has quit (Quit: Leaving)
+2015-11-03 03:17:57	>	lemon_snowCone (~lemonyarc@103.21.234.178) has joined #dwarffortress
+2015-11-03 03:53:24	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-03 03:54:44	>	jaboja (~jaboja@esd196.neoplus.adsl.tpnet.pl) has joined #dwarffortress
+2015-11-03 03:56:35	<	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Ping timeout: 264 seconds)
+2015-11-03 03:57:39	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 240 seconds)
+2015-11-03 04:00:01	<	jaboja (~jaboja@esd196.neoplus.adsl.tpnet.pl) has quit (Remote host closed the connection)
+2015-11-03 04:03:23	<	Japa (~Japa@123.63.216.13) has quit (Quit: Leaving)
+2015-11-03 04:04:36	<	zlug (~^_-@unaffiliated/icetooth) has quit (Ping timeout: 246 seconds)
+2015-11-03 04:10:39	>	Cleverlegs (~ross@86-45-162-114-dynamic.agg2.cgi.chf-qkr.eircom.net) has joined #dwarffortress
+2015-11-03 04:13:40	>	lemon_snowCone (~lemonyarc@103.21.234.178) has joined #dwarffortress
+2015-11-03 04:16:06	<	Wonkyth (~quassel@d220-237-34-120.mas801.nsw.optusnet.com.au) has quit (Ping timeout: 240 seconds)
+2015-11-03 04:16:20	>	Wonkyth (~quassel@d110-33-212-129.mas801.nsw.optusnet.com.au) has joined #dwarffortress
+2015-11-03 04:25:42	⇄	evilop is now known as Pantsu
+2015-11-03 04:27:18	<	HellTiger_NB (~HellTiger@dslb-188-102-199-068.188.102.pools.vodafone-ip.de) has quit (Ping timeout: 260 seconds)
+2015-11-03 04:50:26	<	Tohuwabohu (~LoyID@141.89.173.53) has quit (Ping timeout: 240 seconds)
+2015-11-03 04:54:06	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-03 04:55:05	<	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has quit (Ping timeout: 244 seconds)
+2015-11-03 04:58:03	>	Japa (~Japa@123.63.216.13) has joined #dwarffortress
+2015-11-03 04:58:31	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 246 seconds)
+2015-11-03 05:04:26	>	EvaShark (~bubbles@cpc76564-dals22-2-0-cust612.20-2.cable.virginm.net) has joined #dwarffortress
+2015-11-03 05:07:59	<	Cleverlegs (~ross@86-45-162-114-dynamic.agg2.cgi.chf-qkr.eircom.net) has quit (Ping timeout: 240 seconds)
+2015-11-03 05:12:10	>	Tohuwabohu (~LoyID@141.89.168.243) has joined #dwarffortress
+2015-11-03 05:20:47	>	LordRatte (~AndChat11@vc-nat-gp-n-41-13-120-169.umts.vodacom.co.za) has joined #dwarffortress
+2015-11-03 05:21:47	<	Tohuwabohu (~LoyID@141.89.168.243) has quit (Ping timeout: 264 seconds)
+2015-11-03 05:24:57	>	Scourje (uid63311@gateway/web/irccloud.com/x-natzsxigvnlubskz) has joined #dwarffortress
+2015-11-03 05:25:30	<	Scourje (uid63311@gateway/web/irccloud.com/x-natzsxigvnlubskz) has quit (Changing host)
+2015-11-03 05:25:30	>	Scourje (uid63311@unaffiliated/scourje) has joined #dwarffortress
+2015-11-03 05:25:30	<	Scourje (uid63311@unaffiliated/scourje) has quit (Changing host)
+2015-11-03 05:25:30	>	Scourje (uid63311@gateway/web/irccloud.com/x-natzsxigvnlubskz) has joined #dwarffortress
+2015-11-03 05:28:23	Japa	Anybody have a save with windmills where they're in a =-= directon?
+2015-11-03 05:28:49	LordRatte	Why would you want that? 
+2015-11-03 05:29:20	LordRatte	Out of curiosity's sake. 
+2015-11-03 05:30:55	Japa	Armok Vision reasons
+2015-11-03 05:31:02	Japa	I need to see how they look in memory
+2015-11-03 05:31:51	Japa	So far I've seen the vertical ones
+2015-11-03 05:32:25	LordRatte	I didn't even know you could make them horizontal, Japa. 
+2015-11-03 05:32:51	Japa	They get an automatic orientation
+2015-11-03 05:33:15	Japa	Based on wind
+2015-11-03 05:33:26	LordRatte	I see. 
+2015-11-03 05:33:50	LordRatte	Is Armok Vision a program? 
+2015-11-03 05:35:41	Pantsu	yes
+2015-11-03 05:36:13	Pantsu	first hit on ddg: https://github.com/JapaMala/armok-vision
+2015-11-03 05:39:43	LordRatte	So it's your software, Japa? 
+2015-11-03 05:40:03	LordRatte	This Armok Vision business. 
+2015-11-03 05:40:07	TheBloke	http://www.bay12forums.com/smf/index.php?topic=146473.0
+2015-11-03 05:40:09	<	qrg (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit (Ping timeout: 246 seconds)
+2015-11-03 05:42:45	LordRatte	Coool. 
+2015-11-03 05:42:52	>	Nitrodev (~Nitrodev@dcx8fryy9dj3t-7s8b-6t-3.rev.dnainternet.fi) has joined #dwarffortress
+2015-11-03 05:43:04	LordRatte	If I had DFHack, I would try it out. 
+2015-11-03 05:43:17	TheBloke	You should get DFHack.
+2015-11-03 05:43:50	LordRatte	Doesn't it modify the game, TheBloke? 
+2015-11-03 05:44:06	Japa	LordRatte, in some ways
+2015-11-03 05:44:09	LordRatte	As in, mod it. 
+2015-11-03 05:44:28	Pantsu	dfhack is handy anyway so you should grab it
+2015-11-03 05:44:32	Nitrodev	it makes it better
+2015-11-03 05:44:35	Nitrodev	also hi
+2015-11-03 05:44:38	Pantsu	even if av doesn't require it
+2015-11-03 05:44:41	TheBloke	Everything is optional.  Few of the features would be considered major mods, and those that are are labelled as such
+2015-11-03 05:45:04	Pantsu	dfhack is worth it just for the better building interface
+2015-11-03 05:45:11	Pantsu	and being able to search the stocks and trade menus
+2015-11-03 05:45:25	<	txtsd (~txtsd@103.39.31.247) has quit (Quit: WeeChat 1.3)
+2015-11-03 05:45:37	TheBloke	Absolutely everything it offers is something that Toady could have implemented and might in future.  If it didn't label all its changes  "DFHack", a new comer to the game who launched DF with DFHack would have no clue what was DF and what was DFHack
+2015-11-03 05:45:57	Nitrodev	what does it mean when it announces not enough free nestbox zones found
+2015-11-03 05:46:07	Nitrodev	on start up
+2015-11-03 05:47:03	LordRatte	Does it change the engine as well, TheBloke? 
+2015-11-03 05:47:12	TheBloke	Nitrodev: that's DFHack's autonestbox script running, as enabled by your selecting PyLNP's option of "other automation plugins".   It means you have some birds that can lay eggs, but no nest boxes.  Set them up according to http://dwarffortresswiki.org/index.php/DF2014:Nest_box and a) that message won't reoccur, and b) your egg laying beds that are not pastured will move to nest boxes 
+2015-11-03 05:47:12	TheBloke	to lay eggs
+2015-11-03 05:47:23	TheBloke	LordRatte: what do you mean by the engine, specifically?
+2015-11-03 05:48:10	TheBloke	Nitrodev: or if you don't want autonestbox, edit PyLNP_dfhack_onLoad.init to remove it
+2015-11-03 05:48:29	LordRatte	The game mechanics, physics, AI and/or new content. 
+2015-11-03 05:52:10	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-03 05:53:08	<	Callidus (~Callidus2@cpe-65-185-115-236.cinci.res.rr.com) has quit (Quit: Leaving)
+2015-11-03 05:53:19	<	txtsd (~txtsd@103.39.31.247) has quit (Client Quit)
+2015-11-03 05:54:56	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-03 05:56:34	TheBloke	LordRatte: No, not really any of that.  It's 90% UI stuff, including quite advanced changes to the UI which can be considered features and change the way you play the game: for example, Workflow which automates the stopping and starting of Workshop jobs according to your current stock levels, allowing you to always keep a specified amount of surplus of most items, and not have to run 
+2015-11-03 05:56:34	TheBloke	round your shops adding/removing jobs as you run out of thread to turn into cloth to turn into clothes etc. And/or, don't get drowned in excess items from leaving all jobs running permanently
+2015-11-03 05:57:27	TheBloke	LordRatte: there are a small handful of changes that are labelled 'mods', as in they add or change game content.  These are disabled by default and clearly labelled as mods in the documentation.  For example, an advanced and much superior Siege Engine, mcuh better than the default in-game one.   They're optional so if you wnat to ensure you're playing vanilla, just don't turn them on.
+2015-11-03 05:57:30	LordRatte	Where's the fun in that? 
+2015-11-03 05:57:36	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-03 05:59:25	TheBloke	LordRatte: Seriously?  Well, don't use it if you don't want it of course, nothing is turned on automatically.  But personlly I don't find it fun micromanaging stuff that can be automated so easily. I'd rather be designing some new expansion, or a devious new system of traps, then mechanically turning jobs on and off because I do or don't have a certain amount of a  given item.  Getting 
+2015-11-03 05:59:25	TheBloke	a nicely set up Workflow system, with production automatically responding to the ebb and flow of demand is much more satisfying to me than running round like a mad thing doing repetitive tasks that a 3 year old could manage just as well
+2015-11-03 05:59:32	<	txtsd (~txtsd@103.39.31.247) has quit (Client Quit)
+2015-11-03 05:59:35	>	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has joined #dwarffortress
+2015-11-03 05:59:35	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 264 seconds)
+2015-11-03 06:00:21	<	Payhn (~Payhn@24-139-44-252.fidnet.com) has quit (Quit: ZNC - http://znc.in)
+2015-11-03 06:01:02	LordRatte	Losing is fun 😊 
+2015-11-03 06:01:08	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-03 06:01:23	>	Payhn (~Payhn@24-139-44-252.fidnet.com) has joined #dwarffortress
+2015-11-03 06:02:28	<	txtsd (~txtsd@103.39.31.247) has quit (Client Quit)
+2015-11-03 06:04:28	TheBloke	Sure, Losing because you didn't design the defences right; losing because you dug too deep and over stretched yourself, or accidentally flooded your fort.  But losing because six game months ago your food production jobs suspended due to lack of resources and you forgot to re-enable them - that's just tedious, in my opinion.  But of course, each to their own, and DFHack forces nothing 
+2015-11-03 06:04:28	TheBloke	upon you.  Workflow does nothing until you start adding rules to it, and it's not even enabled in the default dfhack init file
+2015-11-03 06:04:59	<	Japa (~Japa@123.63.216.13) has quit (Quit: Leaving)
+2015-11-03 06:05:30	>	Adrian219 (~Thunderbi@ip4da46b01.direct-adsl.nl) has joined #dwarffortress
+2015-11-03 06:06:19	>	Anarchid (~antonk@72.139.35.213.sta.estpak.ee) has joined #dwarffortress
+2015-11-03 06:10:37	>	KeyboardFire (~llama@98.196.38.177) has joined #dwarffortress
+2015-11-03 06:14:02	>	txtsd (~txtsd@103.39.31.247) has joined #dwarffortress
+2015-11-03 06:16:56	>	Japa (~Japa@123.63.216.13) has joined #dwarffortress
+2015-11-03 06:31:16	<	illmatix (~test@184.71.62.238) has quit (Remote host closed the connection)
+2015-11-03 06:31:32	>	illmatix (~test@184.71.62.238) has joined #dwarffortress
+2015-11-03 06:32:46	<	Seylerius (~seylerius@104.152.206.27) has quit (Remote host closed the connection)
+2015-11-03 06:33:00	>	Seylerius (~seylerius@104.152.206.27) has joined #dwarffortress
+2015-11-03 06:33:06	<	yidhra_ (~chuck@208-76-164-139.pool.nctc.com) has quit (Ping timeout: 240 seconds)
+2015-11-03 06:34:22	>	yidhra_ (~chuck@208-76-164-139.pool.nctc.com) has joined #dwarffortress
+2015-11-03 06:38:18	>	LordRatte_ (uid124752@gateway/web/irccloud.com/x-jwhyrisrnxbaiamp) has joined #dwarffortress
+2015-11-03 06:43:05	>	Cleverlegs (~ross@86-45-162-114-dynamic.agg2.cgi.chf-qkr.eircom.net) has joined #dwarffortress
+2015-11-03 06:43:48	<	KeyboardFire (~llama@98.196.38.177) has quit (Ping timeout: 265 seconds)
+2015-11-03 06:44:32	<	LordRatte (~AndChat11@vc-nat-gp-n-41-13-120-169.umts.vodacom.co.za) has quit (Quit: Bye)
+2015-11-03 06:44:32	⇄	LordRatte_ is now known as LordRatte
+2015-11-03 06:44:46	<	mizu_no_oto (~textual@c-73-219-2-228.hsd1.ma.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2015-11-03 06:46:41	<	Grognor (uid58722@gateway/web/irccloud.com/x-dlpccmpbfvtevxwc) has quit (Quit: Connection closed for inactivity)
+2015-11-03 06:49:39	>	KeyboardFire (~llama@98.196.38.177) has joined #dwarffortress
+2015-11-03 06:55:38	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-03 06:56:11	>	lambwich (~avis@bas2-toronto08-1096792169.dsl.bell.ca) has joined #dwarffortress
+2015-11-03 07:00:14	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 265 seconds)
+2015-11-03 07:01:24	<	KeyboardFire (~llama@98.196.38.177) has quit (Ping timeout: 272 seconds)
+2015-11-03 07:05:11	<	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit (Remote host closed the connection)
+2015-11-03 07:15:59	<	lambwich (~avis@bas2-toronto08-1096792169.dsl.bell.ca) has quit (Ping timeout: 240 seconds)
+2015-11-03 07:19:02	>	That_Guy (~That_Guy@cpc65128-barn8-2-0-cust856.17-1.cable.virginm.net) has joined #dwarffortress
+2015-11-03 07:22:03	>	invultri_ (~leila@5.199.155.237) has joined #dwarffortress
+2015-11-03 07:22:16	<	snams (~That_Guy@cpc65128-barn8-2-0-cust856.17-1.cable.virginm.net) has quit (Ping timeout: 240 seconds)
+2015-11-03 07:22:17	<	invultri (~leila@5.199.155.237) has quit (Ping timeout: 240 seconds)
+2015-11-03 07:22:17	<	fling (~fling@fsf/member/fling) has quit (Ping timeout: 240 seconds)
+2015-11-03 07:22:27	>	fling (~fling@fsf/member/fling) has joined #dwarffortress
+2015-11-03 07:31:09	<	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Ping timeout: 250 seconds)
+2015-11-03 07:36:25	<	Scourje (uid63311@gateway/web/irccloud.com/x-natzsxigvnlubskz) has quit (Quit: Connection closed for inactivity)
+2015-11-03 07:37:24	Nitrodev	so how are your fortresses doing?
+2015-11-03 07:45:17	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-03 07:49:18	<	Japa (~Japa@123.63.216.13) has quit (Read error: Connection reset by peer)
+2015-11-03 07:49:43	Nitrodev	why is it when i try to link my lever with a bridge it says nothing can be linked up
+2015-11-03 07:49:56	Nitrodev	even though there is a bridge RIGHT next to it
+2015-11-03 07:50:43	Anarchid	do you have free mechanisms?
+2015-11-03 07:50:48	Nitrodev	yeah
+2015-11-03 07:50:55	Anarchid	is the bridge already linked to something?
+2015-11-03 07:51:17	Nitrodev	i highly doubt it
+2015-11-03 07:51:18	Anarchid	i'm not sure same actuators can be wired to multiple inputs
+2015-11-03 07:51:57	Anarchid	mmm
+2015-11-03 07:52:06	Anarchid	didn't it require cursor action though?
+2015-11-03 07:52:17	Nitrodev	not sure
+2015-11-03 07:52:23	Anarchid	oh, right, it required type specification
+2015-11-03 07:52:32	Anarchid	e.g. not just link lever but "link lever to bridge"
+2015-11-03 07:52:44	Anarchid	that was why doors and such didn't come up 
+2015-11-03 07:52:56	Anarchid	is bridge forbidden?
+2015-11-03 07:53:09	>	Japa (~Japa@123.63.216.13) has joined #dwarffortress
+2015-11-03 07:54:23	Nitrodev	nope
+2015-11-03 07:56:43	<	BoosterGold (~BG@cpe-74-74-238-76.rochester.res.rr.com) has quit (Ping timeout: 252 seconds)
+2015-11-03 08:00:09	>	lemon_snowCone (~lemonyarc@103.21.234.178) has joined #dwarffortress
+2015-11-03 08:00:59	>	Tohuwabohu (~LoyID@p5B3858AD.dip0.t-ipconnect.de) has joined #dwarffortress
+2015-11-03 08:01:48	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Remote host closed the connection)
+2015-11-03 08:05:31	>	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has joined #dwarffortress
+2015-11-03 08:08:21	>	instago2 (~instago4@153.90.88.15) has joined #dwarffortress
+2015-11-03 08:16:07	<	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit (Ping timeout: 265 seconds)
+2015-11-03 08:21:19	>	nuget102 (~nuget102@cpe-75-176-99-230.carolina.res.rr.com) has joined #dwarffortress
+2015-11-03 08:22:14	nuget102	Ello :3
+2015-11-03 08:23:29	TheBloke	Hello nuget!
+2015-11-03 08:29:10	<	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Ping timeout: 265 seconds)
+2015-11-03 08:44:58	<	RavingManiac (~RavingMan@203.132.77.37) has quit (Read error: Connection reset by peer)
+2015-11-03 08:45:14	>	lapinozz (~lapinozz@69.9.82.72) has joined #dwarffortress
+2015-11-03 08:50:19	>	Cloverlogs (~ross@86-45-162-114-dynamic.agg2.cgi.chf-qkr.eircom.net) has joined #dwarffortress
+2015-11-03 08:52:53	⇄	ORCA|Away is now known as ORCACommander
+2015-11-03 08:53:19	<	Cleverlegs (~ross@86-45-162-114-dynamic.agg2.cgi.chf-qkr.eircom.net) has quit (Ping timeout: 240 seconds)
+2015-11-03 08:57:27	>	xrm (~asd@f053191162.adsl.alicedsl.de) has joined #dwarffortress
+2015-11-03 09:05:44	>	Grognor (uid58722@gateway/web/irccloud.com/x-vlalxgxzikkkvgfp) has joined #dwarffortress
+2015-11-03 09:11:37	>	ORCA|Remote (~ORCAComma@c-98-217-138-1.hsd1.nh.comcast.net) has joined #dwarffortress
+2015-11-03 09:12:50	>	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has joined #dwarffortress
+2015-11-03 09:15:41	>	Treah_Work (~Treah@64.130.245.84) has joined #dwarffortress
+2015-11-03 09:16:59	Pici	what do people tend to do for making muddy floors? 
+2015-11-03 09:17:20	Pici	I usually do some floodgate stuff, but that can be annoying
+2015-11-03 09:17:46	<	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit (Ping timeout: 268 seconds)
+2015-11-03 09:18:19	Pantsu	buckets
+2015-11-03 09:18:19	ORCA|Remote	fvloood
+2015-11-03 09:18:21	ORCA|Remote	everythign
+2015-11-03 09:18:30	Pantsu	asuming this is for a small farm
+2015-11-03 09:19:11	Pici	I should try the bucket method. floodgates always takes more mechanisms than I expect and dwarves are slow at making them
+2015-11-03 09:21:18	Tohuwabohu	wow, my king is frustrated that nobody could be punished
+2015-11-03 09:23:01	Pantsu	make 3x3 room, hole in center roof tile, 4 pond zones around the hole, ???, booze!
+2015-11-03 09:23:02	Anarchid	Pici: use bridges instead of floodgates! bridges are like magma!
+2015-11-03 09:23:15	Pici	Anarchid: those take even longer to build!
+2015-11-03 09:23:17	Anarchid	enemies? annihilate with bridge! trash? atom-smash!
+2015-11-03 09:23:19	TheBloke	My King was a bastard. He kept demanding Large Gems, which are only produced like 10% of the time or something like that.  I had four jewellers working round the clock and it still was not enough to meet some of his demands for 2 or 3 large gems at a time.  And then to add insult to injury, he forbid the export of Large Gems, making all that had been produced absolutely useless.  I tried 
+2015-11-03 09:23:19	TheBloke	making *him* a gem cutter, and stopping all other gem cutters, but that resulted in the Captain of the Guard picking someone completely random to send to jail
+2015-11-03 09:23:33	Anarchid	Pici:  exactly the same amount of labor,actually
+2015-11-03 09:23:33	TheBloke	So eventually the King fell down a mysterious hole in his bedroom onto some spikes.
+2015-11-03 09:23:51	Pantsu	can do larger, but it requires an exponentially increase in the dowarf power needed to haul buckets
+2015-11-03 09:24:04	Pantsu	dwarf*
+2015-11-03 09:24:27	Anarchid	dunno i usually have waterfalls and water curtains and swimming pools anyway
+2015-11-03 09:24:31	Pantsu	with some luck you *might* be able to do 5x5 with just a single hole and 4 zones
+2015-11-03 09:24:34	Anarchid	it just doesn't feel like home without a proper water infra
+2015-11-03 09:24:57	Anarchid	so adding a subsystem to generate mud sounds like easy side project
+2015-11-03 09:24:57	ORCACommander	TheBloke: well done
+2015-11-03 09:25:02	Pantsu	must be 4 seperate zones btw, since only a single dwarf will fill each zone at a time
+2015-11-03 09:25:07	Pici	:/
+2015-11-03 09:25:14	Pantsu	and with just one the water will evaporate too fast
+2015-11-03 09:25:22	Anarchid	ORCACommander: i would say i find that king solution inefficient
+2015-11-03 09:25:36	Anarchid	so much good stuff wasted
+2015-11-03 09:25:38	>	Levitator (~j@50.123.185.183) has joined #dwarffortress
+2015-11-03 09:25:38	Anarchid	it should have been serrated discs instead of spikes
+2015-11-03 09:25:48	Anarchid	or huge axes
+2015-11-03 09:25:50	ORCACommander	true but i am assuming the spikes were encrusted in gems
+2015-11-03 09:25:51	Anarchid	but discs are much better
+2015-11-03 09:26:04	Anarchid	yes yes but the royal bones will got to waste now!
+2015-11-03 09:26:18	Anarchid	at least the discs would have produced good bones 
+2015-11-03 09:26:24	Pantsu	you should go to the extremes to furfull his wishes
+2015-11-03 09:26:30	Pantsu	furfill*
+2015-11-03 09:26:44	Pantsu	nobles are the whole reason for the existence of the forts
+2015-11-03 09:26:57	Pantsu	sidenote: I miss the economy
+2015-11-03 09:28:23	>	Lokathor (~Lokathor^@75.174.92.155) has joined #dwarffortress
+2015-11-03 09:28:29	TheBloke	Pantsu: several imprisoned, and one dead jeweller (I ran out of chains) is, to my mind, already the extreme.  It's not like the King provides any benefit, he doesn't even bring happy thoughts.  (And he really should, or at least negative thoughts without one.  Currently the nobility are mostly pointless, except the bookkeeper and manager and captain of the guard.  But the mayor, king 
+2015-11-03 09:28:29	TheBloke	etc only detract, they don't add - and don't detract in a fun way, in my view.  All those mandates/demands are just micro managing for hte player. It would be more fun if the dwarves responded to them themselves, and they were more varied and made more sense
+2015-11-03 09:28:56	TheBloke	So I have no qualms about killing my king in the current way of things.  But yes, the economy did sound awesome (had it worked.)   Far more interesting and dynamic environment. I  hope he tries and brings it back sometime
+2015-11-03 09:28:57	Pantsu	TheBloke: nha
+2015-11-03 09:29:01	Pantsu	dwarfs are expendable
+2015-11-03 09:29:42	Pantsu	it mostly worked as long as you didn't let your dwarfs get their hands on any coins
+2015-11-03 09:29:46	TheBloke	But that's the point - the King is *more* expendable than my Legendary gem cutter/setter :) At least the way the game works now
+2015-11-03 09:29:48	Pantsu	they would shop on credit just fine
+2015-11-03 09:30:04	Pantsu	TheBloke: that is the elf in you talking!
+2015-11-03 09:32:24	TheBloke	:) I just find it tedious having to micro manage production of items that are completely unnecessary.  A previous mayor had a penchant for ballista arrows. I don't have any siege items, and I'm in a Serene environment. So all it means is every few game months I have to go to a workshop or the manager, queue up three arrows.  There's no challenge or strategy or fun, it's just boring 
+2015-11-03 09:32:24	TheBloke	busywork.  Believe me, when the nobility represent something fun (and/or Fun), I'll be all for them.
+2015-11-03 09:33:01	<	ORCACommander (~ORCAComma@c-98-217-138-1.hsd1.nh.comcast.net) has quit (Quit: Your mind is software. Program it. Your body is a shell. Change it. Death is a disease. Cure it. Extinction is approaching. Fight it. KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2015-11-03 09:33:22	Pantsu	it is a sign that you should build a 9 engine battery covering your entrance 
+2015-11-03 09:33:41	TheBloke	Next game, when I have more enemies, I will :)
+2015-11-03 09:34:36	TheBloke	So the economy was OK without coins?  The rent worked and stuff like that?
+2015-11-03 09:36:21	⇄	That_Guy is now known as snams
+2015-11-03 09:42:21	<	Adrian219 (~Thunderbi@ip4da46b01.direct-adsl.nl) has quit (Ping timeout: 244 seconds)
+2015-11-03 09:47:04	Pantsu	sure
+2015-11-03 09:47:27	Pantsu	if the dwarfs didn't work hard enough, or get good enough jobs they got kicked out of their homes
+2015-11-03 09:47:33	Pantsu	just like in real life!
+2015-11-03 09:47:42	Pantsu	mostly the later
+2015-11-03 09:47:43	Pantsu	:p
+2015-11-03 09:48:01	TheBloke	That does sound cool.  It's a shame he removed it completely then
+2015-11-03 09:48:21	Pantsu	the plebs doing hauling are suposed to be poor as fuck on the expense of the gemworkers ofcourse
+2015-11-03 09:48:24	Pantsu	^_^
+2015-11-03 09:48:37	Pantsu	er other way around
+2015-11-03 09:49:50	>	ORCACommander|2 (~ORCAComma@c-98-217-138-1.hsd1.nh.comcast.net) has joined #dwarffortress
+2015-11-03 09:50:25	<	ORCA|Remote (~ORCAComma@c-98-217-138-1.hsd1.nh.comcast.net) has quit (Ping timeout: 246 seconds)
+2015-11-03 09:52:43	Pici	at least we're getting dancing in the next update
+2015-11-03 09:53:01	TheBloke	Yup, and performances.  My dwarves will literally fiddle while my FPS burns.
+2015-11-03 09:53:36	Anarchid	also make believe with toy adamantine axes
+2015-11-03 09:53:53	Anarchid	and reading necromantic books your adventurer dragged in 
+2015-11-03 09:54:00	TheBloke	Some of the personal preferences/desire stuff sounds cool though.  Something about goals/objectives that they want to fulfill and will get unhappy if they don't.  That sounds like it has the potential to provide interesting management opportunities
+2015-11-03 09:54:54	Anarchid	i think it also had that part where literary forms could modify values?
+2015-11-03 09:55:06	Anarchid	i wonder if this could be used to generate weird ethics civilizations
+2015-11-03 09:55:47	Anarchid	e.g. dwarves who are ok with slaves, torture, and butchering people, but are strictly anti-woodcutting
+2015-11-03 10:01:34	Pici	aren't those elves?
+2015-11-03 10:01:49	Anarchid	elves are not ok with torture and slavery 
+2015-11-03 10:01:59	Anarchid	this is like the best parts of goblins and elves, plus anti-woodcutting
+2015-11-03 10:04:06	Nitrodev	you can enslave things?
+2015-11-03 10:05:03	>	lemon_snowCone (~lemonyarc@103.21.234.178) has joined #dwarffortress
+2015-11-03 10:05:29	Anarchid	there's no way to do this in adv mode or fort mode as a player
+2015-11-03 10:05:42	Anarchid	even though humans are ok with slavery and you can play humans in advmode
+2015-11-03 10:07:28	<	Lokathor (~Lokathor^@75.174.92.155) has quit (Ping timeout: 250 seconds)
+2015-11-03 10:09:16	nuget102	So guys, I discovered a game called Yandere Simulator
+2015-11-03 10:13:33	>	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has joined #dwarffortress
+2015-11-03 10:13:44	TheBloke	"All panty buffs are now functional (except for the 'convince two students to fall in love' panties)."   I feel this tells me all I need to know about Yandere Simulator.
+2015-11-03 10:17:52	<	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit (Ping timeout: 250 seconds)
+2015-11-03 10:19:05	>	Zorbeltuss (~Zoe@c-0d44e155.013-97-6762673.cust.bredbandsbolaget.se) has joined #dwarffortress
+2015-11-03 10:24:47	<	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Ping timeout: 264 seconds)
+2015-11-03 10:28:02	<	inire (~inire@cpe-66-66-67-194.rochester.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-11-03 10:38:19	>	sacje (~sacje@unaffiliated/klet) has joined #dwarffortress
+2015-11-03 10:41:26	>	Adrian219 (~Thunderbi@ip4da46b01.direct-adsl.nl) has joined #dwarffortress
+2015-11-03 10:44:52	>	smoke_fumus (~smoke_fum@188.35.176.90) has joined #dwarffortress
+2015-11-03 10:53:26	>	damdam_ (dcd7eb62@gateway/web/freenode/ip.220.215.235.98) has joined #dwarffortress
+2015-11-03 10:59:19	<	Nitrodev (~Nitrodev@dcx8fryy9dj3t-7s8b-6t-3.rev.dnainternet.fi) has quit (Ping timeout: 240 seconds)
+2015-11-03 11:00:07	>	Nitrodev (~Nitrodev@dcx8fryy9dj3t-7s8b-6t-3.rev.dnainternet.fi) has joined #dwarffortress
+2015-11-03 11:01:25	<	damdam_ (dcd7eb62@gateway/web/freenode/ip.220.215.235.98) has quit (Quit: Page closed)
+2015-11-03 11:10:38	<	Japa (~Japa@123.63.216.13) has quit (Quit: Leaving)
+2015-11-03 11:14:31	>	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has joined #dwarffortress
+2015-11-03 11:15:12	>	jaboja (~jaboja@esd196.neoplus.adsl.tpnet.pl) has joined #dwarffortress
+2015-11-03 11:18:29	<	Anarchid (~antonk@72.139.35.213.sta.estpak.ee) has quit (Remote host closed the connection)
+2015-11-03 11:19:32	pineapple	there isn't really an easy way to destroy artifacts, is there
+2015-11-03 11:19:51	<	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit (Ping timeout: 252 seconds)
+2015-11-03 11:20:35	Nitrodev	you can pour fun magma over them
+2015-11-03 11:20:45	pineapple	when i find it
+2015-11-03 11:20:49	Tohuwabohu	magma or smashing should work
+2015-11-03 11:20:52	pineapple	which means that, for now
+2015-11-03 11:21:01	pineapple	i'm stuck with this gold statue worth 200k
+2015-11-03 11:21:12	Nitrodev	or you can give them to the caravan
+2015-11-03 11:21:25	pineapple	they don't show up in the trade window at all :-(
+2015-11-03 11:21:34	Tohuwabohu	put it into your throne room
+2015-11-03 11:21:46	pineapple	i put it in my dining room
+2015-11-03 11:22:09	pineapple	pretty sure that you're not supposed to have a fortress worth 600k before the end of year 2
+2015-11-03 11:26:23	TheBloke	Seems like you can't even destroy them with DFHack - at least not with any provided scripts/plugins, that I can see right now anyway
+2015-11-03 11:26:38	TheBloke	autodump-destroy-item says "Choosing not to destroy buildings, constructions and artifacts"
+2015-11-03 11:26:41	<	Grognor (uid58722@gateway/web/irccloud.com/x-vlalxgxzikkkvgfp) has quit (Quit: Connection closed for inactivity)
+2015-11-03 11:27:02	TheBloke	Maybe the game breaks if they get destroyed
+2015-11-03 11:29:07	pineapple	and i'm not even using DFHack
+2015-11-03 11:32:52	>	Kulgur (~Someguy@host86-163-251-18.range86-163.btcentralplus.com) has joined #dwarffortress
+2015-11-03 11:49:36	>	Anarchid (~anarchid@82.131.109.113.cable.starman.ee) has joined #dwarffortress
+2015-11-03 11:52:29	>	lubos (~lubos@ip-94-112-169-17.net.upcbroadband.cz) has joined #dwarffortress
+2015-11-03 11:55:13	<	sacje (~sacje@unaffiliated/klet) has quit (Quit: sacje)
+2015-11-03 11:55:40	>	DepressedRacoon (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has joined #dwarffortress
+2015-11-03 12:15:28	<	SirFinkus (~textual@c-73-140-116-124.hsd1.wa.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-11-03 12:16:09	>	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has joined #dwarffortress
+2015-11-03 12:16:41	<	lapinozz (~lapinozz@69.9.82.72) has quit (Ping timeout: 252 seconds)
+2015-11-03 12:18:57	vaitel	I don't think that magma will destroy an artifact either, it will just burn forever.
+2015-11-03 12:19:28	vaitel	Dropping it into the magma sea should do it though, I think that semi-molten rock will destroy anything.
+2015-11-03 12:20:48	<	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has quit (Ping timeout: 255 seconds)
+2015-11-03 12:25:49	>	serq (~serq@unaffiliated/serq) has joined #dwarffortress
+2015-11-03 12:28:13	>	serq_ (~serq@ip-84-118-46-85.unity-media.net) has joined #dwarffortress
+2015-11-03 12:28:34	<	jaboja (~jaboja@esd196.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 260 seconds)
+2015-11-03 12:28:40	<	serq (~serq@unaffiliated/serq) has quit (Client Quit)
+2015-11-03 12:28:49	<	serq_ (~serq@ip-84-118-46-85.unity-media.net) has quit (Client Quit)
+2015-11-03 12:53:26	<	lubos (~lubos@ip-94-112-169-17.net.upcbroadband.cz) has quit (Ping timeout: 250 seconds)
+2015-11-03 12:54:31	<	alt52337 (0user@c-73-157-22-36.hsd1.wa.comcast.net) has quit (Quit: rip)
+2015-11-03 12:56:50	>	alt41839 (0user@c-73-157-22-36.hsd1.wa.comcast.net) has joined #dwarffortress
+2015-11-03 12:57:06	>	Velocifaptor (~Velocifap@c-73-35-243-87.hsd1.wa.comcast.net) has joined #dwarffortress
+2015-11-03 12:59:47	>	Ququman (~quassel@mne69-5-82-230-76-144.fbx.proxad.net) has joined #dwarffortress
+2015-11-03 13:11:19	>	jpreg (~jpreg@249-nat.hq.squareup.com) has joined #dwarffortress
+2015-11-03 13:11:19	<	jpreg (~jpreg@249-nat.hq.squareup.com) has quit (Remote host closed the connection)
+2015-11-03 13:11:44	>	jpreg (~jpreg@249-nat.hq.squareup.com) has joined #dwarffortress
+2015-11-03 13:11:45	<	jpreg (~jpreg@249-nat.hq.squareup.com) has quit (Remote host closed the connection)
+2015-11-03 13:12:23	>	jpreg (~jpreg@249-nat.hq.squareup.com) has joined #dwarffortress
+2015-11-03 13:12:24	<	jpreg (~jpreg@249-nat.hq.squareup.com) has quit (Remote host closed the connection)
+2015-11-03 13:13:09	>	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has joined #dwarffortress
+2015-11-03 13:13:40	>	jpreg (~jpreg@249-nat.hq.squareup.com) has joined #dwarffortress
+2015-11-03 13:13:40	<	jpreg (~jpreg@249-nat.hq.squareup.com) has quit (Client Quit)
+2015-11-03 13:14:04	>	jpreg (~jpreg@249-nat.hq.squareup.com) has joined #dwarffortress
+2015-11-03 13:14:19	>	Kirkegaard (~Kirke_@87-49-228-135-dynamic.dk.customer.tdc.net) has joined #dwarffortress
+2015-11-03 13:19:02	>	qurage (~qurage@g31.124-44-32.ppp.wakwak.ne.jp) has joined #dwarffortress
+2015-11-03 13:21:18	<	DepressedRacoon (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has quit (Ping timeout: 260 seconds)
+2015-11-03 13:25:17	<	Nitrodev (~Nitrodev@dcx8fryy9dj3t-7s8b-6t-3.rev.dnainternet.fi) has quit (Read error: Connection reset by peer)
+2015-11-03 13:25:33	<	onget_ (~onget@softbank220035014133.bbtec.net) has quit (Ping timeout: 244 seconds)
+2015-11-03 13:26:59	<	Freejack (~Freejack@unaffiliated/freejack) has quit (Read error: Connection reset by peer)
+2015-11-03 13:28:36	>	ORCACommander (~ORCAComma@c-98-217-138-1.hsd1.nh.comcast.net) has joined #dwarffortress
+2015-11-03 13:28:40	>	inire (~inire@cpe-66-66-67-194.rochester.res.rr.com) has joined #dwarffortress
+2015-11-03 13:28:46	>	onget_ (~onget@softbank220035014133.bbtec.net) has joined #dwarffortress
+2015-11-03 13:30:52	>	Freejack (~Freejack@unaffiliated/freejack) has joined #dwarffortress
+2015-11-03 13:31:43	>	zlug (~^_-@unaffiliated/icetooth) has joined #dwarffortress
+2015-11-03 13:33:11	<	Cloverlogs (~ross@86-45-162-114-dynamic.agg2.cgi.chf-qkr.eircom.net) has quit (Ping timeout: 265 seconds)
+2015-11-03 13:47:10	>	lapinozz (~lapinozz@69.9.82.72) has joined #dwarffortress
+2015-11-03 13:47:13	<	lapinozz (~lapinozz@69.9.82.72) has quit (Remote host closed the connection)
+2015-11-03 13:48:25	>	lapinozz (~lapinozz@69.9.82.72) has joined #dwarffortress
+2015-11-03 13:50:38	>	Anarchid1 (~anarchid@82.131.109.113.cable.starman.ee) has joined #dwarffortress
+2015-11-03 13:51:04	<	Anarchid (~anarchid@82.131.109.113.cable.starman.ee) has quit (Read error: Connection reset by peer)
+2015-11-03 13:51:23	>	lubos (~lubos@ip-62-245-125-92.net.upcbroadband.cz) has joined #dwarffortress
+2015-11-03 13:57:41	⇄	Worm|Off is now known as Cyberworm
+2015-11-03 14:00:49	ORCACommander	Behold: http://imgur.com/a/6Qi8k
+2015-11-03 14:00:57	>	serq (~serq@unaffiliated/serq) has joined #dwarffortress
+2015-11-03 14:02:50	TheBloke	ORCACommander: Cool, good job.  What sort of DF FPS do you get?
+2015-11-03 14:03:23	ORCACommander	not yet tested
+2015-11-03 14:04:37	TheBloke	You going to OC the 5930k?
+2015-11-03 14:05:09	ORCACommander	of course
+2015-11-03 14:05:17	ORCACommander	I am just waiting on a shipment of San Ace fans
+2015-11-03 14:05:23	<	lapinozz (~lapinozz@69.9.82.72) has quit (Remote host closed the connection)
+2015-11-03 14:05:59	TheBloke	Cool. I've taken my 2010 i920 from 2.8ghz to 4.2 with only air cooling.  Maybe you can get to 5ghz or above with that
+2015-11-03 14:06:32	>	lapinozz (~lapinozz@69.9.82.72) has joined #dwarffortress
+2015-11-03 14:06:41	ORCACommander	not gona try for 5
+2015-11-03 14:07:08	ORCACommander	past 5 you start getting problems from quantum tunnelling
+2015-11-03 14:16:46	TheBloke	Actually looks like you probably can't get much past 4.6 with that CPU
+2015-11-03 14:17:04	ORCACommander	we'll see
+2015-11-03 14:17:16	ORCACommander	Sometimes you get a wonder chip
+2015-11-03 14:17:31	ORCACommander	the E8400 was legendary for having an entire bath of wonder chips
+2015-11-03 14:17:55	ORCACommander	to the point where people would walk intop microcenter and demand them by the batch number
+2015-11-03 14:18:03	TheBloke	hehe
+2015-11-03 14:18:27	lukky513	switched to IRC window, first thing I saw "past 5 you start getting problems from quantum tunnelling"
+2015-11-03 14:18:39	lukky513	and tried to fit in DF
+2015-11-03 14:19:09	<	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2015-11-03 14:20:27	ORCACommander	lol
+2015-11-03 14:22:52	lukky513	yeah. "that's one thing I haven't heard about the update"
+2015-11-03 14:23:28	ORCACommander	but ya i ave a new computer :D
+2015-11-03 14:23:59	<	lubos (~lubos@ip-62-245-125-92.net.upcbroadband.cz) has quit (Ping timeout: 240 seconds)
+2015-11-03 14:24:27	lukky513	wish you no FPS deaths
+2015-11-03 14:25:01	lukky513	that's the main reason I stop playing after putting some time into game
+2015-11-03 14:25:35	Velocifaptor	Dwarf fortress makes me want to really prioritize my CPU for my new computer. I'm running a 3.1 Ghz right now
+2015-11-03 14:25:37	TheBloke	Yeah, FPS is DF's biggest problem. Far more than basic UI etc
+2015-11-03 14:25:59	TheBloke	Very frustrating as I'm sure it could be much improved without a vast amount of work just by threading it a bit more
+2015-11-03 14:26:16	lukky513	threading *would* be vast amount of work
+2015-11-03 14:27:08	Velocifaptor	I imagine he'd basically have to re-write the entire game. I'm not sure though I've only learned some basic C# and Python.
+2015-11-03 14:27:22	Velocifaptor	Like not the game logic
+2015-11-03 14:27:23	TheBloke	Nah he really wouldn't :)
+2015-11-03 14:27:26	Velocifaptor	But the engine
+2015-11-03 14:27:54	lukky513	well, it all depends on the code quality, and he only knows it
+2015-11-03 14:27:59	lukky513	we can only guess
+2015-11-03 14:28:35	Velocifaptor	I can only imagine the 10 year old legacy code is bad
+2015-11-03 14:28:49	Velocifaptor	But thats just based on any other indie code I've seen
+2015-11-03 14:29:06	Velocifaptor	You generally see massive improvements in code quality over time
+2015-11-03 14:29:39	lukky513	yeah, but there's always that one 10 year old layer that no one wants to touch because it works :>
+2015-11-03 14:30:58	Velocifaptor	I don't even remember what I write like, a week ago, I spend like 30 minutes deciphering my comments. My math skills are poor though so I don't quickly connect what the code is doing based on the formulas in the code easily.
+2015-11-03 14:31:10	lukky513	same
+2015-11-03 14:31:33	lukky513	but I don't put much heart into it
+2015-11-03 14:31:34	>	SirFinkus (~textual@c-73-140-116-124.hsd1.wa.comcast.net) has joined #dwarffortress
+2015-11-03 14:31:54	lukky513	might be that Toady knows the code quite well without looking much at it
+2015-11-03 14:33:41	ORCACommander	DF's code quality is abysmal
+2015-11-03 14:34:00	Anarchid1	anyone saw DF code?
+2015-11-03 14:34:06	TheBloke	lukky513: after 10 years you'd hope so
+2015-11-03 14:34:07	Anarchid1	or that's based on reversing?
+2015-11-03 14:34:11	TheBloke	ORCACommander: how can you know?
+2015-11-03 14:34:28	Pici	I thought I recalled seeing something about the actual code a while ago, and the thought that it was not very good.
+2015-11-03 14:34:35	Anarchid1	hm
+2015-11-03 14:34:38	TheBloke	Though it wouldn't much surprise me tbh
+2015-11-03 14:34:39	ORCACommander	toady has gone on record about how bad it is
+2015-11-03 14:34:45	Anarchid1	i guess it mostly matters when you have collabs though
+2015-11-03 14:34:58	ORCACommander	toady codes on a technical level. not at a proficiento ne
+2015-11-03 14:35:05	Anarchid1	i recently got a guy to collaborate with my AI project because of all the competitors it was the one with readable code 
+2015-11-03 14:35:06	TheBloke	Anarchid1: indeed. A one man show has a lot less incentive and impetus to make it neat.  Unless it's in one's nature to make neat code
+2015-11-03 14:35:30	Anarchid1	well, one man, across years, is a lot of man-years, and not all of those men have the same opinions
+2015-11-03 14:38:15	ORCACommander	Toady's strength is math
+2015-11-03 14:38:40	ORCACommander	So he writes code from that perspective
+2015-11-03 14:38:56	ORCACommander	however once compiled that is not always turned into efficient machine ocde
+2015-11-03 14:41:32	>	Cacophony (~Cacophony@unaffiliated/cacophony) has joined #dwarffortress
+2015-11-03 14:42:34	pineapple	also, people just change over time
+2015-11-03 14:42:59	pineapple	coding styles can evolve, not because of practice or expereince, but... just because
+2015-11-03 14:49:15	>	DepressedRacoon (~Depressed@cpc72331-sotn15-2-0-cust403.15-1.cable.virginm.net) has joined #dwarffortress
+2015-11-03 15:21:10	⇄	irc: disconnected from server
+2015-11-03 15:21:36	>	rawks (~alex@189.153.105.82) has joined #dwarffortress
+2015-11-03 15:21:36	⇄	Topic for #dwarffortress is "This is a dwarven skull channel topic. On it are finely carven runes spelling "Dwarf Fortress General Chat - http://www.bay12games.com/dwarves/". On it are exquisite inscribed runes spelling "Check the wiki: http://dwarffortresswiki.org/". It menaces with spikes of dwarven bone. *Note: We are often playing with our fortresses, so please be patient after asking a question. :)"
+2015-11-03 15:21:36	⇄	Topic set by brocifer on lun, 02 abr 2012 17:38:33
+2015-11-03 15:21:36	⇄	Channel #dwarffortress: 173 nicks (2 ops, 0 voices, 171 normals)
+2015-11-03 15:21:38	⇄	Channel created on mié, 21 jul 2010 14:45:39
+2015-11-03 15:28:28	<	Anarchid1 (~anarchid@82.131.109.113.cable.starman.ee) has quit (Quit: Leaving.)
+2015-11-03 15:40:52	⇄	Cyberworm is now known as Worm|Off
+2015-11-03 15:41:24	>	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has joined #dwarffortress
+2015-11-03 15:42:01	⇄	Worm|Off is now known as Cyberworm
+2015-11-03 15:42:36	⇄	Cyberworm is now known as Worm|Off
+2015-11-03 15:42:47	⇄	Worm|Off is now known as Cyberworm
+2015-11-03 15:46:45	>	Scourje (uid63311@gateway/web/irccloud.com/x-ggsksanhpwdjwljo) has joined #dwarffortress
+2015-11-03 15:47:32	<	Scourje (uid63311@gateway/web/irccloud.com/x-ggsksanhpwdjwljo) has quit (Changing host)
+2015-11-03 15:47:32	>	Scourje (uid63311@unaffiliated/scourje) has joined #dwarffortress
+2015-11-03 15:47:32	<	Scourje (uid63311@unaffiliated/scourje) has quit (Changing host)
+2015-11-03 15:47:32	>	Scourje (uid63311@gateway/web/irccloud.com/x-ggsksanhpwdjwljo) has joined #dwarffortress
+2015-11-03 16:03:32	>	MgDark (~MgDark@190.198.102.201) has joined #dwarffortress
+2015-11-03 16:04:23	>	lubos (~lubos@ip-62-245-125-92.net.upcbroadband.cz) has joined #dwarffortress
+2015-11-03 16:07:09	<	Tohuwabohu (~LoyID@p5B3858AD.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2015-11-03 16:07:25	<	Kirkegaard (~Kirke_@87-49-228-135-dynamic.dk.customer.tdc.net) has quit (Quit: Goodbye all)
+2015-11-03 16:12:27	⇄	Cyberworm is now known as Worm|Off
+2015-11-03 16:13:33	>	Lokathor (~Lokathor^@75.174.92.155) has joined #dwarffortress
+2015-11-03 16:13:38	⇄	Worm|Off is now known as Cyberworm
+2015-11-03 16:14:28	>	KeyboardFire (~llama@98.196.38.177) has joined #dwarffortress
+2015-11-03 16:15:49	>	oldtopman (~oldtopman@unaffiliated/oldtopman) has joined #dwarffortress
+2015-11-03 16:17:05	<	lubos (~lubos@ip-62-245-125-92.net.upcbroadband.cz) has quit (Ping timeout: 244 seconds)
+2015-11-03 16:29:01	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Remote host closed the connection)
+2015-11-03 16:45:43	<	Seylerius (~seylerius@104.152.206.27) has quit (Remote host closed the connection)
+2015-11-04 22:41:48	>	rawks (~alex@189.153.105.82) has joined #dwarffortress
+2015-11-04 22:41:48	⇄	Topic for #dwarffortress is "This is a dwarven skull channel topic. On it are finely carven runes spelling "Dwarf Fortress General Chat - http://www.bay12games.com/dwarves/". On it are exquisite inscribed runes spelling "Check the wiki: http://dwarffortresswiki.org/". It menaces with spikes of dwarven bone. *Note: We are often playing with our fortresses, so please be patient after asking a question. :)"
+2015-11-04 22:41:48	⇄	Topic set by brocifer on lun, 02 abr 2012 17:38:33
+2015-11-04 22:41:49	⇄	Channel #dwarffortress: 168 nicks (2 ops, 0 voices, 166 normals)
+2015-11-04 22:41:51	⇄	Channel created on mié, 21 jul 2010 14:45:39
+2015-11-04 22:43:36	>	cmoney (~cmoneylul@c-50-155-54-140.hsd1.ga.comcast.net) has joined #dwarffortress
+2015-11-04 22:44:17	<	MgDark (~MgDark@190.198.102.201) has quit (Ping timeout: 244 seconds)
+2015-11-04 22:50:08	<	sandlst (~sandlst@108-234-101-152.lightspeed.brhmal.sbcglobal.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-11-04 22:51:48	>	sandlst (~sandlst@108-234-101-152.lightspeed.brhmal.sbcglobal.net) has joined #dwarffortress
+2015-11-04 22:51:52	<	cmoney (~cmoneylul@c-50-155-54-140.hsd1.ga.comcast.net) has quit
+2015-11-04 22:52:16	>	cmoney (~cmoneylul@2601:ca:c202:a130:5591:c955:3f12:5f25) has joined #dwarffortress
+2015-11-04 22:55:00	<	cmoney (~cmoneylul@2601:ca:c202:a130:5591:c955:3f12:5f25) has quit (Client Quit)
+2015-11-04 22:55:26	>	cmoney (~cmoneylul@c-50-155-54-140.hsd1.ga.comcast.net) has joined #dwarffortress
+2015-11-04 22:56:08	<	cmoney (~cmoneylul@c-50-155-54-140.hsd1.ga.comcast.net) has quit (Client Quit)
+2015-11-04 22:56:50	<	EvaShark (~bubbles@cpc76564-dals22-2-0-cust612.20-2.cable.virginm.net) has quit (Read error: Connection reset by peer)
+2015-11-04 22:59:25	>	TheBloke (~TheBloke@host86-173-118-224.range86-173.btcentralplus.com) has joined #dwarffortress
+2015-11-04 23:03:56	>	cmoney (~cmoneylul@2601:ca:c202:a130:5591:c955:3f12:5f25) has joined #dwarffortress
+2015-11-04 23:04:35	<	Thutmose (~elpat@cpe-245-52-66-208.caribcable.com) has quit (Quit: Leaving.)
+2015-11-04 23:06:10	<	lapinozz (~lapinozz@modemcable105.97-160-184.mc.videotron.ca) has quit (Ping timeout: 260 seconds)
+2015-11-04 23:06:45	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-04 23:06:53	LyndsySimon	LOL @ the discussion of 4K monitors in #dwarffortress :)
+2015-11-04 23:06:56	>	lapinozz (~lapinozz@modemcable105.97-160-184.mc.videotron.ca) has joined #dwarffortress
+2015-11-04 23:11:46	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 240 seconds)
+2015-11-04 23:12:08	<	cmoney (~cmoneylul@2601:ca:c202:a130:5591:c955:3f12:5f25) has quit (Changing host)
+2015-11-04 23:12:08	>	cmoney (~cmoneylul@unaffiliated/cmoneylulz) has joined #dwarffortress
+2015-11-04 23:12:39	rawks	jesus
+2015-11-04 23:12:46	rawks	anyone here actually plays fullscreen in 4k?
+2015-11-04 23:16:06	<	cmoney (~cmoneylul@unaffiliated/cmoneylulz) has quit
+2015-11-04 23:16:25	>	cmoneylulz (~cmoneylul@unaffiliated/cmoneylulz) has joined #dwarffortress
+2015-11-04 23:16:59	<	cmoneylulz (~cmoneylul@unaffiliated/cmoneylulz) has quit (Remote host closed the connection)
+2015-11-04 23:21:35	LyndsySimon	I just got a new Macbook. It's Retina, but I don't see a huge difference in DF.
+2015-11-04 23:22:25	>	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has joined #dwarffortress
+2015-11-04 23:24:42	>	sacje (~sacje@50-81-223-29.client.mchsi.com) has joined #dwarffortress
+2015-11-04 23:24:42	<	sacje (~sacje@50-81-223-29.client.mchsi.com) has quit (Changing host)
+2015-11-04 23:24:42	>	sacje (~sacje@unaffiliated/klet) has joined #dwarffortress
+2015-11-04 23:33:21	milki	LyndsySimon: you gotta look closer
+2015-11-04 23:33:26	<	Atarlost (~quassel@71-210-20-40.eugn.qwest.net) has quit (Remote host closed the connection)
+2015-11-04 23:37:18	>	Atarlost (~quassel@71-210-20-40.eugn.qwest.net) has joined #dwarffortress
+2015-11-04 23:45:26	<	Ikoru (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has quit (Ping timeout: 272 seconds)
+2015-11-04 23:46:41	<	Grognor (uid58722@gateway/web/irccloud.com/x-vgoxfenlguajfkcr) has quit (Quit: Connection closed for inactivity)
+2015-11-04 23:51:56	<	sandlst (~sandlst@108-234-101-152.lightspeed.brhmal.sbcglobal.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-11-04 23:56:53	>	lemon_snowCone (~lemonyarc@103.21.234.178) has joined #dwarffortress
+2015-11-05 00:01:30	<	TheBloke (~TheBloke@host86-173-118-224.range86-173.btcentralplus.com) has quit (Ping timeout: 246 seconds)
+2015-11-05 00:05:22	<	txtsd (~txtsd@45.112.12.225) has quit (Read error: Connection reset by peer)
+2015-11-05 00:06:45	>	txtsd (~txtsd@45.112.12.225) has joined #dwarffortress
+2015-11-05 00:10:26	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-05 00:15:13	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 244 seconds)
+2015-11-05 00:16:24	>	Japa (~Japa@123.63.216.13) has joined #dwarffortress
+2015-11-05 00:23:05	<	smoke_fumus (~smoke_fum@188.35.176.90) has quit (Read error: Connection reset by peer)
+2015-11-05 00:36:48	>	HellTiger (~HellTiger@30.12.77.83.dynamic.wline.res.cust.swisscom.ch) has joined #dwarffortress
+2015-11-05 00:52:44	<	xrm (~asd@x50abbea4.dyn.telefonica.de) has quit (Ping timeout: 250 seconds)
+2015-11-05 00:52:51	>	xrm (~asd@x50abb923.dyn.telefonica.de) has joined #dwarffortress
+2015-11-05 01:02:23	<	instago (~instago4@153.90.88.15) has quit (Read error: Connection reset by peer)
+2015-11-05 01:07:04	<	lemon_snowCone (~lemonyarc@103.21.234.178) has quit (Quit: Leaving)
+2015-11-05 01:11:15	>	fuzzyhorns (~fuzzyhorn@73.38.57.191) has joined #dwarffortress
+2015-11-05 01:14:04	<	sacje (~sacje@unaffiliated/klet) has quit (Quit: sacje)
+2015-11-05 01:15:39	<	fuzzyhorns (~fuzzyhorn@73.38.57.191) has quit (Ping timeout: 240 seconds)
+2015-11-05 01:20:02	<	stonetongue (~stonetong@71-35-182-148.tukw.qwest.net) has quit (Ping timeout: 250 seconds)
+2015-11-05 01:23:45	<	lapinozz (~lapinozz@modemcable105.97-160-184.mc.videotron.ca) has quit (Ping timeout: 246 seconds)
+2015-11-05 01:27:38	>	Ikoru (~Ikoru@host86-148-99-250.range86-148.btcentralplus.com) has joined #dwarffortress
+2015-11-07 23:33:19	>	rawks (~alex@189.153.105.82) has joined #dwarffortress
+2015-11-07 23:33:19	⇄	Topic for #dwarffortress is "This is a dwarven skull channel topic. On it are finely carven runes spelling "Dwarf Fortress General Chat - http://www.bay12games.com/dwarves/". On it are exquisite inscribed runes spelling "Check the wiki: http://dwarffortresswiki.org/". It menaces with spikes of dwarven bone. *Note: We are often playing with our fortresses, so please be patient after asking a question. :)"
+2015-11-07 23:33:19	⇄	Topic set by brocifer on lun, 02 abr 2012 17:38:33
+2015-11-07 23:33:19	⇄	Channel #dwarffortress: 176 nicks (2 ops, 0 voices, 174 normals)
+2015-11-07 23:33:22	⇄	Channel created on mié, 21 jul 2010 14:45:39
+2015-11-07 23:40:25	>	ProzacElf (~ProzacElf@107-218-196-138.lightspeed.dctril.sbcglobal.net) has joined #dwarffortress
+2015-11-07 23:45:10	<	joe4 (~joe@89.100.193.214) has quit (Ping timeout: 240 seconds)
+2015-11-07 23:49:07	<	cmoney (~cmoneylul@unaffiliated/cmoneylulz) has quit (Remote host closed the connection)
+2015-11-07 23:58:55	>	Watball (~Watball@5249A8C5.cm-4-2c.dynamic.ziggo.nl) has joined #dwarffortress
+2015-11-07 23:59:20	<	Iriel (~Iriel@173-8-135-209-SFBA.hfc.comcastbusiness.net) has quit (Quit: Iriel)
+2015-11-08 00:01:10	<	serq (~serq@unaffiliated/serq) has quit (Quit: leaving)
+2015-11-08 00:13:42	>	Starvr (~Starvr@199.193.237.18) has joined #dwarffortress
+2015-11-08 00:20:45	<	Uptime (notbot@equinoxjs.com) has quit (Remote host closed the connection)
+2015-11-08 00:22:38	>	Uptime (notbot@equinoxjs.com) has joined #dwarffortress
+2015-11-08 00:51:05	>	xrm (~asd@x5ce0b009.dyn.telefonica.de) has joined #dwarffortress
+2015-11-08 00:51:11	<	txtsd (~txtsd@45.114.251.30) has quit (Read error: Connection reset by peer)
+2015-11-08 00:52:57	>	txtsd (~txtsd@45.114.251.30) has joined #dwarffortress

@@ -1,0 +1,36 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [14 23])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [24 37]))                  
+                :type "int")
+                nil [5 60]))          
+      :file "test.c"
+      :pointmax 61
+      :unmatched-syntax '((INT 1 . 4)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("testList" variable nil nil [1 40])
+            ("printAll" function (:arguments 
+              ( ("list" variable nil (reparse-symbol function_parameters) [55 59]))              ) nil [42 104])
+            ("printAll" code nil nil [105 123]))          
+      :file "test.py"
+      :pointmax 133
+      :fsize 40
+      :lastmodtime '(23288 34556 155872 621000)
+      :unmatched-syntax '((NAME 124 . 132) ($EOI 133 . 133) (NAME 124 . 132) ($EOI 132 . 132) (NAME 105 . 113) ($EOI 113 . 113))))
+  :file "!home!alexhg!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

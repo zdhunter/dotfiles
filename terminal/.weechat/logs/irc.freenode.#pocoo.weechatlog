@@ -1,0 +1,93 @@
+2015-09-13 22:27:26	>	rawks (~alex@189.153.90.254) has joined #pocoo
+2015-09-13 22:27:26	⇄	Topic for #pocoo is "Pocoo Team Channel | dev.pocoo.org | just ask | twitter.com/PocooProject | dev.pocoo.org/irclogs | groups.google.com/group/pocoo-libs | Ponies can fly, but only in CET! | please no /query without asking first | Approve your Flask Extension now: http://bit.ly/approvenow | New channel for Sphinx: -> #sphinx-doc | Metaflask: -> #metaflask"
+2015-09-13 22:27:26	⇄	Topic set by mitsuhiko (~mitsuhiko@ubuntu/member/mitsuhiko) on vie, 04 jul 2014 06:28:28
+2015-09-13 22:27:26	⇄	Channel #pocoo: 414 nicks (1 op, 0 voices, 413 normals)
+2015-09-13 22:27:29	⇄	Channel created on dom, 26 nov 2006 00:43:17
+2015-09-13 22:27:45	rawks	guys is flask being developed?
+2015-09-13 22:32:11	<	jrm2k6 (~jrm2k6@ip174-65-142-175.sd.sd.cox.net) has quit (Remote host closed the connection)
+2015-09-13 22:32:21	>	fibbance (~fibbance@39.44.223.191) has joined #pocoo
+2015-09-13 22:37:54	<	toothrot (~mux@unaffiliated/toothrot) has quit (Ping timeout: 260 seconds)
+2015-09-13 22:38:50	Pinkamena_D	?
+2015-09-13 22:47:18	<	gfabricio (~gfabricio@186.231.123.128) has quit (Quit: This computer has gone to sleep)
+2015-09-13 22:48:55	>	syzygykr (68ecd4a2@gateway/web/freenode/ip.104.236.212.162) has joined #pocoo
+2015-09-13 22:49:01	syzygykr	anyone here use python3 w/ flask?
+2015-09-13 22:49:05	>	junqed (~junqed@178.70.26.115) has joined #pocoo
+2015-09-13 22:53:37	<	junqed (~junqed@178.70.26.115) has quit (Ping timeout: 256 seconds)
+2015-09-13 22:54:46	<	blueacker (~blueacker@218.107.55.252) has quit (Remote host closed the connection)
+2015-09-13 23:05:42	>	mistermocha (~mistermoc@108-217-164-28.lightspeed.sntcca.sbcglobal.net) has joined #pocoo
+2015-09-13 23:07:10	>	Dasleah (~das@ppp121-44-67-106.lns20.syd4.internode.on.net) has joined #pocoo
+2015-09-13 23:15:51	>	efazati (~efazati@unaffiliated/efazati) has joined #pocoo
+2015-09-13 23:21:27	>	PCatinean (~wiz@5-12-50-227.residential.rdsnet.ro) has joined #pocoo
+2015-09-13 23:23:34	>	sp1rs (~Thunderbi@182.71.49.122) has joined #pocoo
+2015-09-13 23:27:17	>	k-dawg (~kdawg@220-253-210-57.dyn.iinet.net.au) has joined #pocoo
+2015-09-13 23:27:45	Pinkamena_D	I haven't heard of that being possible 
+2015-09-13 23:28:45	Pinkamena_D	And incase anyone cares about that question I asked an hour ago, it was an issue with watchdog. This is the solution (not by me). I had to make some minor edits because of the other updated to the library: https://github.com/gorakhargosh/watchdog/commit/e4eebae522e2e6fc9448de12a8a15e924ed684e9
+2015-09-13 23:51:16	>	ramteid (~textual@83-64-52-210.fadingerstrasse.xdsl-line.inode.at) has joined #pocoo
+2015-09-13 23:53:29	>	michel_slm (uid16025@gateway/web/irccloud.com/x-pkfmmnfjviswjbol) has joined #pocoo
+2015-09-13 23:57:45	>	ramky (ramky@nat/redhat/x-yuzdcaqwgmqjkofo) has joined #pocoo
+2015-09-13 23:59:01	>	zoso (~arvind@unaffiliated/arvind-khadri/x-2237230) has joined #pocoo
+2015-09-13 23:59:25	<	k-dawg (~kdawg@220-253-210-57.dyn.iinet.net.au) has quit (Quit: This computer has gone to sleep)
+2015-09-14 00:01:01	<	Pinkamena_D (~paul@c-50-182-143-125.hsd1.nj.comcast.net) has quit (Ping timeout: 265 seconds)
+2015-09-14 00:01:55	<	ramky (ramky@nat/redhat/x-yuzdcaqwgmqjkofo) has quit (Ping timeout: 250 seconds)
+2015-09-14 00:27:55	<	evilt0ne (~bar@unaffiliated/evilt0ne) has quit (Ping timeout: 250 seconds)
+2015-09-14 00:31:32	<	mistermocha (~mistermoc@108-217-164-28.lightspeed.sntcca.sbcglobal.net) has quit (Remote host closed the connection)
+2015-09-14 00:34:40	>	evilt0ne (~bar@unaffiliated/evilt0ne) has joined #pocoo
+2015-09-14 00:43:18	<	syzygykr (68ecd4a2@gateway/web/freenode/ip.104.236.212.162) has quit (Quit: Page closed)
+2015-09-14 00:43:32	>	syzygykr (68ecd4a2@gateway/web/freenode/ip.104.236.212.162) has joined #pocoo
+2015-09-14 00:43:40	syzygykr	anyone have any experience using flask w/ py3
+2015-09-14 00:46:26	<	Paradisee (~quassel@2.239.28.120) has quit (Ping timeout: 272 seconds)
+2015-09-14 00:51:38	<	shiranaihito (~shiranaih@118-160-95-46.dynamic.hinet.net) has quit (Quit: .)
+2015-09-14 00:52:36	>	shiranaihito (~shiranaih@118-160-95-46.dynamic.hinet.net) has joined #pocoo
+2015-09-14 00:52:51	<	shiranaihito (~shiranaih@118-160-95-46.dynamic.hinet.net) has quit (Read error: Connection reset by peer)
+2015-09-14 00:53:11	>	iamd3vil (~d3vil@106.51.29.254) has joined #pocoo
+2015-09-14 01:02:36	<	syzygykr (68ecd4a2@gateway/web/freenode/ip.104.236.212.162) has quit (Ping timeout: 246 seconds)
+2015-09-14 01:13:25	>	sssilver (~sssilver@cpe-70-112-245-224.austin.res.rr.com) has joined #pocoo
+2015-09-14 01:18:30	<	sp1rs (~Thunderbi@182.71.49.122) has quit (Remote host closed the connection)
+2015-09-14 01:18:51	>	sp1rs (~Thunderbi@14.141.250.218) has joined #pocoo
+2015-09-14 01:25:13	>	carl- (~carl_@spacewalkers.comhem.com) has joined #pocoo
+2015-09-14 01:26:12	>	kushal (~kdas@fedora/kushal) has joined #pocoo
+2015-09-14 01:26:46	>	Paradisee (~quassel@2.239.28.120) has joined #pocoo
+2015-09-14 01:31:38	>	BlaXpirit (~blaxpirit@194.44.30.4) has joined #pocoo
+2015-09-14 01:37:16	>	ogny (~orkun@unaffiliated/ogny) has joined #pocoo
+2015-09-14 01:39:33	>	Ergo (~ergo@95.85.4.242) has joined #pocoo
+2015-09-14 01:41:00	>	silenc3r (~silenc3r@aaex230.neoplus.adsl.tpnet.pl) has joined #pocoo
+2015-09-14 01:42:05	<	sssilver (~sssilver@cpe-70-112-245-224.austin.res.rr.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-09-14 01:47:34	<	wong2 (~wong2@124.205.66.195) has quit (Ping timeout: 244 seconds)
+2015-09-14 01:50:56	<	thomi (~quassel@ubuntu/member/thomi) has quit (Remote host closed the connection)
+2015-09-14 01:54:01	>	sazed (~saze__@IGLD-84-228-46-178.inter.net.il) has joined #pocoo
+2015-09-14 01:58:14	>	wong2 (~wong2@124.205.66.195) has joined #pocoo
+2015-09-14 02:13:46	untitaker	rawks: yes, not very actively though
+2015-09-14 02:13:56	untitaker	syrius: yes it works
+2015-09-14 02:14:04	untitaker	uh, i mean syz...
+2015-09-14 02:14:43	>	JohnnyTao (~Johnny@124.205.207.130) has joined #pocoo
+2015-09-14 02:20:22	<	JohnnyTao (~Johnny@124.205.207.130) has quit (Max SendQ exceeded)
+2015-09-14 02:20:50	>	fabe (~fabe@dslb-084-059-028-034.084.059.pools.vodafone-ip.de) has joined #pocoo
+2015-09-14 02:21:50	>	JohnnyTao (~Johnny@124.205.207.130) has joined #pocoo
+2015-09-14 02:22:40	>	jackhum (uid97400@gateway/web/irccloud.com/x-eusakmjqlalsztsa) has joined #pocoo
+2015-09-14 02:22:54	<	JohnnyTao (~Johnny@124.205.207.130) has quit (Max SendQ exceeded)
+2015-09-14 02:22:59	<	wong2 (~wong2@124.205.66.195) has quit (Ping timeout: 264 seconds)
+2015-09-14 02:23:25	<	sbogg (~svbcrypto@c-71-238-117-4.hsd1.or.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-09-14 02:23:38	>	JohnnyTao (~Johnny@124.205.207.130) has joined #pocoo
+2015-09-14 02:23:44	<	carl- (~carl_@spacewalkers.comhem.com) has quit (Remote host closed the connection)
+2015-09-14 02:25:35	>	carl- (~carl_@spacewalkers.comhem.com) has joined #pocoo
+2015-09-14 02:26:29	>	sazed_ (~saze__@IGLD-84-228-46-178.inter.net.il) has joined #pocoo
+2015-09-14 02:26:56	>	sazed__ (~saze__@104.244.76.181) has joined #pocoo
+2015-09-14 02:27:24	>	not_dammit (~Buster@14.47.125.215) has joined #pocoo
+2015-09-14 02:27:39	<	Gui_ (ac3822cc@gateway/web/freenode/ip.172.56.34.204) has quit (Ping timeout: 246 seconds)
+2015-09-14 02:27:40	<	JohnnyTao (~Johnny@124.205.207.130) has quit (Max SendQ exceeded)
+2015-09-14 02:28:35	>	JohnnyTao (~Johnny@124.205.207.130) has joined #pocoo
+2015-09-14 02:29:33	<	sp1rs (~Thunderbi@14.141.250.218) has quit (Read error: Connection reset by peer)
+2015-09-14 02:29:43	>	sp1rs (~Thunderbi@182.71.49.122) has joined #pocoo
+2015-09-14 02:29:53	>	wong2 (~wong2@124.205.66.195) has joined #pocoo
+2015-09-14 02:29:53	<	sp1rs (~Thunderbi@182.71.49.122) has quit (Remote host closed the connection)
+2015-09-14 02:31:06	>	mrwick (~mrwick@rosenberg.skynet.be) has joined #pocoo
+2015-09-14 02:31:06	<	mrwick (~mrwick@rosenberg.skynet.be) has quit (Changing host)
+2015-09-14 02:31:06	>	mrwick (~mrwick@unaffiliated/mrwick) has joined #pocoo
+2015-09-14 02:32:01	>	sp1rs (~Thunderbi@14.142.35.50) has joined #pocoo
+2015-09-14 02:32:36	<	lritter (~lritter@f053084181.adsl.alicedsl.de) has quit (Quit: Leaving)
+2015-09-14 02:34:48	>	mvt (~mvt@53558734.cm-6-6c.dynamic.ziggo.nl) has joined #pocoo
+2015-09-14 02:36:12	<	JohnnyTao (~Johnny@124.205.207.130) has quit (Quit: Leaving)
+2015-09-14 02:36:32	>	JohnnyTao (~Johnny@124.205.207.130) has joined #pocoo
+2015-09-14 02:37:23	<	GrayArea (~GrayArea@cpc73846-dals21-2-0-cust384.20-2.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2015-09-14 02:42:19	untitaker	DasIch: your ssl cert is pretty old
+2015-09-14 02:45:26	>	quiqua (~quiqua@p5DDC5956.dip0.t-ipconnect.de) has joined #pocoo

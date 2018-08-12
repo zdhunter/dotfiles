@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SKELETONGL_H" variable (:constant-flag t) nil [30 42])
+            ("utility/SGL_AssetManager.hpp" include nil nil [56 95])
+            ("utility/SGL_DataStructures.hpp" include nil nil [96 137])
+            ("utility/SGL_Utility.hpp" include nil nil [138 172])
+            ("renderer/SGL_OpenGLManager.hpp" include nil nil [184 225])
+            ("renderer/SGL_Camera.hpp" include nil nil [226 260])
+            ("renderer/SGL_PostProcessor.hpp" include nil nil [305 346])
+            ("renderer/SGL_Shader.hpp" include nil nil [347 381])
+            ("renderer/SGL_Renderer.hpp" include nil nil [382 418])
+            ("renderer/SGL_Texture.hpp" include nil nil [419 454])
+            ("window/SGL_Window.hpp" include nil nil [464 496]))          
+      :file "skeletonGL.hpp"
+      :pointmax 505
+      :fsize 504
+      :lastmodtime '(23204 31258 92237 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SKELETONGL_H")
+          )
+))
+  :file "!home!alexhg!Documents!gits!skeletongl!src!skeletonGL!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

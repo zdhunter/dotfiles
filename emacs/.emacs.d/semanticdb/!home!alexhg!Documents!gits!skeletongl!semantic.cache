@@ -1,0 +1,25 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("CC" variable (:default-value ("clang++")) nil [1 12])
+            ("LDFLAGS" variable (:default-value ("-g" "-Wall" "-fPIC" "-m64" "-std=c++14" "$(shell pkg-config --cflags --libs sdl2)" "$(shell pkg-config --cflags --libs freetype2)" "$(shell pkg-config glew --cflags --libs)" "-pthread" "-lglut")) nil [13 198])
+            ("SOURCES" variable (:default-value ("src/main.cpp" "src/player.cpp" "src/gameManager.cpp" "src/gameObject.cpp" "src/grid.cpp" "src/skeletonGL/window/SGL_Window.cpp" "src/skeletonGL/utility/SGL_AssetManager.cpp" "src/skeletonGL/utility/SGL_Utility.cpp" "src/skeletonGL/renderer/SGL_OpenGLManager.cpp" "src/skeletonGL/renderer/SGL_Shader.cpp" "src/skeletonGL/renderer/SGL_Texture.cpp" "src/skeletonGL/renderer/SGL_PostProcessor.cpp" "src/skeletonGL/renderer/SGL_Camera.cpp" "src/skeletonGL/renderer/SGL_Renderer.cpp")) nil [223 749])
+            ("OBJECTS" variable (:default-value ("$(SOURCES:.cpp=.o)")) nil [751 778])
+            ("EXECUTABLE" variable (:default-value ("sgl")) nil [779 794])
+            ("all" function (:arguments ("$(SOURCES)" "$(EXECUTABLE)")) nil [795 825])
+            ("$(EXECUTABLE)" function (:arguments ("$(OBJECTS)")) nil [826 888])
+            (".cpp.o" function nil nil [889 927])
+            ("clean" function nil nil [929 1257]))          
+      :file "ho_makefile"
+      :pointmax 1257
+      :fsize 1256
+      :lastmodtime '(23334 51799 568757 127000)
+      :unmatched-syntax nil))
+  :file "!home!alexhg!Documents!gits!skeletongl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

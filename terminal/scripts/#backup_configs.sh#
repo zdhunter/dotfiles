@@ -1,0 +1,72 @@
+#!/bin/bash
+
+set +e
+
+backup_dir="/home/$USER/Documents/config_backup/"
+
+echo "Backing data to: ${backup_dir} "
+echo "Creating folders..."
+
+# MAKE DIRECTORIES
+mkdir -p "${backup_dir}"
+mkdir -p "${backup_dir}/emacs/"
+mkdir -p "${backup_dir}/emacs/.emacs.d"
+mkdir -p "${backup_dir}/terminal/"
+mkdir -p "${backup_dir}/WM/"
+mkdir -p "${backup_dir}/WM/themes"
+mkdir -p "${backup_dir}/journal/"
+
+echo "Backing files up..."
+echo "EMACS..."
+# EMACS
+cp  ~/.emacs "${backup_dir}/emacs/"
+cp  ~/.emacs.d/my-packages.el "${backup_dir}/emacs/.emacs.d"
+cp  -r ~/.emacs.d/custom/ "${backup_dir}/emacs/.emacs.d"
+
+echo "Terminal related files..."
+# TERMINAL AND COLORS
+cp  ~/.Xresources "${backup_dir}/terminal/"
+cp  ~/.tmux.conf  "${backup_dir}/terminal/"
+cp  ~/.zshrc  "${backup_dir}/terminal/"
+cp  -r ~/.urxvt/  "${backup_dir}/terminal/"
+cp  -r ~/.weechat/  "${backup_dir}/terminal/"
+cp  -r ~/.fonts  "${backup_dir}/terminal/"
+
+echo "MPD & NCMPCPP..."
+# MPD & NCMPCPP
+cp  -r ~/.config/mpd/  "${backup_dir}/terminal/"
+cp  -r ~/.ncmpcpp/  "${backup_dir}/terminal/"
+cp  -r ~/.screenlayout/  "${backup_dir}/terminal/"
+
+echo "Awesome WM..."
+# AWESOME WM
+cp  ~/.config/awesome/rc.lua  "${backup_dir}/WM/"
+cp  -r ~/.config/awesome/themes  "${backup_dir}/WM/themes/"
+
+echo "Encrypted log file..."
+cp  ~/Documents/Log/journal.org  "${backup_dir}/journal/"
+
+
+echo "Backup complete."
+
+cd $backup_dir
+inside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
+
+if [ "$inside_git_repo" ]; then
+    echo "Git repository found."
+    echo "Updating local git repository..."
+    git add .
+    git commit -m "$(date +%F_%T)"
+    git checkout
+else
+    echo "Git repository NOT found."
+    echo "Creating a new git repository..."
+    echo "Updating new local git repository..."
+    git init
+    git add .
+    git commit -m "$(date +%F_%T)"
+    git checkout
+fi
+
+
+echo "Backup done."

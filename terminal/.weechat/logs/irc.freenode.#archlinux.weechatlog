@@ -1,0 +1,183 @@
+2015-01-18 03:04:37	>	rawks (~rawks@189.153.231.224) has joined #archlinux
+2015-01-18 03:04:37	⇄	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃> Read or die: https://bbs.archlinux.org/viewtopic.php?id=57205 <+> pacman 4.2 in [core], don't forget to rebuild/fix/update your aur helper which depends on libalpm (yaourt, cower). <+> Happy 2015, a great year for world domination."
+2015-01-18 03:04:37	⇄	Topic set by demize on Wed, 31 Dec 2014 18:04:29
+2015-01-18 03:04:37	⇄	Channel #archlinux: 1715 nicks (0 ops, 0 voices, 1715 normals)
+2015-01-18 03:04:38	>	nfnty (~nfnty@h172n4-lk-a31.ias.bredband.telia.com) has joined #archlinux
+2015-01-18 03:04:39	⇄	Channel created on Sun, 15 Feb 2004 00:08:31
+2015-01-18 03:04:47	<	cataclysm (~psykotika@gateway/tor-sasl/psykotika) has quit (Remote host closed the connection)
+2015-01-18 03:04:49	rawks	sup
+2015-01-18 03:04:49	⇄	#archlinux: Cannot send to channel
+2015-01-18 03:04:51	rawks	asd
+2015-01-18 03:04:52	⇄	#archlinux: Cannot send to channel
+2015-01-18 03:05:14	>	corvolino (~corvolino@CPE788df7afe1d1-CM788df7afe1d0.cpe.net.cable.rogers.com) has joined #archlinux
+2015-01-18 03:05:15	>	woznme (~ident@gateway/vpn/privateinternetaccess/woznme) has joined #archlinux
+2015-01-18 03:05:45	>	Nizumzen (~Nizumzen@cpc1-reig5-2-0-cust251.6-3.cable.virginm.net) has joined #archlinux
+2015-01-18 03:06:20	Fylwind	when it comes to writing PKGBUILD, is it necessary to put packages belonging to base/base-devel inside the "depends" variable?
+2015-01-18 03:06:46	phillid	The wiki says no
+2015-01-18 03:06:50	FreezingCold	No.
+2015-01-18 03:07:01	<	y2k_ (~y2k@31.205.37.170) has quit (Ping timeout: 255 seconds)
+2015-01-18 03:07:01	<	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-01-18 03:07:08	FreezingCold	However, you can put things like zsh in there
+2015-01-18 03:07:12	phillid	"Is is expected that users building packages will have installed packages from the base-devel group" or something like that
+2015-01-18 03:07:15	FreezingCold	because they *might* not be insstalled
+2015-01-18 03:07:17	FreezingCold	*installed
+2015-01-18 03:07:37	>	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has joined #archlinux
+2015-01-18 03:08:08	Fylwind	Ok I see.  I saw the note from the Wiki but I wasn't sure if it applied to depends since it was talking about makedepends
+2015-01-18 03:08:09	<	forsil (~Thunderbi@li460-72.members.linode.com) has quit (Quit: forsil)
+2015-01-18 03:09:16	>	renodesper (~renodespe@202.138.248.12) has joined #archlinux
+2015-01-18 03:09:30	>	liudas (~plasma@unaffiliated/liudas) has joined #archlinux
+2015-01-18 03:10:02	<	corvolino (~corvolino@CPE788df7afe1d1-CM788df7afe1d0.cpe.net.cable.rogers.com) has quit (Ping timeout: 265 seconds)
+2015-01-18 03:10:04	>	diegoviola (~diego@unaffiliated/diegoviola) has joined #archlinux
+2015-01-18 03:10:24	>	y2k_ (~y2k@31.205.37.170) has joined #archlinux
+2015-01-18 03:10:43	>	ruzzi (~uzzi@206.248.127.114) has joined #archlinux
+2015-01-18 03:10:48	>	topyli (~topyli@unaffiliated/topyli) has joined #archlinux
+2015-01-18 03:11:31	>	nofxx (~nofxx@unaffiliated/nofxx) has joined #archlinux
+2015-01-18 03:11:55	phillid	Ohhh
+2015-01-18 03:11:55	<	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-01-18 03:12:06	<	maldoror (~maldoror@ACaen-652-1-409-214.w86-220.abo.wanadoo.fr) has quit (Ping timeout: 276 seconds)
+2015-01-18 03:12:12	phillid	makdepends shall not contain any package from the base-devel group
+2015-01-18 03:12:16	phillid	*makedepends
+2015-01-18 03:12:36	>	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has joined #archlinux
+2015-01-18 03:12:41	Lehvyn	philipp: progress?
+2015-01-18 03:12:48	phillid	Fylwind: What makes you want to put something from base-devel into depends=()?
+2015-01-18 03:12:53	phillid	Lehvyn: Compressing...
+2015-01-18 03:12:58	Lehvyn	eta?
+2015-01-18 03:13:23	phillid	10 mins
+2015-01-18 03:13:43	Lehvyn	philipp: time for an upgrade. I'll toss $1 your way
+2015-01-18 03:13:52	phillid	Lehvyn: Ha
+2015-01-18 03:14:12	phillid	It's actually 7 mins, but I rounded :P
+2015-01-18 03:14:22	Lehvyn	never round! lol
+2015-01-18 03:14:32	<	moonlander (~moonlande@ip72-192-35-26.ri.ri.cox.net) has quit (Quit: Leaving)
+2015-01-18 03:15:00	>	Klowner_ (~mark@174-22-106-131.dvnp.qwest.net) has joined #archlinux
+2015-01-18 03:15:01	phillid	Rounding is how we end up with an ISO that's 200 MiB rather than 199 MiB
+2015-01-18 03:15:06	phillid	;)
+2015-01-18 03:15:14	<	ruzzi (~uzzi@206.248.127.114) has quit (Ping timeout: 245 seconds)
+2015-01-18 03:16:15	<	zine_ (~Dark_Zine@189.208.244.127) has quit (Remote host closed the connection)
+2015-01-18 03:16:33	<	Klowner (~mark@71-219-183-191.dvnp.qwest.net) has quit (Ping timeout: 256 seconds)
+2015-01-18 03:16:50	>	smulverine (~smulverin@n219078244162.netvigator.com) has joined #archlinux
+2015-01-18 03:17:05	<	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-01-18 03:17:33	Lehvyn	I prefer 199
+2015-01-18 03:17:34	Lehvyn	don't lie to me
+2015-01-18 03:17:37	>	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has joined #archlinux
+2015-01-18 03:17:38	phillid	Hahaha
+2015-01-18 03:17:44	Lehvyn	Every bit counts
+2015-01-18 03:17:59	Lehvyn	Maybe I only have 199 available? Maybe 200 is just too much?
+2015-01-18 03:18:10	phillid	Well it's looking like it's going to be about 120 MiB compressed, although I know you can't just extrapolate progress and current size
+2015-01-18 03:18:12	>	cubear (~user@BSN-142-97-36.dynamic.siol.net) has joined #archlinux
+2015-01-18 03:19:17	phillid	Oh shit, oh no, I'm getting temptations to rebuild the `base` group with size optimisation enabled. Help meee!
+2015-01-18 03:19:47	>	chaky (~ncakelic@93-143-69-116.adsl.net.t-com.hr) has joined #archlinux
+2015-01-18 03:20:11	>	Wildtux (~Wildtux@185.Red-83-34-51.dynamicIP.rima-tde.net) has joined #archlinux
+2015-01-18 03:20:18	<	chaky (~ncakelic@93-143-69-116.adsl.net.t-com.hr) has quit (Changing host)
+2015-01-18 03:20:18	>	chaky (~ncakelic@unaffiliated/chaky) has joined #archlinux
+2015-01-18 03:20:53	Fylwind	phillid: I dunno, was just trying to see what the convention is (because I've seen packages that depend on glibc, for example)
+2015-01-18 03:21:24	>	asch (~asch@unaffiliated/asch) has joined #archlinux
+2015-01-18 03:21:27	phillid	Fylwind: glibc isn't part of base-devel though :P
+2015-01-18 03:21:39	>	med\_ (~med@105.104.25.38) has joined #archlinux
+2015-01-18 03:21:41	Fylwind	phillid: I was asking about base too
+2015-01-18 03:22:03	<	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-01-18 03:22:15	phillid	Fylwind: Oh okay. The only thing that's forbidden on that front is the inclusion of a member of `base-devel` in makedepends=()
+2015-01-18 03:22:29	phillid	depends=() can contain anything, including a member of base-devel
+2015-01-18 03:22:36	>	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has joined #archlinux
+2015-01-18 03:23:10	phillid	Lehvyn: 182 MiB again :(
+2015-01-18 03:23:16	phillid	Lehvyn: Same size as before, but how!?
+2015-01-18 03:23:17	<	CTtechguy (~CTtechguy@unaffiliated/cttechguy) has quit (Quit: There can only be Arch...)
+2015-01-18 03:23:33	Lehvyn	philipp: it's official... you fail, and disappointment.
+2015-01-18 03:23:41	Lehvyn	-ment + me
+2015-01-18 03:23:45	phillid	Lehvyn: I think so
+2015-01-18 03:23:46	<	Extremulus (~exy@64-46-23-5.dyn.novuscom.net) has quit (Remote host closed the connection)
+2015-01-18 03:24:15	>	Klowner (~mark@174-22-109-244.dvnp.qwest.net) has joined #archlinux
+2015-01-18 03:24:51	<	Klowner_ (~mark@174-22-106-131.dvnp.qwest.net) has quit (Ping timeout: 272 seconds)
+2015-01-18 03:24:53	Fylwind	phillid: well okay that brings back to my original question: given that it's not explicitly forbidden by the Wiki, should I specify packages from base or base-devel in 'depends'?
+2015-01-18 03:25:00	<	med\ (~med@105.104.17.57) has quit (Ping timeout: 246 seconds)
+2015-01-18 03:25:05	Fylwind	FreezingCold said 'no' earlier
+2015-01-18 03:25:15	>	jceb_ (~jceb@2001:6f8:900:8e46:8a53:2eff:fe91:4709) has joined #archlinux
+2015-01-18 03:25:16	phillid	Fylwind: bearing in mind depends=() is for runtime dependencies and makedepends=() is for build dependencies
+2015-01-18 03:25:42	<	V_Ve (~Lingo@117.40.64.18) has quit (Ping timeout: 245 seconds)
+2015-01-18 03:25:55	FreezingCold	phillid: are you making sure to use upx with ultra settings?
+2015-01-18 03:26:03	phillid	Fylwind: He and I had the wrong end of the stick
+2015-01-18 03:26:09	FreezingCold	phillid: you need to recompile all those packages!
+2015-01-18 03:26:21	phillid	Fylwind: If it depends on it to run, add it to depends=()
+2015-01-18 03:26:43	phillid	Fylwind: Out of interest, what piece of software is it that would have a dependency from base-devel?
+2015-01-18 03:26:48	FreezingCold	phillid: UPXFLAGS="--ultra-brute"
+2015-01-18 03:27:04	>	qubitnerd (~neutrino@unaffiliated/electron/x-8286743) has joined #archlinux
+2015-01-18 03:27:04	<	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-01-18 03:27:05	phillid	FreezingCold: Don't tempt me
+2015-01-18 03:27:13	FreezingCold	phillid: change CXX flags to -Os
+2015-01-18 03:27:26	phillid	FreezingCold: I know you guys are joking, but I'm starting to get a bit serious about this :/
+2015-01-18 03:27:31	>	andyrtr (~andyrtr_l@archlinux/developer/andyrtr) has joined #archlinux
+2015-01-18 03:27:38	>	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has joined #archlinux
+2015-01-18 03:27:48	FreezingCold	phillid: I'm not killing, go set gcc to -Os and use ultra-brute with UPX
+2015-01-18 03:27:49	phillid	FreezingCold: Mustn't... recompile... base....
+2015-01-18 03:27:52	FreezingCold	that wasn't a joke.
+2015-01-18 03:27:53	FreezingCold	do it
+2015-01-18 03:27:55	FreezingCold	do it now./
+2015-01-18 03:28:30	phillid	Report back in a day or two? ;)
+2015-01-18 03:28:48	<	Herbalis1 (~oz@unaffiliated/herbalist) has quit (Remote host closed the connection)
+2015-01-18 03:28:50	>	GriefNorth (~GriefNort@77.108.192.134) has joined #archlinux
+2015-01-18 03:29:00	phillid	Actually, replacing coreutils with a lighter alternative would help.
+2015-01-18 03:29:09	phillid	Coreutils depends on openssl which depends on perl
+2015-01-18 03:29:12	phillid	And perl's not small
+2015-01-18 03:29:19	>	Madinn (~madinn@p4FE102F1.dip0.t-ipconnect.de) has joined #archlinux
+2015-01-18 03:29:24	>	CTtechguy (~CTtechguy@unaffiliated/cttechguy) has joined #archlinux
+2015-01-18 03:29:27	FreezingCold	yeahhhh, using ultra-brute might take a day...
+2015-01-18 03:29:28	phillid	Busybox or sbase+ubase might be better
+2015-01-18 03:29:47	phillid	Haven't actually heard of ultra-brute, googling...
+2015-01-18 03:30:49	Fylwind	phillid: glibc, for example
+2015-01-18 03:30:52	FreezingCold	phillid: like go into your makepkg.conf
+2015-01-18 03:31:14	FreezingCold	phillid: find the OPTIONS=() line, and make sure upx is there with no ! in front of it
+2015-01-18 03:31:23	FreezingCold	phillid: then somewhere add UPXFLAGS="--ultra-brute"
+2015-01-18 03:31:37	phillid	FreezingCold: Yeah yeah, sounds good
+2015-01-18 03:31:43	>	Timmy` (~Nixmd@unaffiliated/timmyt) has joined #archlinux
+2015-01-18 03:31:49	phillid	Fylwind: Yep, glibc is fine to put into depends=()
+2015-01-18 03:32:05	<	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-01-18 03:32:28	phillid	FreezingCold: I've alredy got -Os set in there from a previous shrinking attempt... my support group wouldn't like me to bring that to the surface again ;)
+2015-01-18 03:32:40	>	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has joined #archlinux
+2015-01-18 03:32:41	>	kmshanah (~kmshanah@ppp59-167-139-100.static.internode.on.net) has joined #archlinux
+2015-01-18 03:32:41	Fylwind	phillid: okay
+2015-01-18 03:32:42	>	TayZ (73f8321b@gateway/web/cgi-irc/kiwiirc.com/ip.115.248.50.27) has joined #archlinux
+2015-01-18 03:32:47	phillid	FreezingCold: As in -Os on CFLAGS and CXXFLAGS
+2015-01-18 03:32:48	FreezingCold	phillid: UPX brute will help
+2015-01-18 03:33:01	>	rquid (~sashka@145.255.21.168) has joined #archlinux
+2015-01-18 03:33:03	<	pwc- (~pwc-@unaffiliated/pwc-) has quit (Quit: exit)
+2015-01-18 03:33:10	phillid	FreezingCold: It looks sexy
+2015-01-18 03:33:15	phillid	Where has it been all my life?
+2015-01-18 03:33:29	>	T-Sourcemaker (~Joungai3q@2a02:8071:a81:7f00:f66d:4ff:fe79:2ef9) has joined #archlinux
+2015-01-18 03:33:52	<	Madinn (~madinn@p4FE102F1.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2015-01-18 03:34:26	FreezingCold	it's pretty useful
+2015-01-18 03:34:27	<	leonixyz (~leonixyz@151.62.4.75) has quit (Ping timeout: 245 seconds)
+2015-01-18 03:34:29	phillid	I just realised linux is part of base
+2015-01-18 03:34:39	FreezingCold	...do you plan not to install it?
+2015-01-18 03:34:41	phillid	Fire up the build cluster I guess...
+2015-01-18 03:34:52	Fylwind	depends=(linux)
+2015-01-18 03:35:10	FreezingCold	lol
+2015-01-18 03:35:18	phillid	Fylwind: No, I didn't mean that lol
+2015-01-18 03:35:24	phillid	Haha
+2015-01-18 03:35:28	FreezingCold	I feel like you can safely assume all Arch Linux users have the Linux kernel installed
+2015-01-18 03:35:35	FreezingCold	that's not much to ask for
+2015-01-18 03:35:38	Fylwind	:P
+2015-01-18 03:35:42	phillid	Lol
+2015-01-18 03:35:50	AndrevS	are you sure?
+2015-01-18 03:35:55	<	TayZ (73f8321b@gateway/web/cgi-irc/kiwiirc.com/ip.115.248.50.27) has left #archlinux
+2015-01-18 03:35:56	phillid	Actually, does linux-lts and linux-ck show provides=linux ?
+2015-01-18 03:36:02	phillid	Checking...
+2015-01-18 03:36:08	FreezingCold	phillid: provides=('linux')
+2015-01-18 03:36:12	FreezingCold	same thing
+2015-01-18 03:36:27	>	leonixyz (~leonixyz@151.62.28.99) has joined #archlinux
+2015-01-18 03:36:29	<	vihcs (~schiv@archlinux/developer/schiv) has quit (Read error: Connection reset by peer)
+2015-01-18 03:36:31	FreezingCold	I used to roll with linux git
+2015-01-18 03:37:05	<	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-01-18 03:37:05	phillid	`pacman -Qi linux-lts | grep -i provide` shows "Provides       : kernel26-lts=3.14.27"
+2015-01-18 03:37:31	phillid	FreezingCold: That's brave
+2015-01-18 03:37:40	>	pale3 (~marko@p4FDD7C62.dip0.t-ipconnect.de) has joined #archlinux
+2015-01-18 03:38:25	FreezingCold	phillid: I needed it for my sound card and couldn't figure out what patch was needed
+2015-01-18 03:38:41	FreezingCold	so said fuck it and just went with it for a few months when my laptop was new
+2015-01-18 03:38:47	>	Akii (~Akii@HSI-KBW-046-005-253-098.hsi8.kabel-badenwuerttemberg.de) has joined #archlinux
+2015-01-18 03:38:49	FreezingCold	now it's an old piece of crash
+2015-01-18 03:38:50	>	MadAGu (~MadAGu@ppp089210031081.access.hol.gr) has joined #archlinux
+2015-01-18 03:38:56	FreezingCold	I'm hopefully switching to Android full time soon
+2015-01-18 03:39:00	phillid	Ahh makes sense
+2015-01-18 03:39:08	FreezingCold	I mean an android tablet, not android OS
+2015-01-18 03:39:20	phillid	Right hahaha
+2015-01-18 03:39:54	>	freestyl3r (~free@ppp005055187100.access.hol.gr) has joined #archlinux
+2015-01-18 03:39:56	>	normalra (~normal@unaffiliated/normalra) has joined #archlinux
+2015-01-18 03:40:44	phillid	Well, I've got upx installed, so I'll start building base, I guess...

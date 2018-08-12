@@ -1,0 +1,739 @@
+2015-01-20 20:21:45	>	rawks (~rawks720@189.153.231.224) has joined #qt
+2015-01-20 20:21:45	⇄	Topic for #qt is "Latest Qt: 5.4.0 & 4.8.6 | Bugs: http://bugreports.qt.io | Off-topic: #qt-chat | See also: #qt-creator #qt-quick http://qt-project.org/wiki/OnlineCommunities"
+2015-01-20 20:21:45	⇄	Topic set by jpnurmi on Sun, 18 Jan 2015 17:00:29
+2015-01-20 20:21:45	⇄	Channel #qt: 557 nicks (1 op, 6 voices, 550 normals)
+2015-01-20 20:21:45	⇄	PvNotice(ChanServ): Here are the rules for #qt: (1) Don't just join, ask, and quit - stay around and answer questions yourself! (2) Be patient, people may not see your question right away.
+2015-01-20 20:21:45	⇄	URL for #qt: http://qt-project.org
+2015-01-20 20:21:48	⇄	Channel created on Sun, 26 Nov 2006 00:42:42
+2015-01-20 20:21:55	rawks	hi
+2015-01-20 20:22:52	rawks	anyone knows if its possible to run an SDL2 opengl context from inside qt5+?
+2015-01-20 20:27:03	<	retux (~retux@p579B818E.dip0.t-ipconnect.de) has quit (Ping timeout: 245 seconds)
+2015-01-20 20:27:32	>	upd (~updSI@unaffiliated/upd) has joined #qt
+2015-01-20 20:28:09	>	retux (~retux@p579B8520.dip0.t-ipconnect.de) has joined #qt
+2015-01-20 20:35:39	<	githogori (~githogori@98.207.180.132) has quit (Ping timeout: 244 seconds)
+2015-01-20 20:35:41	<	seaworthy (~seaworthy@unaffiliated/seaworthy) has quit (Ping timeout: 256 seconds)
+2015-01-20 20:38:21	>	seaworthy (~seaworthy@unaffiliated/seaworthy) has joined #qt
+2015-01-20 20:39:05	<	seaworthy (~seaworthy@unaffiliated/seaworthy) has quit (Client Quit)
+2015-01-20 20:45:16	<	Ticho (~Ticho@unaffiliated/ticho) has quit (Ping timeout: 265 seconds)
+2015-01-20 20:45:22	<	mgo (26679b1e@gateway/web/freenode/ip.38.103.155.30) has quit (Ping timeout: 246 seconds)
+2015-01-20 20:46:07	>	Ticho (~Ticho@unaffiliated/ticho) has joined #qt
+2015-01-20 20:47:11	>	githogori (~githogori@c-98-234-224-63.hsd1.ca.comcast.net) has joined #qt
+2015-01-20 20:49:25	>	DaSpirit (~DaSpirit@unaffiliated/daspirit) has joined #qt
+2015-01-20 20:50:04	DaSpirit	Hey, I enabled C++14 in Qt 5.4 with CONFIG += c++14 but still can't use std::is_final in <type_traits> what's wrong?
+2015-01-20 20:51:57	<	tackat (~quassel@p5B0899E0.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2015-01-20 20:56:07	>	kingwill101 (~kingwill@72.27.216.217) has joined #qt
+2015-01-20 21:01:39	>	djdduty (~quassel@67.237.241.121) has joined #qt
+2015-01-20 21:01:39	<	djdduty (~quassel@67.237.241.121) has quit (Changing host)
+2015-01-20 21:01:39	>	djdduty (~quassel@unaffiliated/djdduty) has joined #qt
+2015-01-20 21:02:20	<	slacker27 (~Ridwan@pool-71-163-41-120.washdc.fios.verizon.net) has quit (Quit: Leaving.)
+2015-01-20 21:03:18	>	kapil__ (uid36151@gateway/web/irccloud.com/x-arcmiugswcqcukuf) has joined #qt
+2015-01-20 21:09:19	>	thiago (~thiago@kde/thiago) has joined #qt
+2015-01-20 21:11:11	>	l_vottero (~lvottero@135-23-44-60.cpe.pppoe.ca) has joined #qt
+2015-01-20 21:12:24	>	GortiZ (~Thunderbi@2.50.133.169) has joined #qt
+2015-01-20 21:13:00	kingwill101	i cant seem to get qtwayland to compile
+2015-01-20 21:13:54	kingwill101	log ---> https://bpaste.net/show/a7a205ab8d96
+2015-01-20 21:17:39	<	Ticho (~Ticho@unaffiliated/ticho) has quit (Ping timeout: 272 seconds)
+2015-01-20 21:17:59	>	Ticho (~Ticho@unaffiliated/ticho) has joined #qt
+2015-01-20 21:23:59	<	GortiZ (~Thunderbi@2.50.133.169) has quit (Ping timeout: 272 seconds)
+2015-01-20 21:24:44	<	Rootert (~Rootert@54694E34.cm-12-2b.dynamic.ziggo.nl) has quit (Ping timeout: 244 seconds)
+2015-01-20 21:28:43	<	GinoMan (~quassel@pool-98-114-49-65.phlapa.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2015-01-20 21:28:53	>	GortiZ (~Thunderbi@2.50.132.201) has joined #qt
+2015-01-20 21:29:58	<	LK-_ (sid3229@gateway/web/irccloud.com/x-baeqkxgdnlarifgb) has quit (Ping timeout: 245 seconds)
+2015-01-20 21:30:41	<	hasselmm (~mathias@p57BD746F.dip0.t-ipconnect.de) has quit (Disconnected by services)
+2015-01-20 21:30:41	>	hasselmm1 (~mathias@p2003004609216C0009F067C6B20A8E1C.dip0.t-ipconnect.de) has joined #qt
+2015-01-20 21:30:48	<	YourNick_ (sid4377@gateway/web/irccloud.com/x-xtsarspytmietian) has quit (Ping timeout: 245 seconds)
+2015-01-20 21:30:53	<	czchen (sid12445@gateway/web/irccloud.com/x-lnhcypwdeydeexka) has quit (Read error: Connection reset by peer)
+2015-01-20 21:32:51	<	kapil__ (uid36151@gateway/web/irccloud.com/x-arcmiugswcqcukuf) has quit (Ping timeout: 272 seconds)
+2015-01-20 21:32:51	<	lbotos (sid34239@gateway/web/irccloud.com/x-fxqoayeazvtefkmv) has quit (Ping timeout: 272 seconds)
+2015-01-20 21:35:47	<	ggherdov` (sid11402@gateway/web/irccloud.com/x-jqkvwiwmyjpqulpi) has quit (Read error: Connection reset by peer)
+2015-01-20 21:41:32	<	Ankhers (~user@gateway/tor-sasl/ankhers) has quit (Remote host closed the connection)
+2015-01-20 21:44:02	>	whiteboo_ (~whitebook@ool-6bbc1560.dyn.optonline.net) has joined #qt
+2015-01-20 21:44:41	<	whitebook (~whitebook@ool-6bbc1560.dyn.optonline.net) has quit (Ping timeout: 246 seconds)
+2015-01-20 21:45:11	>	czchen (sid12445@gateway/web/irccloud.com/x-iwgwvjwrshwhtctm) has joined #qt
+2015-01-20 21:45:33	>	manchicken_ (~manchicke@unaffiliated/manchicken) has joined #qt
+2015-01-20 21:45:36	>	lbotos (sid34239@gateway/web/irccloud.com/x-epeioqgduvdarrfb) has joined #qt
+2015-01-20 21:47:20	>	LK- (sid3229@gateway/web/irccloud.com/x-ubksaawendxzdeaz) has joined #qt
+2015-01-20 21:48:37	>	Rootert_ (~Rootert@54694E34.cm-12-2b.dynamic.ziggo.nl) has joined #qt
+2015-01-20 21:48:52	⇄	Rootert_ is now known as Guest41293
+2015-01-20 21:50:50	<	petschm (~petschm@p4FF0801B.dip0.t-ipconnect.de) has quit (Disconnected by services)
+2015-01-20 21:50:51	>	petschm_ (~petschm@p4FF0ADB8.dip0.t-ipconnect.de) has joined #qt
+2015-01-20 21:50:53	<	whiteboo_ (~whitebook@ool-6bbc1560.dyn.optonline.net) has quit (Remote host closed the connection)
+2015-01-20 21:50:56	⇄	petschm_ is now known as petschm
+2015-01-20 21:51:03	<	AlbertoP (~AlbertoP@pdpc/supporter/active/AlbertoP) has quit (Quit: Leaving)
+2015-01-20 21:51:41	<	LK- (sid3229@gateway/web/irccloud.com/x-ubksaawendxzdeaz) has quit (Ping timeout: 246 seconds)
+2015-01-20 21:52:00	<	upd (~updSI@unaffiliated/upd) has quit (Ping timeout: 276 seconds)
+2015-01-20 21:52:29	>	kapil__ (uid36151@gateway/web/irccloud.com/x-tpjdpgcwbhtyzmja) has joined #qt
+2015-01-20 21:52:38	<	Alina-malina (~Alina-mal@unaffiliated/alina-malina) has quit (Ping timeout: 244 seconds)
+2015-01-20 21:52:53	<	czchen (sid12445@gateway/web/irccloud.com/x-iwgwvjwrshwhtctm) has quit (Ping timeout: 245 seconds)
+2015-01-20 21:53:17	<	Left_Turn (~Left_Turn@unaffiliated/turn-left/x-3739067) has quit (Remote host closed the connection)
+2015-01-20 21:53:21	>	Alina-malina (~Alina-mal@unaffiliated/alina-malina) has joined #qt
+2015-01-20 21:56:38	<	kapil__ (uid36151@gateway/web/irccloud.com/x-tpjdpgcwbhtyzmja) has quit (Ping timeout: 245 seconds)
+2015-01-20 21:57:28	<	lbotos (sid34239@gateway/web/irccloud.com/x-epeioqgduvdarrfb) has quit (Ping timeout: 245 seconds)
+2015-01-20 21:57:33	>	raj___ (~xar@182.65.89.251) has joined #qt
+2015-01-20 22:00:05	<	manuel__ (~manuel@2601:6:8000:eaf0:44cb:2ae2:8be6:e7e6) has quit (Quit: manuel__)
+2015-01-20 22:00:22	<	enitiz (~saurabh@pool-96-243-29-221.bflony.fios.verizon.net) has quit (Remote host closed the connection)
+2015-01-20 22:04:34	<	raj___ (~xar@182.65.89.251) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-01-20 22:07:53	>	YourNick (sid4377@gateway/web/irccloud.com/x-epojedfiwfjdqbcd) has joined #qt
+2015-01-20 22:09:28	nurupo	thiago: found the issue. per file Unified is displayed fine, but All Unified requires being logged in
+2015-01-20 22:10:42	<	GortiZ (~Thunderbi@2.50.132.201) has quit (Quit: GortiZ)
+2015-01-20 22:10:52	>	LK- (sid3229@gateway/web/irccloud.com/x-tjzuanppduqdjpyo) has joined #qt
+2015-01-20 22:10:57	nurupo	well, i can live with that. just entered my JIRA login/pass and it created me anonymous account (i guess one can enter any combination of login/pass for that) and it displayed All Unified
+2015-01-20 22:12:22	>	czchen (sid12445@gateway/web/irccloud.com/x-vhwghqtwqfhhmhhs) has joined #qt
+2015-01-20 22:14:20	<	br0d1n (~mikaj@173-171-161-132.res.bhn.net) has quit (Quit: You don't need eyes to see; you need vision.)
+2015-01-20 22:14:48	>	rangergord (~quassel@MTRLPQ2314W-LP140-04-1177941661.dsl.bell.ca) has joined #qt
+2015-01-20 22:16:37	<	Afrix (~Afrix4@95.148.215.56) has quit (Quit: Leaving)
+2015-01-20 22:17:23	>	br0d1n (~mikaj@173-171-161-132.res.bhn.net) has joined #qt
+2015-01-20 22:18:52	>	Tec (~Adium@2601:4:1480:18b:399d:7089:97a6:947c) has joined #qt
+2015-01-20 22:19:02	<	Kulrak (kulrak@tlug/member/kulrak) has quit (Ping timeout: 265 seconds)
+2015-01-20 22:19:35	Tec	Ok, I've hit this a bunch of times over the last year.  Why, please -why-, does QQmlApplicationEngine not really support setContextPropert?
+2015-01-20 22:19:41	Tec	property
+2015-01-20 22:21:15	>	m4g0g (~m4g0g@93.84.47.114) has joined #qt
+2015-01-20 22:24:52	Tec	<Related question, why are there so many instantiations for the QML engine?> QQmlApplicationEngine, QtQuick2ApplicationViewer, QQmlEnginet, QDeclarativeEngine?  Seriously?
+2015-01-20 22:25:52	>	lbotos (sid34239@gateway/web/irccloud.com/x-jszmujkriahitcli) has joined #qt
+2015-01-20 22:27:01	>	ggherdov` (sid11402@gateway/web/irccloud.com/x-lwwwwaekcgeqapyr) has joined #qt
+2015-01-20 22:27:30	⇄	Guest41293 is now known as Rootert
+2015-01-20 22:27:39	<	br0d1n (~mikaj@173-171-161-132.res.bhn.net) has quit (Ping timeout: 264 seconds)
+2015-01-20 22:27:54	>	Mike11 (~Mike@unaffiliated/mike11) has joined #qt
+2015-01-20 22:28:50	<	nande (~quassel@190.183.4.91) has quit (Remote host closed the connection)
+2015-01-20 22:30:16	<	DaSpirit (~DaSpirit@unaffiliated/daspirit) has quit (Quit: Either going eating, sleeping or pooping.)
+2015-01-20 22:30:36	<	l_vottero (~lvottero@135-23-44-60.cpe.pppoe.ca) has quit (Remote host closed the connection)
+2015-01-20 22:30:48	>	whitebook (~whitebook@ool-6bbc1560.dyn.optonline.net) has joined #qt
+2015-01-20 22:34:33	<	DasMoehh (~asdpifjal@merkur16.inf.uni-konstanz.de) has quit (Ping timeout: 245 seconds)
+2015-01-20 22:35:03	>	kapil__ (uid36151@gateway/web/irccloud.com/x-lffzithrodwojhwd) has joined #qt
+2015-01-20 22:36:42	>	Cyber_Killer (~ck@77-92-40-159.cable-modem.tkk.net.pl) has joined #qt
+2015-01-20 22:37:10	>	ManFromSiberia (~ManFromSi@l37-193-253-205.novotelecom.ru) has joined #qt
+2015-01-20 22:41:56	>	maour (~maour@unaffiliated/maour) has joined #qt
+2015-01-20 22:42:42	>	enitiz (~saurabh@pool-96-243-29-221.bflony.fios.verizon.net) has joined #qt
+2015-01-20 22:42:46	thiago	Tec: anything with a lowercase second letter is not part of Qt
+2015-01-20 22:42:54	thiago	Tec: so let's discount QtQuick2ApplicationViewer
+2015-01-20 22:43:06	thiago	Tec: QDeclarativeEngine, since it is a "QDeclarative" class, is about Qt Quick 1
+2015-01-20 22:43:21	thiago	so that leaves only two options: QQmlEngine and QQmlApplicationEngine
+2015-01-20 22:43:35	thiago	the latter is a wrapper on the former and adds a few extra convenience, that's all
+2015-01-20 22:43:41	Tec	...
+2015-01-20 22:44:07	Tec	now I'm lost .. did I  copy it wrong, or is there a secret code to class naming?
+2015-01-20 22:44:33	thiago	huh?
+2015-01-20 22:44:37	thiago	copy what wrong?
+2015-01-20 22:45:22	>	vdamewood (~vdamewood@67-5-161-172.ptld.qwest.net) has joined #qt
+2015-01-20 22:45:33	Tec	If upper vs lowercaseness is a moniker means something is Qt or not, that's the most un-doc'd 'tidbit' in history
+2015-01-20 22:46:01	<	mETz (~DermETz@2a02:2028:1be:4821::1) has quit (Ping timeout: 256 seconds)
+2015-01-20 22:46:02	Tec	Yup, wrote that wrong, sorry, couldn't type it fast enough
+2015-01-20 22:46:17	rawks	guys i want to make a midi composer with a GUI, thoes qt 5+ come with a playback solution? is portaudio a better option?
+2015-01-20 22:46:46	Tec	Rawks: code for your target.  Things don't always work
+2015-01-20 22:47:14	thiago	Tec: it used to be documented in the trolltech.com website
+2015-01-20 22:47:21	rawks	a simple GUI should be able to run on at least windows and unix
+2015-01-20 22:47:22	thiago	All Qt classes start with Q + capital letter
+2015-01-20 22:47:25	thiago	no exception
+2015-01-20 22:47:33	rawks	however im not sure about playback
+2015-01-20 22:47:37	chriadam	Tec: so, the Qxt class library has classes which start with Qxt (eg, QxtSerialPort etc).  That's how you know it's a non-standard extension library for Qt.  All Qt classes start with Q only (eg, QQmlEngine etc)
+2015-01-20 22:47:39	Tec	I think you just dated yourself  ;-)
+2015-01-20 22:48:01	thiago	there was even a way to register your lowercase suffix there
+2015-01-20 22:48:09	chriadam	yeah, it's still listed on the wiki somewhere
+2015-01-20 22:48:12	chriadam	I believe
+2015-01-20 22:48:22	thiago	Qxt, Qext
+2015-01-20 22:48:29	thiago	what was that one for the graph plotter?
+2015-01-20 22:48:51	Tec	So … QQmlApplicationEngine is 'real?'
+2015-01-20 22:49:14	chriadam	thiago: Qwt?
+2015-01-20 22:49:19	thiago	yes, it's part of the QtQml library
+2015-01-20 22:49:20	thiago	chriadam: right
+2015-01-20 22:49:27	chriadam	Tec: yes, but it's just a convenience wrapper really
+2015-01-20 22:49:32	Tec	and     QtQuick2ApplicationViewer viewer; isnt'?
+2015-01-20 22:49:46	thiago	Tec: I'm not saying it doesn't exist. I'm saying it's not part of Qt
+2015-01-20 22:49:55	thiago	Tec: you create classes in your application, right?
+2015-01-20 22:50:07	<	manchicken_ (~manchicke@unaffiliated/manchicken) has quit (Ping timeout: 272 seconds)
+2015-01-20 22:50:22	Tec	sorry, just going wow, there are -years- of bad docs out there
+2015-01-20 22:50:32	chriadam	I think that QtQuick2ApplicationViewer might be something which QtCreator uses as a template for QtQuick apps - but don't quote me, I might be wrong.
+2015-01-20 22:50:40	thiago	I think so too
+2015-01-20 22:50:50	thiago	it's a class that Qt Creator inserts in your application, coming from a template
+2015-01-20 22:50:55	Tec	none of which have that rule. I've been Qt 3 years or so myself.  Never seen that as a rule.
+2015-01-20 22:51:08	Tec	Good rule, probably should be doc'd
+2015-01-20 22:51:08	thiago	Qt classes are well-named
+2015-01-20 22:51:13	thiago	all the QML classes are QQml
+2015-01-20 22:51:19	thiago	all the graphics view classes are QGraphics
+2015-01-20 22:51:23	>	mETz (~DermETz@2a02:2028:1c6:eb91::1) has joined #qt
+2015-01-20 22:51:25	thiago	all the QtWebKit classes are QWeb
+2015-01-20 22:51:40	thiago	the QtWebKit and graphics view class is QGraphicsWebView
+2015-01-20 22:51:50	thiago	all the D-Bus classes are QDBus
+2015-01-20 22:52:08	thiago	and so on
+2015-01-20 22:52:22	Tec	I understand the argument, it's just .. wow.  Completely not the story sold on youtube
+2015-01-20 22:52:34	>	niftylettuce (uid2733@gateway/web/irccloud.com/x-hoeihoowkvrjruca) has joined #qt
+2015-01-20 22:52:50	Tec	-which-  Qt owner was this the story for?
+2015-01-20 22:53:02	thiago	I don't know why you'd look at youtube for this
+2015-01-20 22:53:09	thiago	just look at the class list
+2015-01-20 22:53:24	chriadam	what do you mean?  it mainly applies to people who write extension libraries.  They're basically "not allowed" to use Q as their prefix, but instead must use Q<something>
+2015-01-20 22:53:26	Tec	because that's where the best classes are
+2015-01-20 22:53:47	thiago	http://doc.qt.io/qt-5/classes.html
+2015-01-20 22:54:18	thiago	there's over a thousand classes there. None with a lowercase second letter.
+2015-01-20 22:54:21	Tec	Voidrealms on Qt is better than the official channels
+2015-01-20 22:54:22	chriadam	in inverted commas, obviously, as we can't really enforce anything.  But since we don't namespace our stuff (well, in the past, at least, that might be different with mobility / more recent stuff) there could be clashes.
+2015-01-20 22:55:01	chriadam	actually, I'm wrong about that, we do have a Qt namespace don't we?  /ignoreme
+2015-01-20 22:55:13	Tec	can I use that now?
+2015-01-20 22:55:20	thiago	our namespace is "Q + capital"
+2015-01-20 22:55:31	Tec	 /ignoreme
+2015-01-20 22:55:43	chriadam	right.
+2015-01-20 22:56:37	<	m4g0g (~m4g0g@93.84.47.114) has quit (Read error: Connection reset by peer)
+2015-01-20 22:57:55	Tec	Dumb  question - if I send someone to qt-project.org, where will they see that "Q + capital" is a rule?  And how will they know that's what 'matters'?
+2015-01-20 22:58:28	thiago	I don't know where we've written this down
+2015-01-20 22:59:05	Tec	Wow.  That doesn't make it super easy for me to convince them how cool it is
+2015-01-20 22:59:13	Tec	Just sayin'
+2015-01-20 23:00:38	>	Appleman1234 (~Appleman1@s77.BMT-e1.vectant.ne.jp) has joined #qt
+2015-01-20 23:00:46	chriadam	how cool what is?
+2015-01-20 23:01:07	<	Zagge (~quassel@HSI-KBW-37-49-104-202.hsi14.kabel-badenwuerttemberg.de) has quit (Ping timeout: 245 seconds)
+2015-01-20 23:01:15	Tec	Qt.  Digia scares me, but Qt is pretty badass.
+2015-01-20 23:02:12	chriadam	Yeah, Qt's really nice.  Digia have been doing a great job too, IMO.  Keeping things rolling nicely, even in difficult circumstances.
+2015-01-20 23:04:06	Tec	if everything new and/or better is being proprietary, then I guess I don't know what 'great job' is
+2015-01-20 23:05:46	Tec	That was not a masterpiece of English. Apologies.
+2015-01-20 23:07:57	>	jeromelanteri (~jeromelan@cm-119-76-54-163.revip17.asianet.co.th) has joined #qt
+2015-01-20 23:11:06	jeromelanteri	thiago ?
+2015-01-20 23:13:22	>	Kulrak (kulrak@c-59-101-147-160.mel.connect.net.au) has joined #qt
+2015-01-20 23:13:25	>	Dreadnaught (kulrak@C-59-101-147-160.mel.connect.net.au) has joined #qt
+2015-01-20 23:13:27	thiago	jeromelanteri: yes?
+2015-01-20 23:13:36	<	Kulrak (kulrak@c-59-101-147-160.mel.connect.net.au) has quit (Client Quit)
+2015-01-20 23:13:43	<	ManFromSiberia (~ManFromSi@l37-193-253-205.novotelecom.ru) has quit (Ping timeout: 245 seconds)
+2015-01-20 23:13:45	<	Dreadnaught (kulrak@C-59-101-147-160.mel.connect.net.au) has quit (Changing host)
+2015-01-20 23:13:45	>	Dreadnaught (kulrak@tlug/member/kulrak) has joined #qt
+2015-01-20 23:15:25	jeromelanteri	thaigo: ok, i find the correct practice for inherit class and use my new_project for edit some projects...
+2015-01-20 23:15:32	jeromelanteri	it was not difficult in fact.
+2015-01-20 23:16:41	jeromelanteri	thiago: my error was to create two times the ui instead of use this one from new_project directly, and just have to learn about virtual and override
+2015-01-20 23:17:08	jeromelanteri	the code i send you before was really bad... and could not works fine at all.
+2015-01-20 23:17:09	<	JamesNZ (~james@fedora/JamesNZ) has quit (Remote host closed the connection)
+2015-01-20 23:17:24	>	DasMoehh (~asdpifjal@merkur16.inf.uni-konstanz.de) has joined #qt
+2015-01-20 23:17:58	jeromelanteri	the technic who consist to inherit a class instead of add some conditons inside for double use, is better (for sure) and more oriented object practice.
+2015-01-20 23:18:25	jeromelanteri	but... i don't know... why you tell me to use condition instead of doing this ? i not understand. Could you tell me ?
+2015-01-20 23:19:44	jeromelanteri	is there a raison you tell me to go by condition and not by inherit the class ?
+2015-01-20 23:19:51	jeromelanteri	and what is this reason ?
+2015-01-20 23:19:55	>	JamesNZ (~james@fedora/JamesNZ) has joined #qt
+2015-01-20 23:20:55	>	cuco (~elcuco@bzq-79-181-19-209.red.bezeqint.net) has joined #qt
+2015-01-20 23:22:57	jeromelanteri	maybe i'm wrong... but for me... change the code by the way to add conditions would be difficult more and (i think) difficult after that to maintain the code. Also, long time to do it. But maybe there is some technical reason in the facts that it would be the best choice... i want to understand and know which caould be these reasons...
+2015-01-20 23:23:03	jeromelanteri	help me to know it.
+2015-01-20 23:23:27	jeromelanteri	please.
+2015-01-20 23:23:59	>	luciano (~luciano@190.120.53.112) has joined #qt
+2015-01-20 23:24:54	luciano	hi i need help with this, http://pastebin.com/y8vFFAhp , the "pixmap" not show
+2015-01-20 23:25:02	jeromelanteri	thiago: or maybe you don't know inherit a class ? (i can not trust that... and that is why i think you had a good reason to tell me to do by this way...)
+2015-01-20 23:25:51	thiago	jeromelanteri: you didn't ask a question
+2015-01-20 23:26:33	>	jhunold (~hunold@p5B3154B7.dip0.t-ipconnect.de) has joined #qt
+2015-01-20 23:26:37	jeromelanteri	the question is: why you think that use condition would be better than inherit the class ?
+2015-01-20 23:26:50	jeromelanteri	luciano: pixmap.show() maybe ?
+2015-01-20 23:26:59	thiago	jeromelanteri: I didn't say that you shouldn't inherit
+2015-01-20 23:27:11	thiago	I said you should design first without inheriting because you were messing up the design
+2015-01-20 23:27:20	thiago	you forced the inheriting before getting the design right first
+2015-01-20 23:27:20	jeromelanteri	but you tell me to choose the condition way...
+2015-01-20 23:27:57	jeromelanteri	thiago: but for me, the design consist only by made method protected inste
+2015-01-20 23:28:11	jeromelanteri	instead of private, and use virtual and override...
+2015-01-20 23:28:18	thiago	jeromelanteri: that's a valid design pattern
+2015-01-20 23:28:21	luciano	jeromelanteri,  'class QPixmap' has no member named 'show  pixmap.show();
+2015-01-20 23:28:24	jeromelanteri	re-use the same struct datas...
+2015-01-20 23:28:31	thiago	there's nothing wrong with that
+2015-01-20 23:28:37	thiago	there was something wrong with your code
+2015-01-20 23:28:44	thiago	I advised you make it work first, so you could fix the code
+2015-01-20 23:28:53	thiago	once you had that right, you could design the inheritance
+2015-01-20 23:29:31	jeromelanteri	thiago: yes... because i'm not a dev and learn alone (and by your help), i constrcut my code and make it grow in the same time...
+2015-01-20 23:29:59	jeromelanteri	so i try and change one... and do the same for all other whoi need the same design patern.
+2015-01-20 23:31:20	jeromelanteri	so, ok... i understand i think. You tell me that maybe because you thank that it would be too complicate or difficult for me to learn more about C++ quickly (or something like that). And then... condition ccoudl be sure a solution were i no need to learn more.
+2015-01-20 23:31:50	jeromelanteri	so ok, happy to read that inherit class could be a good choice.
+2015-01-20 23:32:05	jeromelanteri	i will do it for all other.
+2015-01-20 23:32:12	jeromelanteri	thanks
+2015-01-20 23:32:22	thiago	I suggested a way that I expected would help you design the code right
+2015-01-20 23:32:35	>	e8johan (~quassel@83.218.80.242) has joined #qt
+2015-01-20 23:33:21	>	Alex11223 (~Alex11223@78-56-60-143.static.zebra.lt) has joined #qt
+2015-01-20 23:33:58	jeromelanteri	luciano: you have your picture in the source file container and declare it in the .pro file also ?
+2015-01-20 23:35:01	luciano	how declare in .pro ? the picture is in file container
+2015-01-20 23:35:38	jeromelanteri	look at this: http://qt-project.org/forums/viewthread/22455
+2015-01-20 23:39:34	jeromelanteri	luciano: also... wich event call the member paintEvent ?
+2015-01-20 23:39:49	jeromelanteri	how this memeber call works ?
+2015-01-20 23:40:40	jeromelanteri	i see you have this member and an pointer on the event you not use... and i don't know where this event has to be call from.
+2015-01-20 23:41:08	rawks	guyd id there a way of running SDL2 inside a qT application?
+2015-01-20 23:41:13	jeromelanteri	do you see this member has been call really ?
+2015-01-20 23:41:28	luciano	Dialog w; w.show(); , jeromelanteri
+2015-01-20 23:42:06	jeromelanteri	yes, you call non modal dialogbox... but the paintEvent member...
+2015-01-20 23:42:22	<	cuco (~elcuco@bzq-79-181-19-209.red.bezeqint.net) has quit (Ping timeout: 240 seconds)
+2015-01-20 23:43:06	>	whiteboo_ (~whitebook@ool-6bbc1560.dyn.optonline.net) has joined #qt
+2015-01-20 23:43:06	jeromelanteri	ok... this come from QWidget event...
+2015-01-20 23:43:18	<	Dreadnaught (kulrak@tlug/member/kulrak) has quit (Ping timeout: 245 seconds)
+2015-01-20 23:44:39	luciano	jeromelanteri, I don't know ,but  the other is drawn, eg "hello"
+2015-01-20 23:45:15	<	whitebook (~whitebook@ool-6bbc1560.dyn.optonline.net) has quit (Ping timeout: 252 seconds)
+2015-01-20 23:47:36	<	wmarone__ (~wmarone@c-24-10-24-149.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2015-01-20 23:47:52	>	wmarone__ (~wmarone@c-24-10-24-149.hsd1.ca.comcast.net) has joined #qt
+2015-01-20 23:48:05	jeromelanteri	luciano: yes, it is fine... i just see ho it has to work snow... but i read many thinks they use QPixmap for handle a label widget... i search for your way...
+2015-01-20 23:48:27	<	DasMoehh (~asdpifjal@merkur16.inf.uni-konstanz.de) has quit (Ping timeout: 265 seconds)
+2015-01-20 23:48:38	jeromelanteri	for exemple, i see this: http://qt-project.org/forums/viewthread/6344
+2015-01-20 23:49:25	jeromelanteri	but nothing by your way you do it.
+2015-01-20 23:53:09	>	whitebook (~whitebook@ool-6bbc1560.dyn.optonline.net) has joined #qt
+2015-01-20 23:53:36	>	slacker27 (~Ridwan@pool-71-163-41-120.washdc.fios.verizon.net) has joined #qt
+2015-01-20 23:53:43	<	slacker27 (~Ridwan@pool-71-163-41-120.washdc.fios.verizon.net) has quit (Client Quit)
+2015-01-20 23:55:23	<	whiteboo_ (~whitebook@ool-6bbc1560.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2015-01-20 23:56:29	<	Roots (~olsent@user-0vvddia.cable.mindspring.com) has quit (Quit: Leaving)
+2015-01-20 23:57:19	>	Dreadnaught (kulrak@C-59-101-147-166.mel.connect.net.au) has joined #qt
+2015-01-20 23:57:20	<	Dreadnaught (kulrak@C-59-101-147-166.mel.connect.net.au) has quit (Changing host)
+2015-01-20 23:57:20	>	Dreadnaught (kulrak@tlug/member/kulrak) has joined #qt
+2015-01-20 23:57:57	<	Dreadnaught (kulrak@tlug/member/kulrak) has quit (Max SendQ exceeded)
+2015-01-21 00:01:45	<	Mike11 (~Mike@unaffiliated/mike11) has quit (Quit: Leaving.)
+2015-01-21 00:02:28	>	cstenger (cstenger@nat/digia/x-iobocmtklwrgxezv) has joined #qt
+2015-01-21 00:05:44	>	_kdepepo (~pepo@p57A435C1.dip0.t-ipconnect.de) has joined #qt
+2015-01-21 00:05:48	>	DasMoehh (~asdpifjal@merkur16.inf.uni-konstanz.de) has joined #qt
+2015-01-21 00:07:09	<	enitiz (~saurabh@pool-96-243-29-221.bflony.fios.verizon.net) has quit (Ping timeout: 246 seconds)
+2015-01-21 00:08:31	<	kde__pepo (~pepo@p57A43349.dip0.t-ipconnect.de) has quit (Ping timeout: 244 seconds)
+2015-01-21 00:08:43	<	salamanderrake (~quassel@v-72-5-195-78.unman-vds.internap-chicago.nfoservers.com) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2015-01-21 00:08:56	>	ZaggeO (~quassel@p5B16FC67.dip0.t-ipconnect.de) has joined #qt
+2015-01-21 00:09:33	<	oleo__ (~oleo@unaffiliated/oleo) has quit (Quit: Verlassend)
+2015-01-21 00:11:06	<	DasMoehh (~asdpifjal@merkur16.inf.uni-konstanz.de) has quit (Ping timeout: 244 seconds)
+2015-01-21 00:11:23	>	kailoAtWork (~kailoAtWo@cpe-23-243-152-183.socal.res.rr.com) has joined #qt
+2015-01-21 00:11:54	<	ivor (~ivor@pool-173-58-6-5.lsanca.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2015-01-21 00:13:05	<	VDVsx (~VDVsx@dsl-hkibrasgw1-58c019-114.dhcp.inet.fi) has quit (Ping timeout: 272 seconds)
+2015-01-21 00:16:11	>	salamanderrake (~quassel@v-72-5-195-78.unman-vds.internap-chicago.nfoservers.com) has joined #qt
+2015-01-21 00:16:15	<	Ares_ (~quassel@129.27.203.197) has quit (Read error: Connection reset by peer)
+2015-01-21 00:17:23	>	Ares_ (~quassel@jabber.htu.tu-graz.ac.at) has joined #qt
+2015-01-21 00:19:17	<	protopopulus (~protopopu@93-81-8-131.broadband.corbina.ru) has quit (Quit: Goodbye, cruel world!)
+2015-01-21 00:20:15	>	protopopulus (~protopopu@93-81-8-131.broadband.corbina.ru) has joined #qt
+2015-01-21 00:20:51	<	protopopulus (~protopopu@93-81-8-131.broadband.corbina.ru) has quit (Remote host closed the connection)
+2015-01-21 00:21:24	>	protopopulus (~protopopu@93-81-8-131.broadband.corbina.ru) has joined #qt
+2015-01-21 00:26:09	>	f3an0r (~f3an0r@217.118.95.84) has joined #qt
+2015-01-21 00:26:24	>	owolff (Miranda@nat/digia/x-cigfhfnbtigalvvz) has joined #qt
+2015-01-21 00:27:23	<	tehme (~tehme@mail.nordavind.ru) has quit
+2015-01-21 00:27:58	>	A799679 (~amit@host31-50-66-35.range31-50.btcentralplus.com) has joined #qt
+2015-01-21 00:29:38	>	cubear (~user@89-212-51-216.static.t-2.net) has joined #qt
+2015-01-21 00:36:24	>	sqwishy (~weechat@S0106002401df0767.va.shawcable.net) has joined #qt
+2015-01-21 00:37:43	<	sqwishy (~weechat@S0106002401df0767.va.shawcable.net) has left #qt
+2015-01-21 00:37:57	<	whitebook (~whitebook@ool-6bbc1560.dyn.optonline.net) has quit (Remote host closed the connection)
+2015-01-21 00:38:50	>	freedomrun (~quassel@unaffiliated/freedomrun) has joined #qt
+2015-01-21 00:41:48	>	jakepetroules (~jakepetro@qt/jakepetroules) has joined #qt
+2015-01-21 00:42:20	>	hualet (~hualet@59.173.241.82) has joined #qt
+2015-01-21 00:42:29	<	hualet (~hualet@59.173.241.82) has quit (Remote host closed the connection)
+2015-01-21 00:42:36	>	VDVsx (~VDVsx@192.194.199.34) has joined #qt
+2015-01-21 00:43:39	<	niftylettuce (uid2733@gateway/web/irccloud.com/x-hoeihoowkvrjruca) has quit (Quit: Connection closed for inactivity)
+2015-01-21 00:44:26	>	s8321414 (~s8321414@host-56.13-234-182.cable.dynamic.kbtelecom.net) has joined #qt
+2015-01-21 00:44:31	<	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Ping timeout: 265 seconds)
+2015-01-21 00:45:33	<	Trieste (~Trieste@unaffiliated/trieste) has quit (Ping timeout: 276 seconds)
+2015-01-21 00:48:02	>	Trieste (~Trieste@unaffiliated/trieste) has joined #qt
+2015-01-21 00:49:03	<	Jucato (~jucato@kde/developer/jucato) has quit (Ping timeout: 252 seconds)
+2015-01-21 00:58:03	>	Malsasa_ (~Malsasa@36.73.226.252) has joined #qt
+2015-01-21 00:58:03	⇄	Malsasa_ is now known as Malsasa
+2015-01-21 01:00:20	>	anatolys (~stranger@cr.rlisystems.ru) has joined #qt
+2015-01-21 01:00:57	<	jaafar (~quassel@adsl-75-61-133-252.dsl.pltn13.sbcglobal.net) has quit (Remote host closed the connection)
+2015-01-21 01:02:16	>	JakeSays_ (~jake@chat.thatswhatjakesaid.com) has joined #qt
+2015-01-21 01:03:42	>	bedeho (~bedeho@195.159.234.190) has joined #qt
+2015-01-21 01:04:50	<	JakeSays (~jake@chat.thatswhatjakesaid.com) has quit (Ping timeout: 244 seconds)
+2015-01-21 01:06:46	>	jsea (~jsea@27.122.242.71) has joined #qt
+2015-01-21 01:07:01	>	neozaru (~neozaru@lau06-4-88-161-213-36.fbx.proxad.net) has joined #qt
+2015-01-21 01:08:34	>	Click66 (~Click66@94.143.188.0) has joined #qt
+2015-01-21 01:08:46	>	iccanobif (iccanobif@host195-122-dynamic.244-95-r.retail.telecomitalia.it) has joined #qt
+2015-01-21 01:08:48	<	Cyber_Killer (~ck@77-92-40-159.cable-modem.tkk.net.pl) has left #qt
+2015-01-21 01:09:11	<	Click66 (~Click66@94.143.188.0) has quit (Read error: Connection reset by peer)
+2015-01-21 01:09:22	>	Click66 (~Click66@94.143.188.0) has joined #qt
+2015-01-21 01:11:22	<	rangergord (~quassel@MTRLPQ2314W-LP140-04-1177941661.dsl.bell.ca) has quit (Remote host closed the connection)
+2015-01-21 01:12:17	>	mkollaro (~mkollaro@91-145-85-115.bb.dnainternet.fi) has joined #qt
+2015-01-21 01:12:57	jsea	hello, anybody knows where the 'text wrap' is handled? I'm still suffering from the issue http://qt-project.org/forums/viewthread/4897/
+2015-01-21 01:13:24	jsea	If it's not patched, I'd like to look at the code myself
+2015-01-21 01:16:22	>	kumars (~kumars@92.79.180.133) has joined #qt
+2015-01-21 01:16:25	<	tigerfoot (~tigerfoot@opensuse/member/Bruno-friedmann) has quit (Ping timeout: 272 seconds)
+2015-01-21 01:17:29	⇄	oleavr_ is now known as oleavr
+2015-01-21 01:19:34	<	kumars (~kumars@92.79.180.133) has quit (Client Quit)
+2015-01-21 01:20:02	>	ManFromSiberia (~ManFromSi@109.202.25.138) has joined #qt
+2015-01-21 01:24:12	<	arBmind1 (~Andreas@f055149127.adsl.alicedsl.de) has quit (Quit: Leaving.)
+2015-01-21 01:32:10	>	bilboquet_ (~bilboquet@37-1-169-146.ip.skylogicnet.com) has joined #qt
+2015-01-21 01:32:34	>	Cyber_Killer (~wro00329@62.108.184.34) has joined #qt
+2015-01-21 01:32:47	>	andris (~andris@83.166.211.9) has joined #qt
+2015-01-21 01:35:37	<	bilboquet (~bilboquet@37-1-169-146.ip.skylogicnet.com) has quit (Ping timeout: 252 seconds)
+2015-01-21 01:37:23	<	Rootert (~Rootert@54694E34.cm-12-2b.dynamic.ziggo.nl) has quit (Ping timeout: 244 seconds)
+2015-01-21 01:38:52	>	DasMoehh (~asdpifjal@merkur16.inf.uni-konstanz.de) has joined #qt
+2015-01-21 01:40:35	<	e8johan (~quassel@83.218.80.242) has quit (Ping timeout: 265 seconds)
+2015-01-21 01:42:38	>	Rootert (~Rootert@54694E34.cm-12-2b.dynamic.ziggo.nl) has joined #qt
+2015-01-21 01:42:52	>	Balzy (~Balzy@wifigatepub.mi.infn.it) has joined #qt
+2015-01-21 01:44:01	<	A799679 (~amit@host31-50-66-35.range31-50.btcentralplus.com) has quit (Quit: Konversation terminated!)
+2015-01-21 01:48:59	<	DasMoehh (~asdpifjal@merkur16.inf.uni-konstanz.de) has quit (Ping timeout: 245 seconds)
+2015-01-21 01:50:16	>	merzo (~merzo@user-94-45-58-141.skif.com.ua) has joined #qt
+2015-01-21 01:50:22	<	jakepetroules (~jakepetro@qt/jakepetroules) has quit (Quit: jakepetroules)
+2015-01-21 01:50:25	<	iccanobif (iccanobif@host195-122-dynamic.244-95-r.retail.telecomitalia.it) has quit
+2015-01-21 01:51:15	>	stormi (~samuel@46.218.57.162) has joined #qt
+2015-01-21 01:51:20	>	melonipoika_ (~quassel@91.158.69.143) has joined #qt
+2015-01-21 01:55:51	<	luciano (~luciano@190.120.53.112) has quit (Quit: Leaving)
+2015-01-21 01:55:55	>	craven76 (~hauke@x590fe58a.dyn.telefonica.de) has joined #qt
+2015-01-21 01:56:10	⇄	craven76 is now known as craven
+2015-01-21 02:00:32	<	kailoAtWork (~kailoAtWo@cpe-23-243-152-183.socal.res.rr.com) has quit (Quit: This computer has gone to sleep)
+2015-01-21 02:02:27	>	gabriel9|work (~bojan@9-133-241-92-ptp-stat.customer.blic.net) has joined #qt
+2015-01-21 02:02:45	<	Raziel (~Raziel@cpc16-broo8-2-0-cust158.14-2.cable.virginm.net) has quit (Ping timeout: 252 seconds)
+2015-01-21 02:04:02	>	xenakios (~quassel@a88-112-132-188.elisa-laajakaista.fi) has joined #qt
+2015-01-21 02:04:07	<	dev1990 (~dev@dynamic-78-8-47-193.ssp.dialog.net.pl) has quit (Remote host closed the connection)
+2015-01-21 02:04:17	>	tigerfoot (~tigerfoot@222.217.200.213.static.wline.lns.sme.cust.swisscom.ch) has joined #qt
+2015-01-21 02:04:18	<	tigerfoot (~tigerfoot@222.217.200.213.static.wline.lns.sme.cust.swisscom.ch) has quit (Changing host)
+2015-01-21 02:04:18	>	tigerfoot (~tigerfoot@opensuse/member/Bruno-friedmann) has joined #qt
+2015-01-21 02:05:08	<	neozaru (~neozaru@lau06-4-88-161-213-36.fbx.proxad.net) has quit (Remote host closed the connection)
+2015-01-21 02:06:05	>	DasMoehh (~lakdshkla@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has joined #qt
+2015-01-21 02:07:42	>	jmlich (jmlich@nat/redhat/x-ldovmawjnpusregl) has joined #qt
+2015-01-21 02:08:06	>	Jucato (~jucato@kde/developer/jucato) has joined #qt
+2015-01-21 02:08:08	<	DasMoeh (Belgarath@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has quit (Ping timeout: 265 seconds)
+2015-01-21 02:08:21	>	tsdgeos_ (~quassel@47.61.142.9) has joined #qt
+2015-01-21 05:02:17	>	rawks (~rawks720@189.153.231.224) has joined #qt
+2015-01-21 05:02:17	⇄	Topic for #qt is "Latest Qt: 5.4.0 & 4.8.6 | Bugs: http://bugreports.qt.io | Off-topic: #qt-chat | See also: #qt-creator #qt-quick http://qt-project.org/wiki/OnlineCommunities"
+2015-01-21 05:02:17	⇄	Topic set by jpnurmi on Sun, 18 Jan 2015 17:00:29
+2015-01-21 05:02:17	⇄	Channel #qt: 601 nicks (1 op, 5 voices, 595 normals)
+2015-01-21 05:02:17	⇄	PvNotice(ChanServ): Here are the rules for #qt: (1) Don't just join, ask, and quit - stay around and answer questions yourself! (2) Be patient, people may not see your question right away.
+2015-01-21 05:02:17	⇄	URL for #qt: http://qt-project.org
+2015-01-21 05:02:19	⇄	Channel created on Sun, 26 Nov 2006 00:42:42
+2015-01-24 20:04:54	>	rawks (~rawks720@189.153.87.255) has joined #qt
+2015-01-24 20:04:54	⇄	Topic for #qt is "Latest Qt: 5.4.0 & 4.8.6 | Bugs: http://bugreports.qt.io | Off-topic: #qt-chat | See also: #qt-creator #qt-quick http://qt-project.org/wiki/OnlineCommunities"
+2015-01-24 20:04:54	⇄	Topic set by jpnurmi on Sun, 18 Jan 2015 17:00:29
+2015-01-24 20:04:54	⇄	Channel #qt: 557 nicks (1 op, 6 voices, 550 normals)
+2015-01-24 20:04:54	⇄	PvNotice(ChanServ): Here are the rules for #qt: (1) Don't just join, ask, and quit - stay around and answer questions yourself! (2) Be patient, people may not see your question right away.
+2015-01-24 20:04:54	⇄	URL for #qt: http://qt-project.org
+2015-01-24 20:04:56	⇄	Channel created on Sun, 26 Nov 2006 00:42:42
+2015-01-24 20:06:52	>	matpow2 (~Mathias@212.130.122.224) has joined #qt
+2015-01-24 20:06:56	>	Tyriss (~Tyris@125-209-140-211.dyn.iinet.net.au) has joined #qt
+2015-01-24 20:07:34	>	Anonyme59277 (~naku@212-83-142-241.rev.poneytelecom.eu) has joined #qt
+2015-01-24 20:08:03	>	zwoof (~zwoof@modemcable169.140-19-135.mc.videotron.ca) has joined #qt
+2015-01-24 20:08:05	>	Miyu (~jigoku_ai@HSI-KBW-37-209-98-22.hsi15.kabel-badenwuerttemberg.de) has joined #qt
+2015-01-24 20:08:12	>	YourNick (sid4377@gateway/web/irccloud.com/x-ouknzaszczkjnbmt) has joined #qt
+2015-01-24 20:08:20	rawks	im making a midi composer, i need some basic 2D drawing to make the GUI, does QT have something like this?
+2015-01-24 20:09:10	>	dstftw_ (b1nd@anarxi.st) has joined #qt
+2015-01-24 20:09:16	>	__zxq9__ (~ceverett@FL1-119-244-167-254.okn.mesh.ad.jp) has joined #qt
+2015-01-24 20:09:37	>	Ares__ (~quassel@jabber.htu.tu-graz.ac.at) has joined #qt
+2015-01-24 20:09:42	>	joaoc (~joaoc@bl22-171-99.dsl.telepac.pt) has joined #qt
+2015-01-24 20:09:46	>	coffeeholic_ (~han@unaffiliated/coffeeholic) has joined #qt
+2015-01-24 20:10:04	>	mikom3 (mikom@kosobucki.pl) has joined #qt
+2015-01-24 20:10:36	saustin_	hmm, QFont font = someFoo();  QFont someFoo() { return QFont("Monospace"); }  creates a seg fault... I would have thought that the copy constructor would prevent this from happening... am I just being an idiot somehow?
+2015-01-24 20:10:52	>	FaxMachine (31b74817@gateway/web/freenode/ip.49.183.72.23) has joined #qt
+2015-01-24 20:11:07	>	Papierkorb_ (~papierkor@ip-62-143-159-34.hsi01.unitymediagroup.de) has joined #qt
+2015-01-24 20:11:07	saustin_	well the seg fault comes if you ask for something from the font after that line... like the underlying memory was freed
+2015-01-24 20:11:12	thiago	saustin_: backtrace, please
+2015-01-24 20:11:18	>	xeche (xeche@shell.mindslice.net) has joined #qt
+2015-01-24 20:11:23	>	qwc_ (~qwc@iridium.mmo.to) has joined #qt
+2015-01-24 20:11:25	>	agorecki (~agorecki@unaffiliated/agorecki) has joined #qt
+2015-01-24 20:11:25	>	chatsiri1 (~chatsiri_@119-46-191-21.static.asianet.co.th) has joined #qt
+2015-01-24 20:11:40	<	KrzaQ (~krzaq@krzaq.cc) has quit (Disconnected by services)
+2015-01-24 20:11:52	>	whitebook (~whitebook@ool-6bbc1ef4.dyn.optonline.net) has joined #qt
+2015-01-24 20:11:55	>	KrzaQ (~krzaq@krzaq.cc) has joined #qt
+2015-01-24 20:11:58	>	Meeh_ (~meeeeeeh@meeh.sigterm.no) has joined #qt
+2015-01-24 20:12:06	saustin_	ahh I'm a biiiiit too newbie to know how to do that atm, I have it in the qt debugger and I see a "stack trace" visually, I could give you QT version I suppose + the offset where the seg happens?
+2015-01-24 20:12:19	>	GrecKo_ (~GrecKo@195-154-227-249.rev.poneytelecom.eu) has joined #qt
+2015-01-24 20:12:22	>	ecloud_ (quassel@nat/digia/x-kwkbzedomkaeowtz) has joined #qt
+2015-01-24 20:12:32	>	mikkoh_ (mikkoh@hilla.kapsi.fi) has joined #qt
+2015-01-24 20:12:42	>	rexxster__ (~quassel@73.37.151.112) has joined #qt
+2015-01-24 20:12:43	>	heeen1 (heeen@endboss.org) has joined #qt
+2015-01-24 20:12:50	>	kq_away_ (~krzaq@ircbot.krzaq.cc) has joined #qt
+2015-01-24 20:12:51	agorecki	Hi guys. I just got a bunch of warnings about infected files with Qt5. seven of the example exe's were found to be infected with the Symmi virus by adaware antivirus
+2015-01-24 20:13:07	>	swex_ (~quassel@176.14.115.2) has joined #qt
+2015-01-24 20:13:18	thiago	agorecki: right click that stack trace, select the option to create a full one, then paste it in a pastebin
+2015-01-24 20:13:18	>	charles_ (~charles@pdpc/supporter/active/charles) has joined #qt
+2015-01-24 20:13:37	agorecki	thiago: Wrong guy :P
+2015-01-24 20:14:11	agorecki	opengl\cube\cube.exe, widgets\mainwindows\sdi\sdi.exe, widgets\widgets\styles\styles.exe, etc.
+2015-01-24 20:14:15	agorecki	Any thoughts?
+2015-01-24 20:14:26	agorecki	saustin_: ^
+2015-01-24 20:14:58	<	JSharpe (~JSharpe@31.205.60.241) has quit (Ping timeout: 264 seconds)
+2015-01-24 20:15:06	>	seezer_ (seezer@quassel/developer/seezer) has joined #qt
+2015-01-24 20:15:10	>	salamanderrake_ (~quassel@v-72-5-195-78.unman-vds.internap-chicago.nfoservers.com) has joined #qt
+2015-01-24 20:15:15	saustin_	thiago: okay I solved it haha :p so, I'm compiling in C++11 and I someFoo() was actually just { QFont("Monospace"); } without the return, adding in the return helped.  I'm wildly speculating, maybe move semantics?
+2015-01-24 20:15:29	>	oleo__ (~oleo@unaffiliated/oleo) has joined #qt
+2015-01-24 20:15:43	saustin_	but the method did have a return type, so I would have thought compiler would have complained
+2015-01-24 20:15:48	saustin_	for not returning a value
+2015-01-24 20:15:59	>	CalimeroTeknik_ (~calimero@pradic.tonbnc.fr) has joined #qt
+2015-01-24 20:16:19	<	geordi (~geordi@vps38193.public.cloudvps.com) has quit (*.net *.split)
+2015-01-24 20:16:19	<	Mike11 (~Mike@unaffiliated/mike11) has quit (*.net *.split)
+2015-01-24 20:16:19	<	chatsiri_ (~chatsiri_@119-46-191-21.static.asianet.co.th) has quit (*.net *.split)
+2015-01-24 20:16:19	<	swex (~quassel@176.14.115.2) has quit (*.net *.split)
+2015-01-24 20:16:19	<	DexterLB (~dex@77-85-14-92.btc-net.bg) has quit (*.net *.split)
+2015-01-24 20:16:19	<	oleo (~oleo@unaffiliated/oleo) has quit (*.net *.split)
+2015-01-24 20:16:19	<	Papierkorb (~papierkor@ip-62-143-159-34.hsi01.unitymediagroup.de) has quit (*.net *.split)
+2015-01-24 20:16:19	<	mat^2 (~Mathias@212.130.122.224) has quit (*.net *.split)
+2015-01-24 20:16:19	<	Meeh (~meeeeeeh@meeh.sigterm.no) has quit (*.net *.split)
+2015-01-24 20:16:19	<	salamanderrake (~quassel@v-72-5-195-78.unman-vds.internap-chicago.nfoservers.com) has quit (*.net *.split)
+2015-01-24 20:16:19	<	marlo_ (~mark@pool-71-97-79-20.dfw.dsl-w.verizon.net) has quit (*.net *.split)
+2015-01-24 20:16:19	<	faenil (~faenil@93-45-159-103.ip103.fastwebnet.it) has quit (*.net *.split)
+2015-01-24 20:16:19	<	yates (~user@71.51.248.203) has quit (*.net *.split)
+2015-01-24 20:16:19	<	Svenn-Arne (~svennard@ulrik.uio.no) has quit (*.net *.split)
+2015-01-24 20:16:19	<	zimbres (~marcelo.z@caronte.tpn.usp.br) has quit (*.net *.split)
+2015-01-24 20:16:19	<	charles (~charles@pdpc/supporter/active/charles) has quit (*.net *.split)
+2015-01-24 20:16:19	<	rexxster_ (~quassel@73.37.151.112) has quit (*.net *.split)
+2015-01-24 20:16:19	<	chan1 (~chankim@stph37.etri.re.kr) has quit (*.net *.split)
+2015-01-24 20:16:19	<	grauwulf (~lupogriso@li607-220.members.linode.com) has quit (*.net *.split)
+2015-01-24 20:16:19	<	mikkoh (mikkoh@hilla.kapsi.fi) has quit (*.net *.split)
+2015-01-24 20:16:19	<	Ares_ (~quassel@jabber.htu.tu-graz.ac.at) has quit (*.net *.split)
+2015-01-24 20:16:19	<	Naku (~naku@212.83.142.241) has quit (*.net *.split)
+2015-01-24 20:16:19	<	hackkitten (~jigoku_ai@HSI-KBW-37-209-98-22.hsi15.kabel-badenwuerttemberg.de) has quit (*.net *.split)
+2015-01-24 20:16:19	<	thomas (~thomas@freenode/staff/thomas) has quit (*.net *.split)
+2015-01-24 20:16:19	<	_zxq9_ (~ceverett@FL1-119-244-167-254.okn.mesh.ad.jp) has quit (*.net *.split)
+2015-01-24 20:16:19	<	Jannevaa (~jjvenala@130.233.228.12) has quit (*.net *.split)
+2015-01-24 20:16:19	<	qwc (~qwc@iridium.mmo.to) has quit (*.net *.split)
+2015-01-24 20:16:19	<	coffeeholic (~han@unaffiliated/coffeeholic) has quit (*.net *.split)
+2015-01-24 20:16:19	<	seezer (quassel@quassel/developer/seezer) has quit (*.net *.split)
+2015-01-24 20:16:19	<	dstftw (b1nd@anarxi.st) has quit (*.net *.split)
+2015-01-24 20:16:19	<	nicolauz (nicolauz@83.133.126.252) has quit (*.net *.split)
+2015-01-24 20:16:19	<	mikom2 (mikom@kosobucki.pl) has quit (*.net *.split)
+2015-01-24 20:16:19	<	TomasuAway (~Tomasu@pbx.svc.tomasu.org) has quit (*.net *.split)
+2015-01-24 20:16:19	<	ndyakov (~ndyakov@178.62.247.92) has quit (*.net *.split)
+2015-01-24 20:16:19	<	Tyris (~Tyris@125-209-140-211.dyn.iinet.net.au) has quit (*.net *.split)
+2015-01-24 20:16:19	<	paowz (~paowz@cro34-4-82-240-122-30.fbx.proxad.net) has quit (*.net *.split)
+2015-01-24 20:16:19	<	jfmcarreira (~joaoc@bl22-171-99.dsl.telepac.pt) has quit (*.net *.split)
+2015-01-24 20:16:19	<	Simotek (~Simotek@opensuse/member/simotek) has quit (*.net *.split)
+2015-01-24 20:16:19	<	GrecKo (~GrecKo@195-154-227-249.rev.poneytelecom.eu) has quit (*.net *.split)
+2015-01-24 20:16:19	<	TobiasFar_ (~tm@vs0337.flosoft-servers.net) has quit (*.net *.split)
+2015-01-24 20:16:19	<	zwf (zwoof@modemcable169.140-19-135.mc.videotron.ca) has quit (*.net *.split)
+2015-01-24 20:16:20	<	giucam (~giucam@qt/giucam) has quit (*.net *.split)
+2015-01-24 20:16:20	<	thomasbonte (sid4377@gateway/web/irccloud.com/x-epojedfiwfjdqbcd) has quit (*.net *.split)
+2015-01-24 20:16:20	<	The_Mad_Pirate (~leandro@181.167.68.28) has quit (*.net *.split)
+2015-01-24 20:16:20	<	mbroadst (~mbroadst@kde/developer/mbroadst) has quit (*.net *.split)
+2015-01-24 20:16:20	<	Crazy_Atheist (CrazyAthei@unaffiliated/minori) has quit (*.net *.split)
+2015-01-24 20:16:20	<	neobrain (~neobrain@ciphon.physik.uni-erlangen.de) has quit (*.net *.split)
+2015-01-24 20:16:20	<	heeen (heeen@endboss.org) has quit (*.net *.split)
+2015-01-24 20:16:20	<	bparker (~bp@w.0bl.net) has quit (*.net *.split)
+2015-01-24 20:16:20	<	RobinD (~robind@c-71-236-216-161.hsd1.wa.comcast.net) has quit (*.net *.split)
+2015-01-24 20:16:20	<	ecloud (quassel@nat/digia/x-mhfsylydepgpbnox) has quit (*.net *.split)
+2015-01-24 20:16:20	<	xeche_ (xeche@shell.mindslice.net) has quit (*.net *.split)
+2015-01-24 20:16:20	<	CalimeroTeknik (~calimero@pradic.tonbnc.fr) has quit (*.net *.split)
+2015-01-24 20:16:20	<	kq_away (~krzaq@ircbot.krzaq.cc) has quit (*.net *.split)
+2015-01-24 20:16:20	<	wickedmic (~wickedmic@obiwahn.org) has quit (*.net *.split)
+2015-01-24 20:16:32	<	salamanderrake_ (~quassel@v-72-5-195-78.unman-vds.internap-chicago.nfoservers.com) has quit (Client Quit)
+2015-01-24 20:17:04	>	chan1 (~chankim@stph37.etri.re.kr) has joined #qt
+2015-01-24 20:17:15	>	salamanderrake (~quassel@v-72-5-195-78.unman-vds.internap-chicago.nfoservers.com) has joined #qt
+2015-01-24 20:17:29	>	Svenn-Arne (~svennard@ulrik.uio.no) has joined #qt
+2015-01-24 20:17:40	>	giucam (~giucam@qt/giucam) has joined #qt
+2015-01-24 20:17:44	⇄	YourNick is now known as thomasbonte
+2015-01-24 20:19:05	>	faenil (~faenil@93-45-159-103.ip103.fastwebnet.it) has joined #qt
+2015-01-24 20:19:16	>	RobinD (~robind@c-71-236-216-161.hsd1.wa.comcast.net) has joined #qt
+2015-01-24 20:19:24	>	marlo_ (~mark@pool-71-97-79-20.dfw.dsl-w.verizon.net) has joined #qt
+2015-01-24 20:19:45	<	agorecki (~agorecki@unaffiliated/agorecki) has left #qt ("Leaving")
+2015-01-24 20:20:33	>	grauwulf (~lupogriso@li607-220.members.linode.com) has joined #qt
+2015-01-24 20:20:42	>	paowz (~paowz@cro34-4-82-240-122-30.fbx.proxad.net) has joined #qt
+2015-01-24 20:20:52	>	mbroadst (~mbroadst@8.20.30.249) has joined #qt
+2015-01-24 20:20:59	>	Simotek (~Simotek@opensuse/member/simotek) has joined #qt
+2015-01-24 20:21:00	>	mic (~wickedmic@obiwahn.org) has joined #qt
+2015-01-24 20:21:06	>	neobrain (~neobrain@ciphon.physik.uni-erlangen.de) has joined #qt
+2015-01-24 20:21:20	>	nicolauz (nicolauz@83.133.126.252) has joined #qt
+2015-01-24 20:21:20	>	thomas (~thomas@freenode/staff/thomas) has joined #qt
+2015-01-24 20:21:20	>	DexterLB (~dex@77-85-14-92.btc-net.bg) has joined #qt
+2015-01-24 20:21:20	>	ndyakov (~ndyakov@178.62.247.92) has joined #qt
+2015-01-24 20:21:52	>	cotko (~ahmed@89.142.149.52) has joined #qt
+2015-01-24 20:22:55	<	retux (~retux@p5790DBA6.dip0.t-ipconnect.de) has quit (Ping timeout: 265 seconds)
+2015-01-24 20:22:56	>	Crazy_Atheist (Iota@unaffiliated/minori) has joined #qt
+2015-01-24 20:23:08	>	_retux_ (~retux@p5790D74C.dip0.t-ipconnect.de) has joined #qt
+2015-01-24 20:23:13	<	thiago (~thiago@kde/thiago) has quit (Ping timeout: 255 seconds)
+2015-01-24 20:23:55	>	chriadam (~cadams@pa49-197-34-106.pa.qld.optusnet.com.au) has joined #qt
+2015-01-24 20:25:01	>	tehme_ (~tehme@mail.nordavind.ru) has joined #qt
+2015-01-24 20:25:19	>	Ares_ (~quassel@jabber.htu.tu-graz.ac.at) has joined #qt
+2015-01-24 20:25:45	>	Buzzer` (~buzbnc@unaffiliated/buzzer) has joined #qt
+2015-01-24 20:25:59	>	teprrrr (~tpr@tepr.in) has joined #qt
+2015-01-24 20:26:06	>	kq_away (~krzaq@ircbot.krzaq.cc) has joined #qt
+2015-01-24 20:26:30	>	Dotti_ (~dotti@255.ip-37-59-117.eu) has joined #qt
+2015-01-24 20:27:01	>	staylor_ (~staylor@184.64.148.252) has joined #qt
+2015-01-24 20:27:01	>	geordi (~geordi@vps38193.public.cloudvps.com) has joined #qt
+2015-01-24 20:27:01	<	geordi (~geordi@vps38193.public.cloudvps.com) has quit (Remote host closed the connection)
+2015-01-24 20:27:36	>	18VAB17DU (~heirecka@j61898.servers.jiffybox.net) has joined #qt
+2015-01-24 20:27:36	>	zimbres (~marcelo.z@caronte.tpn.usp.br) has joined #qt
+2015-01-24 20:27:36	>	TobiasFar (~tm@vs0337.flosoft-servers.net) has joined #qt
+2015-01-24 20:27:36	>	bparker (~bp@w.0bl.net) has joined #qt
+2015-01-24 20:27:54	>	terry852 (~user@220-134-59-70.HINET-IP.hinet.net) has joined #qt
+2015-01-24 20:27:55	>	Tomasu (~Tomasu@pbx.svc.tomasu.org) has joined #qt
+2015-01-24 20:30:10	>	arturo182_ (~arturo182@188.226.158.66) has joined #qt
+2015-01-24 20:30:56	<	wmarone__ (~wmarone@c-24-10-24-149.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2015-01-24 20:31:38	>	Ankhers (~user@gateway/tor-sasl/ankhers) has joined #qt
+2015-01-24 20:32:29	>	qout_ (~qout@qt/jpnurmi/bot/qout) has joined #qt
+2015-01-24 20:35:09	<	chriadam|away (~cadams@pa49-197-34-106.pa.qld.optusnet.com.au) has quit (Ping timeout: 244 seconds)
+2015-01-24 20:35:09	<	Ares__ (~quassel@jabber.htu.tu-graz.ac.at) has quit (Ping timeout: 244 seconds)
+2015-01-24 20:35:09	<	DasMoehh (~asdpifjal@merkur16.inf.uni-konstanz.de) has quit (Ping timeout: 244 seconds)
+2015-01-24 20:35:09	<	trollixx (~trollixx@sf.wisetroll.net) has quit (Ping timeout: 244 seconds)
+2015-01-24 20:35:09	<	heirecka (~heirecka@exherbo/developer/heirecka) has quit (Ping timeout: 244 seconds)
+2015-01-24 20:35:09	<	staylor (~staylor@S010640167e2cc408.cg.shawcable.net) has quit (Ping timeout: 244 seconds)
+2015-01-24 20:35:09	<	zhxt (~zhxt@124.192.38.2) has quit (Ping timeout: 244 seconds)
+2015-01-24 20:35:09	<	_valle_ (~valle@194-218-94-206.customer.telia.com) has quit (Ping timeout: 244 seconds)
+2015-01-24 20:35:09	<	Silex (~silex@188.226.176.246) has quit (Ping timeout: 244 seconds)
+2015-01-24 20:35:12	<	kq_away_ (~krzaq@ircbot.krzaq.cc) has quit (*.net *.split)
+2015-01-24 20:35:12	<	br0d1n (~mikaj@173-171-161-132.res.bhn.net) has quit (*.net *.split)
+2015-01-24 20:35:12	<	qout (~qout@qt/jpnurmi/bot/qout) has quit (*.net *.split)
+2015-01-24 20:35:12	<	tehme (~tehme@mail.nordavind.ru) has quit (*.net *.split)
+2015-01-24 20:35:12	<	Kilo`byte (~kilobyte@5.231.51.78) has quit (*.net *.split)
+2015-01-24 20:35:12	<	buq2 (~buq2@dsl-trebrasgw2-54f9ad-174.dhcp.inet.fi) has quit (*.net *.split)
+2015-01-24 20:35:12	<	arturo182 (~arturo182@188.226.158.66) has quit (*.net *.split)
+2015-01-24 20:35:12	<	workingcats (~workingca@212.122.48.77) has quit (*.net *.split)
+2015-01-24 20:35:12	<	Buzzer (~buzbnc@unaffiliated/buzzer) has quit (*.net *.split)
+2015-01-24 20:35:12	<	tomleese (~tomleese@178.62.21.147) has quit (*.net *.split)
+2015-01-24 20:35:12	<	teprrr (~tpr@kde/developer/rytilahti) has quit (*.net *.split)
+2015-01-24 20:35:12	<	Dotti (~dotti@255.ip-37-59-117.eu) has quit (*.net *.split)
+2015-01-24 20:35:12	⇄	arturo182_ is now known as arturo182
+2015-01-24 20:35:13	⇄	qout_ is now known as qout
+2015-01-24 20:35:16	>	Kilobyte|StupidC (~kilobyte@5.231.51.78) has joined #qt
+2015-01-24 20:35:36	>	zhxt (~zhxt@124.192.38.2) has joined #qt
+2015-01-24 20:35:38	>	DasMoehh (~asdpifjal@merkur16.inf.uni-konstanz.de) has joined #qt
+2015-01-24 20:35:39	>	Silex (~silex@188.226.176.246) has joined #qt
+2015-01-24 20:35:40	>	workingcats (~workingca@212.122.48.77) has joined #qt
+2015-01-24 20:36:23	>	br0d1n (~mikaj@173-171-161-132.res.bhn.net) has joined #qt
+2015-01-24 20:37:00	>	_valle_ (~valle@194-218-94-206.customer.telia.com) has joined #qt
+2015-01-24 20:37:55	>	tomleese (~tomleese@178.62.21.147) has joined #qt
+2015-01-24 20:38:46	⇄	HelL`oFF is now known as HelLViS69
+2015-01-24 20:39:36	<	djdduty (~quassel@unaffiliated/djdduty) has quit (Read error: Connection reset by peer)
+2015-01-24 20:40:53	>	djdduty (~quassel@67.237.241.121) has joined #qt
+2015-01-24 20:40:53	<	djdduty (~quassel@67.237.241.121) has quit (Changing host)
+2015-01-24 20:40:53	>	djdduty (~quassel@unaffiliated/djdduty) has joined #qt
+2015-01-24 20:42:30	>	chriscraig_ (~quassel@irc.ics.com) has joined #qt
+2015-01-24 20:42:37	>	czchen_ (sid12445@gateway/web/irccloud.com/x-lroypnnowfafhatp) has joined #qt
+2015-01-24 20:42:40	>	interima__ (~interima@46.16.228.250) has joined #qt
+2015-01-24 20:42:50	>	jcallen_ (~quassel@gentoo/developer/jcallen) has joined #qt
+2015-01-24 20:43:00	>	soa2ii_ (~quassel@odin.lagom.de) has joined #qt
+2015-01-24 20:43:00	>	Hunts (~hunts@cpc72065-sgyl27-2-0-cust838.18-2.cable.virginm.net) has joined #qt
+2015-01-24 20:43:19	>	kofee (~kofee@kofee.org) has joined #qt
+2015-01-24 20:43:25	>	troy_ (~troy@s216-108-25-232.nt.northwestel.net) has joined #qt
+2015-01-24 20:43:48	>	Steffann (~steffanx@2a02:2770:3:0:21a:4aff:fece:131) has joined #qt
+2015-01-24 20:43:52	<	Steffanx (~steffanx@unaffiliated/steffanx) has quit (Disconnected by services)
+2015-01-24 20:43:52	<	Steffann (~steffanx@2a02:2770:3:0:21a:4aff:fece:131) has quit (Changing host)
+2015-01-24 20:43:52	>	Steffann (~steffanx@unaffiliated/steffanx) has joined #qt
+2015-01-24 20:43:52	⇄	troy_ is now known as Guest74061
+2015-01-24 20:44:22	>	Snake_Ma1 (snakeman@alpha.phnet.fi) has joined #qt
+2015-01-24 20:44:23	>	Blok_ (~Blok@h-140-39.a357.priv.bahnhof.se) has joined #qt
+2015-01-24 20:44:27	>	w00t (~w00t@qt/w00t) has joined #qt
+2015-01-24 20:44:27	⇄	Mode #qt [+v w00t] by ChanServ
+2015-01-24 20:44:48	>	mardy_ (~mardy@a88-112-218-218.elisa-laajakaista.fi) has joined #qt
+2015-01-24 20:44:49	>	blino_ (blino@nan92-h02-31-33-246-89.dsl.sta.abo.bbox.fr) has joined #qt
+2015-01-24 20:44:51	>	Racuel_ (~quassel@85.89.89.187) has joined #qt
+2015-01-24 20:44:51	>	Uninstall_ (~quassel@vogon.m4rv1n.org) has joined #qt
+2015-01-24 20:44:52	>	kloeri_ (~kloeri@freenode/staff/exherbo.kloeri) has joined #qt
+2015-01-24 20:44:57	>	pawell_ (~pawell@student.agh.edu.pl) has joined #qt
+2015-01-24 20:45:03	>	maxkelle1 (~max@fabio.craplandia.org) has joined #qt
+2015-01-24 20:45:09	<	kirin` (telex@gateway/shell/anapnea.net/x-qsxymzjmohzsieme) has quit (Disconnected by services)
+2015-01-24 20:45:13	>	iDavid_ (jinx@joe.cz) has joined #qt
+2015-01-24 20:45:16	>	pley (martin@inet.texion.eu) has joined #qt
+2015-01-24 20:45:16	>	anunnaki (~chris@unaffiliated/anunnaki) has joined #qt
+2015-01-24 20:45:42	>	kirin` (telex@gateway/shell/anapnea.net/x-wsyrhxwmrgqijzni) has joined #qt
+2015-01-24 20:45:46	>	JSharpe (~JSharpe@31.205.60.241) has joined #qt
+2015-01-24 20:45:56	>	hagebake (hagabaka@unaffiliated/hagabaka) has joined #qt
+2015-01-24 20:46:57	>	cstr_ (cstr@nat/digia/x-uafpvotixkvcaurf) has joined #qt
+2015-01-24 20:47:02	>	b_lindeijer (~bjorn@quassel.woboq.com) has joined #qt
+2015-01-24 20:47:02	<	b_lindeijer (~bjorn@quassel.woboq.com) has quit (Changing host)
+2015-01-24 20:47:02	>	b_lindeijer (~bjorn@pdpc/supporter/active/bjorn) has joined #qt
+2015-01-24 20:47:18	<	cotko (~ahmed@89.142.149.52) has quit (Ping timeout: 276 seconds)
+2015-01-24 20:48:13	>	nukedclx- (nukedclx@wnko.pl) has joined #qt
+2015-01-24 20:48:15	>	ylt (~ylt@d3s.co) has joined #qt
+2015-01-24 20:48:26	>	hyper__ch (~hyper_ch@81.4.108.20) has joined #qt
+2015-01-24 20:48:32	>	Brando753-o_O_o (~Brando753@unaffiliated/brando753) has joined #qt
+2015-01-24 20:48:35	>	everbrew_ (~everbrew@99-16-156-116.lightspeed.mshwin.sbcglobal.net) has joined #qt
+2015-01-24 20:48:46	>	mueslix (~muesli@server1.muehlhaeuser.de) has joined #qt
+2015-01-24 20:48:52	<	hyper_ch (~hyper_ch@openvpn/user/hyper-ch) has quit (Disconnected by services)
+2015-01-24 20:48:52	<	mueslix (~muesli@server1.muehlhaeuser.de) has quit (Changing host)
+2015-01-24 20:48:52	>	mueslix (~muesli@amarok/developer/muesli) has joined #qt
+2015-01-24 20:48:57	⇄	hyper__ch is now known as hyper_ch
+2015-01-24 20:49:01	>	heinrich5991_ (~hein5991@unaffiliated/heinrich5991) has joined #qt
+2015-01-24 20:49:06	>	rolandb_ (~rolandb@ec2-54-241-140-48.us-west-1.compute.amazonaws.com) has joined #qt
+2015-01-24 20:49:27	<	_valle_ (~valle@194-218-94-206.customer.telia.com) has quit (*.net *.split)
+2015-01-24 20:49:27	<	Silex (~silex@188.226.176.246) has quit (*.net *.split)
+2015-01-24 20:49:27	<	Simotek (~Simotek@opensuse/member/simotek) has quit (*.net *.split)
+2015-01-24 20:49:27	<	Papierkorb_ (~papierkor@ip-62-143-159-34.hsi01.unitymediagroup.de) has quit (*.net *.split)
+2015-01-24 20:49:27	<	rodrigo_golive (~rodrigo_g@unaffiliated/rodrigo-golive/x-1209648) has quit (*.net *.split)
+2015-01-24 20:49:27	<	interima_ (~interima@46.16.228.250) has quit (*.net *.split)
+2015-01-24 20:49:27	<	hcc23 (~claus@c-50-167-228-111.hsd1.ga.comcast.net) has quit (*.net *.split)
+2015-01-24 20:49:27	<	HuntsMan (~hunts@cpc72065-sgyl27-2-0-cust838.18-2.cable.virginm.net) has quit (*.net *.split)
+2015-01-24 20:49:28	<	rainemak (~rainemak@2001:998:2a:dead:34fa:456f:a931:7636) has quit (*.net *.split)
+2015-01-24 20:49:28	<	heinrich5991 (~hein5991@unaffiliated/heinrich5991) has quit (*.net *.split)
+2015-01-24 20:49:28	<	N3RG4L (~N3RG4L@192.210.208.231) has quit (*.net *.split)
+2015-01-24 20:49:28	<	jsea (~jsea@27.122.242.71) has quit (*.net *.split)
+2015-01-24 20:49:28	<	czchen (sid12445@gateway/web/irccloud.com/x-vhwghqtwqfhhmhhs) has quit (*.net *.split)
+2015-01-24 20:49:28	<	rokka (~rokka@109.204.235.57) has quit (*.net *.split)
+2015-01-24 20:49:28	<	zat (~ale@179.57.205.113) has quit (*.net *.split)
+2015-01-24 20:49:28	<	The-Compiler (~compiler@unaffiliated/the-compiler) has quit (*.net *.split)
+2015-01-24 20:49:28	<	svenstaro (~svenstaro@archlinux/developer/svenstaro) has quit (*.net *.split)
+2015-01-24 20:49:28	<	lain (~lain@172.16.254.xxx) has quit (*.net *.split)
+2015-01-24 20:49:28	<	qtassistant (jpnurmi@qt/jpnurmi/bot/qtassistant) has quit (*.net *.split)
+2015-01-24 20:49:28	<	Lekensteyn (~Lekenstey@arpi.lekensteyn.nl) has quit (*.net *.split)
+2015-01-24 20:49:28	<	codebrainz (~codebrain@S0106687f74ddf92f.vc.shawcable.net) has quit (*.net *.split)
+2015-01-24 20:49:28	<	troy (~troy@s216-108-25-232.nt.northwestel.net) has quit (*.net *.split)
+2015-01-24 20:49:28	<	andre_ (andre@nat/digia/x-fnayopvctghergcn) has quit (*.net *.split)
+2015-01-24 20:49:28	<	petan (~pidgeon@wikimedia/Petrb) has quit (*.net *.split)
+2015-01-24 20:49:28	<	kloeri (~kloeri@freenode/staff/exherbo.kloeri) has quit (*.net *.split)
+2015-01-24 20:49:28	<	Brando753 (~Brando753@unaffiliated/brando753) has quit (*.net *.split)
+2015-01-24 20:49:28	<	Azelphur (~Azelphur@znc.azelphur.com) has quit (*.net *.split)
+2015-01-24 20:49:28	<	Blok (~Blok@unaffiliated/blok) has quit (*.net *.split)
+2015-01-24 20:49:28	<	samuli (quassel@nat/digia/x-cswsgbwbvrbfizao) has quit (*.net *.split)
+2015-01-24 20:49:28	<	kofee_ (~kofee@kofee.org) has quit (*.net *.split)
+2015-01-24 20:49:28	<	hannakala (hmaenpaa@melkki.cs.helsinki.fi) has quit (*.net *.split)
+2015-01-24 20:49:28	<	danhedron (~dan@unaffiliated/danharibo) has quit (*.net *.split)
+2015-01-24 20:49:28	<	octal (~octal@5.39.62.246) has quit (*.net *.split)
+2015-01-24 20:49:28	<	keltvek (~keltvek@unaffiliated/keltvek) has quit (*.net *.split)
+2015-01-24 20:49:28	<	obiwahn (~obiwahn@pdpc/supporter/student/obiwahn) has quit (*.net *.split)
+2015-01-24 20:49:28	<	Uninstall (~quassel@kde/developer/bettio) has quit (*.net *.split)
+2015-01-24 20:49:28	<	jcallen (~quassel@gentoo/developer/jcallen) has quit (*.net *.split)
+2015-01-24 20:49:28	<	soa2ii (~quassel@odin.lagom.de) has quit (*.net *.split)
+2015-01-24 20:49:28	<	threecatstwodogs (threecatst@203.161.101.189.static.amnet.net.au) has quit (*.net *.split)
+2015-01-24 20:49:28	<	pawell (~pawell@student.agh.edu.pl) has quit (*.net *.split)
+2015-01-24 20:49:28	<	CheBuzz (~CheBuzz@204.77.3.219) has quit (*.net *.split)
+2015-01-24 20:49:29	<	anunnaki_ (~chris@unaffiliated/anunnaki) has quit (*.net *.split)
+2015-01-24 20:49:29	<	rolandb (~rolandb@ec2-54-241-140-48.us-west-1.compute.amazonaws.com) has quit (*.net *.split)
+2015-01-24 20:49:29	<	chriscraig (~quassel@irc.ics.com) has quit (*.net *.split)
+2015-01-24 20:49:29	<	mardy (~mardy@a88-112-218-218.elisa-laajakaista.fi) has quit (*.net *.split)
+2015-01-24 20:49:29	<	w00t_ (~w00t@qt/w00t) has quit (*.net *.split)
+2015-01-24 20:49:29	<	nukedclx (nukedclx@funtoo/user/nukedclx) has quit (*.net *.split)
+2015-01-24 20:49:29	<	iDavid (jinx@joe.cz) has quit (*.net *.split)
+2015-01-24 20:49:29	<	mein_ (~Anoniem4l@unaffiliated/anoniem4l) has quit (*.net *.split)
+2015-01-24 20:49:29	<	Racuel (~quassel@85.89.89.187) has quit (*.net *.split)
+2015-01-24 20:49:29	<	nioncode (nioncode@karif.server-speed.net) has quit (*.net *.split)
+2015-01-24 20:49:29	<	maxkelley (~max@fabio.craplandia.org) has quit (*.net *.split)
+2015-01-24 20:49:29	<	everbrew (~everbrew@99-16-156-116.lightspeed.mshwin.sbcglobal.net) has quit (*.net *.split)
+2015-01-24 20:49:29	<	hagabaka (~hagabaka@unaffiliated/hagabaka) has quit (*.net *.split)
+2015-01-24 20:49:29	<	muesli (~muesli@amarok/developer/muesli) has quit (*.net *.split)
+2015-01-24 20:49:29	<	cstr (cstr@nat/digia/x-rcteeoduxgpyixca) has quit (*.net *.split)
+2015-01-24 20:49:29	<	inch (mijutu@ellipsis.utu.fi) has quit (*.net *.split)
+2015-01-24 20:49:29	<	bjorn (~bjorn@pdpc/supporter/active/bjorn) has quit (*.net *.split)
+2015-01-24 20:49:29	<	pley_ (martin@inet.texion.eu) has quit (*.net *.split)
+2015-01-24 20:49:29	<	tosaraja (quassel@nat/digia/x-nmdieemruthdnwjl) has quit (*.net *.split)
+2015-01-24 20:49:29	<	tijensse (quassel@nat/digia/x-ggsyheawheyzrvui) has quit (*.net *.split)
+2015-01-24 20:49:29	<	Snake_Man (snakeman@alpha.phnet.fi) has quit (*.net *.split)
+2015-01-24 20:49:29	<	Draggor (~Draggor@216-80-103-113.mct-bsr1.chi-mct.il.static.cable.rcn.com) has quit (*.net *.split)
+2015-01-24 20:49:29	<	morphis (morphis@fiona.nas-admin.org) has quit (*.net *.split)
+2015-01-24 20:49:29	<	ylt` (~ylt@d3s.co) has quit (*.net *.split)
+2015-01-24 20:49:29	<	blino (~olivier@nan92-h02-31-33-246-89.dsl.sta.abo.bbox.fr) has quit (*.net *.split)
+2015-01-24 20:49:32	>	zat1 (~ale@179.57.205.113) has joined #qt
+2015-01-24 20:49:33	⇄	everbrew_ is now known as everbrew
+2015-01-24 20:49:37	⇄	rolandb_ is now known as rolandb
+2015-01-24 20:49:39	⇄	mueslix is now known as muesli
+2015-01-24 20:49:40	>	hannakala (hmaenpaa@melkki.cs.helsinki.fi) has joined #qt
+2015-01-24 20:49:45	⇄	Snake_Ma1 is now known as Snake_Man
+2015-01-24 20:49:57	>	threecatstwodogs (threecatst@203.161.101.189.static.amnet.net.au) has joined #qt
+2015-01-24 20:49:57	>	keltvek_ (~keltvek@unaffiliated/keltvek) has joined #qt
+2015-01-24 20:50:16	>	tijensse (quassel@nat/digia/x-xjobomwggigodmce) has joined #qt
+2015-01-24 20:50:18	⇄	keltvek_ is now known as keltvek
+2015-01-24 20:50:23	>	Azelphur (~Azelphur@znc.azelphur.com) has joined #qt
+2015-01-24 20:50:24	⇄	Brando753-o_O_o is now known as Brando753
+2015-01-24 20:50:38	⇄	czchen_ is now known as czchen
+2015-01-24 20:50:58	⇄	heinrich5991_ is now known as heinrich5991
+2015-01-24 20:51:04	>	CheBuzz (~CheBuzz@204.77.3.219) has joined #qt
+2015-01-24 20:51:09	>	tosaraja (quassel@nat/digia/x-xwsghjueqsqfddyo) has joined #qt
+2015-01-24 20:51:16	>	Anoniem4l (~Anoniem4l@unaffiliated/anoniem4l) has joined #qt
+2015-01-24 20:51:17	>	samuli (quassel@nat/digia/x-xtxnleuycincutfz) has joined #qt
+2015-01-24 20:52:45	>	octal (~octal@5.39.62.246) has joined #qt
+2015-01-24 20:55:26	>	rodrigo_golive (~rodrigo_g@unaffiliated/rodrigo-golive/x-1209648) has joined #qt
+2015-01-24 20:55:42	>	codebrainz (~codebrain@S0106687f74ddf92f.vc.shawcable.net) has joined #qt
+2015-01-24 20:55:43	>	Silex (~silex@188.226.176.246) has joined #qt
+2015-01-24 20:55:55	>	andre_ (andre@nat/digia/x-vnshpgnowvljdnpx) has joined #qt
+2015-01-24 20:56:06	>	nioncode (nioncode@karif.server-speed.net) has joined #qt
+2015-01-24 20:56:18	>	lain (~lain@172.16.254.xxx) has joined #qt
+2015-01-24 20:56:26	>	jsea (~jsea@27.122.242.71) has joined #qt
+2015-01-24 20:56:35	>	Simotek (~Simotek@opensuse/member/simotek) has joined #qt
+2015-01-24 20:56:36	>	obiwahn (~obiwahn@pdpc/supporter/student/obiwahn) has joined #qt
+2015-01-24 20:56:51	>	danhedron (~dan@unaffiliated/danharibo) has joined #qt
+2015-01-24 20:56:52	>	Lekensteyn (~Lekenstey@arpi.lekensteyn.nl) has joined #qt
+2015-01-24 20:57:08	>	Draggor (~Draggor@216-80-103-113.mct-bsr1.chi-mct.il.static.cable.rcn.com) has joined #qt
+2015-01-24 20:57:27	>	rainemak (~rainemak@2001:998:2a:dead:50b8:13d8:eca4:52b3) has joined #qt
+2015-01-24 20:58:17	>	_valle_ (~valle@194.218.94.206) has joined #qt
+2015-01-24 20:59:02	>	svenstaro (~svenstaro@archlinux/developer/svenstaro) has joined #qt
+2015-01-24 20:59:41	>	The-Compiler (~compiler@unaffiliated/the-compiler) has joined #qt
+2015-01-24 21:00:20	>	morphis (morphis@fiona.nas-admin.org) has joined #qt
+2015-01-24 21:02:12	>	inch (mijutu@ellipsis.utu.fi) has joined #qt
+2015-01-24 21:02:12	>	N3RG4L (~N3RG4L@192.210.208.231) has joined #qt
+2015-01-24 21:02:30	<	Guest72549 (~totte@tott.es) has quit (Ping timeout: 250 seconds)
+2015-01-24 21:03:10	<	interima__ (~interima@46.16.228.250) has quit (Quit: Konversation terminated!)
+2015-01-24 21:03:35	>	Guest91026 (~totte@tott.es) has joined #qt
+2015-01-24 21:04:00	>	qtassistant (jpnurmi@qt/jpnurmi/bot/qtassistant) has joined #qt
+2015-01-24 21:05:35	<	quizzi (quizzi@bnc.slenz.net) has quit (Ping timeout: 250 seconds)
+2015-01-24 21:05:37	>	quizzmaster (quizzi@bnc.slenz.net) has joined #qt
+2015-01-24 21:05:53	>	rokka (~rokka@109.204.235.57) has joined #qt
+2015-01-24 21:09:54	techsurvivor	I don't know if anyone who helped me last night is around, but I figured out my problem, other than being exhausted. I just needed a couple of forward declarations for classes to fix my compile issues.
+2015-01-24 21:10:09	<	robertknight_clo (sid15951@gateway/web/irccloud.com/x-kveigpsslhjavmfw) has quit (Read error: Connection reset by peer)
+2015-01-24 21:10:17	<	aljosa (sid16668@gateway/web/irccloud.com/x-ebocwllikuponobe) has quit (Read error: Connection reset by peer)
+2015-01-24 21:10:19	<	jarrednicholls (sid19542@gateway/web/irccloud.com/x-wbtrtkkhzofhjrjn) has quit (Read error: Connection reset by peer)
+2015-01-24 21:10:32	<	blight (~greg@reactos/developer/blight) has quit (Quit: Konversation terminated!)
+2015-01-24 21:10:36	<	staylor_ (~staylor@184.64.148.252) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-01-24 21:12:28	>	robertknight_clo (sid15951@gateway/web/irccloud.com/x-wimvlokvjxwionuv) has joined #qt
+2015-01-24 21:12:59	>	jarrednicholls (sid19542@gateway/web/irccloud.com/x-ytnkeekqzumchpif) has joined #qt
+2015-01-24 21:13:25	>	aljosa (sid16668@gateway/web/irccloud.com/x-whrxnzpepepkuedv) has joined #qt
+2015-01-24 21:15:46	<	joepie91_ (~joepie91@199.241.31.225) has quit (Ping timeout: 252 seconds)
+2015-01-24 21:18:01	<	FaxMachine (31b74817@gateway/web/freenode/ip.49.183.72.23) has quit (Quit: Page closed)
+2015-01-24 21:22:24	>	joepie91_ (~joepie91@199.241.31.225) has joined #qt
+2015-01-24 21:23:21	>	enitiz (~saurabh@pool-98-117-183-21.bflony.fios.verizon.net) has joined #qt
+2015-01-24 21:23:22	>	zhxt_ (~zhxt@60.10.97.112) has joined #qt
+2015-01-24 21:23:35	>	geordi (~geordi@vps38193.public.cloudvps.com) has joined #qt
+2015-01-24 21:25:35	>	metastableB (~greyScale@14.139.194.12) has joined #qt
+2015-01-24 21:26:00	>	fatalhalt (~fatalhalt@c-71-201-7-76.hsd1.il.comcast.net) has joined #qt

@@ -1,0 +1,21 @@
+2015-09-07 01:23:33	>	rawks (~alex@189.153.165.225) has joined #c++
+2015-09-07 01:23:33	⇄	Topic for #c++ is "C++ in English | Just ask, then wait. We will wake up eventually. | Do use a pastebin for all your pasting needs.  "
+2015-09-07 01:23:33	⇄	Topic set by Iridian (iridian@109.204.237.163) on sáb, 22 ago 2015 05:20:46
+2015-09-07 01:23:33	⇄	Channel #c++: 22 nicks (5 ops, 0 voices, 17 normals)
+2015-09-07 02:09:25	>	swatti (~swatti@business-89-132-60-56.business.broadband.hu) has joined #c++
+2015-09-07 08:30:17	<	TuOki^ (~helaital@tuomi.oulu.fi) has quit (hub.cc.tut.fi *.oulu.fi)
+2015-09-07 09:05:33	>	TuOki^ (~helaital@tuomi.oulu.fi) has joined #c++
+2015-09-07 09:51:00	<	TuOki^ (~helaital@tuomi.oulu.fi) has quit (Ping timeout)
+2015-09-07 10:26:15	<	spe{trum (~spe{trum@sysam.it) has quit (".")
+2015-09-07 10:58:02	>	spe{trum (~spe{trum@sysam.it) has joined #c++
+2015-09-07 12:10:50	>	Filystyn (~piotr@031011212161.warszawa.vectranet.pl) has joined #c++
+2015-09-07 12:47:59	<	swatti (~swatti@business-89-132-60-56.business.broadband.hu) has quit (Ping timeout)
+2015-09-07 12:51:04	>	swatti (~swatti@business-89-132-60-56.business.broadband.hu) has joined #c++
+2015-09-07 13:34:29	<	Filystyn (~piotr@031011212161.warszawa.vectranet.pl) has quit ("Konversation terminated!")
+2015-09-09 23:45:16	>	rawks (~alex@189.153.90.254) has joined #c++
+2015-09-09 23:45:16	⇄	Topic for #c++ is "C++ in English | Just ask, then wait. We will wake up eventually. | Do use a pastebin for all your pasting needs.  "
+2015-09-09 23:45:16	⇄	Topic set by Iridian (iridian@109.204.237.163) on sáb, 22 ago 2015 05:20:46
+2015-09-09 23:45:16	⇄	Channel #c++: 22 nicks (4 ops, 0 voices, 18 normals)
+2015-09-09 23:45:38	rawks	anyone here?
+2015-09-09 23:45:51	rawks	im looking for a book on multithreading with C++ 11
+2015-09-10 01:41:52	@belz	rawks, C++ Concurrency in Action .. by Anthony Williams

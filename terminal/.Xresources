@@ -1,0 +1,449 @@
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.autohint:  true
+Xft.hintstyle:  hintfull
+!------------------------------------------------
+! urxvt.font: xft:tewi-Regular:size=9
+! urxvt.boldFont: xft:tewi-Regular:size=9
+urxvt.font: xft:ohsnap:bold:size=9
+urxvt.boldFont: xft:ohsnap:bold:size=9
+! urxvt.font: xft:ohsnap:bold:size=9
+! urxvt.boldFont: xft:ohsnap-Bold:size=9
+! urxvt.font: xft:TerminalVector-Regular:size=9
+! urxvt.boldFont: xft:TerminalVector-Bold:size=9
+! urxvt.font: xft:apple-Regular:size=9
+! urxvt.boldFont: xft:apple-Bold:size=9
+
+
+
+! urxvt*letterSpace: 0		
+urxvt.allow_bold: true
+urxvt.transparent:   false
+urxvt.shading:       15
+
+!------------------------------------------------              
+urxvt.perl-lib: ~/.urxvt/ext/
+urxvt.perl-ext-common: default,matcher,vtwheel,clipboard,keyboard-select,url-select
+! urXVT ENABLE LINK SUPPORT
+
+!tabbed
+urxvt.matcher.button:   1
+urxvt.perl-ext:      default,url-select
+urxvt.keysym.M-u: perl:url-select:select_next
+urxvt.url-select.launcher:   /usr/bin/google-chrome
+urxvt.url-select.underline: true
+
+!disable the fucking bell
+urxvt.insecure: 			false
+
+! urXVT COPY PASTE SHORTCUTS
+!------------------------------------------------
+! Extensions ~/.urxvt./ext
+!urxvt.perl-ext-common: default,clipboard,keyboard-select,url-select
+! Clipboard
+urxvt.keysym.M-Escape: perl:keyboard-select:activate
+urxvt.keysym.M-c:   perl:clipboard:copy
+urxvt.keysym.C-v:   perl:clipboard:paste
+urxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+urxvt.clipboard.copycmd:  xsel -ib
+urxvt.clipboard.pastecmd: xsel -ob
+! urXVT SCROLLBAR AND CurSOR STYLE
+!------------------------------------------------
+! do not scroll with output
+urxvt.scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+urxvt.scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+urxvt.scrollTtyKeypress: true
+
+urxvt.saveLines: 			300000
+urxvt.scrollBar: 			false
+urxvt.scrollstyle:			plain
+urxvt.cursorBlink: 			1
+urxvt.cursorUnderline: 		0
+! urxvt*cursorColor: 			#69BDDA 
+
+! urXVT TABBEDEX
+!------------------------------------------------
+! urxvt.tabbedex.autohide: 	no
+! urxvt.tabbedex.tabbar-fg: 	2
+! urxvt.tabbedex.tabbar-bg: 	8
+! urxvt.tabbedex.tab-fg:    	10
+! urxvt.tabbedex.tab-bg:    	7
+! urxvt.tabbedex.title: 		yes
+! urxvt.tabbedex.new-button:  yes
+
+
+! urXVT TABBED
+!------------------------------------------------
+urxvt.tabbed.tabbar-fg: 7
+urxvt.tabbed.tabbar-bg: 0
+urxvt.tabbed.tab-fg: 7
+urxvt.tabbed.tab-bg: 0
+! Display the title of terminal next to tabs list
+urxvt.tabbed.title: true
+urxvt.tabbed.title-fg: 7
+urxvt.tabbed.title-bg: 0
+
+urxvt.tabbed.new-button: false
+
+
+
+! urXVT FULLSCREEN TOGGLE
+!------------------------------------------------
+
+urxvt.keysym.F11: 			perl:fullscreen:switch
+
+
+
+! URXVT COLORS
+!------------------------------------------------
+
+!ATOM ONE DARK
+! urxvt*background:  #282C34
+! urxvt*foreground:  #ABB2BF
+! urxvt*colorBD:     #666D7A
+! urxvt*cursorColor: #D19A66;
+
+! urxvt*color0:      #878787
+! urxvt*color1:      #E06C75
+! urxvt*color2:      #AEB9F5
+! urxvt*color3:      #98C379
+! urxvt*color4:      #56B6C2
+! urxvt*color5:      #D19A66
+! urxvt*color6:      #BE5046
+! urxvt*color7:      #6CA0A3
+! urxvt*color8:      #BCBCBC
+! urxvt*color9:      #FF8787
+! urxvt*color10:     #AFD787
+! urxvt*color11:     #AAAAAA
+! urxvt*color12:     #7e9960
+! urxvt*color13:     #C678DD
+! urxvt*color14:     #5c737c
+! urxvt*color15:     #E5C07B
+
+
+! !MOLOKAI
+! ! terminal colours
+! urxvt*foreground:#CCCCCC
+! urxvt*background:#141414
+! !black darkgray
+! urxvt*color0:    #1B1D1E
+! urxvt*color8:    #808080
+! !darkred red
+! urxvt*color1:    #FF0044
+! urxvt*color9:    #F92672
+! !darkgreen green
+! urxvt*color2:    #82B414
+! urxvt*color10:   #A6E22E
+! !darkyellow yellow
+! urxvt*color3:    #FD971F
+! urxvt*color11:   #E6DB74
+! !darkblue blue
+! urxvt*color4:    #266C98
+! urxvt*color12:   #7070F0
+! !darkmagenta magenta
+! urxvt*color5:    #AC0CB1
+! urxvt*color13:   #D63AE1
+! !darkcyan cyan
+! urxvt*color6:    #AE81FF
+! urxvt*color14:   #66D9EF
+! !gray white
+! urxvt*color7:    #CCCCCC
+! urxvt*color15: #F8F8F2
+
+! UJELLY
+urxvt*background:  #000000
+urxvt*foreground:  #ae81ff
+urxvt*colorBD:     #BCBCBC
+urxvt*cursorColor: #DCDCCC
+
+urxvt*color0:      #1c1c1c
+urxvt*color1:      #cd00cd
+urxvt*color2:      #AFD787
+urxvt*color3:      #7F9F7F
+urxvt*color4:      #75b5aa
+urxvt*color5:      #DFAF8F
+urxvt*color6:      #de5577
+urxvt*color7:      #474e90
+urxvt*color8:      #7f7f7f
+urxvt*color9:      #ffb964
+urxvt*color10:     #a8ff60
+urxvt*color11:     #546a29
+urxvt*color12:     #FF8787
+urxvt*color13:     #447799
+urxvt*color14:     #fad07a
+urxvt*color15:     #ae81ff
+
+
+! ! JAZZ
+! urxvt*background:  #141414
+! urxvt*foreground:  #c6a57b
+! urxvt*colorBD:     #BCBCBC
+! urxvt*cursorColor: #DCDCCC;
+
+! urxvt*color0:      #385e6b
+! urxvt*color1:      #953331
+! urxvt*color2:      #7f355e
+! urxvt*color3:      #7F9F7F
+! urxvt*color4:      #34676f
+! urxvt*color5:      #DFAF8F
+! urxvt*color6:      #6CA0A3
+! urxvt*color7:      #878787
+! urxvt*color8:      #BCBCBC
+! urxvt*color9:      #FF8787
+! urxvt*color10:     #AFD787
+! urxvt*color11:     #546a29
+! urxvt*color12:     #7e9960
+! urxvt*color13:     #8a8acf
+! urxvt*color14:     #5c737c
+! urxvt*color15:     #ba5b34
+
+
+
+! ! Darkburn
+! urxvt*background:  #000000
+! urxvt*foreground:  #DCDCCC
+! urxvt*colorBD:     #BCBCBC
+! urxvt*cursorColor: #DCDCCC;
+
+! urxvt*color0:      #656555
+! urxvt*color1:      #D66F84
+! urxvt*color2:      #5F7F5F
+! urxvt*color3:      #7F9F7F
+! urxvt*color4:      #93E0E3
+! urxvt*color5:      #DFAF8F
+! urxvt*color6:      #6CA0A3
+! urxvt*color7:      #878787
+! urxvt*color8:      #BCBCBC
+! urxvt*color9:      #FF8787
+! urxvt*color10:     #AFD787
+! urxvt*color11:     #87875F
+! urxvt*color12:     #FAC987
+! urxvt*color13:     #8a8acf
+! urxvt*color14:     #55aaaa
+! urxvt*color15:     #D7875F
+
+
+! ! Ample
+! urxvt*background:  #212121
+! urxvt*foreground:  #BCBCBC
+! urxvt*colorBD:     #000000
+! urxvt*cursorColor: #D66F84
+
+! urxvt*color0:      #DED9C1
+! urxvt*color1:      #C5617A
+! urxvt*color2:      #A1E8A1
+! urxvt*color3:      #7B894f
+! urxvt*color4:      #5FAFAF
+! urxvt*color5:      #5F005F
+! urxvt*color6:      #FF875F
+! urxvt*color7:      #878787
+! urxvt*color8:      #BCBCBC
+! urxvt*color9:      #FF8787
+! urxvt*color10:     #AFD787
+! urxvt*color11:     #87875F
+! urxvt*color12:     #FAC987
+! urxvt*color13:     #8a8acf
+! urxvt*color14:     #55aaaa
+! urxvt*color15:     #D7875F
+
+
+! ! Majapahit dark
+! urxvt*background:  #242424
+! urxvt*foreground:  #BCBCBC
+! urxvt*colorBD:     #000000
+! urxvt*cursorColor: #D66F84
+
+! urxvt*color0:      #DED9C1
+! urxvt*color1:      #C5617A
+! urxvt*color2:      #A1E8A1
+! urxvt*color3:      #7B894f
+! urxvt*color4:      #5FAFAF
+! urxvt*color5:      #5F005F
+! urxvt*color6:      #FF875F
+! urxvt*color7:      #878787
+! urxvt*color8:      #BCBCBC
+! urxvt*color9:      #FF8787
+! urxvt*color10:     #AFD787
+! urxvt*color11:     #87875F
+! urxvt*color12:     #FAC987
+! urxvt*color13:     #8a8acf
+! urxvt*color14:     #55aaaa
+! urxvt*color15:     #D7875F
+
+
+
+! !Adwaita
+! urxvt*background:  #ffffea
+! urxvt*foreground:  #555555
+! urxvt*colorBD:     #000000
+! urxvt*cursorColor: #000000
+
+! urxvt*color0:      #ffffea
+! urxvt*color1:      #ba5d5d
+! urxvt*color2:      #458a45
+! urxvt*color3:      #9a9a4d
+! urxvt*color4:      #008acf
+! urxvt*color5:      #8a8acf
+! urxvt*color6:      #55aaaa
+! urxvt*color7:      #555555
+! urxvt*color8:      #aaaaaa
+! urxvt*color9:      #ba5d5d
+! urxvt*color10:     #458a45
+! urxvt*color11:     #9a9a4d
+! urxvt*color12:     #008acf
+! urxvt*color13:     #8a8acf
+! urxvt*color14:     #55aaaa
+! urxvt*color15:     #000000
+
+
+! Base16 Tomorrow Night
+! Scheme: Chris Kempson (http://chriskempson.com)
+
+! #define base00 #191919
+! #define base01 #282a2e
+! #define base02 #373b41
+! #define base03 #969896
+! #define base04 #b4b7b4
+! #define base05 #c5c8c6
+! #define base06 #e0e0e0
+! #define base07 #ffffff
+! #define base08 #cc6666
+! #define base09 #de935f
+! #define base0A #f0c674
+! #define base0B #b5bd68
+! #define base0C #8abeb7
+! #define base0D #81a2be
+! #define base0E #b294bb
+! #define base0F #a3685a
+
+! urxvt*foreground:   base05
+! #ifdef background_opacity
+! urxvt*background:   [background_opacity]base00
+! #else
+! urxvt*background:   base00
+! #endif
+! urxvt*cursorColor:  base05
+
+! urxvt*color0:       base00
+! urxvt*color1:       base08
+! urxvt*color2:       base0B
+! urxvt*color3:       base0A
+! urxvt*color4:       base0D
+! urxvt*color5:       base0E
+! urxvt*color6:       base0C
+! urxvt*color7:       base05
+
+! urxvt*color8:       base03
+! urxvt*color9:       base08
+! urxvt*color10:      base0B
+! urxvt*color11:      base0A
+! urxvt*color12:      base0D
+! urxvt*color13:      base0E
+! urxvt*color14:      base0C
+! urxvt*color15:      base07
+
+! ! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! ! use 'shell' template to set these if necessary
+! urxvt*color16:      base09
+! urxvt*color17:      base0F
+! urxvt*color18:      base01
+! urxvt*color19:      base02
+! urxvt*color20:      base04
+! urxvt*color21:      base06
+
+
+! Atom one Dark
+! urxvt*foreground: #ABB2BF
+! urxvt*background: #282C34
+! urxvt*color0:     #3E4451
+! urxvt*color8:     #ABB2BF
+! urxvt*color1:     #BE5046
+! urxvt*color9:     #E06C75
+! urxvt*color2:     #98C379
+! urxvt*color10:    #5AF78E
+! urxvt*color3:     #E5C07B
+! urxvt*color11:    #E5C07B
+! urxvt*color4:     #C678DD
+! urxvt*color12:    #AEB9F5
+! urxvt*color5:     #FF79C6
+! urxvt*color13:    #528BFF
+! urxvt*color6:     #56B6C2
+! urxvt*color14:    #61AFEF
+! urxvt*color7:     #AAAAAA
+! urxvt*color15: #E6E6E6
+
+! Base16 Default Dark
+! Scheme: Chris Kempson (http://chriskempson.com)
+
+! #define base00 #000000
+! #define base01 #282828
+! #define base02 #383838
+! #define base03 #585858
+! #define base04 #b8b8b8
+! #define base05 #B2AF95
+! #define base06 #e8e8e8
+! #define base07 #f8f8f8
+! #define base08 #ab4642
+! #define base09 #dc9656
+! #define base0A #f7ca88
+! #define base0B #a1b56c
+! #define base0C #86c1b9
+! #define base0D #7cafc2
+! #define base0E #ba8baf
+! #define base0F #a16946
+
+! urxvt*foreground:   base05
+! #ifdef background_opacity
+! urxvt*background:   [background_opacity]base00
+! #else
+! urxvt*background:   base00
+! #endif
+! urxvt*cursorColor:  base05
+
+! urxvt*color0:       base00
+! urxvt*color1:       base08
+! urxvt*color2:       base0B
+! urxvt*color3:       base0A
+! urxvt*color4:       base0D
+! urxvt*color5:       base0E
+! urxvt*color6:       base0C
+! urxvt*color7:       base05
+
+! urxvt*color8:       base03
+! urxvt*color9:       base08
+! urxvt*color10:      base0B
+! urxvt*color11:      base0A
+! urxvt*color12:      base0D
+! urxvt*color13:      base0E
+! urxvt*color14:      base0C
+! urxvt*color15:      base07
+
+! ! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! ! use 'shell' template to set these if necessary
+! urxvt*color16:      base09
+! urxvt*color17:      base0F
+! urxvt*color18:      base01
+! urxvt*color19:      base02
+! urxvt*color20:      base04
+! urxvt*color21:      base06
+
+
+rofi.color-window: argb:c82d303b, #7c8389, #1d1f21
+rofi.color-normal: argb:31d1f21, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
+rofi.color-urgent: argb:2c1d1f21, #cc6666, argb:e54b5160, #a54242, #f9f9f9
+rofi.color-active: argb:2c1d1f21, #65acff, argb:e44b5160, #4491ed, #f9f9f9
+rofi.width: 40
+rofi.lines: 5
+rofi.columns: 5
+rofi.font: ohsnap bold 9
+rofi.bw: 0
+rofi.padding: 400
+rofi.eh: 1
+!rofi.separator-style: solid
+rofi.hide-scrollbar: true

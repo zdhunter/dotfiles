@@ -1,0 +1,277 @@
+2016-07-30 19:58:33	[join]	alex1 (~alex@7E22790D.CBBE9EF4.441E21D0.IP) has joined #/g/wdg
+2016-07-30 19:58:34	[info]	Topic for #/g/wdg is "/wdg/ - Web Development General http://boards.4chan.org/g/wdg :: Where to start https://youtu.be/zXqs6X0lzKI/ :: Learning Material http://codecademy.com/ - http://programming-motherfucker.com/ :: Front end development https://github.com/dypsilon/frontend-dev-bookmarks/ :: Back end development https://gist.github.com/dypsilon/5819528/"
+2016-07-30 19:58:34	[info]	Topic set by DenSaakalte (~DenSaakal@A.Trap.For.Judges) on vie, 24 jun 2016 14:31:55
+2016-07-30 19:58:34	[info]	Channel #/g/wdg: 75 nicks (1 op, 5 halfops, 7 voices, 62 normals)
+2016-07-30 19:58:35	[info]	Channel created on sáb, 21 mar 2015 09:37:54
+2016-07-30 20:15:58	+MDB	DANtheBEASTman: talk to me
+2016-07-30 20:16:03	+MDB	im all alone
+2016-07-30 20:16:06	+MDB	i need a friend
+2016-07-30 20:16:26	%DANtheBEASTman	what troubles you?
+2016-07-30 20:16:32	+MDB	nothing really
+2016-07-30 20:16:37	+MDB	except that i have some heartburn
+2016-07-30 20:16:51	alex1	thoughts on Flask?
+2016-07-30 20:16:54	+MDB	and a ton of diarrhea, but that was hours ago
+2016-07-30 20:16:56	alex1	I'm enjoying it quite a bit
+2016-07-30 20:17:12	+MDB	no startups use it
+2016-07-30 20:17:27	alex1	why?
+2016-07-30 20:17:31	+MDB	youd be very lucky to find one with django
+2016-07-30 20:17:33	+MDB	dont know
+2016-07-30 20:17:47	+MDB	hospitals just tend to use Python 2 for DNA sequencing really
+2016-07-30 20:17:53	alex1	I know rails is king, but for tiny / small projects whats the framework of choice
+2016-07-30 20:17:56	+MDB	my graph theory class was a lot of python
+2016-07-30 20:18:17	%DANtheBEASTman	alex1: i'm personally fond of node.js and koa
+2016-07-30 20:18:20	+MDB	alex1: rails
+2016-07-30 20:18:31	+MDB	if they somehow dont want to use node + angular
+2016-07-30 20:18:31	%DANtheBEASTman	>rails >2016
+2016-07-30 20:18:41	%DANtheBEASTman	>angular >ever
+2016-07-30 20:18:41	+MDB	DANtheBEASTman: you can bitch all you want
+2016-07-30 20:18:46	+MDB	but there are startups that use rails
+2016-07-30 20:18:53	+MDB	also, most use angular
+2016-07-30 20:18:58	+MDB	you wouldnt know because you didnt look
+2016-07-30 20:19:10	%DANtheBEASTman	please also remember i'm in texas
+2016-07-30 20:26:32	[join]	vinny1 (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-30 20:29:30	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Ping timeout: 240 seconds)
+2016-07-30 20:31:38	ricefield_Boss	MDB, WELCOME TO THE RICEFIELDS
+2016-07-30 20:38:09	+MDB	~ UGU DOMENOGASAI SENPAIICHI~
+2016-07-30 20:38:44	+MDB	DANtheBEASTman: youre an hour from one of the largest cities in the nation
+2016-07-30 20:39:03	+MDB	also that took a while because i had more diarrhea
+2016-07-30 21:13:51	[left]	Stringer (~String@D19DEBAE.598F7F7F.35D0F29A.IP) has quit (Ping timeout: 240 seconds)
+2016-07-30 21:26:36	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-30 21:29:55	[left]	vinny1 (~vinhe@Rizon-A785835D.as43234.net) has quit (Ping timeout: 240 seconds)
+2016-07-30 22:42:23	[join]	Rue (~therue@Rizon-5A4C1D65.dynamic.hinet.net) has joined #/g/wdg
+2016-07-30 22:56:39	[join]	vinny1 (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-30 22:59:40	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Ping timeout: 240 seconds)
+2016-07-30 23:56:16	[left]	vinny1 (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-30 23:56:43	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 00:03:36	[left]	iv3ct (~Extr@2A9C420B.521B1100.8E1A5FEC.IP) has quit (Ping timeout: 240 seconds)
+2016-07-31 00:42:58	[left]	MDB (uid171413@Rizon-8143968E.highgate.irccloud.com) has quit (Quit: Connection closed for inactivity)
+2016-07-31 00:43:04	[join]	pnsn (~xoxo@Rizon-595A3A23.pools.vodafone-ip.de) has joined #/g/wdg
+2016-07-31 00:56:19	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-31 00:56:46	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 01:00:19	[join]	Inverse (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has joined #/g/wdg
+2016-07-31 01:00:43	alex1	why is node.js so popular?
+2016-07-31 01:00:52	alex1	you'd think most people would rather avoid JS
+2016-07-31 01:01:01	ewhal4	alex1: that's the thing
+2016-07-31 01:01:17	ewhal4	people don't want to have to learn multiple languages
+2016-07-31 01:02:28	[left]	Kazuu (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2016-07-31 01:11:03	[left]	Inverse (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2016-07-31 01:16:34	[join]	Kazuu (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has joined #/g/wdg
+2016-07-31 01:22:16	[join]	POJO (~quassel@PO.JO) has joined #/g/wdg
+2016-07-31 01:32:33	[left]	Kazuu (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2016-07-31 01:35:12	%DANtheBEASTman	alex1: context switching between languages sucks. and having both sides of the stack in the same language means you can re-use code and libs
+2016-07-31 01:35:35	[join]	Kazuu (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has joined #/g/wdg
+2016-07-31 01:35:38	%DANtheBEASTman	imagine writing your form validation once, and it works both server and client side. that's why node.js is popular.
+2016-07-31 01:36:46	%DANtheBEASTman	linguistically, javascript isn't a great language, but it's also not so terrible that it makes you want to kill yourself, like php
+2016-07-31 01:37:03	ewhal4	just use golang
+2016-07-31 01:37:08	ewhal4	you can even compile golang to js
+2016-07-31 01:41:03	%DANtheBEASTman	this is true, but in the end your browser is going to spit out errors from your transpiled code, and it helps to know js in order to understand what's happening under the hood. javascript is basically the new ASM, but our tools aren't quite as capable as gcc and clang are
+2016-07-31 01:41:29	ewhal4	or just wait for web asm 
+2016-07-31 01:41:44	%DANtheBEASTman	v a p o r w a r e
+2016-07-31 01:42:08	ewhal4	nah it has massive potential and will allow autists to use languages other than js clientside
+2016-07-31 01:42:10	ewhal4	which is great
+2016-07-31 01:43:47	%DANtheBEASTman	still years away from being in evergreen browsers, and then many more years before you safely use it in a "professional" environment
+2016-07-31 01:43:56	ewhal4	eh
+2016-07-31 01:44:17	%DANtheBEASTman	in the meantime, we're stuck with javascript, so i'm getty comfy with it
+2016-07-31 01:54:08	Rue	webgl is also in javascript too 
+2016-07-31 01:56:23	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-31 01:56:40	alex1	I just wish JS weren't the steaming pile of shit it is.
+2016-07-31 01:56:50	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 01:58:24	Rue	:) i'm still learning python. have yet to experienced js. hopefully it's not going to be too hard :)
+2016-07-31 01:58:53	ewhal4	it's not difficult it's just shit
+2016-07-31 02:04:50	[actn]	DANtheBEASTman shrugs
+2016-07-31 02:04:52	%DANtheBEASTman	you can bitch about how shit it is in irc, orr you build shit with it.. 
+2016-07-31 02:06:06	ewhal4	I can do both and wait for webasm
+2016-07-31 02:12:38	[left]	Kazuu (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2016-07-31 02:13:48	vinny	'webasm has massive potential', for games maybe
+2016-07-31 02:14:35	vinny	even then webgl is still a thing, and JS is known to run as fast as C under its JIT or AoT compilers
+2016-07-31 02:15:27	vinny	you're wasting your own time, and therefore money, using webasm, and nobody's going to hire someone who takes 3+ times longer just to deploy a page/webgl app lmao
+2016-07-31 02:22:52	[left]	pnsn (~xoxo@Rizon-595A3A23.pools.vodafone-ip.de) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2016-07-31 02:27:21	ricefield_Boss	vinny, welcome to the ricefields
+2016-07-31 02:27:37	[actn]	ricefield_Boss has appeared
+2016-07-31 02:45:34	[join]	OtakuLord (~OtakuLord@7004C46C.C064EE65.B45C3101.IP) has joined #/g/wdg
+2016-07-31 02:46:07	[left]	OtakuLord (~OtakuLord@7004C46C.C064EE65.B45C3101.IP) has quit
+2016-07-31 03:15:31	[left]	anon9234 (~anon9234@anon.vh.org) has quit (Quit: Coyote finally caught me)
+2016-07-31 03:18:10	[join]	anon9234 (~anon9234@Rizon-4A34F3B0.dynamic.reverse-mundo-r.com) has joined #/g/wdg
+2016-07-31 04:14:56	[join]	pnsn (~xoxo@Rizon-595A3A23.pools.vodafone-ip.de) has joined #/g/wdg
+2016-07-31 04:16:02	[join]	Tami (~Tami@watashi.wa.hen.na.gaijin.deshou) has joined #/g/wdg
+2016-07-31 04:16:19	+Dawgora	>.>
+2016-07-31 04:33:10	[left]	anon9234 (~anon9234@anon.vh.org) has quit (Quit: Coyote finally caught me)
+2016-07-31 04:38:07	ricefield_Boss	THIS IS THE RUNDERDOME
+2016-07-31 04:38:10	ricefield_Boss	I RUN THE THUNDERDOME
+2016-07-31 04:40:15	+Dawgora	ay boss, gib mi de pussi pls
+2016-07-31 04:41:04	+Dawgora	what's the best torrent client for linux without qbittorent?
+2016-07-31 04:41:11	%DANtheBEASTman	rtorrent
+2016-07-31 04:41:57	%DANtheBEASTman	rtorrent+rutorrent if you insist on a clicky gui
+2016-07-31 04:44:37	+Dawgora	Well.. gona give rtorrent a try. I think qbittorent is getting bad'er past year.
+2016-07-31 04:52:41	[join]	Qrjty (~Qrjty@Rizon-85343FB3.cable.virginm.net) has joined #/g/wdg
+2016-07-31 04:59:31	[join]	anon9234 (~anon9234@Rizon-4A34F3B0.dynamic.reverse-mundo-r.com) has joined #/g/wdg
+2016-07-31 05:06:03	[left]	anon9234 (~anon9234@anon.vh.org) has quit
+2016-07-31 05:18:42	[join]	anon9234 (~anon9234@Rizon-4A34F3B0.dynamic.reverse-mundo-r.com) has joined #/g/wdg
+2016-07-31 05:19:50	[left]	anon9234 (~anon9234@anon.vh.org) has quit (Remote host closed the connection)
+2016-07-31 05:24:07	[left]	Tami (~Tami@watashi.wa.hen.na.gaijin.deshou) has quit (Quit: Leaving)
+2016-07-31 05:24:20	[join]	Tami (~Tami@watashi.wa.hen.na.gaijin.deshou) has joined #/g/wdg
+2016-07-31 05:37:01	+Dawgora	isn't rtorrent a bit pain in the ass to set up?
+2016-07-31 05:40:16	ewhal4	no not really
+2016-07-31 05:40:51	ewhal4	sudo pacman -S rtorrent && cp /usr/share/doc/rtorrent/rtorrent.rc ~/.rtorrent.rc && vim ~/.rtorrent.rc
+2016-07-31 05:41:11	ewhal4	then pick a method you want to start it with
+2016-07-31 05:41:14	ewhal4	so probably 
+2016-07-31 05:41:19	ewhal4	systemctl --user start rt
+2016-07-31 05:56:52	[left]	r3c0d3x (~r3c0d3x@5f50.e1e0.7784.ca08) has quit (Ping timeout: 240 seconds)
+2016-07-31 06:05:44	[join]	r3c0d3x (~r3c0d3x@5f50.e1e0.7784.ca08) has joined #/g/wdg
+2016-07-31 06:10:17	[left]	r3c0d3x (~r3c0d3x@5f50.e1e0.7784.ca08) has quit (Ping timeout: 240 seconds)
+2016-07-31 06:31:20	[left]	Qrjty (~Qrjty@Rizon-85343FB3.cable.virginm.net) has quit (Ping timeout: 240 seconds)
+2016-07-31 08:13:49	[join]	telega (~telega@Rizon-8D67F2D2.range86-139.btcentralplus.com) has joined #/g/wdg
+2016-07-31 08:36:13	[left]	POJO (~quassel@PO.JO) has quit (Ping timeout: 240 seconds)
+2016-07-31 08:51:12	~Lynn	DANtheBEASTman: rutorrent is so nice when you have a few hunderd torrents.
+2016-07-31 08:56:37	[join]	Kazuu (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has joined #/g/wdg
+2016-07-31 09:16:14	[join]	POJO (~quassel@PO.JO) has joined #/g/wdg
+2016-07-31 09:23:23	[left]	POJO (~quassel@PO.JO) has quit (Ping timeout: 240 seconds)
+2016-07-31 09:23:38	[info]	Steph is now known as Emiri
+2016-07-31 09:39:43	[join]	iv3ct (~Extr@2A9C420B.521B1100.8E1A5FEC.IP) has joined #/g/wdg
+2016-07-31 09:49:32	[join]	r3c0d3x (~r3c0d3x@5f50.e1e0.7784.ca08) has joined #/g/wdg
+2016-07-31 10:14:06	[join]	POJO (~quassel@PO.JO) has joined #/g/wdg
+2016-07-31 10:22:47	[left]	pnsn (~xoxo@Rizon-595A3A23.pools.vodafone-ip.de) has quit (Ping timeout: 240 seconds)
+2016-07-31 10:55:11	[join]	Stringer (~String@D19DEBAE.598F7F7F.35D0F29A.IP) has joined #/g/wdg
+2016-07-31 10:58:40	[join]	Harp6 (~Mutter@21C71295.C484EA33.3C9659CD.IP) has joined #/g/wdg
+2016-07-31 11:01:55	[left]	Harp6 (~Mutter@21C71295.C484EA33.3C9659CD.IP) has quit (Remote host closed the connection)
+2016-07-31 11:09:18	[left]	telega (~telega@Rizon-8D67F2D2.range86-139.btcentralplus.com) has quit (Remote host closed the connection)
+2016-07-31 11:09:54	[join]	telega (~telega@Rizon-8D67F2D2.range86-139.btcentralplus.com) has joined #/g/wdg
+2016-07-31 11:55:50	[left]	Stringer (~String@D19DEBAE.598F7F7F.35D0F29A.IP) has quit (Quit: Leaving)
+2016-07-31 11:56:19	+Dawgora	I hate jira. :|
+2016-07-31 11:56:24	+Dawgora	literally hate it.
+2016-07-31 12:04:34	[join]	Qrjty (~Qrjty@Rizon-85343FB3.cable.virginm.net) has joined #/g/wdg
+2016-07-31 12:11:09	[left]	Kazuu (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2016-07-31 12:11:14	[join]	Kazuu (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has joined #/g/wdg
+2016-07-31 12:38:46	[info]	Emiri is now known as Steph
+2016-07-31 12:51:19	[join]	Inverse (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has joined #/g/wdg
+2016-07-31 12:51:29	[left]	Kazuu (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2016-07-31 12:52:16	[join]	Harp6 (~Mutter@21C71295.C484EA33.3C9659CD.IP) has joined #/g/wdg
+2016-07-31 12:53:37	[left]	Harp6 (~Mutter@21C71295.C484EA33.3C9659CD.IP) has quit (Remote host closed the connection)
+2016-07-31 14:56:13	[left]	iv3ct (~Extr@2A9C420B.521B1100.8E1A5FEC.IP) has quit (Read error: Connection reset by peer)
+2016-07-31 14:56:58	[join]	iv3ct (~Extr@2A9C420B.521B1100.8E1A5FEC.IP) has joined #/g/wdg
+2016-07-31 15:08:18	klarstrup	Dawgora: The only real problem I have with jira is how homidice-inspiringly slow it is
+2016-07-31 15:17:57	[left]	jrra (~jrra@Rizon-EAF746E5.zone) has quit (Remote host closed the connection)
+2016-07-31 15:18:56	[join]	jrra (~jrra@Rizon-EAF746E5.zone) has joined #/g/wdg
+2016-07-31 15:19:19	+Dawgora	we needed to upgrade our severs because of that shit.
+2016-07-31 15:19:27	+Dawgora	it eats up more than 16gb of ram
+2016-07-31 15:35:19	[left]	DenSaakalte (~DenSaakal@A.Trap.For.Judges) has quit (Ping timeout: 240 seconds)
+2016-07-31 15:35:22	[left]	S7SoSt (~DenSaakal@A.Trap.For.Judges) has quit (Ping timeout: 240 seconds)
+2016-07-31 15:50:08	[left]	POJO (~quassel@PO.JO) has quit (Ping timeout: 240 seconds)
+2016-07-31 15:57:51	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-31 15:59:42	[left]	Rue (~therue@Rizon-5A4C1D65.dynamic.hinet.net) has quit (Quit: Rue)
+2016-07-31 16:14:18	[join]	DenSaakalte (~DenSaakal@A.Trap.For.Judges) has joined #/g/wdg
+2016-07-31 16:14:18	[info]	Mode #/g/wdg [+h DenSaakalte] by ChanServ
+2016-07-31 16:14:27	[join]	S7SoSt (~DenSaakal@A.Trap.For.Judges) has joined #/g/wdg
+2016-07-31 16:14:27	[info]	Mode #/g/wdg [+h S7SoSt] by ChanServ
+2016-07-31 16:14:55	[left]	DenSaakalte (~DenSaakal@A.Trap.For.Judges) has quit (Remote host closed the connection)
+2016-07-31 16:17:13	[join]	DenSaakalte (~DenSaakal@A.Trap.For.Judges) has joined #/g/wdg
+2016-07-31 16:17:13	[info]	Mode #/g/wdg [+h DenSaakalte] by ChanServ
+2016-07-31 16:19:39	[left]	DenSaakalte (~DenSaakal@A.Trap.For.Judges) has quit
+2016-07-31 16:19:54	[left]	S7SoSt (~DenSaakal@A.Trap.For.Judges) has quit (Ping timeout: 240 seconds)
+2016-07-31 16:19:56	[join]	DenSaakalte (~DenSaakal@A.Trap.For.Judges) has joined #/g/wdg
+2016-07-31 16:19:56	[info]	Mode #/g/wdg [+h DenSaakalte] by ChanServ
+2016-07-31 16:20:15	[join]	S7SoSt (~DenSaakal@A.Trap.For.Judges) has joined #/g/wdg
+2016-07-31 16:20:15	[info]	Mode #/g/wdg [+h S7SoSt] by ChanServ
+2016-07-31 16:50:03	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 17:04:27	+`99dog	fucking +1 klarstrup
+2016-07-31 17:04:41	+`99dog	for the most used software out there it's like a fucking snail
+2016-07-31 17:04:43	+`99dog	Dawgora
+2016-07-31 17:04:49	+`99dog	i've met some jira developers
+2016-07-31 17:04:57	+`99dog	went to uni with one of them
+2016-07-31 17:05:08	+`99dog	i'm not at all surprised it's poorly programmed
+2016-07-31 17:12:24	[left]	Qrjty (~Qrjty@Rizon-85343FB3.cable.virginm.net) has quit (Quit: Leaving)
+2016-07-31 17:26:30	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-31 17:26:57	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 17:44:51	klarstrup	`99dog: I'm fine with it otherwise
+2016-07-31 17:45:04	klarstrup	If only it wouldn't be sluggish as fuck both in UI and loading times
+2016-07-31 17:45:15	klarstrup	classic java
+2016-07-31 18:00:21	[left]	Tami (~Tami@watashi.wa.hen.na.gaijin.deshou) has quit (Quit: Leaving)
+2016-07-31 18:26:34	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-31 18:27:01	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 18:29:52	+`99dog	pretty much
+2016-07-31 18:36:03	klarstrup	But I'm sure their code is very enterprise
+2016-07-31 18:36:07	klarstrup	In fact that makes me sure of it
+2016-07-31 18:37:16	[actn]	Lynn pets `99dog.
+2016-07-31 18:41:37	alex1	anyone here uses Flask?
+2016-07-31 18:42:38	klarstrup	we have a lot of stuff in flask at work
+2016-07-31 18:42:46	klarstrup	luckily I only get to work on one of those projects sometimes
+2016-07-31 18:43:55	[left]	iv3ct (~Extr@2A9C420B.521B1100.8E1A5FEC.IP) has quit (Read error: Connection reset by peer)
+2016-07-31 18:44:22	~Lynn	y
+2016-07-31 18:44:29	~Lynn	woops wrong window.
+2016-07-31 18:44:35	[join]	iv3ct (~Extr@2A9C420B.521B1100.8E1A5FEC.IP) has joined #/g/wdg
+2016-07-31 18:45:42	alex1	whats it good for?
+2016-07-31 18:45:47	alex1	small projects?
+2016-07-31 18:46:12	~Lynn	It's used as a readable version of django.
+2016-07-31 18:46:19	klarstrup	you can use it for projects at all scales pretty much
+2016-07-31 18:46:28	klarstrup	it's just a nice set of tools to start with
+2016-07-31 18:46:53	klarstrup	we're mostly using it for API surfaces though
+2016-07-31 18:47:02	klarstrup	not so much for actual websites
+2016-07-31 18:47:16	alex1	I see
+2016-07-31 18:47:37	alex1	Can you guys reccomend a learning source? Sick of cheap tutorial, I'm more of a book guy
+2016-07-31 18:48:32	klarstrup	No idea
+2016-07-31 18:48:39	klarstrup	I'm more of a docs'n'snippets guy
+2016-07-31 19:01:30	alex1	For the actual webpages what do you use?
+2016-07-31 19:04:02	klarstrup	Various garbage.
+2016-07-31 19:34:15	+`99dog	apt-get install fortune
+2016-07-31 19:44:14	[left]	Combot (~Combot@my.name.isnt.cumbot) has quit (Ping timeout: 240 seconds)
+2016-07-31 19:45:17	[join]	Combot (~Combot@my.name.isnt.cumbot) has joined #/g/wdg
+2016-07-31 20:10:19	%DANtheBEASTman	alex1: https://i.ytimg.com/vi/ZXsQAXx_ao0/maxresdefault.jpg
+2016-07-31 20:10:20	Combot	[image/jpeg] Size: 32.3 KB
+2016-07-31 20:11:42	%DANtheBEASTman	you can sit there and read books for years but you'll never actually grok it until actually start *doing* it
+2016-07-31 20:26:41	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-31 20:27:08	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 21:21:11	[join]	hewdraw (~hewdraw@Rizon-1B51F72E.socal.res.rr.com) has joined #/g/wdg
+2016-07-31 21:23:37	[left]	hewdraw (~hewdraw@Rizon-1B51F72E.socal.res.rr.com) has quit (Remote host closed the connection)
+2016-07-31 21:23:45	[join]	hewdraw (~hewdraw@Rizon-1B51F72E.socal.res.rr.com) has joined #/g/wdg
+2016-07-31 21:24:21	[join]	AndChat|726144 (~Nuclear@78F27D49.52EED5C2.82CCAB0C.IP) has joined #/g/wdg
+2016-07-31 21:24:28	[left]	hewdraw (~hewdraw@Rizon-1B51F72E.socal.res.rr.com) has quit (Remote host closed the connection)
+2016-07-31 21:25:17	[left]	Nuclear (~Nuclear@78F27D49.52EED5C2.82CCAB0C.IP) has quit (Ping timeout: 240 seconds)
+2016-07-31 21:26:44	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-31 21:27:12	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 21:32:59	[left]	AndChat|726144 (~Nuclear@78F27D49.52EED5C2.82CCAB0C.IP) has quit
+2016-07-31 21:35:31	[join]	Nuclear (~Nuclear@78F27D49.52EED5C2.82CCAB0C.IP) has joined #/g/wdg
+2016-07-31 22:26:48	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-31 22:27:15	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 22:33:48	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit
+2016-07-31 22:34:15	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-07-31 22:42:23	[join]	Rue (~therue@Rizon-5A4C1D65.dynamic.hinet.net) has joined #/g/wdg
+2016-07-31 22:47:52	ricefield_Boss	Rue, welcome to the thunderdome
+2016-07-31 22:47:56	ricefield_Boss	i run the thunderdome
+2016-07-31 22:49:20	Rue	two men enters, one man leaves
+2016-07-31 22:49:29	Rue	s/enters/enter
+2016-07-31 22:54:49	[left]	iv3ct (~Extr@2A9C420B.521B1100.8E1A5FEC.IP) has quit (Read error: Connection reset by peer)
+2016-07-31 22:55:10	[join]	iv3ct (~Extr@2A9C420B.521B1100.8E1A5FEC.IP) has joined #/g/wdg
+2016-07-31 22:59:32	ricefield_Boss	Rue, what does that mean
+2016-07-31 23:01:08	Rue	thunderdome is referencing the fighting cage in the movie Mad Max from 1985 featuring Mel Gibson
+2016-07-31 23:01:58	Rue	two men enter, one man leaves is the phrase they chant in the movie
+2016-07-31 23:12:34	[left]	Inverse (~Sigma@Rizon-3765B540.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2016-07-31 23:26:52	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-07-31 23:27:19	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-08-01 00:09:21	[join]	SailorHaumea (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has joined #/g/wdg
+2016-08-01 00:09:33	[info]	SailorHaumea is now known as Guest3104
+2016-08-01 00:13:49	[left]	Guest3104 (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has quit (Read error: Connection reset by peer)
+2016-08-01 00:14:26	[join]	SailorHaumea (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has joined #/g/wdg
+2016-08-01 00:14:39	[info]	SailorHaumea is now known as Guest40708
+2016-08-01 00:17:53	[left]	Guest40708 (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has quit (Read error: Connection reset by peer)
+2016-08-01 00:18:07	[join]	SailorHaumea (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has joined #/g/wdg
+2016-08-01 00:18:19	[info]	SailorHaumea is now known as Guest7287
+2016-08-01 00:18:59	[left]	Guest7287 (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has quit (Read error: Connection reset by peer)
+2016-08-01 00:19:26	[join]	DN-boards1 (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has joined #/g/wdg
+2016-08-01 00:19:33	[left]	DN-boards1 (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has quit (Read error: Connection reset by peer)
+2016-08-01 00:20:41	[join]	SailorHaumea (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has joined #/g/wdg
+2016-08-01 00:20:53	[info]	SailorHaumea is now known as Guest35266
+2016-08-01 00:23:38	[left]	Guest35266 (~DN-boards@CAA9A7DB:25B90AB5:5A742A29:IP) has quit (Read error: Connection reset by peer)
+2016-08-01 00:26:55	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-08-01 00:27:22	[join]	vinny (~vinhe@Rizon-A785835D.as43234.net) has joined #/g/wdg
+2016-08-01 00:34:02	[left]	iv3ct (~Extr@2A9C420B.521B1100.8E1A5FEC.IP) has quit (Ping timeout: 240 seconds)
+2016-08-01 01:00:26	[left]	vinny (~vinhe@Rizon-A785835D.as43234.net) has quit (Quit: Leaving.)
+2016-08-01 01:08:09	+Dawgora	o/
+2016-08-01 01:19:51	[left]	ricefield_Boss (~rake_boss@FAEB1310.DE3B4C66.CBAD3590.IP) has quit (Quit: Leaving)
+2016-08-01 01:44:58	[join]	POJO (~quassel@PO.JO) has joined #/g/wdg
+2016-08-01 02:17:38	Rue	m^_^
+2016-08-01 02:17:42	Rue	fist pump
+2016-08-01 02:18:55	[left]	telega (~telega@Rizon-8D67F2D2.range86-139.btcentralplus.com) has quit (Remote host closed the connection)
+2016-08-01 02:19:04	[join]	telega (~telega@Rizon-8D67F2D2.range86-139.btcentralplus.com) has joined #/g/wdg
+2016-08-01 02:20:33	Rue	*bump rather :)
+2016-08-01 02:35:30	[left]	POJO (~quassel@PO.JO) has quit (Ping timeout: 240 seconds)
+2016-08-01 02:42:46	[info]	irc: disconnected from server

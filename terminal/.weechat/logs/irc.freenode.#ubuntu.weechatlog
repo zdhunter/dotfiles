@@ -1,0 +1,147 @@
+2015-01-18 03:07:42	>	rawks (~rawks@189.153.231.224) has joined #ubuntu
+2015-01-18 03:07:42	⇄	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | Currently supported: 10.04 LTS (server), 12.04 LTS, 14.04 LTS, 14.10"
+2015-01-18 03:07:42	⇄	Topic set by rww (~rww@ubuntu/member/rww) on Thu, 23 Oct 2014 14:35:34
+2015-01-18 03:07:43	⇄	Channel #ubuntu: 1529 nicks (1 op, 0 voices, 1528 normals)
+2015-01-18 03:07:43	⇄	PvNotice(ChanServ): Welcome to #ubuntu! Please read the channel topic. This channel is logged. Use of this channel implies acceptance of terms at https://wiki.ubuntu.com/IRC/TermsOfService
+2015-01-18 03:07:43	⇄	URL for #ubuntu: http://www.ubuntu.com
+2015-01-18 03:07:44	⇄	Channel created on Sun, 26 Nov 2006 01:42:41
+2015-01-18 03:08:15	>	ranger81 (~elrarun@c-50-143-158-4.hsd1.ca.comcast.net) has joined #ubuntu
+2015-01-18 03:10:02	<	corvolino (~corvolino@CPE788df7afe1d1-CM788df7afe1d0.cpe.net.cable.rogers.com) has quit (Ping timeout: 265 seconds)
+2015-01-18 03:10:08	<	lotuspsychje (~lotuspsyc@145.129.31.206) has quit (Quit: Ubuntu 14.04 64bit | Samsung SSD evo 840 | Sudo halt)
+2015-01-18 03:10:09	rawks	hello
+2015-01-18 03:10:44	<	D|nA (~BubbleGum@unaffiliated/dna/x-8286352) has quit (Quit: Leaving)
+2015-01-18 03:10:55	>	IKRAM (~chatzilla@103.230.104.19) has joined #ubuntu
+2015-01-18 03:11:29	<	EriC^^ (~Eric@146.185.36.107) has quit (Ping timeout: 252 seconds)
+2015-01-18 03:11:42	<	nsm_ (~nsm@192.77.238.156) has quit (Quit: Leaving)
+2015-01-18 03:11:58	>	johnb003 (~johnb003@76.14.37.183) has joined #ubuntu
+2015-01-18 03:12:24	<	Br|aN (brian@smoke.p0t.biz) has quit (Ping timeout: 246 seconds)
+2015-01-18 03:12:52	<	ranger81 (~elrarun@c-50-143-158-4.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2015-01-18 03:13:39	<	cpt_yossarian (~cpt_yossa@seas.0233.apng.wireless-pennnet.upenn.edu) has quit (Ping timeout: 264 seconds)
+2015-01-18 03:15:03	<	Asiajey (~Asiajey@unaffiliated/asiajey) has quit (Quit: No Ping reply in 180 seconds.)
+2015-01-18 03:15:17	<	NGC6205 (~Schroding@64-136-199-84.dyn.everestkc.net) has quit (Ping timeout: 245 seconds)
+2015-01-18 03:15:21	>	helmut_ (~helmut@2a02:8388:2401:c680:2c82:5e24:23ae:3826) has joined #ubuntu
+2015-01-18 03:16:22	>	Asiajey (~Asiajey@118.70.6.88) has joined #ubuntu
+2015-01-18 03:16:22	<	Asiajey (~Asiajey@118.70.6.88) has quit (Changing host)
+2015-01-18 03:16:22	>	Asiajey (~Asiajey@unaffiliated/asiajey) has joined #ubuntu
+2015-01-18 03:16:32	<	johnb003 (~johnb003@76.14.37.183) has quit (Ping timeout: 245 seconds)
+2015-01-18 03:16:37	<	Bnaya (~Bnaya@unaffiliated/bnaya) has quit (Ping timeout: 252 seconds)
+2015-01-18 03:18:42	>	ganta_ (32827500@gateway/web/freenode/ip.50.130.117.0) has joined #ubuntu
+2015-01-18 03:19:13	ganta_	Hey guys, I'm having a login problem on Xubuntu. Can anyone help me out?
+2015-01-18 03:19:17	>	cpt_othello (~cpt_othel@cpe-108-185-51-125.socal.res.rr.com) has joined #ubuntu
+2015-01-18 03:19:54	cfhowlett	!details | ganta_
+2015-01-18 03:19:55	ubottu	ganta_: Please elaborate; your question or issue may not seem clear or detailed enough for people to help you. Please give more detailed information, errors, steps, and possibly configuration files (use the !pastebin to avoid flooding the channel)
+2015-01-18 03:20:11	>	Wildtux (~Wildtux@185.Red-83-34-51.dynamicIP.rima-tde.net) has joined #ubuntu
+2015-01-18 03:20:34	>	Br|aN (brian@smoke.p0t.biz) has joined #ubuntu
+2015-01-18 03:20:57	<	BrandonB (~bd@pool-108-0-69-144.lsanca.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2015-01-18 03:21:25	ganta_	no problem, give me a second guys. I was just checking to see if anyone was available first before I posted.
+2015-01-18 03:21:39	>	med\_ (~med@105.104.25.38) has joined #ubuntu
+2015-01-18 03:21:42	cfhowlett	ganta_, don't do that.  just ask your questions
+2015-01-18 03:22:35	>	Ululus (~Ululus@gateway/tor-sasl/ululus) has joined #ubuntu
+2015-01-18 03:24:03	<	NoobsFlyVFR (~CockSplit@unaffiliated/morpheuschalice) has quit (Ping timeout: 264 seconds)
+2015-01-18 03:24:15	>	linuxuz3r (~linuxuz3r@2602:306:bd2a:a160:f579:a087:1bb9:b6b4) has joined #ubuntu
+2015-01-18 03:25:00	<	med\ (~med@105.104.17.57) has quit (Ping timeout: 246 seconds)
+2015-01-18 03:25:12	ganta_	Like a day ago, I installed metasploit and everything was working fine. Today, Firefox crashed on me and I ended up having to raise the elephants to reboot the pc. When I tried logging back in, I was stuck at an infinite login loop on the GUI. I could, however, login to TTY. I followed a guide I found online and managed to get it to boot (there was an error with my profiles file). So  after I restored the files to my home directory and
+2015-01-18 03:25:53	ganta_	and now I get stuck at the desktop wallpaper. I have control of the mouse pointer but nothing else loads. no bars, no icons, nothing.
+2015-01-18 03:25:54	davidd	Ben64:Do you know how long it takes time? it is still searching, and I have changed all the ownership until now, but still I can not login!
+2015-01-18 03:26:12	<	linuxuz3r_ (~linuxuz3r@107-210-170-22.lightspeed.sndgca.sbcglobal.net) has quit (Ping timeout: 245 seconds)
+2015-01-18 03:26:17	>	jere (~jere@182.178.236.90) has joined #ubuntu
+2015-01-18 03:26:29	davidd	Ben64: something to note is that, my ubuntu is encrypted.
+2015-01-18 03:26:47	>	MasterPiece (~MasterPie@unaffiliated/masterpiece) has joined #ubuntu
+2015-01-18 03:26:57	<	Br|aN (brian@smoke.p0t.biz) has quit (Ping timeout: 265 seconds)
+2015-01-18 03:27:11	<	IKRAM (~chatzilla@103.230.104.19) has quit (Quit: ChatZilla 0.9.91.1 [Firefox 34.0.5/20141126041045])
+2015-01-18 03:27:30	>	ImQ009 (~ImQ009@unaffiliated/imq009) has joined #ubuntu
+2015-01-18 03:27:56	>	Br|aN (brian@smoke.p0t.biz) has joined #ubuntu
+2015-01-18 03:29:06	>	NoobsFlyVFR (~CockSplit@unaffiliated/morpheuschalice) has joined #ubuntu
+2015-01-18 03:30:45	>	aalpha (~aalpha@c213-89-28-152.bredband.comhem.se) has joined #ubuntu
+2015-01-18 03:30:48	ganta_	Also, it may be worth it to note that if I log in to TTY, it also hangs after a successful login at the message about where I can find the full Xubuntu documentation. I can press Ctrl+C to break this and use it like normal, but if I don't and let it sit there for about a minute, it will kick me back out and I have to login again.
+2015-01-18 03:31:12	<	avis (~identd@pdpc/supporter/student/avis) has quit (Ping timeout: 245 seconds)
+2015-01-18 03:31:29	>	rao (~rao@39.50.179.237) has joined #ubuntu
+2015-01-18 03:31:35	rao	any one help me ??
+2015-01-18 03:31:42	davidd	Ben64: Are you there?
+2015-01-18 03:31:54	cfhowlett	!ask | rao
+2015-01-18 03:31:55	ubottu	rao: Please don't ask to ask a question, simply ask the question (all on ONE line and in the channel, so that others can read and follow it easily). If anyone knows the answer they will most likely reply. :-) See also !patience
+2015-01-18 03:31:56	<	viic (~viic@c-76-123-211-236.hsd1.tn.comcast.net) has quit (Remote host closed the connection)
+2015-01-18 03:32:39	rao	i want to  install metaexploit in ubuntu server is it possible ??
+2015-01-18 03:33:02	⇄	croppa_ is now known as croppa
+2015-01-18 03:33:06	<	Hazzard (~quassel@c-67-174-253-44.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2015-01-18 03:33:06	>	scuba (4c1dd933@gateway/web/freenode/ip.76.29.217.51) has joined #ubuntu
+2015-01-18 03:33:07	davidd	Ben64:I changed everything except .gvfs, but still I can not log in. Do you know what should I do?
+2015-01-18 03:33:10	rao	and also arimtage
+2015-01-18 03:33:20	Seven_Six_Two	rao yes, but much easier to use backtrack.
+2015-01-18 03:33:32	>	viic (~viic@c-76-123-211-236.hsd1.tn.comcast.net) has joined #ubuntu
+2015-01-18 03:33:38	>	EuphemismInc (~Euphemism@143.177.48.54) has joined #ubuntu
+2015-01-18 03:33:56	>	Crazy_Atheist (ken@unaffiliated/minori) has joined #ubuntu
+2015-01-18 03:34:05	<	scuba (4c1dd933@gateway/web/freenode/ip.76.29.217.51) has left #ubuntu
+2015-01-18 03:34:17	davidd	Ben64:I changed everything except .gvfs, but still I can not log in. Do you know what should I do?
+2015-01-18 03:34:19	rao	i kwn that but i want this stuff in ubuntu
+2015-01-18 03:34:23	cfhowlett	rao, http://www.darkoperator.com/installing-metasploit-in-ubunt/
+2015-01-18 03:34:57	rao	or armitage ??
+2015-01-18 03:35:34	>	johnb003 (~johnb003@76.14.32.84) has joined #ubuntu
+2015-01-18 03:35:55	<	theadmin (TLM@unaffiliated/theadmin) has quit (Ping timeout: 244 seconds)
+2015-01-18 03:35:55	>	nhellen (~nhellenqe@36.37.233.101) has joined #ubuntu
+2015-01-18 03:35:58	ganta_	Here are the guides that I was following on how to fix the problem http://bit.ly/15dxGRZ http://bit.ly/1ugaPuQ
+2015-01-18 03:36:01	cfhowlett	rao, read the link
+2015-01-18 03:36:33	<	AB49K (~AB49K@192.3.91.109) has quit (Ping timeout: 246 seconds)
+2015-01-18 03:36:42	>	IKRAM (~chatzilla@103.230.106.7) has joined #ubuntu
+2015-01-18 03:36:45	rao	thx cfhowlett
+2015-01-18 03:36:53	cfhowlett	rao, happy2help!
+2015-01-18 03:37:33	<	nhellen (~nhellenqe@36.37.233.101) has quit (Client Quit)
+2015-01-18 03:38:12	rao	cfhowlett em using unbuntu server i want to stop website in windows client . it is possible ??
+2015-01-18 03:38:27	<	labinnsw (~labinnsw@27-32-57-136.static.tpgi.com.au) has quit (Quit: Leaving.)
+2015-01-18 03:38:34	cfhowlett	rao, ubuntu server = ubuntu
+2015-01-18 03:38:50	>	MadAGu (~MadAGu@ppp089210031081.access.hol.gr) has joined #ubuntu
+2015-01-18 03:39:04	rao	ubuntu server 12.04
+2015-01-18 03:39:12	cfhowlett	rao, learn the command line or install a gui
+2015-01-18 03:39:16	<	EuphemismInc (~Euphemism@143.177.48.54) has quit (Quit: Leaving)
+2015-01-18 03:39:16	<	severide (~severide@unaffiliated/severide) has quit (Quit: Leaving)
+2015-01-18 03:39:19	<	mindstorm (~mindstorm@ip70-170-43-111.lv.lv.cox.net) has quit (Read error: Connection reset by peer)
+2015-01-18 03:39:41	rao	any video tutorial ??
+2015-01-18 03:39:54	>	mindstorm (~mindstorm@ip70-170-43-111.lv.lv.cox.net) has joined #ubuntu
+2015-01-18 03:40:02	cfhowlett	rao, almost certainly.  you can find it
+2015-01-18 03:40:06	>	severide (~severide@unaffiliated/severide) has joined #ubuntu
+2015-01-18 03:40:23	>	labinnsw (~labinnsw@27-32-57-136.static.tpgi.com.au) has joined #ubuntu
+2015-01-18 03:40:24	rao	give me link ??
+2015-01-18 03:40:37	>	chris_wot (~chris_wot@c110-20-126-106.rivrw9.nsw.optusnet.com.au) has joined #ubuntu
+2015-01-18 03:40:51	>	lasdam (~tom@95.141.33.20) has joined #ubuntu
+2015-01-18 03:40:53	ganta_	@cfhowlet the link you just gave is the exact one I followed and got me into this situation lol. I just followed that guide to install metasploit and everything ran fine until today.
+2015-01-20 19:44:11	>	rawks (~rawks@189.153.231.224) has joined #ubuntu
+2015-01-20 19:44:11	⇄	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | Currently supported: 10.04 LTS (server), 12.04 LTS, 14.04 LTS, 14.10"
+2015-01-20 19:44:11	⇄	Topic set by rww (~rww@ubuntu/member/rww) on Thu, 23 Oct 2014 13:35:34
+2015-01-20 19:44:11	⇄	Channel #ubuntu: 1625 nicks (1 op, 0 voices, 1624 normals)
+2015-01-20 19:44:11	⇄	PvNotice(ChanServ): Welcome to #ubuntu! Please read the channel topic. This channel is logged. Use of this channel implies acceptance of terms at https://wiki.ubuntu.com/IRC/TermsOfService
+2015-01-20 19:44:11	⇄	URL for #ubuntu: http://www.ubuntu.com
+2015-01-20 19:44:12	⇄	Channel created on Sun, 26 Nov 2006 00:42:41
+2015-01-20 19:44:23	rawks	sup niggas
+2015-01-20 19:45:17	<	sayurelektronik (~sayurelek@120.164.46.165) has left #ubuntu
+2015-01-20 19:45:22	>	supersoju (~ajones@c-50-133-158-66.hsd1.ct.comcast.net) has joined #ubuntu
+2015-01-20 19:45:52	<	dayangkun (~dayangkun@li398-58.members.linode.com) has quit (Quit: Leaving)
+2015-01-20 19:46:01	>	jd8 (~jd@pool-74-99-166-139.hrbgpa.fios.verizon.net) has joined #ubuntu
+2015-01-20 19:46:10	<	jd8 (~jd@pool-74-99-166-139.hrbgpa.fios.verizon.net) has quit (Remote host closed the connection)
+2015-01-20 19:46:18	>	Liddy (~LidsALT@72-239-155-122.res.bhn.net) has joined #ubuntu
+2015-01-20 19:46:23	>	dcwilliams_VA (~cwilliams@2600:1003:b12f:e9bf:7975:5008:a3cf:aa8c) has joined #ubuntu
+2015-01-20 19:46:29	<	exaroth (~konrad@89-73-114-249.dynamic.chello.pl) has quit (Ping timeout: 245 seconds)
+2015-01-20 19:46:38	<	unixist (~unixist@unaffiliated/unixist) has quit (Ping timeout: 245 seconds)
+2015-01-20 19:46:39	>	Krixvar (~quassel@cpe-69-207-88-145.rochester.res.rr.com) has joined #ubuntu
+2015-01-20 19:46:42	>	Lidistus (~LidsALT@72-239-155-122.res.bhn.net) has joined #ubuntu
+2015-01-20 19:46:43	<	Lidistus (~LidsALT@72-239-155-122.res.bhn.net) has quit (Max SendQ exceeded)
+2015-01-20 19:46:59	>	Serowe (~ray@CPE-120-148-147-126.bjzv3.win.bigpond.net.au) has joined #ubuntu
+2015-01-20 19:47:02	>	Lidistus (~LidsALT@72-239-155-122.res.bhn.net) has joined #ubuntu
+2015-01-20 19:47:17	Jordan_U	rawks: Such language is not acceptable for this channel. Please don't do it again.
+2015-01-20 19:47:17	<	Krixvar (~quassel@cpe-69-207-88-145.rochester.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-01-20 19:48:06	<	bubbasaures (~mumbly@unaffiliated/bubbasaures) has quit (Quit: Leaving)
+2015-01-20 19:48:20	rawks	even if im black?
+2015-01-20 19:48:46	⇄	Mode #ubuntu [+o Jordan_U] by ChanServ
+2015-01-20 19:48:46	⇄	Mode #ubuntu [+q *!*@189.153.231.224] by Jordan_U
+2015-01-20 19:48:46	⇄	Mode #ubuntu [-o Jordan_U] by Jordan_U
+2015-01-20 19:48:54	Jordan_U	rawks: Please join #ubuntu-ops if you wish to discuss your mute.
+2015-01-20 19:49:01	>	atrx (~atrx@ppp-58-11-88-59.revip2.asianet.co.th) has joined #ubuntu
+2015-01-20 19:49:40	<	DJLiddy (~LidsALT@72-239-155-122.res.bhn.net) has quit (Ping timeout: 244 seconds)
+2015-01-20 19:50:19	<	cromagi (~cromagi@ip72-204-45-152.fv.ks.cox.net) has quit (Quit: Leaving)
+2015-01-20 19:50:20	<	uroyanme (~uroyanme@97-127-209-230.dlth.qwest.net) has quit (Quit: Leaving)
+2015-01-20 19:50:42	<	Liddy (~LidsALT@72-239-155-122.res.bhn.net) has quit (Ping timeout: 244 seconds)
+2015-01-20 19:50:49	<	coolsa (~coolsa@unaffiliated/coolsa) has quit (Ping timeout: 255 seconds)
+2015-01-20 19:52:10	>	coolsa (~coolsa@unaffiliated/coolsa) has joined #ubuntu
+2015-01-20 19:52:15	<	aeil (~Adium@111-251-189-89.dynamic.hinet.net) has quit (Ping timeout: 264 seconds)
+2015-01-20 19:52:19	>	uroyanme (~uroyanme@97-127-209-230.dlth.qwest.net) has joined #ubuntu
+2015-01-20 19:52:31	rawks	q
+2015-01-20 19:52:31	⇄	#ubuntu: Cannot send to channel

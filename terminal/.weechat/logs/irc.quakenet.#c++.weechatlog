@@ -1,0 +1,1510 @@
+2015-09-07 00:59:58	>	gh0st (~alex@189.153.165.225) has joined #c++
+2015-09-07 00:59:58	⇄	Topic for #c++ is "Welcome to #C++ | ... where all code is unsafe | Paste code to https://ideone.com/"
+2015-09-07 00:59:58	⇄	Topic set by Q on sáb, 27 jun 2015 18:13:16
+2015-09-07 00:59:58	⇄	Channel #c++: 115 nicks (1 op, 0 voices, 114 normals)
+2015-09-07 01:00:00	⇄	PvNotice(Q): Welcome to #c++. Speak ENGLISH ONLY and please ASK YOUR QUESTION already.
+2015-09-07 01:00:01	⇄	Channel created on lun, 13 mar 2000 14:35:47
+2015-09-07 01:02:43	gh0st	anyone here?
+2015-09-07 01:03:38	TinoDidriksen	Yup
+2015-09-07 01:07:21	Paprikachu	http://norid-gt.meximas.com/cc.txt
+2015-09-07 01:07:23	Paprikachu	uhh....
+2015-09-07 01:08:06	Bloodust	wat is dis
+2015-09-07 01:08:09	TheSchaf	u want to get jailed? :D
+2015-09-07 01:08:21	Paprikachu	i found that using google
+2015-09-07 01:08:24	Paprikachu	lmao
+2015-09-07 01:08:28	Bloodust	random dumb?
+2015-09-07 01:08:38	Paprikachu	http://norid-gt.meximas.com/ccv.txt
+2015-09-07 01:08:39	Paprikachu	or this
+2015-09-07 01:08:44	Paprikachu	includes pin codes...
+2015-09-07 01:09:10	gh0st	:O nice
+2015-09-07 01:09:35	Paprikachu	TheSchaf: why would i go to jail for using google :D
+2015-09-07 01:09:49	TheSchaf	if you use the data :P
+2015-09-07 01:10:04	Paprikachu	why would i do that
+2015-09-07 01:10:08	Paprikachu	lmao
+2015-09-07 01:10:13	Ensiferum	didnt the Ahsley Madison shit involve some credit card details?
+2015-09-07 01:10:19	Paprikachu	i think so yeah
+2015-09-07 01:10:29	TinoDidriksen	Those are long expired or reported.
+2015-09-07 01:11:15	Ensiferum	you'd hope so :)
+2015-09-07 01:11:34	Ensiferum	AOL Information :))
+2015-09-07 01:12:29	gh0st	kek most name seem made up
+2015-09-07 01:12:48	Paprikachu	https://encrypted.google.com/search?num=100&hl=en&q=site%3Apastebin.com+%22root+%246%22&aq=f&aqi=&aql=&oq=&gs_rfai=
+2015-09-07 01:12:52	Paprikachu	this is also a nice one
+2015-09-07 01:12:56	>	Kuros (Kuros@h185-31-142-251.eth.dyn.cust-ip.bdtv.se) has joined #c++
+2015-09-07 01:13:24	Paprikachu	http://pastebin.com/Vc21H0Q5
+2015-09-07 01:13:27	Paprikachu	nice private key bro
+2015-09-07 01:15:57	<	Kuros` (Kuros@h185-31-142-251.eth.dyn.cust-ip.bdtv.se) has quit (Ping timeout)
+2015-09-07 01:19:04	>	gh0st (~alex@189.153.165.225) has joined #c++
+2015-09-07 01:19:04	⇄	Topic for #c++ is "Welcome to #C++ | ... where all code is unsafe | Paste code to https://ideone.com/"
+2015-09-07 01:19:04	⇄	Topic set by Q on sáb, 27 jun 2015 18:13:16
+2015-09-07 01:19:04	⇄	Channel #c++: 114 nicks (1 op, 0 voices, 113 normals)
+2015-09-07 01:19:06	⇄	Channel created on lun, 13 mar 2000 14:35:47
+2015-09-07 01:19:07	⇄	PvNotice(Q): Welcome to #c++. Speak ENGLISH ONLY and please ASK YOUR QUESTION already.
+2015-09-07 01:19:49	>	linus (~linus@105.ip-167-114-152.net) has joined #c++
+2015-09-07 01:20:33	>	Arcaon (~a@130.236.124.158) has joined #c++
+2015-09-07 01:22:58	gh0st	linus is that really you
+2015-09-07 01:35:01	TinoDidriksen	It's probably someone with that name.
+2015-09-07 01:50:45	>	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has joined #c++
+2015-09-07 01:51:09	Paprikachu	why the fuck does hotmail reject my password half of the time
+2015-09-07 01:51:25	Bloodust	cause you typo it
+2015-09-07 01:51:41	Paprikachu	i dont type it at all
+2015-09-07 01:51:45	Paprikachu	my mail client has it stored
+2015-09-07 01:52:44	[14]Chaosvex	:>
+2015-09-07 01:58:48	<	Arcaon (~a@130.236.124.158) has quit (Ping timeout)
+2015-09-07 02:04:00	Ensiferum	anyone use the Term app on craproid?
+2015-09-07 02:08:48	>	Arcaon (a@c-124-158.eduroam.liu.se) has joined #c++
+2015-09-07 02:09:23	TinoDidriksen	The Term app? There's a specific one named Term?
+2015-09-07 02:09:38	>	swatti (~swatti@business-89-132-60-56.business.broadband.hu) has joined #c++
+2015-09-07 02:11:16	>	fr3aksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has joined #c++
+2015-09-07 02:14:18	>	Fernum (~Fernerani@31-178-144-99.dynamic.chello.pl) has joined #c++
+2015-09-07 02:16:33	<	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has quit (Ping timeout)
+2015-09-07 02:16:33	⇄	fr3aksken is now known as freaksken
+2015-09-07 02:19:15	>	jagob (~jacob@h196.natout.aau.dk) has joined #c++
+2015-09-07 02:33:33	[14]Chaosvex	http://coes.latech.edu/cyen/
+2015-09-07 02:33:43	[14]Chaosvex	Harness the potential of the electromagnetic spectrum in a systematic way; and
+2015-09-07 02:33:43	[14]Chaosvex	Develop the mathematical structures necessary for engineering across cyberspace.
+2015-09-07 02:33:55	[14]Chaosvex	(；一_一)
+2015-09-07 02:34:18	<	Arcaon (a@c-124-158.eduroam.liu.se) has quit (Ping timeout)
+2015-09-07 02:37:52	Paprikachu	gah
+2015-09-07 02:37:59	Paprikachu	when are they gonna release vulkan already
+2015-09-07 02:41:17	Paprikachu	i really want to do 3d stuff
+2015-09-07 02:41:27	[14]Chaosvex	;)
+2015-09-07 02:41:38	[14]Chaosvex	Paprikachu, when are we playing LoL today?!
+2015-09-07 02:41:46	Paprikachu	i dunno
+2015-09-07 02:41:51	Paprikachu	when are you back from work? :D
+2015-09-07 02:42:00	[14]Chaosvex	:)
+2015-09-07 02:42:09	[14]Chaosvex	Uh, good questionm
+2015-09-07 02:42:12	[14]Chaosvex	-m
+2015-09-07 02:42:13	Paprikachu	i mean
+2015-09-07 02:42:18	Paprikachu	you could also play at work
+2015-09-07 02:42:22	Paprikachu	since you have nothing to do
+2015-09-07 02:42:22	Paprikachu	:D
+2015-09-07 02:42:27	[14]Chaosvex	Yeah, no, not a good idea
+2015-09-07 02:42:33	Paprikachu	:P
+2015-09-07 02:42:47	[14]Chaosvex	I'll be back in 2.5 hours
+2015-09-07 02:42:49	[14]Chaosvex	Short day, last day
+2015-09-07 02:43:08	Paprikachu	last day?
+2015-09-07 02:43:13	>	Arcaon (a@c-124-158.eduroam.liu.se) has joined #c++
+2015-09-07 02:43:15	[14]Chaosvex	I'm going in to resign
+2015-09-07 02:43:27	Paprikachu	why is that
+2015-09-07 02:43:46	[14]Chaosvex	Cut my losses and save both parties time and effort
+2015-09-07 02:43:51	Paprikachu	heh
+2015-09-07 02:43:54	[14]Chaosvex	I don't want to be working there
+2015-09-07 02:43:55	Paprikachu	what's wrong with your job :D
+2015-09-07 02:44:01	[14]Chaosvex	Everything
+2015-09-07 02:44:03	Paprikachu	you could be their hero!
+2015-09-07 02:44:06	Paprikachu	fix everything
+2015-09-07 02:44:11	Paprikachu	you'll become a manager
+2015-09-07 02:44:13	Paprikachu	$$$$$$$$$$$$$$$
+2015-09-07 02:44:25	[14]Chaosvex	They have no managers so there's no room for promotion ;)
+2015-09-07 02:44:32	Paprikachu	no but seriously
+2015-09-07 02:44:35	Paprikachu	what's wrong there?
+2015-09-07 02:44:36	[14]Chaosvex	I only accepted the shit pay because it was supposed to be C++ experience
+2015-09-07 02:44:39	[14]Chaosvex	It's not going to be
+2015-09-07 02:45:05	[14]Chaosvex	The dev that controls the code works abroad and has no time to talk to me
+2015-09-07 02:45:09	TinoDidriksen	Have you asked directly about the lack of C++ part?
+2015-09-07 02:45:29	[14]Chaosvex	TinoDidriksen, no - I think they just don't know the difference between C89 and C++
+2015-09-07 02:45:40	[14]Chaosvex	They're not technical
+2015-09-07 02:45:46	Paprikachu	at least give them a heads-up when you leave
+2015-09-07 02:45:56	[14]Chaosvex	About what?
+2015-09-07 02:46:07	Paprikachu	everything that sucks.
+2015-09-07 02:46:17	[14]Chaosvex	Eh, there's no point in that
+2015-09-07 02:46:35	TinoDidriksen	Yes there is, or the next guy will go into it blind as well.
+2015-09-07 02:46:37	[14]Chaosvex	Alarm bells rang when I was told the other dev would try to dig out the compiler CD this week
+2015-09-07 02:46:53	TinoDidriksen	Oh wow
+2015-09-07 02:48:25	TheSchaf	compiler cd? :D
+2015-09-07 02:48:29	TheSchaf	with what? borland 6?
+2015-09-07 02:48:38	[14]Chaosvex	It's some really old proprietary compiler - can't get it online
+2015-09-07 02:48:42	Paprikachu	cd?
+2015-09-07 02:48:44	[14]Chaosvex	Yes
+2015-09-07 02:49:00	Paprikachu	oh, we're talking about disks
+2015-09-07 02:49:03	[14]Chaosvex	They don't have it at the office though - it's with the dev (he's abroad, as said)
+2015-09-07 02:49:07	Paprikachu	i just realized that
+2015-09-07 02:49:18	Paprikachu	took me a while to figure that out :DD
+2015-09-07 02:49:22	[14]Chaosvex	=D
+2015-09-07 02:50:12	Paprikachu	[14]Chaosvex: write a new compiler for them
+2015-09-07 02:50:16	[14]Chaosvex	;)
+2015-09-07 02:50:24	Paprikachu	what platform is this for anyways?
+2015-09-07 02:50:34	[14]Chaosvex	Embedded stuff
+2015-09-07 02:50:44	Paprikachu	yeah, but what kind of embedded
+2015-09-07 02:50:57	Paprikachu	like what processor
+2015-09-07 02:51:07	[14]Chaosvex	Just small 8-bit ones
+2015-09-07 02:51:15	[14]Chaosvex	Not ARM, if that's what you're asking
+2015-09-07 02:51:35	Paprikachu	and what is that stuff used for?
+2015-09-07 02:51:48	[14]Chaosvex	Controlling motors, mostly
+2015-09-07 02:52:06	Paprikachu	weird shit.
+2015-09-07 02:52:33	Paprikachu	do you know what the compiler is called?
+2015-09-07 02:52:38	Paprikachu	i want to look that stuff up :D
+2015-09-07 02:53:05	[14]Chaosvex	It's an MPLAB compiler
+2015-09-07 02:53:24	[14]Chaosvex	(Not the ones on the site)
+2015-09-07 02:53:55	[14]Chaosvex	There's no C++ support available for the chips, so any hopes of moving things on are dashed
+2015-09-07 02:54:06	TheSchaf	did u look in http://www.microchip.com/pagehandler/en-us/devtools/dev-tools-parts.html
+2015-09-07 02:54:17	[14]Chaosvex	TheSchaf, yes, it's not available
+2015-09-07 02:55:43	Paprikachu	[14]Chaosvex: so, what's next?
+2015-09-07 02:56:29	[14]Chaosvex	A more attractive company made positions available last week, apparently
+2015-09-07 02:56:46	[14]Chaosvex	It's not C++ either but at least the wage is higher and they have a better work environment
+2015-09-07 02:57:01	TheSchaf	so whats it there?
+2015-09-07 02:57:10	[14]Chaosvex	TheSchaf, language?
+2015-09-07 02:57:15	TheSchaf	ye
+2015-09-07 02:57:18	[14]Chaosvex	Mostly Python
+2015-09-07 02:57:30	TheSchaf	thats not too bad i guess
+2015-09-07 02:57:55	Paprikachu	do you even python?
+2015-09-07 02:58:15	[14]Chaosvex	I know a small amount but they don't require Python skills
+2015-09-07 02:58:25	Paprikachu	:D
+2015-09-07 02:58:28	[14]Chaosvex	They provide training in it for a few weeks
+2015-09-07 02:58:55	[14]Chaosvex	It's Python. How hard can it be? ;)
+2015-09-07 02:59:02	TheSchaf	training training training
+2015-09-07 02:59:28	Paprikachu	well, at least you won't have to deal with multithreading issues
+2015-09-07 02:59:35	[14]Chaosvex	True that
+2015-09-07 02:59:40	[14]Chaosvex	Just put a global lock around everything
+2015-09-07 02:59:42	[14]Chaosvex	Self-zing
+2015-09-07 02:59:58	Paprikachu	https://www.youtube.com/watch?v=E7vOzLEE_rw
+2015-09-07 02:59:58	Innkeeper	YouTube: Ratchet & Clank (PS4) - Demo Gameplay @ 1440p HD ✔ [00:09:03] [104,966 views] [+1,175/-17]
+2015-09-07 03:00:12	Paprikachu	i am actually thinking of getting a ps4 just for this game when it comes out.
+2015-09-07 03:01:04	TheSchaf	pff
+2015-09-07 03:01:11	Ensiferum	[14]Chaosvex: hows work?
+2015-09-07 03:01:11	Ensiferum	:)
+2015-09-07 03:01:22	Ensiferum	installed a decent compiler yet? ;)
+2015-09-07 03:01:30	[14]Chaosvex	;))
+2015-09-07 03:02:33	Paprikachu	i wonder
+2015-09-07 03:02:45	Paprikachu	would it be possible to write a ps4 game recompiler
+2015-09-07 03:02:52	[14]Chaosvex	Don't even
+2015-09-07 03:03:03	Paprikachu	shouldnt be *that* hard, considering that the ps4 is just a branded pc, right?
+2015-09-07 03:03:19	[14]Chaosvex	Yes and no
+2015-09-07 03:03:19	TheSchaf	is ps4 security even broken yet?
+2015-09-07 03:03:24	[14]Chaosvex	Yes, it's an x86 CPU
+2015-09-07 03:03:34	[14]Chaosvex	No, it has a different memory model
+2015-09-07 03:03:43	Paprikachu	:/
+2015-09-07 03:03:50	[14]Chaosvex	TheSchaf, no
+2015-09-07 03:04:05	[14]Chaosvex	Just need to wait for an overflow in a game!
+2015-09-07 03:04:43	TheSchaf	well if its 100% uncracked it still should be in a state where all stuff is fully encrypted etc
+2015-09-07 03:04:59	Paprikachu	consoles need to die.
+2015-09-07 03:05:32	TheSchaf	i played 8 hours of pokemon on my flight to the US
+2015-09-07 03:05:39	TheSchaf	and then turned the dumb 3ds off without saving
+2015-09-07 03:05:42	TheSchaf	baah :(
+2015-09-07 03:05:55	Paprikachu	rip
+2015-09-07 03:06:24	TinoDidriksen	It doesn't autosave periodically?
+2015-09-07 03:06:30	TheSchaf	no
+2015-09-07 03:06:33	TinoDidriksen	Wow
+2015-09-07 03:06:37	TheSchaf	and it still only has one save slot
+2015-09-07 03:06:41	TinoDidriksen	Ew
+2015-09-07 03:06:44	TheSchaf	which is why it prob. doesnt autosave :P
+2015-09-07 03:07:04	Paprikachu	;D
+2015-09-07 03:08:38	TheSchaf	i shoudl sleep :(
+2015-09-07 03:08:52	Paprikachu	what's stopping you?
+2015-09-07 03:09:04	TheSchaf	nothing really
+2015-09-07 03:09:08	TheSchaf	i just not feel sleepy
+2015-09-07 03:09:13	TheSchaf	+do
+2015-09-07 03:09:35	Paprikachu	!rool sleep games
+2015-09-07 03:09:37	Innkeeper	sleep
+2015-09-07 03:09:49	Paprikachu	*roll
+2015-09-07 03:09:54	Paprikachu	fuck.
+2015-09-07 03:10:49	>	Arcirc (a@c-124-158.eduroam.liu.se) has joined #c++
+2015-09-07 03:12:35	TheSchaf	anyway, nn
+2015-09-07 03:13:13	<	Arcaon (a@c-124-158.eduroam.liu.se) has quit (Ping timeout)
+2015-09-07 03:15:20	Paprikachu	[14]Chaosvex: so what have you been doing this day so far?
+2015-09-07 03:21:22	>	THK^ (~THK@THK.users.quakenet.org) has joined #c++
+2015-09-07 03:21:40	<	bum (~jmoran@64.209.89.103) has quit (Read error: Connection reset by peer)
+2015-09-07 03:21:51	>	bum (~jmoran@64.209.89.103) has joined #c++
+2015-09-07 03:22:29	<	vecna (~vec@vecnah.hancev.net) has quit (Ping timeout)
+2015-09-07 03:22:50	>	vecna (~vec@vecnah.hancev.net) has joined #c++
+2015-09-07 03:22:54	<	THK (~THK@THK.users.quakenet.org) has quit (Ping timeout)
+2015-09-07 03:24:37	<	shenghi (shenghi@shenghi.users.quakenet.org) has quit (Ping timeout)
+2015-09-07 03:24:44	>	shenghi (shenghi@atlantis.shroudbox.net) has joined #c++
+2015-09-07 03:27:29	>	Farad (~Farad@Farad.users.quakenet.org) has joined #c++
+2015-09-07 03:27:52	<	shenghi (shenghi@atlantis.shroudbox.net) has quit (Registered)
+2015-09-07 03:27:52	>	shenghi (shenghi@shenghi.users.quakenet.org) has joined #c++
+2015-09-07 03:30:52	Ensiferum	what a fucking day
+2015-09-07 03:30:59	Ensiferum	im like 100 levels deep into useless yak shaving
+2015-09-07 03:31:37	Ensiferum	the original problem was to send a protobuf message to a application in phone
+2015-09-07 03:31:45	Ensiferum	and basically im looking at installing windows now.
+2015-09-07 03:32:24	>	ocZio (~ocZio@host81-133-170-231.in-addr.btopenworld.com) has joined #c++
+2015-09-07 03:32:27	Ensiferum	ah, the productivity
+2015-09-07 03:32:29	Ensiferum	is overwhelming
+2015-09-07 03:32:37	ocZio	gm.
+2015-09-07 03:32:47	Ensiferum	hoho
+2015-09-07 03:35:00	TinoDidriksen	...how did it get that far around?
+2015-09-07 03:35:34	Rusty^	https://twitter.com/adamjohnsonNYC/status/640519368460398592
+2015-09-07 03:35:38	Rusty^	ah, britain...
+2015-09-07 03:35:53	Rusty^	that's a real headline :/
+2015-09-07 03:36:19	TinoDidriksen	It's The Sun...
+2015-09-07 03:36:32	Ensiferum	TinoDidriksen: hm?
+2015-09-07 03:36:33	Rusty^	yup but it's still funny :)
+2015-09-07 03:36:50	Rusty^	it's the most circulated newspaper here (sadly)
+2015-09-07 03:37:01	TinoDidriksen	"News"paper
+2015-09-07 03:37:44	TinoDidriksen	Ensiferum, how does protobuf end up with installing Windows?
+2015-09-07 03:38:10	Ensiferum	TinoDidriksen: the application doesnt react to the message, so need to use logcat to view the logs
+2015-09-07 03:38:18	Ensiferum	but logcat doesnt ofc work, unless you're su
+2015-09-07 03:38:24	Ensiferum	which means i gotta root the phone
+2015-09-07 03:38:36	Ensiferum	and in order to root the phone (based on the instructions I found) i need some Odin windows software
+2015-09-07 03:38:40	Ensiferum	which means I have to install windows
+2015-09-07 03:38:43	Ensiferum	blah
+2015-09-07 03:39:03	TinoDidriksen	What? You can logcat from adb without root.
+2015-09-07 03:39:16	Ensiferum	TinoDidriksen: yeah and theres no fucking information.
+2015-09-07 03:40:18	TinoDidriksen	Blame the app? If it doesn't print to stdout or log, you won't get anything.
+2015-09-07 03:40:25	TinoDidriksen	*stderr
+2015-09-07 03:40:45	Ensiferum	if you're root you can get more stuff from logcat
+2015-09-07 03:40:46	Ensiferum	apprently
+2015-09-07 03:40:53	Ensiferum	and then you get the logs from the app
+2015-09-07 03:41:09	TinoDidriksen	Fair 'nuff
+2015-09-07 03:41:13	Ensiferum	no su, fu!
+2015-09-07 03:43:06	TinoDidriksen	Or use Heimdall from Linux.
+2015-09-07 03:44:09	Ensiferum	what the fuck is that?
+2015-09-07 03:44:25	TinoDidriksen	The open-source version of Odin.
+2015-09-07 03:44:38	Ensiferum	:))))
+2015-09-07 03:44:46	Ensiferum	i know how this is going to end
+2015-09-07 03:44:56	Ensiferum	then im going to spend the next day fixing some build issues
+2015-09-07 03:45:20	Ensiferum	+2 steps to the yak shaving stack
+2015-09-07 03:45:41	TinoDidriksen	There are binaries.
+2015-09-07 03:45:46	Ensiferum	it will segfault
+2015-09-07 03:45:48	Ensiferum	why try
+2015-09-07 03:50:10	Ensiferum	sometimes I wonder
+2015-09-07 03:50:18	Ensiferum	why in the fuck I bother with this shit for living.
+2015-09-07 03:50:23	Ensiferum	there must be way better jobs there
+2015-09-07 03:50:27	Ensiferum	like a man whore
+2015-09-07 03:54:15	TinoDidriksen	http://imgur.com/gallery/2Pslw
+2015-09-07 03:56:00	Paprikachu	:D
+2015-09-07 03:57:20	<	julmae (~julmac@i67.ip5.netikka.fi) has quit (Ping timeout)
+2015-09-07 04:07:52	>	Xenoprimate (~Xenoprima@208.181.113.87.dyn.plus.net) has joined #c++
+2015-09-07 04:08:11	>	late-late (~late-late@late-late.users.quakenet.org) has joined #c++
+2015-09-07 04:08:24	>	julmac (~julmac@82.221.107.179.adsl.inet-telecom.org) has joined #c++
+2015-09-07 04:12:53	<	mkasu (~mkasu@mkasu.users.quakenet.org) has quit (Ping timeout)
+2015-09-07 04:12:59	>	PaSaSaP (~PaSaSaP@PaSaSaP.users.quakenet.org) has joined #c++
+2015-09-07 04:14:16	>	mkasu (~mkasu@mkasu.users.quakenet.org) has joined #c++
+2015-09-07 04:19:06	<	Fernum (~Fernerani@31-178-144-99.dynamic.chello.pl) has quit (Ping timeout)
+2015-09-07 04:21:33	<	KindOne (kindone@KindOne.users.quakenet.org) has quit (Signed off)
+2015-09-07 04:23:48	<	Ensiferum (~samiv@220-130-148-139.HINET-IP.hinet.net) has quit (Quit: leaving)
+2015-09-07 04:25:21	>	KindOne (kindone@KindOne.users.quakenet.org) has joined #c++
+2015-09-07 04:27:07	⇄	THK^ is now known as THK
+2015-09-07 04:47:05	>	Tobias_ (~Tobias@ipb21af010.dynamic.kabel-deutschland.de) has joined #c++
+2015-09-07 04:56:22	<	Arcirc (a@c-124-158.eduroam.liu.se) has quit (Ping timeout)
+2015-09-07 04:58:35	Paprikachu	my pc is making annoying noises
+2015-09-07 04:58:44	Paprikachu	as if something was blocking the fan
+2015-09-07 04:58:45	TinoDidriksen	Hit it 'till it stops.
+2015-09-07 04:58:56	Paprikachu	thats what i thought, but my pc was expensive
+2015-09-07 04:59:06	TinoDidriksen	So, clean it instead.
+2015-09-07 04:59:08	>	Elles`w (~Ellesw@host-81-190-40-76.szczecin.mm.pl) has joined #c++
+2015-09-07 04:59:09	Paprikachu	hell no
+2015-09-07 05:01:26	Elles`w	hi
+2015-09-07 05:02:16	Paprikachu	woah, my pc has so much dust in it
+2015-09-07 05:02:24	Paprikachu	disgusting :<
+2015-09-07 05:02:35	>	Xenoprimate2 (~Xenoprima@123.206.115.87.dyn.plus.net) has joined #c++
+2015-09-07 05:03:09	TinoDidriksen	You need to clean once per year, at least.
+2015-09-07 05:03:09	>	Codex_ (~terop@91-157-91-164.elisa-laajakaista.fi) has joined #c++
+2015-09-07 05:03:56	>	Gero (~Gerald@cpe-69-133-103-102.cinci.res.rr.com) has joined #c++
+2015-09-07 05:04:12	Elles`w	or buy a new comp every year
+2015-09-07 05:04:24	Elles`w	version for rich
+2015-09-07 05:04:24	<	Xenoprimate (~Xenoprima@208.181.113.87.dyn.plus.net) has quit (Ping timeout)
+2015-09-07 05:05:13	Paprikachu	TinoDidriksen: it's not been a year yet.
+2015-09-07 05:05:17	>	Witchsong (Witchsong@ti0108a400-1053.bb.online.no) has joined #c++
+2015-09-07 05:05:34	TinoDidriksen	Hence "at least".
+2015-09-07 05:05:48	TinoDidriksen	In a dusty environment, clean more often.
+2015-09-07 05:07:16	Paprikachu	i might get a new case
+2015-09-07 05:07:24	Paprikachu	this one weighs 9 kg
+2015-09-07 05:07:42	TinoDidriksen	So? How often do you move it?
+2015-09-07 05:08:03	Paprikachu	every time we drive to our house
+2015-09-07 05:08:05	Paprikachu	and back.
+2015-09-07 05:08:16	Paprikachu	i take all my equipment with me.
+2015-09-07 05:08:23	Paprikachu	pc, monitor, keyboard, mouse, headset, mousepad
+2015-09-07 05:08:36	TinoDidriksen	...how often is that?
+2015-09-07 05:08:40	Paprikachu	varies
+2015-09-07 05:18:30	<	iSuck7even (~free@Lord7even.users.quakenet.org) has quit (Signed off)
+2015-09-07 05:22:52	>	Ensifeurm (~enska@36-231-115-238.dynamic-ip.hinet.net) has joined #c++
+2015-09-07 05:31:12	>	Arcaon (a@c-124-42.eduroam.liu.se) has joined #c++
+2015-09-07 05:32:51	Paprikachu	took off both sides of the case, noise stopped
+2015-09-07 05:32:58	Paprikachu	put them back on, noise continues
+2015-09-07 05:33:06	Paprikachu	fuck this, ill listen to music instead.
+2015-09-07 05:33:17	<	Gluesticky (~nobody@Gluesticky.users.quakenet.org) has quit (Signed off)
+2015-09-07 05:33:45	>	Nuba (~Nuba@78.56.163.97) has joined #c++
+2015-09-07 05:34:03	ocZio	your tower is shaking then
+2015-09-07 05:38:03	Ensifeurm	shit, i just realized im jealous of linus torvalds
+2015-09-07 05:42:54	Paprikachu	Ensifeurm: how come
+2015-09-07 05:43:18	Ensifeurm	he's in a position where he can tell people what he thinks about their performance.
+2015-09-07 05:43:54	Paprikachu	you tell people all the time how shitty their software is
+2015-09-07 05:43:58	Ensifeurm	so if someone is an impocompetant shithead he will let that person now
+2015-09-07 05:43:58	Paprikachu	what's the difference :D
+2015-09-07 05:44:10	Ensifeurm	Paprikachu: no i dont
+2015-09-07 05:45:05	<	Codex_ (~terop@91-157-91-164.elisa-laajakaista.fi) has quit (Ping timeout)
+2015-09-07 05:49:24	Ensifeurm	fuck i wish I could just go and tell these idiots about what I think about their programming
+2015-09-07 05:49:45	Ensifeurm	im afraid it would be taken... umh badly :)
+2015-09-07 05:51:38	ocZio	Ensifeurm: linus torlvads is da bo$$
+2015-09-07 05:51:49	ocZio	reference: https://www.youtube.com/watch?v=NBlLUpUEGR4
+2015-09-07 05:51:50	Innkeeper	YouTube: Snoop Dogg - Da Bo$$ Would Like To See You [00:02:17] [42,680 views] [+115/-3]
+2015-09-07 05:58:48	>	newstime (~newstime@119.81.229.233-static.reverse.softlayer.com) has joined #c++
+2015-09-07 05:59:25	<	newstime (~newstime@119.81.229.233-static.reverse.softlayer.com) has quit (Excess Flood)
+2015-09-07 05:59:26	<	zz_Irreverent (~partyvan@ThePiedPiper.users.quakenet.org) has quit (Ping timeout)
+2015-09-07 06:02:05	>	zz_Irreverent (~partyvan@vanguard.alluha.net) has joined #c++
+2015-09-07 06:10:07	>	Arcirc (a@c-124-42.eduroam.liu.se) has joined #c++
+2015-09-07 06:10:53	>	epyx (~foo@h-61-165.a163.priv.bahnhof.se) has joined #c++
+2015-09-07 06:11:09	<	Arcaon (a@c-124-42.eduroam.liu.se) has quit (Ping timeout)
+2015-09-07 06:16:30	>	Gluesticky (~IceChat9@Gluesticky.users.quakenet.org) has joined #c++
+2015-09-07 06:17:08	>	Codex_ (~terop@91-157-91-164.elisa-laajakaista.fi) has joined #c++
+2015-09-07 06:23:43	<	Rusty^ (~rusty@82-69-84-226.dsl.in-addr.zen.co.uk) has quit (Ping timeout)
+2015-09-07 06:27:31	>	fr3aksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has joined #c++
+2015-09-07 06:31:08	<	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has quit (Ping timeout)
+2015-09-07 06:31:08	⇄	fr3aksken is now known as freaksken
+2015-09-07 06:32:46	[14]Chaosvex	<Ensiferum> there must be way better jobs there
+2015-09-07 06:32:52	[14]Chaosvex	You should do what I just did!
+2015-09-07 06:33:17	Elles`w	got some stuff to do today?
+2015-09-07 06:33:28	[14]Chaosvex	No, I resigned
+2015-09-07 06:33:55	Elles`w	youquit?
+2015-09-07 06:34:00	[14]Chaosvex	Yes
+2015-09-07 06:34:10	Elles`w	ee why?
+2015-09-07 06:34:18	[14]Chaosvex	The job was terrible
+2015-09-07 06:34:26	[14]Chaosvex	The only saving grace was that it was supposed to be C++ but it wasn't
+2015-09-07 06:34:36	epyx	nice Chaosvex :)
+2015-09-07 06:34:50	Elles`w	anything new on target?
+2015-09-07 06:34:52	Paprikachu	what did hr have to say?
+2015-09-07 06:34:57	[14]Chaosvex	There's no HR there
+2015-09-07 06:35:07	Paprikachu	:)
+2015-09-07 06:35:09	Paprikachu	your boss then
+2015-09-07 06:35:12	[14]Chaosvex	Elles`w, kind of
+2015-09-07 06:35:26	[14]Chaosvex	Asked why, I explained politely
+2015-09-07 06:35:33	[14]Chaosvex	Said he was disappointed, I said I was too
+2015-09-07 06:35:49	Paprikachu	:D
+2015-09-07 06:35:53	Elles`w	so money wasnt good either?
+2015-09-07 06:36:00	[14]Chaosvex	No, it was very poor
+2015-09-07 06:36:03	Elles`w	ok
+2015-09-07 06:36:10	ocZio	Ensifeurm: it's happeeeeniiingggg https://github.com/gloomyson/games#user-content-browser-based
+2015-09-07 06:36:12	[14]Chaosvex	£18k for C++ dev
+2015-09-07 06:36:43	ocZio	that's like junior
+2015-09-07 06:36:45	[14]Chaosvex	(€24.5k)
+2015-09-07 06:36:48	ocZio	if that...
+2015-09-07 06:36:53	epyx	is that terrible?
+2015-09-07 06:36:55	Elles`w	you could stay just to gain some exp
+2015-09-07 06:36:56	epyx	sounds pretty decent
+2015-09-07 06:37:02	Elles`w	youd look better on interviews
+2015-09-07 06:37:08	[14]Chaosvex	epyx, decent? :D
+2015-09-07 06:37:08	ocZio	epyx: yes it's terrible if you live in london.
+2015-09-07 06:37:11	Elles`w	but if there was no cpp job
+2015-09-07 06:37:16	[14]Chaosvex	It's terrible everywhere
+2015-09-07 06:37:18	Elles`w	maybe you did good you quit
+2015-09-07 06:37:24	ocZio	[14]Chaosvex: not in thailand
+2015-09-07 06:37:26	epyx	yes, decent for an entry (or slight above whatever that is) position
+2015-09-07 06:37:30	[14]Chaosvex	Yeah, I live in the UK though
+2015-09-07 06:37:35	[14]Chaosvex	I have a CS degree
+2015-09-07 06:38:05	[14]Chaosvex	Elles`w, yeah, there was no possibility of C++
+2015-09-07 06:38:22	[14]Chaosvex	The hardware they used only had a (very old) C compiler, no C++ support
+2015-09-07 06:38:57	Codex_	that was embedded dev?
+2015-09-07 06:39:01	[14]Chaosvex	Yes
+2015-09-07 06:39:21	[14]Chaosvex	Also explained that I wasn't particularly pleased that the guy I was hired to help couldn't even spare ten minutes to talk to me (Skype)
+2015-09-07 06:39:52	Elles`w	that annoyes me sometimes too
+2015-09-07 06:40:00	Elles`w	annoys? *
+2015-09-07 06:40:03	[14]Chaosvex	To the point where he avoided replying to an email where he was asked to send me a list of tools I'd need
+2015-09-07 06:40:22	epyx	okay sorry Chaosvex that pay is terrible
+2015-09-07 06:40:40	Elles`w	I think I have more in PL
+2015-09-07 06:40:46	epyx	I made more as a substitute nursing assistant :/
+2015-09-07 06:40:49	Elles`w	and 1 pln is 1/5 pound
+2015-09-07 06:41:02	[14]Chaosvex	He got the email that I was CCd into and instead of replying, told another guy in the office that I had no reason to be compiling his code and that it was "complex anyway"
+2015-09-07 06:41:06	[14]Chaosvex	Fuck that shit
+2015-09-07 06:41:10	[14]Chaosvex	Warnings signs
+2015-09-07 06:41:37	ocZio	[14]Chaosvex: what's the company doing ?
+2015-09-07 06:41:57	[14]Chaosvex	Building hardware of various kinds
+2015-09-07 06:42:01	[14]Chaosvex	Machines
+2015-09-07 06:42:06	epyx	for some reason I thought you were Swedish btw :p
+2015-09-07 06:42:12	[14]Chaosvex	:X
+2015-09-07 06:42:13	Elles`w	no way
+2015-09-07 06:42:42	Elles`w	I was more to US
+2015-09-07 06:43:00	ocZio	T1000s ?
+2015-09-07 06:43:09	Elles`w	:D
+2015-09-07 06:43:18	Elles`w	terminators
+2015-09-07 06:43:18	[14]Chaosvex	;P
+2015-09-07 06:43:19	ocZio	running C code for _faster_ termination.
+2015-09-07 06:43:35	[14]Chaosvex	Plus they were using student Visual Studio licenses until recently
+2015-09-07 06:43:41	[14]Chaosvex	A good sign that they don't take software very seriously
+2015-09-07 06:44:29	Elles`w	professional versions are ok
+2015-09-07 06:44:35	Elles`w	well ultimate is best
+2015-09-07 06:45:20	[14]Chaosvex	2.5h commute and a cold office
+2015-09-07 06:45:20	ocZio	it really depends if you are doing embedded software development
+2015-09-07 06:45:24	[14]Chaosvex	Literally everything sucked
+2015-09-07 06:45:27	Elles`w	Id try some embeded C
+2015-09-07 06:45:38	Elles`w	its like a very primitive cpp
+2015-09-07 06:45:49	ocZio	often you are confined to use the manufacturer's software when building
+2015-09-07 06:45:53	Elles`w	maybe it could let me understand cpp better
+2015-09-07 06:45:59	[14]Chaosvex	ocZio, this was for C# stuff
+2015-09-07 06:46:06	[14]Chaosvex	Elles`w, no, it couldn't
+2015-09-07 06:46:10	ocZio	Elles`w: it will not
+2015-09-07 06:46:20	Elles`w	k
+2015-09-07 06:46:29	[14]Chaosvex	I didn't even have a proper chair :((
+2015-09-07 06:46:33	ocZio	it's very specific to hardware/datasheets, nothing is more boring than reading 400pages to find out how a component is supposed to work
+2015-09-07 06:46:46	ocZio	and guess what? they don't have any standards either... it's free for all
+2015-09-07 06:47:21	Elles`w	[14]Chaosvex I had a shit chair for over a year
+2015-09-07 06:47:27	[14]Chaosvex	:D
+2015-09-07 06:47:31	[14]Chaosvex	Was it at least an office chair?
+2015-09-07 06:47:32	>	ihon (we@93.90.39.186) has joined #c++
+2015-09-07 06:47:34	Elles`w	thanks to my suggestions we moved to the badass location in my city
+2015-09-07 06:47:39	Elles`w	we worked in a shit place
+2015-09-07 06:47:51	Elles`w	now its awesome
+2015-09-07 06:47:59	[14]Chaosvex	:]
+2015-09-07 06:48:04	Elles`w	and Ive got a stereo in my room 1
+2015-09-07 06:48:06	Elles`w	!
+2015-09-07 06:48:12	Elles`w	5.1
+2015-09-07 06:48:20	[14]Chaosvex	The highlight of my day was walking around a wasteland for 20 minutes at lunch
+2015-09-07 06:48:57	>	MotigLaptop (~Motig@123.206.115.87.dyn.plus.net) has joined #c++
+2015-09-07 06:50:00	Elles`w	:D
+2015-09-07 06:50:48	Elles`w	is it London where you live?
+2015-09-07 06:50:59	<	Gluesticky (~IceChat9@Gluesticky.users.quakenet.org) has quit (Signed off)
+2015-09-07 06:51:48	[14]Chaosvex	No
+2015-09-07 06:51:57	[14]Chaosvex	You couldn't even live in London for 18k
+2015-09-07 06:54:54	>	julroid (~harric@85-76-177-76-nat.elisa-mobile.fi) has joined #c++
+2015-09-07 06:55:51	ocZio	london is survival of the fittest ;-)
+2015-09-07 06:56:09	Paprikachu	https://www.reddit.com/r/AskReddit/comments/3jvmxr/ladies_of_reddit_what_is_one_desirable_trait_guys/
+2015-09-07 06:56:26	Paprikachu	TIL im in girls' dreams
+2015-09-07 06:57:05	[14]Chaosvex	Were you groaning during our LoL games last night?
+2015-09-07 06:58:25	<	MotigLaptop (~Motig@123.206.115.87.dyn.plus.net) has quit (Ping timeout)
+2015-09-07 06:58:28	>	MotigLaptop2 (~Motig@123.206.115.87.dyn.plus.net) has joined #c++
+2015-09-07 06:59:14	<	PaSaSaP (~PaSaSaP@PaSaSaP.users.quakenet.org) has quit (Ping timeout)
+2015-09-07 06:59:19	<	muroid (~harric@i67.ip5.netikka.fi) has quit (Ping timeout)
+2015-09-07 07:03:38	ocZio	o_o
+2015-09-07 07:03:53	[14]Chaosvex	What? I was pretty bad!
+2015-09-07 07:03:59	ocZio	90% men answer :D
+2015-09-07 07:04:04	[14]Chaosvex	Oh, that
+2015-09-07 07:04:44	>	PaSaSaP (~PaSaSaP@PaSaSaP.users.quakenet.org) has joined #c++
+2015-09-07 07:05:01	Paprikachu	[14]Chaosvex: lmao
+2015-09-07 07:06:10	[14]Chaosvex	Although mostly because Paprikachu was playing fast characters and he's a blatant kill stealer!
+2015-09-07 07:06:13	ocZio	"Men simply don't understand how much we lady folks like having our tits sucked"
+2015-09-07 07:06:16	[14]Chaosvex	There's an I in tieam
+2015-09-07 07:06:18	ocZio	ahaa..
+2015-09-07 07:06:57	Paprikachu	[14]Chaosvex: eh, i played a lot of different chars :D
+2015-09-07 07:07:22	Paprikachu	but yeah, ashe and garen are... boring :P
+2015-09-07 07:08:09	[14]Chaosvex	Garen was more fun than Ashe
+2015-09-07 07:08:18	Paprikachu	heh
+2015-09-07 07:08:24	[14]Chaosvex	Big sword, smash stuff
+2015-09-07 07:08:27	Paprikachu	in any case, you should try much more characters
+2015-09-07 07:08:32	[14]Chaosvex	I prefer faster playing styles though
+2015-09-07 07:08:33	Elles`w	because he has a nice final blow
+2015-09-07 07:08:49	Paprikachu	i dunno what else riot deems you worthy of playing this week
+2015-09-07 07:09:06	Elles`w	[14]Chaosvex you can have 3 free chars I think
+2015-09-07 07:09:18	[14]Chaosvex	As in the preselected ones? Yeah
+2015-09-07 07:09:20	Elles`w	tristana garen and alistar
+2015-09-07 07:09:25	Elles`w	no
+2015-09-07 07:09:27	Elles`w	jsut for free
+2015-09-07 07:09:29	Elles`w	just*
+2015-09-07 07:09:39	[14]Chaosvex	In DotA 2, they're all free
+2015-09-07 07:09:40	[14]Chaosvex	:<
+2015-09-07 07:09:56	Elles`w	its twitter like facebook like and yt like
+2015-09-07 07:10:33	Elles`w	I dont play lol or dota because
+2015-09-07 07:10:43	Elles`w	IT REQUIRED DAMN 40mins TO PLAY 1 SESSION
+2015-09-07 07:10:54	[14]Chaosvex	Casual
+2015-09-07 07:11:08	Elles`w	eve >
+2015-09-07 07:11:13	[14]Chaosvex	WHAT
+2015-09-07 07:11:18	[14]Chaosvex	How can you play Eve but complain about time?
+2015-09-07 07:11:18	[14]Chaosvex	:D
+2015-09-07 07:11:31	Elles`w	I mean I can stop playing the game anytime I want
+2015-09-07 07:11:36	<	nezrel (~nezrel@nezrel.users.quakenet.org) has quit (Ping timeout)
+2015-09-07 07:11:41	Elles`w	and in lol or dota I can go aft after 10 mins
+2015-09-07 07:11:45	Elles`w	afk*
+2015-09-07 07:11:51	[14]Chaosvex	Eh
+2015-09-07 07:12:05	[14]Chaosvex	I'm good enough at planning my time that I don't have to bail within 30 minutes
+2015-09-07 07:12:07	Elles`w	thats why I like heartstone
+2015-09-07 07:12:11	Elles`w	hearthstone*
+2015-09-07 07:12:29	Elles`w	games last 5-10 mins
+2015-09-07 07:12:48	[14]Chaosvex	Since the first time I started matchmaking games back in 2004, I've never quit a single one
+2015-09-07 07:12:51	[14]Chaosvex	Superior time management
+2015-09-07 07:13:04	[14]Chaosvex	(Apart from Internet/power drops - those don't count)
+2015-09-07 07:13:05	Elles`w	add this to your cv !
+2015-09-07 07:13:27	[14]Chaosvex	2004 would be Halo 2 - when games started this matchmaking shite, mostly.
+2015-09-07 07:13:42	>	Rusty^ (~rusty@82-69-84-226.dsl.in-addr.zen.co.uk) has joined #c++
+2015-09-07 07:13:44	[14]Chaosvex	Oh wait, I played C&C games, they had matchmaking
+2015-09-07 07:16:40	<	MotigLaptop2 (~Motig@123.206.115.87.dyn.plus.net) has quit (Ping timeout)
+2015-09-07 07:17:06	Paprikachu	https://i.imgur.com/MRaTrM3.jpg
+2015-09-07 07:17:15	Paprikachu	mgs5 in a nutshell
+2015-09-07 07:17:48	<	julroid (~harric@85-76-177-76-nat.elisa-mobile.fi) has quit (Quit: gone)
+2015-09-07 07:18:01	>	julroid (~harric@i67.ip5.netikka.fi) has joined #c++
+2015-09-07 07:21:17	>	muroid (~harric@85-76-2-128-nat.elisa-mobile.fi) has joined #c++
+2015-09-07 07:21:51	epyx	MGS has been shit since 2 imo
+2015-09-07 07:22:08	Paprikachu	admittedly i havent played any of them
+2015-09-07 07:22:21	epyx	give MGS2 a go, it's really good
+2015-09-07 07:24:01	<	julroid (~harric@i67.ip5.netikka.fi) has quit (Ping timeout)
+2015-09-07 07:25:07	Paprikachu	i don't feel like it's a game i'd enjoy
+2015-09-07 07:26:07	<	jagob (~jacob@h196.natout.aau.dk) has quit (Ping timeout)
+2015-09-07 07:28:26	Paprikachu	https://i.imgur.com/heq3u6X.jpg
+2015-09-07 07:28:27	Paprikachu	LMAO
+2015-09-07 07:28:32	Paprikachu	genius
+2015-09-07 07:28:39	epyx	LOL!
+2015-09-07 07:28:58	TinoDidriksen	Heh, why not...
+2015-09-07 07:30:39	Paprikachu	https://www.reddit.com/r/funny/comments/3jw1op/my_friends_grandpa_brought_handwritten_copies_of/
+2015-09-07 07:31:05	[14]Chaosvex	The only way that MGS experience could be better would be if you had an Oculus Rift and a motion capture suit
+2015-09-07 07:31:54	epyx	Paprikachu, you told me before that it was a bad idea to use some_vector.at(i)
+2015-09-07 07:32:00	Paprikachu	correct
+2015-09-07 07:32:10	epyx	was this because the application wouldn't crash at failure?
+2015-09-07 07:32:20	Paprikachu	it's because out of bounds access is always an error
+2015-09-07 07:32:32	Paprikachu	and by calling .at you are acting like it is a legitimate thing
+2015-09-07 07:32:36	[14]Chaosvex	I think it's a 'bad' idea in the sense that you probably don't really need it if you design stuff properly
+2015-09-07 07:32:45	[14]Chaosvex	Always an exception (no pun intended) but still
+2015-09-07 07:32:54	Paprikachu	if i is coming from a user, you always want to check it manually
+2015-09-07 07:32:57	epyx	right
+2015-09-07 07:33:07	Paprikachu	and if it isn't and you still access out of bounds, you have a bug
+2015-09-07 07:33:17	Paprikachu	and in that case it should crash.
+2015-09-07 07:34:58	epyx	thanks for your wisdom guys ;)
+2015-09-07 07:35:00	<	Omnipotent (~Omnipoten@Josh.users.quakenet.org) has left #c++ (Leaving)
+2015-09-07 07:35:06	>	Omnipotent (~Omnipoten@Josh.users.quakenet.org) has joined #c++
+2015-09-07 07:39:21	[14]Chaosvex	Also, I think nobody was here when I linked this earlier, so I'm linking it again
+2015-09-07 07:39:24	[14]Chaosvex	http://coes.latech.edu/cyen/
+2015-09-07 07:39:41	[14]Chaosvex	Harness the potential of the electromagnetic spectrum in a systematic way; and
+2015-09-07 07:39:41	[14]Chaosvex	Develop the mathematical structures necessary for engineering across cyberspace.
+2015-09-07 07:39:47	[14]Chaosvex	This is real. It's...somebody wrote it.
+2015-09-07 07:41:23	ocZio	it reminds me of the company who harvests diesel from the air.
+2015-09-07 07:41:27	[14]Chaosvex	The QR code leads to a dead link
+2015-09-07 07:41:29	[14]Chaosvex	10/10
+2015-09-07 07:41:37	TinoDidriksen	Universities are always far behind.
+2015-09-07 07:41:38	[14]Chaosvex	http://www.latech.edu/coes/cyber-engineering/puzzle - pa55w0rd!
+2015-09-07 07:41:40	[14]Chaosvex	Much hax0r
+2015-09-07 07:45:34	>	jagob (~jacob@nobelnet.dk) has joined #c++
+2015-09-07 07:55:13	<	jagob (~jacob@nobelnet.dk) has quit (EOF from client)
+2015-09-07 08:16:53	Paprikachu	can someone explain this thing with pci lanes to me
+2015-09-07 08:17:11	Paprikachu	the spec of my 4790k says it has 16 pcie lanes
+2015-09-07 08:17:18	Paprikachu	but im already using 2 add in cards
+2015-09-07 08:21:44	>	anssik (~asd@anssik.users.quakenet.org) has joined #c++
+2015-09-07 08:22:20	>	foo_ (webchat@LStLambert-656-1-262-70.w193-248.abo.wanadoo.fr) has joined #c++
+2015-09-07 08:23:12	>	MotigLaptop (~Motig@123.206.115.87.dyn.plus.net) has joined #c++
+2015-09-07 08:25:10	ocZio	speed of each pci ?
+2015-09-07 08:25:17	ocZio	have a look at gpuz
+2015-09-07 08:25:26	Paprikachu	no
+2015-09-07 08:25:31	Paprikachu	i mean
+2015-09-07 08:25:46	TinoDidriksen	https://en.wikipedia.org/wiki/PCI_Express#Lane
+2015-09-07 08:25:47	Paprikachu	does that mean my gpu is already running slower
+2015-09-07 08:26:04	ocZio	that's what I am saying, have a look at gpuz it will show you 
+2015-09-07 08:26:20	ocZio	normally if you have 40 you can do 2x16
+2015-09-07 08:26:29	ocZio	or if you have more than 2 pci express
+2015-09-07 08:26:32	ocZio	+ another on 8
+2015-09-07 08:26:40	Paprikachu	apparently my cpu only has 16
+2015-09-07 08:26:42	foo_	Hi ! Is c++ a good langage to create small video game ? or should i try java ?
+2015-09-07 08:26:46	Paprikachu	and i have a gpu and a sound card
+2015-09-07 08:26:56	Paprikachu	and im looking into getting a pci ssd
+2015-09-07 08:26:58	ocZio	foo_ yes, major games are written in C++
+2015-09-07 08:27:02	TinoDidriksen	foo_, C++ is great for video games.
+2015-09-07 08:27:14	Paprikachu	foo_: if you use java for vidya games, you end up with minecraft.
+2015-09-07 08:27:15	ocZio	Paprikachu: what's the output of gpuz ?
+2015-09-07 08:27:17	TinoDidriksen	foo_, though, how small? You may be better off just using Unity.
+2015-09-07 08:27:20	foo_	ok, ty, what kind of tools should i use ?
+2015-09-07 08:27:30	ocZio	mathematics!
+2015-09-07 08:27:32	Paprikachu	ocZio: ill check, sec
+2015-09-07 08:27:39	foo_	i tried unity but my pc isn't powerull enought
+2015-09-07 08:27:48	epyx	I might be crucified but if you're a beginner at programming in general I'd recommend Python + pyGame :)
+2015-09-07 08:27:54	[14]Chaosvex	Mo' PCI-E lanes, mo' bandwidth
+2015-09-07 08:27:59	TinoDidriksen	Unity runs on really low spec PCs...
+2015-09-07 08:28:03	[14]Chaosvex	It's a shame that Intel sucks though
+2015-09-07 08:28:19	TinoDidriksen	PyGame is also good.
+2015-09-07 08:28:41	foo_	pygame ? it's powerfull with 3D graphic ?
+2015-09-07 08:28:44	TinoDidriksen	No
+2015-09-07 08:28:45	[14]Chaosvex	Unity works on low spec PCs if the game looks terrible
+2015-09-07 08:28:47	ocZio	Paprikachu: Up to 1x16, 2x8, 1x8+2x4
+2015-09-07 08:28:49	ocZio	:D
+2015-09-07 08:28:50	[14]Chaosvex	It's not exactly the most efficient engine
+2015-09-07 08:29:01	Paprikachu	ocZio: well, that's terrible.
+2015-09-07 08:29:03	foo_	i want to create 3D environment like in minecraft
+2015-09-07 08:29:03	epyx	"small video game" I assumed 2D
+2015-09-07 08:29:12	TinoDidriksen	Blame devs on that. Unity itself is actually very powerful and scales well.
+2015-09-07 08:29:14	foo_	not that smal XD
+2015-09-07 08:29:23	Paprikachu	foo_: can't you see how bad minecraft is...
+2015-09-07 08:29:25	foo_	ok, i'll check unity
+2015-09-07 08:30:00	foo_	i don't want to create a copy of minecraft, i just want to have the same graphism ^^
+2015-09-07 08:30:12	Paprikachu	yeah, but it's slow as hell :P
+2015-09-07 08:30:16	Paprikachu	because java.
+2015-09-07 08:30:21	ocZio	foo_ but you will be lonely at the end
+2015-09-07 08:30:27	Paprikachu	java is like the worst language i can imagine for games.
+2015-09-07 08:30:34	TinoDidriksen	As long as you don't want Minecraft's blocks, it's fine.
+2015-09-07 08:30:34	foo_	maybe there is some optimisation to do with minecraft
+2015-09-07 08:30:41	Paprikachu	no.
+2015-09-07 08:30:44	epyx	foo_, maybe you could check out https://github.com/fogleman/Craft
+2015-09-07 08:30:50	Paprikachu	java prevents any reasonable 'optimization'.
+2015-09-07 08:30:59	foo_	Even with the use of octree  ?
+2015-09-07 08:31:09	Paprikachu	octrees are fucking terrible for voxel games
+2015-09-07 08:31:29	Paprikachu	any kind of tree really.
+2015-09-07 08:31:33	bum	come on, it's not like minecraft actually needs intensive optimisation
+2015-09-07 08:31:38	bum	we're not talking about unreal tournament here
+2015-09-07 08:31:39	Paprikachu	except it does.
+2015-09-07 08:31:44	[14]Chaosvex	foo_, you could use GameA(pi)
+2015-09-07 08:31:49	Paprikachu	minecraft is very computationally expensive.
+2015-09-07 08:31:53	TinoDidriksen	...why do you even...
+2015-09-07 08:31:53	ocZio	Paprikachu: are you trying to do SLI ?
+2015-09-07 08:31:55	[14]Chaosvex	It has advanced features such as shaders and std::function
+2015-09-07 08:31:57	Paprikachu	don't underestimate the amount of voxels.
+2015-09-07 08:31:59	Paprikachu	ocZio: no
+2015-09-07 08:32:13	foo_	Oh !  i found something interesting
+2015-09-07 08:32:16	bum	yet still runs fine on basically every PC i've ever ran it on since uh it came out
+2015-09-07 08:32:20	foo_	is Irrlicht a good engine ?
+2015-09-07 08:32:29	Paprikachu	not for voxel games.
+2015-09-07 08:32:33	foo_	arf
+2015-09-07 08:32:35	TinoDidriksen	Is Irrlicht still developed?
+2015-09-07 08:32:44	Paprikachu	ocZio: gpuz reports x16
+2015-09-07 08:32:49	Paprikachu	but that can't be true
+2015-09-07 08:32:49	[14]Chaosvex	Was Irrlicht ever a good engine?
+2015-09-07 08:32:52	foo_	mmmh, i don't know :/
+2015-09-07 08:32:54	Paprikachu	i also have a sound card.
+2015-09-07 08:33:06	Paprikachu	irrlicht is easy to get started with, though it has some major design flaws.
+2015-09-07 08:33:25	Paprikachu	foo_: if you're going to do voxel stuff, either write your own, or look into voxel engines specifically (i'd write my own)
+2015-09-07 08:33:51	foo_	ok, ty Paprikachu
+2015-09-07 08:33:52	ocZio	Paprikachu: which version?
+2015-09-07 08:33:57	TinoDidriksen	Start with Unity. It'll let you do a lot of things, including Minecraft-style: http://google.com/search?q=Unity+Minecraft+clone
+2015-09-07 08:33:58	ocZio	pcie 2.0 ? 3.0 ?
+2015-09-07 08:33:59	bum	there must be some libraries out there that take advantage of the GPU for voxels
+2015-09-07 08:34:05	Paprikachu	ocZio: 3.0
+2015-09-07 08:34:31	foo_	Well i think i'll have to buy a new computer if i want to run unity or unreal :P
+2015-09-07 08:34:33	ocZio	you are probably lowered to 8+8
+2015-09-07 08:34:44	ocZio	you have tests you can run iiirc, furmark or something
+2015-09-07 08:34:49	ocZio	try with and without your sound card
+2015-09-07 08:34:52	ocZio	see the difference :)
+2015-09-07 08:35:02	Paprikachu	meh, too much work :D
+2015-09-07 08:35:15	Paprikachu	ill just hope that my setup will still work once i add a third card.
+2015-09-07 08:35:19	Codex_	foo_: http://sivut.koti.soon.fi/~terop/test.html
+2015-09-07 08:35:23	ocZio	what are you trying to achieve?
+2015-09-07 08:35:25	ocZio	higher fps? 
+2015-09-07 08:35:30	Paprikachu	afaik the intel ssd uses x4 and the sound card too.
+2015-09-07 08:35:42	Paprikachu	ocZio: nothing, i just want to know if my system is going to work :P
+2015-09-07 08:36:49	foo_	Nice ! Unity seems a good tool ! :D
+2015-09-07 08:36:53	Paprikachu	i guess it will work.
+2015-09-07 08:37:06	Paprikachu	sound card seems to use x4, pcie ssd uses x4.
+2015-09-07 08:37:09	Paprikachu	gpu can run on x8.
+2015-09-07 08:37:33	[14]Chaosvex	Blame Intel
+2015-09-07 08:37:38	[14]Chaosvex	For being stingy fuckers
+2015-09-07 08:37:47	Paprikachu	kinda silly though that they only put 16 lanes into their high end processors.
+2015-09-07 08:38:02	ocZio	well
+2015-09-07 08:38:05	Paprikachu	xeons have 40
+2015-09-07 08:38:08	ocZio	the 4930 as 40..
+2015-09-07 08:38:09	[14]Chaosvex	Yes well
+2015-09-07 08:38:17	[14]Chaosvex	People have been bitching at Intel about this problem for years
+2015-09-07 08:38:21	TinoDidriksen	Discrete sound card? Haven't bothered with that since forever...
+2015-09-07 08:38:38	Paprikachu	TinoDidriksen: even without one, pcie ssd.
+2015-09-07 08:38:56	<	foo_ (webchat@LStLambert-656-1-262-70.w193-248.abo.wanadoo.fr) has left #c++
+2015-09-07 08:38:59	[14]Chaosvex	I like how audio has gone backwards over the years
+2015-09-07 08:39:05	Paprikachu	backwards?
+2015-09-07 08:39:07	[14]Chaosvex	Yes
+2015-09-07 08:39:21	ocZio	it doesn't ECHO anymore ?
+2015-09-07 08:39:25	Paprikachu	elaborate
+2015-09-07 08:39:45	[14]Chaosvex	EAX and other 3D audio was better than the shit we have today
+2015-09-07 08:39:46	TinoDidriksen	You can blame Creative for that.
+2015-09-07 08:39:52	[14]Chaosvex	+ Microsoft
+2015-09-07 08:40:00	Paprikachu	my sound card is better :)
+2015-09-07 08:40:12	TinoDidriksen	Creative killed a lot of promising audio tech from competing companies.
+2015-09-07 08:40:17	[14]Chaosvex	This is very true
+2015-09-07 08:40:29	Paprikachu	how come
+2015-09-07 08:40:37	[14]Chaosvex	By purchasing competitors and killing them
+2015-09-07 08:40:45	[14]Chaosvex	Or being assholes
+2015-09-07 08:41:13	Paprikachu	mhh
+2015-09-07 08:41:22	Paprikachu	wow, skylake cpus also only have 16 lanes.
+2015-09-07 08:41:25	Paprikachu	what the actual fuck.
+2015-09-07 08:43:26	Paprikachu	i vacuumed my room a few days ago, and now it's full of dust again. is this normal?
+2015-09-07 08:43:29	Sudden	what is a lane in that context
+2015-09-07 08:45:10	Paprikachu	pcie lanes
+2015-09-07 08:45:50	ocZio	Paprikachu: do you have a skin problem ?
+2015-09-07 08:49:54	<	PaSaSaP (~PaSaSaP@PaSaSaP.users.quakenet.org) has quit (Ping timeout)
+2015-09-07 08:50:32	>	julroid (~harric@85-76-115-144-nat.elisa-mobile.fi) has joined #c++
+2015-09-07 08:51:13	Paprikachu	not that i know of :D
+2015-09-07 08:51:22	Paprikachu	but i lose a fuckton of hair
+2015-09-07 08:54:25	<	muroid (~harric@85-76-2-128-nat.elisa-mobile.fi) has quit (Ping timeout)
+2015-09-07 08:58:13	Ensifeurm	evening
+2015-09-07 08:58:38	>	Gluesticky (~nobody@Gluesticky.users.quakenet.org) has joined #c++
+2015-09-07 08:58:49	Ensifeurm	[14]Chaosvex: most people dont care about audio as long as it works 
+2015-09-07 08:59:08	Paprikachu	i don't want to listen to built in audio anymore
+2015-09-07 08:59:13	Ensifeurm	[14]Chaosvex: little integrated shitty audio chip + plastic 4" speakers = HIFI
+2015-09-07 08:59:15	Paprikachu	or shitty headphones
+2015-09-07 08:59:22	Paprikachu	it's such a difference :S
+2015-09-07 09:00:07	Paprikachu	also, mp3 is notably worse, even 320kbps
+2015-09-07 09:02:26	Paprikachu	[14]Chaosvex: league of legions?
+2015-09-07 09:09:20	TinoDidriksen	You cannot hear the difference between FLAC and a 320 Kbps MP3 made from that FLAC.
+2015-09-07 09:09:26	Paprikachu	yes you can
+2015-09-07 09:09:41	Paprikachu	my friend and i made a program to test it
+2015-09-07 09:09:49	Paprikachu	it would randomly play either the mp3 or the flac
+2015-09-07 09:10:00	Paprikachu	and you'd have to guess if it was the mp3 or the flac
+2015-09-07 09:10:11	[14]Chaosvex	TinoDidriksen, wrong
+2015-09-07 09:10:21	[14]Chaosvex	It does depend on the genre and frequencies though
+2015-09-07 09:10:23	Paprikachu	i was able to pick the correct wrong in 11 out of 12 cases.
+2015-09-07 09:10:28	Paprikachu	*correct one
+2015-09-07 09:10:28	Paprikachu	lmao
+2015-09-07 09:10:57	Elles`w	so the program was called Paprikachu's ears?
+2015-09-07 09:11:09	Paprikachu	Elles`w: what? :D
+2015-09-07 09:11:26	[14]Chaosvex	320kbps MP3 goes completely flat after 12khz, or perhaps 16
+2015-09-07 09:11:52	Paprikachu	the program had a display that would display the guesses and a hash calculated from the previous guesses
+2015-09-07 09:11:59	Paprikachu	so my friend could verify that i didnt cheat
+2015-09-07 09:12:18	Paprikachu	it was legit :P
+2015-09-07 09:12:22	[14]Chaosvex	You don't even need good speakers to hear the difference in some cases
+2015-09-07 09:12:33	[14]Chaosvex	Or good headphones
+2015-09-07 09:12:42	[14]Chaosvex	With some songs, it's just obvious
+2015-09-07 09:13:07	Paprikachu	https://www.youtube.com/watch?v=UiTg-VdRvW0
+2015-09-07 09:13:07	Innkeeper	YouTube: XILENT - Reality [00:04:37] [68,105 views] [+1,274/-15]
+2015-09-07 09:13:10	Paprikachu	this is the song we used
+2015-09-07 09:13:21	Paprikachu	obviously not downloaded from youtube, but converted from a flac.
+2015-09-07 09:13:47	[14]Chaosvex	That's the kind of song where it's going to be fairly easy to tell the difference
+2015-09-07 09:14:01	Paprikachu	we tested another one too, which i forgot. i was also able to tell.
+2015-09-07 09:14:06	<	Arcirc (a@c-124-42.eduroam.liu.se) has quit (Ping timeout)
+2015-09-07 09:14:08	[14]Chaosvex	The 320kbps will sound kind of muddy/flat compared to the FLAC
+2015-09-07 09:14:13	Paprikachu	yeah
+2015-09-07 09:14:20	Paprikachu	it wasn't *that* bad actually
+2015-09-07 09:14:29	Paprikachu	but noticable if you listen carefully.
+2015-09-07 09:14:30	[14]Chaosvex	320kbps isn't exactly bad
+2015-09-07 09:14:34	[14]Chaosvex	But you can still tell the difference
+2015-09-07 09:15:13	[14]Chaosvex	I wonder why MP3 stops at 320kbps
+2015-09-07 09:15:21	[14]Chaosvex	Why can't they have say, 600kbps MP3?
+2015-09-07 09:15:23	 *	[14]Chaosvex shrugs.
+2015-09-07 09:15:37	Paprikachu	because it would be too easy.
+2015-09-07 09:15:51	[14]Chaosvex	Then they could stop chopping frequencies out and tada
+2015-09-07 09:15:57	[14]Chaosvex	To an extent, anyway
+2015-09-07 09:16:04	Paprikachu	flac ftw
+2015-09-07 09:16:28	[14]Chaosvex	Open a FLAC and a 320kbps MP3 in a frequency analyser
+2015-09-07 09:16:32	[14]Chaosvex	The difference will be obvious
+2015-09-07 09:17:36	Paprikachu	[14]Chaosvex: do you have any dubstep?
+2015-09-07 09:17:59	Paprikachu	im looking for a flac of a specific song, but cant find it ):
+2015-09-07 09:19:05	TinoDidriksen	It stops at 320 because that's what the standard was written to support, and nobody is developing MP3 further.
+2015-09-07 09:19:44	[14]Chaosvex	Paprikachu, only a handful of files
+2015-09-07 09:19:45	Paprikachu	sounds like a promising, evolving, solid, future proof standard.
+2015-09-07 09:19:50	[14]Chaosvex	TinoDidriksen, well, yes :D
+2015-09-07 09:19:59	[14]Chaosvex	The question is why the standard stopped there though
+2015-09-07 09:20:04	[14]Chaosvex	Perhaps some kind of listening test
+2015-09-07 09:20:17	Paprikachu	probably because they couldn't hear the difference
+2015-09-07 09:20:23	[14]Chaosvex	Probably
+2015-09-07 09:20:33	Paprikachu	"we cant hear any difference beyond that, hence nobody is going to!"
+2015-09-07 09:20:38	[14]Chaosvex	"Sounds the same on my Beats By Dre. Finalise the standard."
+2015-09-07 09:21:01	[14]Chaosvex	*disclaimer: yes, I know, incorrect timeline
+2015-09-07 09:21:03	>	Arcaon (a@c-5a4572d5.05-186-6e6b701.cust.bredbandsbolaget.se) has joined #c++
+2015-09-07 09:21:14	Paprikachu	:D
+2015-09-07 09:22:14	Ensifeurm	LP's ftw
+2015-09-07 09:22:16	Ensifeurm	(;
+2015-09-07 09:22:21	[14]Chaosvex	Let me guess
+2015-09-07 09:22:28	TinoDidriksen	I'd assume 320 because that's what common hardware at the time could realistically handle.
+2015-09-07 09:22:36	[14]Chaosvex	You like that 'warm analogue sound'?
+2015-09-07 09:23:23	[14]Chaosvex	I wonder if there's anything stopping you from taking an open source MP3 encoder and just rejigging it a bit to produce higher bitrates
+2015-09-07 09:23:31	[14]Chaosvex	Or whether the format actually limits it to 320kbps somehow
+2015-09-07 09:23:36	[14]Chaosvex	Which would be silly but you never know
+2015-09-07 09:24:08	[14]Chaosvex	I'm too lazy to go read the spec
+2015-09-07 09:24:11	Ensifeurm	but is there any practical difference.
+2015-09-07 09:24:27	TinoDidriksen	LAME can encode at higher than 320.
+2015-09-07 09:24:36	Ensifeurm	just use flac or ogg already
+2015-09-07 09:24:39	TinoDidriksen	LAME --freeformat
+2015-09-07 09:24:39	[14]Chaosvex	Hm, really? Interesting.
+2015-09-07 09:24:49	TinoDidriksen	"however few MP3 players can play those files."
+2015-09-07 09:24:49	[14]Chaosvex	I've used LAME before but only through other tools, I believe
+2015-09-07 09:24:53	[14]Chaosvex	None of them made that option available
+2015-09-07 09:24:55	[14]Chaosvex	Interesting though
+2015-09-07 09:25:27	Paprikachu	god
+2015-09-07 09:25:30	Paprikachu	wherever i look
+2015-09-07 09:25:32	Paprikachu	mp3
+2015-09-07 09:25:36	Paprikachu	cancer.
+2015-09-07 09:26:15	⇄	krabbe is now known as Krabbe
+2015-09-07 09:26:16	[14]Chaosvex	The worst is when people 'upconvert' 128kbps MP3s to 320
+2015-09-07 09:26:32	Paprikachu	or mp3 to flac...
+2015-09-07 09:26:44	[14]Chaosvex	WMA to FLAC
+2015-09-07 09:27:10	Paprikachu	im on some fucking russian websites
+2015-09-07 09:27:13	[14]Chaosvex	Rest in peace, WMA and WMV
+2015-09-07 09:27:15	Paprikachu	looking for this song as a flac
+2015-09-07 09:27:25	Paprikachu	i bet once i find it, it's just mp3 converted to flac
+2015-09-07 09:27:33	[14]Chaosvex	=D
+2015-09-07 09:28:01	epyx	what is more preferable? doing it like this http://pastebin.com/ULnYnP6J or having as much as possible in the constructor initializer list (it's called that ... right?)?
+2015-09-07 09:28:10	Paprikachu	this russian site here has an exe installer for this song
+2015-09-07 09:28:12	Paprikachu	how convenient
+2015-09-07 09:28:21	TinoDidriksen	Put it in the ctor-init.
+2015-09-07 09:28:23	[14]Chaosvex	I'd totally download it and then run it
+2015-09-07 09:28:59	[14]Chaosvex	epyx, why don't you have your Vec2D default construct to 0,0?
+2015-09-07 09:29:55	[14]Chaosvex	There's also the third option of in-class initialisation
+2015-09-07 09:29:59	epyx	I don't know :)
+2015-09-07 09:30:06	epyx	this gives a clearer image of what's going on imo
+2015-09-07 09:30:30	[14]Chaosvex	That's one take on it
+2015-09-07 09:30:38	[14]Chaosvex	Another is that you're making the code more prone to bugs
+2015-09-07 09:31:42	Ensifeurm	you should default construct your vector to "FILE_NOT_FOUND"
+2015-09-07 09:32:12	[14]Chaosvex	Agreed
+2015-09-07 09:32:21	epyx	come again? :>
+2015-09-07 09:32:48	[14]Chaosvex	true, false, file not found
+2015-09-07 09:32:53	[14]Chaosvex	Three possible states of a bool
+2015-09-07 09:33:03	Paprikachu	this is even better
+2015-09-07 09:33:09	Paprikachu	<songname>(flac).mp3
+2015-09-07 09:33:16	[14]Chaosvex	;/
+2015-09-07 09:35:32	>	nezrel (~nezrel@nezrel.users.quakenet.org) has joined #c++
+2015-09-07 09:36:24	Paprikachu	<songname>[flac -> mp3].mp3
+2015-09-07 09:36:32	Paprikachu	what a day to be alive
+2015-09-07 09:37:13	epyx	TinoDidriksen, is there any special reason to have it there?
+2015-09-07 09:38:39	TinoDidriksen	It's correct, and optimized.
+2015-09-07 09:40:18	>	surrend (~dashu@p4FDE951F.dip0.t-ipconnect.de) has joined #c++
+2015-09-07 09:40:44	Ensifeurm	and more error prone and more tiring to update.
+2015-09-07 09:41:33	epyx	:)
+2015-09-07 09:45:33	<	Tobias_ (~Tobias@ipb21af010.dynamic.kabel-deutschland.de) has quit (Ping timeout)
+2015-09-07 09:48:38	Paprikachu	[14]Chaosvex: LoL?
+2015-09-07 09:51:25	[14]Chaosvex	Ah, perhaps later :(
+2015-09-07 09:53:06	<	surrend (~dashu@p4FDE951F.dip0.t-ipconnect.de) has quit (Quit)
+2015-09-07 09:53:34	epyx	sometimes it'd be nice to be able to return NULL :/
+2015-09-07 09:54:08	Paprikachu	NULL is always bad.
+2015-09-07 09:54:26	Paprikachu	it is literally #define NULL 0
+2015-09-07 09:54:35	epyx	I know
+2015-09-07 09:54:49	Paprikachu	int f() { return NULL; }
+2015-09-07 09:54:51	Paprikachu	there you go!
+2015-09-07 09:54:53	epyx	if I recall correctly in Java you would be able to set Obj A = NULL
+2015-09-07 09:55:19	Ensifeurm	nullptr
+2015-09-07 09:55:22	Paprikachu	java doesn't let you construct objects in-place, everything is a reference.
+2015-09-07 09:55:34	Ensifeurm	java has value types tho
+2015-09-07 09:55:44	Paprikachu	not really.
+2015-09-07 09:55:46	epyx	I rarely use pointers
+2015-09-07 09:55:59	epyx	for instance I have a struct Collision which has a point of intersection
+2015-09-07 09:56:23	epyx	in rare cases this point is not set because of floating point errors (ie when the intersection is really really small)
+2015-09-07 09:56:49	Paprikachu	use fixed point
+2015-09-07 09:56:53	Paprikachu	":D"
+2015-09-07 10:11:36	>	skJ (~Jk@85-76-11-151-nat.elisa-mobile.fi) has joined #c++
+2015-09-07 10:14:00	[14]Chaosvex	I asked if I'd be getting paid for last week and was told, "I don't think so" :D
+2015-09-07 10:14:11	[14]Chaosvex	Pointed out that it's not even legal to do that
+2015-09-07 10:14:15	[14]Chaosvex	Now getting paid
+2015-09-07 10:14:18	⇄	MOSES is now known as Moses
+2015-09-07 10:14:27	[14]Chaosvex	٩◔̯◔۶
+2015-09-07 10:14:48	BD-Calvin	why wouldn't they?
+2015-09-07 10:14:54	Ensifeurm	[14]Chaosvex: nice job :)
+2015-09-07 10:14:56	[14]Chaosvex	Because I quit and they think that means I don't get paid
+2015-09-07 10:15:43	TheSchaf	#define NULL 0.0
+2015-09-07 10:16:31	<	Jks (~Jk@85-76-175-17-nat.elisa-mobile.fi) has quit (Ping timeout)
+2015-09-07 10:16:33	BD-Calvin	you quit after a week?
+2015-09-07 10:17:15	TheSchaf	the abroad dev wouldnt get him the compiler CD in time!
+2015-09-07 10:17:15	TheSchaf	or sth
+2015-09-07 10:17:32	[14]Chaosvex	BD-Calvin, yes
+2015-09-07 10:17:43	[14]Chaosvex	It was miserable
+2015-09-07 10:18:03	[14]Chaosvex	Complete mismatch and it wasn't a C++ job as it was billed
+2015-09-07 10:18:57	[14]Chaosvex	Yeah, when the only copy of the compiler is on a CD somewhere in France, it's probably better to run
+2015-09-07 10:18:58	Ensifeurm	[14]Chaosvex: such a weak performance 
+2015-09-07 10:19:00	Ensifeurm	(;
+2015-09-07 10:19:31	Ensifeurm	like my first job
+2015-09-07 10:19:36	Ensifeurm	i also quit after one week
+2015-09-07 10:19:40	[14]Chaosvex	How come?
+2015-09-07 10:19:41	Ensifeurm	but i was 14yo at the time tho
+2015-09-07 10:19:47	Ensifeurm	it was... hard
+2015-09-07 10:20:02	[14]Chaosvex	When the other dev doesn't bother responding to the email asking him for a list of software I'd need, instead bypassing the email and saying that I don't need to be able to compile anything anyway, run
+2015-09-07 10:20:22	Ensifeurm	heh
+2015-09-07 10:20:30	[14]Chaosvex	He literally ignored the email I was CCd into
+2015-09-07 10:20:56	[14]Chaosvex	Then went to Skype with the guy that sent so I wouldn't see it and told him I didn't need to touch the code
+2015-09-07 10:20:58	Paprikachu	french people x)
+2015-09-07 10:21:09	[14]Chaosvex	*sent it
+2015-09-07 10:21:16	TheSchaf	so how can you code without seeing the code
+2015-09-07 10:21:28	[14]Chaosvex	TheSchaf, I looked at a ~month old backup of some of it
+2015-09-07 10:21:37	[14]Chaosvex	There was no version control, just occasional folder copy/pastes
+2015-09-07 10:21:46	[14]Chaosvex	Some of code was missing entirely
+2015-09-07 10:22:01	TheSchaf	:D
+2015-09-07 10:22:15	Paprikachu	i wouldve probably stayed
+2015-09-07 10:22:24	Paprikachu	nothing to do, but getting paid!
+2015-09-07 10:22:24	TheSchaf	for me it works great this time
+2015-09-07 10:22:34	[14]Chaosvex	Paprikachu, having nothing to do is less fun than it sounds
+2015-09-07 10:22:37	TheSchaf	i think this time it will not take me 2-3 weeks to understand what i am supposed to do
+2015-09-07 10:22:42	Paprikachu	shoulda asked if you can do nothing from home
+2015-09-07 10:22:48	Paprikachu	since that other guy is also remote
+2015-09-07 10:22:49	[14]Chaosvex	Well, that annoyed me too
+2015-09-07 10:22:54	[14]Chaosvex	Everybody else left at 1:30 on Friday
+2015-09-07 10:22:55	TheSchaf	i have a pretty clear picture after a week now
+2015-09-07 10:23:00	[14]Chaosvex	I was stuck there until 5pm for no reason
+2015-09-07 10:23:04	Paprikachu	:)
+2015-09-07 10:24:08	Paprikachu	shoulda asked for remote work!
+2015-09-07 10:24:23	Paprikachu	remotely doing nothing :)
+2015-09-07 10:24:42	Paprikachu	you can even time log that stuff
+2015-09-07 10:24:49	[14]Chaosvex	:D
+2015-09-07 10:25:07	Paprikachu	"look boss, i did nothing from 8 am to 12 pm, then again from 1 pm to 6 pm"
+2015-09-07 10:25:24	Paprikachu	"i think that's called working overtime"
+2015-09-07 10:25:25	[14]Chaosvex	I figured, life is too short to put up with shit
+2015-09-07 10:25:56	Paprikachu	heh
+2015-09-07 10:26:14	Paprikachu	what did you do anyways
+2015-09-07 10:26:17	Paprikachu	since you couldnt code
+2015-09-07 10:26:27	Paprikachu	was there anything at all?
+2015-09-07 10:26:55	TheSchaf	BD-Calvin, so what should i do? $80 supershuttle and 15 min or $2 light rail and 1.5 hrs :>
+2015-09-07 10:27:16	<	julroid (~harric@85-76-115-144-nat.elisa-mobile.fi) has quit (Quit: gone)
+2015-09-07 10:27:20	>	Fernum (~Fernerani@31-178-144-99.dynamic.chello.pl) has joined #c++
+2015-09-07 10:27:30	>	julroid (~harric@i67.ip5.netikka.fi) has joined #c++
+2015-09-07 10:28:03	BD-Calvin	light rail sounds like a drag
+2015-09-07 10:28:38	TheSchaf	mhh
+2015-09-07 10:29:08	TheSchaf	but +$68
+2015-09-07 10:29:08	TheSchaf	!
+2015-09-07 10:31:18	[14]Chaosvex	Paprikachu, nothing really
+2015-09-07 10:31:26	[14]Chaosvex	Until I had a PC, I stared at the desk
+2015-09-07 10:31:33	[14]Chaosvex	Then I read Wikipedia
+2015-09-07 10:31:42	TheSchaf	:D
+2015-09-07 10:31:47	Ensifeurm	any nose picking?
+2015-09-07 10:31:48	[14]Chaosvex	Being bored and unable to leave your desk is fucking difficult
+2015-09-07 10:31:51	[14]Chaosvex	Nah, not the type
+2015-09-07 10:32:39	Paprikachu	that's what i also hated about civil service
+2015-09-07 10:32:47	Paprikachu	what a giant waste of time
+2015-09-07 10:33:20	Paprikachu	you could say 9 man-months have been wasted.
+2015-09-07 10:33:22	TheSchaf	why u not youtube
+2015-09-07 10:33:29	TheSchaf	or IRC
+2015-09-07 10:33:35	Paprikachu	i think he did use irc :P
+2015-09-07 10:35:52	Paprikachu	you know you have a good pc
+2015-09-07 10:35:55	Paprikachu	when you connect to csgo
+2015-09-07 10:36:05	Paprikachu	and the first other person to connect connects a minute later
+2015-09-07 10:38:16	BD-Calvin	[14]Chaosvex: weird situation.. sorry it didn't work out
+2015-09-07 10:38:34	[14]Chaosvex	Yeah, that's life sometimes!
+2015-09-07 10:38:58	[14]Chaosvex	I spent the entire weekend thinking about it and didn't a wink last night, trying to make a decision
+2015-09-07 10:39:24	[14]Chaosvex	*sleep a wink
+2015-09-07 10:39:31	[14]Chaosvex	But I probably did the right thing
+2015-09-07 10:39:36	<	late-late (~late-late@late-late.users.quakenet.org) has quit (Read error: Connection reset by peer)
+2015-09-07 10:40:09	[14]Chaosvex	If I wanted to not do C++, I could have found better places
+2015-09-07 10:42:49	[14]Chaosvex	The only positive was that the guy at the desk across from me was nice enough and had a sense of humour
+2015-09-07 10:42:59	[14]Chaosvex	(¬‿¬)
+2015-09-07 10:43:02	>	gareppa (~gareppa@151.31.51.96) has joined #c++
+2015-09-07 10:43:07	Ensifeurm	did you become butt buddies?
+2015-09-07 10:43:13	[14]Chaosvex	Not quite, not quite
+2015-09-07 10:43:48	<	gareppa (~gareppa@151.31.51.96) has quit (Signed off)
+2015-09-07 10:44:08	ocZio	-.-
+2015-09-07 10:46:44	[14]Chaosvex	Ensifeurm, my first job was also when I was 14!
+2015-09-07 10:47:05	[14]Chaosvex	Amusing, if you factor in inflation, my hourly wage at that job is actually slightly higher than it was at this job
+2015-09-07 10:47:08	[14]Chaosvex	*amusingly
+2015-09-07 10:47:59	[14]Chaosvex	is/was, Engrish
+2015-09-07 10:49:20	Paprikachu	[lwp4gj
+2015-09-07 10:49:21	Paprikachu	o]'p3wejpohgieokripgjhpeorijhgioergjhoejghi
+2015-09-07 10:49:32	Paprikachu	they should remove this fucking gun from csgo
+2015-09-07 10:49:37	Paprikachu	sg553
+2015-09-07 10:49:40	TinoDidriksen	Win+L before cleaning your keyboard.
+2015-09-07 10:49:40	Paprikachu	so broken
+2015-09-07 10:49:52	Paprikachu	its so bullshit
+2015-09-07 10:49:56	Paprikachu	noobs can hit stuff with it
+2015-09-07 10:50:23	BD-Calvin	so it's right for you?
+2015-09-07 10:50:57	Paprikachu	it's a fucking joke
+2015-09-07 10:51:14	Elles`w	rage
+2015-09-07 10:51:34	Elles`w	[14]Chaosvex dont cry about decisions you have made
+2015-09-07 10:51:40	Elles`w	they are already "made"
+2015-09-07 10:51:43	<	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has quit (Ping timeout)
+2015-09-07 10:52:43	 *	[14]Chaosvex slaps Elles`w around a bit with a large trout
+2015-09-07 10:52:58	[14]Chaosvex	That'd be going, "I wish I hadn't quit!"
+2015-09-07 10:52:59	Paprikachu	im in fucking silver elo
+2015-09-07 10:53:02	Paprikachu	and theres nothing i can do
+2015-09-07 10:53:03	[14]Chaosvex	Not, "phew, good thing I did"
+2015-09-07 10:53:06	Paprikachu	cause they play faggot guns
+2015-09-07 10:53:08	Paprikachu	and im 1b5
+2015-09-07 10:53:09	Paprikachu	1v5
+2015-09-07 10:53:11	Paprikachu	fucking hsit
+2015-09-07 10:54:26	[14]Chaosvex	http://files.explosm.net/comics/Kris/alarm.png
+2015-09-07 10:55:23	Elles`w	9:11 early 
+2015-09-07 10:56:38	>	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has joined #c++
+2015-09-07 10:59:05	>	Tobias_ (~Tobias@ipb21af010.dynamic.kabel-deutschland.de) has joined #c++
+2015-09-07 10:59:14	Paprikachu	they also play gay positions
+2015-09-07 10:59:17	Paprikachu	that nobody else plays
+2015-09-07 10:59:32	[14]Chaosvex	They call this one the rear flank
+2015-09-07 11:00:20	Paprikachu	and they are cheating
+2015-09-07 11:00:21	Paprikachu	lmao
+2015-09-07 11:00:33	[14]Chaosvex	Paprikachu has found somebody better than him
+2015-09-07 11:00:40	Paprikachu	yeah right
+2015-09-07 11:00:41	Paprikachu	in silver
+2015-09-07 11:00:42	Elles`w	dont lie
+2015-09-07 11:00:42	Paprikachu	lol
+2015-09-07 11:01:00	ocZio	Paprikachu: you play DM ?
+2015-09-07 11:01:23	Paprikachu	im top fragger
+2015-09-07 11:01:28	Paprikachu	just for the record
+2015-09-07 11:01:51	Paprikachu	they constantly hit shit that no silver hits.
+2015-09-07 11:02:12	Elles`w	DM is a new mode in lol?
+2015-09-07 11:02:31	Paprikachu	they kill me (ak) with a fucking pistol
+2015-09-07 11:02:36	Paprikachu	nobody can tell me that this is legit
+2015-09-07 11:02:45	TheSchaf	maybe they are smurfs
+2015-09-07 11:02:48	Paprikachu	no they arent
+2015-09-07 11:02:51	Paprikachu	they are walling
+2015-09-07 11:02:57	Paprikachu	they wait for me to come
+2015-09-07 11:02:59	ocZio	Ak needs 3 bullets to kill
+2015-09-07 11:03:01	Paprikachu	and then come around the corner
+2015-09-07 11:03:04	Paprikachu	when i dont look
+2015-09-07 11:03:04	Paprikachu	wrong
+2015-09-07 11:03:10	Paprikachu	ak one shots
+2015-09-07 11:03:16	ocZio	m4 is 4/5
+2015-09-07 11:03:17	Elles`w	in cs good players could headshoot with nighthawk easily
+2015-09-07 11:03:27	Paprikachu	m4 2 shots
+2015-09-07 11:03:28	Paprikachu	idiot
+2015-09-07 11:03:32	ocZio	buuuutno..
+2015-09-07 11:03:35	ocZio	headshots 
+2015-09-07 11:03:44	ocZio	I am tralking about body hitbox
+2015-09-07 11:04:57	Paprikachu	this is fucking bullshit
+2015-09-07 11:05:03	Paprikachu	what the hell
+2015-09-07 11:05:20	ocZio	play DeathMatch Paprikachu
+2015-09-07 11:05:23	ocZio	true skills.
+2015-09-07 11:05:43	Paprikachu	fuck that
+2015-09-07 11:05:58	ocZio	aim harder then :)
+2015-09-07 11:06:06	Elles`w	q2dm1 best deathmatch ever
+2015-09-07 11:06:27	ocZio	Elles`w: deathmatch for CS
+2015-09-07 11:06:28	ocZio	not q3
+2015-09-07 11:06:34	Elles`w	q2
+2015-09-07 11:06:48	<	Ensifeurm (~enska@36-231-115-238.dynamic-ip.hinet.net) has quit (Quit: leaving)
+2015-09-07 11:07:42	Elles`w	q3 was crap
+2015-09-07 11:07:57	ocZio	woot
+2015-09-07 11:08:07	Elles`w	I prefered q2
+2015-09-07 11:08:16	ocZio	Q3 clanarena promode > *
+2015-09-07 11:08:27	Elles`w	ctf was way better in q2
+2015-09-07 11:08:39	Elles`w	q2dm1 deathmatches were epic
+2015-09-07 11:08:44	Elles`w	THE EDGE
+2015-09-07 11:09:31	Paprikachu	http://www.twitch.tv/richupapka
+2015-09-07 11:11:29	ocZio	you are bad, and you you should feel baaaad.
+2015-09-07 11:11:34	Elles`w	:D
+2015-09-07 11:11:39	Elles`w	awp
+2015-09-07 11:12:10	ocZio	Paprikachu: two things
+2015-09-07 11:12:12	Elles`w	isnt it boring to play like that
+2015-09-07 11:12:28	ocZio	turn the vsync on, you will have a better image 
+2015-09-07 11:12:31	ocZio	second m_filter 1
+2015-09-07 11:15:33	ocZio	https://www.youtube.com/watch?v=_gwg7okyltw
+2015-09-07 11:15:33	Innkeeper	YouTube: Charlie's reaction to his baby sister's arrival [00:00:21] [1,083,388 views] [+1,729/-190]
+2015-09-07 11:19:40	Elles`w	[14]Chaosvex are you searching for a another job?
+2015-09-07 11:28:51	[14]Chaosvex	Elles`w, yes-ish
+2015-09-07 11:34:46	<	Farad (~Farad@Farad.users.quakenet.org) has quit (Read error: Connection reset by peer)
+2015-09-07 11:35:38	<	Gluesticky (~nobody@Gluesticky.users.quakenet.org) has quit (Signed off)
+2015-09-07 11:36:47	>	PraetorOmega (~omega@174-30-5-207.eugn.qwest.net) has joined #c++
+2015-09-07 11:36:50	>	BeatrixKiddo (~omega@174-30-5-207.eugn.qwest.net) has joined #c++
+2015-09-07 11:36:51	<	PraetorOmega (~omega@174-30-5-207.eugn.qwest.net) has quit (Read error: Connection reset by peer)
+2015-09-07 11:40:29	<	Fernum (~Fernerani@31-178-144-99.dynamic.chello.pl) has quit (Read error: Connection reset by peer)
+2015-09-07 11:51:49	>	jimvideo (~jimvideo@184-12-234-223.dr01.brny.ca.frontiernet.net) has joined #c++
+2015-09-07 11:55:02	Paprikachu	[14]Chaosvex: have you ever listened to a main stream song and though "i wish someone remixed this properly, it has potential"
+2015-09-07 11:59:05	[14]Chaosvex	Yes
+2015-09-07 11:59:42	Paprikachu	https://www.youtube.com/watch?v=dQ2ufIOm7u0
+2015-09-07 11:59:42	Innkeeper	YouTube: Lost Frequencies - Are You With Me (Official Video HD) [00:02:22] [22,102,123 views] [+88,668/-2,774]
+2015-09-07 11:59:48	Paprikachu	i feel like that about this song
+2015-09-07 12:00:08	Paprikachu	a proper drop
+2015-09-07 12:00:11	Paprikachu	and boom
+2015-09-07 12:00:23	>	M0wLaue (~M0wLaue@ip5f5adb08.dynamic.kabel-deutschland.de) has joined #c++
+2015-09-07 12:05:04	>	mrhas3 (~thebutche@HSI-KBW-46-223-163-239.hsi.kabel-badenwuerttemberg.de) has joined #c++
+2015-09-07 12:05:14	<	jackd`23` (~messiah@JackD`23`.users.quakenet.org) has quit (Signed off)
+2015-09-07 12:07:45	>	Ferne (~Fernerani@31-178-144-99.dynamic.chello.pl) has joined #c++
+2015-09-07 12:10:26	>	Filystyn (~piotr@031011212161.warszawa.vectranet.pl) has joined #c++
+2015-09-07 12:15:38	>	jackd`23` (~messiah@JackD`23`.users.quakenet.org) has joined #c++
+2015-09-07 12:17:19	<	Elles`w (~Ellesw@host-81-190-40-76.szczecin.mm.pl) has quit (Signed off)
+2015-09-07 12:25:04	>	DankMemeSupreme (~DankMemeS@1fa2bed2.tor.gateway.quakenet.org) has joined #c++
+2015-09-07 12:25:48	>	Sprudling (~sprudling@120.154.189.109.customer.cdi.no) has joined #c++
+2015-09-07 12:40:00	<	Th_Mafia (Th_Mafia@CPE78cd8e661758-CM78cd8e661755.cpe.net.cable.rogers.com) has quit (Ping timeout)
+2015-09-07 12:41:16	>	Th_Mafia (Th_Mafia@CPE78cd8e661758-CM78cd8e661755.cpe.net.cable.rogers.com) has joined #c++
+2015-09-07 12:45:40	<	swatti (~swatti@business-89-132-60-56.business.broadband.hu) has quit (Ping timeout)
+2015-09-07 12:49:52	>	swatti (~swatti@business-89-132-60-56.business.broadband.hu) has joined #c++
+2015-09-07 13:02:23	Codex_	now gameapi has everything required for creating music/sound effects.
+2015-09-07 13:02:53	Codex_	I added some tracker-classes which are doing timing and playing sounds based on timings
+2015-09-07 13:03:15	>	PaSaSaP (~PaSaSaP@PaSaSaP.users.quakenet.org) has joined #c++
+2015-09-07 13:03:29	Paprikachu	what sound apis are you using under the hood?
+2015-09-07 13:03:37	Codex_	sdl_mixer
+2015-09-07 13:04:46	Codex_	but I want to control the data structures I use, so gameapi needs to represent the required data structures
+2015-09-07 13:05:09	Paprikachu	what does that mean?
+2015-09-07 13:05:20	BeatrixKiddo	Is music represented in gameapi as struct M?
+2015-09-07 13:05:43	Codex_	beatrix: more like types SM, WAV, TRK, TBUF
+2015-09-07 13:06:07	Paprikachu	and what do those stand for
+2015-09-07 13:06:21	BeatrixKiddo	SM = ShitMusic
+2015-09-07 13:06:31	BeatrixKiddo	WAV = Where's Anus Valley
+2015-09-07 13:06:38	Codex_	SM = samples, WAV = samples in memory, TRK =tracker, TBUF = tracker in memory
+2015-09-07 13:06:40	BeatrixKiddo	TRK = Totally Really Krap
+2015-09-07 13:06:47	BeatrixKiddo	Damn, I was way off.
+2015-09-07 13:07:09	BeatrixKiddo	None of those names are intuitive.
+2015-09-07 13:08:07	Codex_	they don't need to be intuitivve
+2015-09-07 13:08:23	Codex_	since that part is handled by something else
+2015-09-07 13:09:03	Codex_	if you do TRK t = ev.tracker_api.empty(1,200); then it's pretty clear that TRK means tracker
+2015-09-07 13:09:36	BeatrixKiddo	That's terrible reasoning.
+2015-09-07 13:10:02	BeatrixKiddo	It relies on a context that may or may not be readily available.
+2015-09-07 13:10:18	Codex_	the word tracker will be in every line of code
+2015-09-07 13:10:34	Codex_	it doesnt need to be repeated any more than it is now
+2015-09-07 13:11:12	Codex_	can you see that repeating it many times might be bad?
+2015-09-07 13:11:30	Paprikachu	that's why we have auto
+2015-09-07 13:11:35	BeatrixKiddo	^
+2015-09-07 13:12:01	Codex_	you can still use auto if you want
+2015-09-07 13:12:47	Paprikachu	right, so why give it an unreadable name?
+2015-09-07 13:13:06	<	DankMemeSupreme (~DankMemeS@1fa2bed2.tor.gateway.quakenet.org) has quit (EOF from client)
+2015-09-07 13:13:12	Codex_	if it needs to be repeated 10000 times, it needs to be short
+2015-09-07 13:13:24	Paprikachu	but it doesn'
+2015-09-07 13:13:27	Paprikachu	t
+2015-09-07 13:13:34	Paprikachu	i just told you that you can use auto.
+2015-09-07 13:13:34	Codex_	well, TRK is shorter than auto
+2015-09-07 13:13:42	Paprikachu	why not T then?
+2015-09-07 13:14:01	BeatrixKiddo	lol
+2015-09-07 13:14:08	BeatrixKiddo	T is already in use.
+2015-09-07 13:14:28	Paprikachu	heck, why not just use the letters of the alphabet in order
+2015-09-07 13:14:32	BeatrixKiddo	lmfao
+2015-09-07 13:14:37	Paprikachu	since names are gonna be unreadable anyway
+2015-09-07 13:14:50	BeatrixKiddo	Fuck it, use the Cyrillic alphabet.
+2015-09-07 13:14:55	TheSchaf	why letters? use whitespace chars only
+2015-09-07 13:15:01	BeatrixKiddo	^
+2015-09-07 13:15:05	[14]Chaosvex	Hi BeatrixKiddo
+2015-09-07 13:15:09	BeatrixKiddo	hi [14]Chaosvex 
+2015-09-07 13:15:10	[14]Chaosvex	Have you seen PraetorOmega?
+2015-09-07 13:15:13	Paprikachu	<< $; int $ = 42;
+2015-09-07 13:15:13	geordi	error: illegal immediate register operand (%rip)
+2015-09-07 13:15:16	⇄	BeatrixKiddo is now known as PraetorOmega
+2015-09-07 13:15:21	[14]Chaosvex	Hi PraetorOmega
+2015-09-07 13:15:26	Paprikachu	what the.
+2015-09-07 13:15:26	PraetorOmega	hi [14]Chaosvex 
+2015-09-07 13:15:28	[14]Chaosvex	Have you seen BeatrixKiddo?
+2015-09-07 13:15:36	⇄	PraetorOmega is now known as BeatrixKiddo
+2015-09-07 13:15:44	[14]Chaosvex	Hi BeatrixKiddo
+2015-09-07 13:15:49	BeatrixKiddo	Goddamnit.
+2015-09-07 13:16:15	BeatrixKiddo	Today I learned that names don't need to be intuitive when programming.
+2015-09-07 13:16:41	BeatrixKiddo	Because names can be repeated 10,000 times and therefore need to be counter-intuitive to save time typing.
+2015-09-07 13:17:09	BeatrixKiddo	Now I have 10,000 instances of a named object that isn't readily obvious what exactly it is
+2015-09-07 13:17:18	BeatrixKiddo	That's what you call efficiency.
+2015-09-07 13:17:19	Codex_	beatrix: if your code works differently from everyone elses code, it also needs to look different
+2015-09-07 13:17:34	BeatrixKiddo	My code works fine and looks fine.
+2015-09-07 13:17:36	Codex_	that's why I don't follow other people's advice
+2015-09-07 13:17:45	TheSchaf	:D
+2015-09-07 13:17:47	BeatrixKiddo	I follow advice of those who are smarter and wiser than me.
+2015-09-07 13:18:03	BeatrixKiddo	It's how I avoid looking a fool 99% of the time.
+2015-09-07 13:18:24	Codex_	I know better than to follow random people on irc
+2015-09-07 13:18:32	BeatrixKiddo	I'm not random.
+2015-09-07 13:18:46	Codex_	what makes you special?
+2015-09-07 13:18:50	Paprikachu	Codex_: you really haven't thought your naming convention through.
+2015-09-07 13:18:59	BeatrixKiddo	Nothing makes me special.
+2015-09-07 13:19:03	[14]Chaosvex	The other 1% of the time, BeatrixKiddo has his pants on the ground
+2015-09-07 13:19:06	Codex_	pap: it's better designed than you think
+2015-09-07 13:19:07	Paprikachu	if you're going to argue that names are irrelevant, use one-letter names.
+2015-09-07 13:19:10	[14]Chaosvex	Looking like a fool with his pants on the ground
+2015-09-07 13:19:18	BeatrixKiddo	hat turned sideways looking like a fool with my pants on the ground
+2015-09-07 13:20:05	BeatrixKiddo	Codex_: If 100% of the people who've seen gameapi are telling you it's straight garbage, there's probably a reason for that.
+2015-09-07 13:20:12	[14]Chaosvex	"use one-letter names."
+2015-09-07 13:20:16	[14]Chaosvex	What do you think 'e' is?
+2015-09-07 13:20:27	BeatrixKiddo	e is an instance of E.
+2015-09-07 13:20:28	Paprikachu	but he's not consistent on that.
+2015-09-07 13:20:36	Codex_	beatrix: they don't have valid issues -- their only issue is that it doesnt look like OO code that they love
+2015-09-07 13:20:50	Codex_	beatrix: but it cannot look like OO code, since I'm using something different
+2015-09-07 13:21:07	[14]Chaosvex	Next level shit
+2015-09-07 13:21:08	BeatrixKiddo	It doesn't even look like functional code.
+2015-09-07 13:21:34	Codex_	beatrix: it looks pretty much the same as Haskell's standard library
+2015-09-07 13:21:36	>	DankMemeSupreme (~DankMemeS@ee108f9f.tor.gateway.quakenet.org) has joined #c++
+2015-09-07 13:21:36	BeatrixKiddo	Naming conventions aren't even an OO issue, anyway.
+2015-09-07 13:21:44	[14]Chaosvex	But it's about as practical to develop in as functional code
+2015-09-07 13:21:49	[14]Chaosvex	Somebody give me a zong
+2015-09-07 13:21:51	[14]Chaosvex	...zing.
+2015-09-07 13:21:55	BeatrixKiddo	Zong.
+2015-09-07 13:21:58	[14]Chaosvex	Damn
+2015-09-07 13:22:23	[14]Chaosvex	Also runs as fast as functional code
+2015-09-07 13:22:27	[14]Chaosvex	Basically 66% there
+2015-09-07 13:22:31	BeatrixKiddo	lmfao
+2015-09-07 13:23:57	Paprikachu	Codex_: why arent you using the letters of the alphabet in order?
+2015-09-07 13:24:02	BeatrixKiddo	^
+2015-09-07 13:24:36	Codex_	pap: the code needs to look consistent
+2015-09-07 13:24:48	Paprikachu	that's basically the definition of consistent.
+2015-09-07 13:24:53	Codex_	pap: not like random letters...
+2015-09-07 13:25:00	Paprikachu	they're not random.
+2015-09-07 13:25:12	Paprikachu	i can write down an algorithm to select the next letter.
+2015-09-07 13:25:18	Paprikachu	that's anything but random.
+2015-09-07 13:26:10	[14]Chaosvex	I can write an algorithm that produces random numbers
+2015-09-07 13:26:16	[14]Chaosvex	Let's see you get out of that one!
+2015-09-07 13:26:30	Paprikachu	:)
+2015-09-07 13:27:08	BD-Calvin	codex is an expert in misunderstanding and/or misrepresenting advice
+2015-09-07 13:27:08	BeatrixKiddo	If I have a type QIH, what do you think it's for?
+2015-09-07 13:27:45	Codex_	beatrixkiddo: that's not a type name
+2015-09-07 13:27:51	BeatrixKiddo	It is in my code. ;)
+2015-09-07 13:27:52	>	fr3aksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has joined #c++
+2015-09-07 13:27:58	[14]Chaosvex	Quality Inspected Hieroglyphic
+2015-09-07 13:28:21	[14]Chaosvex	Quantified Inert Helium
+2015-09-07 13:28:32	[14]Chaosvex	Quick, in here!
+2015-09-07 13:28:36	Codex_	beatrix: did you actually think my one-letter names would be type names?
+2015-09-07 13:29:00	Paprikachu	quiefing hoe
+2015-09-07 13:29:02	BeatrixKiddo	Codex_: To be honest, none of your names are meaningful, so I don't think anything of them.
+2015-09-07 13:29:26	[14]Chaosvex	I don't think it counts if you have to mispell it
+2015-09-07 13:29:33	BeatrixKiddo	ha
+2015-09-07 13:29:39	BeatrixKiddo	Queef.
+2015-09-07 13:29:44	Paprikachu	):
+2015-09-07 13:29:44	>	Kuros` (Kuros@h185-31-142-251.eth.dyn.cust-ip.bdtv.se) has joined #c++
+2015-09-07 13:30:01	Paprikachu	i figured it was worth a shot
+2015-09-07 13:30:06	Paprikachu	!udict quief
+2015-09-07 13:30:06	Innkeeper	Urban dictionary -- quief: Sometimes happens, due to pressure changes in the vagina particularly during the orgasm. //Expulsion of air after or during sexual intercourse. 
+2015-09-07 13:30:09	BeatrixKiddo	https://www.youtube.com/watch?v=kEl0XlbEbW8
+2015-09-07 13:30:10	Innkeeper	YouTube: Farts or queefs you decide [00:01:06] [81,762 views] [+213/-7]
+2015-09-07 13:30:22	Paprikachu	hah
+2015-09-07 13:30:27	Paprikachu	!udict queeef
+2015-09-07 13:30:28	Innkeeper	Term not found.
+2015-09-07 13:30:29	Paprikachu	!udict queef
+2015-09-07 13:30:30	Innkeeper	Urban dictionary -- queef: an expulsion of wind from the vulva during coitus; a vaginal fart.
+2015-09-07 13:31:33	BeatrixKiddo	I nominate that gameapi be renamed to queefapi.
+2015-09-07 13:32:20	[14]Chaosvex	I nominate that it's renamed to Paprikachu, so it shows up in search results whenever somebody wants to view his code
+2015-09-07 13:32:27	BeatrixKiddo	lmfao
+2015-09-07 13:32:45	<	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has quit (Ping timeout)
+2015-09-07 13:32:45	⇄	fr3aksken is now known as freaksken
+2015-09-07 13:32:49	Paprikachu	):
+2015-09-07 13:33:15	<	Kuros (Kuros@h185-31-142-251.eth.dyn.cust-ip.bdtv.se) has quit (Ping timeout)
+2015-09-07 13:33:15	Codex_	you havent even tried gameapi, so you don't know how consistent my naming is.
+2015-09-07 13:33:37	BeatrixKiddo	I'm too busy using libraries that actually work.
+2015-09-07 13:34:18	Codex_	yeah, I couldnt get sdl_mixer to work in emscripten build
+2015-09-07 13:34:29	<	Filystyn (~piotr@031011212161.warszawa.vectranet.pl) has quit (Quit: Konversation terminated!)
+2015-09-07 13:34:32	Codex_	it just doesnt output any sounds.
+2015-09-07 13:34:52	Paprikachu	i believe you when you say that your naming is consistent.
+2015-09-07 13:35:00	Paprikachu	it's consistently shit.
+2015-09-07 13:35:35	Codex_	at least I don't rewrite my naming every time irc goons think of new naming convention
+2015-09-07 13:35:51	BeatrixKiddo	What's wrong with naming something what it is?
+2015-09-07 13:36:06	Codex_	beatrix: I have that name in different place.
+2015-09-07 13:36:17	BeatrixKiddo	What does that mean?
+2015-09-07 13:36:21	Codex_	you don't need it in type names
+2015-09-07 13:36:28	Codex_	when the functions are the important part
+2015-09-07 13:36:36	BeatrixKiddo	They are?
+2015-09-07 13:36:38	Codex_	not types
+2015-09-07 13:36:59	Codex_	you're still in the old OO world
+2015-09-07 13:37:03	BeatrixKiddo	Am I?
+2015-09-07 13:37:09	Codex_	where types are the important bit
+2015-09-07 13:37:13	BeatrixKiddo	Are they?
+2015-09-07 13:39:10	Codex_	functional programming == functions are important. I just happen to have large collection of such functions
+2015-09-07 13:39:55	BeatrixKiddo	Give me a function name that you use.
+2015-09-07 13:39:56	Paprikachu	ever heard of records?
+2015-09-07 13:40:10	>	muroid (~harric@85-76-54-74-nat.elisa-mobile.fi) has joined #c++
+2015-09-07 13:40:19	Paprikachu	you should look up how data structures are implemented in haskell for example
+2015-09-07 13:40:31	Paprikachu	hint: trees are not called T
+2015-09-07 13:40:36	Codex_	beatrixkiddo: BM newbitmap(int sx, int sy, unsigned int color);
+2015-09-07 13:42:09	BeatrixKiddo	That's not a bad function, too bad its signature doesn't tell me much about the return type. :\
+2015-09-07 13:42:27	BeatrixKiddo	If only there was a way to know what a BM was.
+2015-09-07 13:42:44	⇄	Krabbe is now known as krabbe
+2015-09-07 13:42:54	BeatrixKiddo	I guess I'll have to look it up in the documentation. Every. Fucking. Instance.
+2015-09-07 13:43:01	Codex_	everyone already knows that BM type is defined as struct BM { int id; };
+2015-09-07 13:43:17	BeatrixKiddo	Well fuck my ass. Why not return an int?
+2015-09-07 13:43:21	Codex_	since all my one or two letter names are defined like that
+2015-09-07 13:43:34	Codex_	because plain ints don't have correct type checking
+2015-09-07 13:43:39	<	julroid (~harric@i67.ip5.netikka.fi) has quit (Ping timeout)
+2015-09-07 13:43:44	BeatrixKiddo	But BM is a correct type?
+2015-09-07 13:43:49	Codex_	typ
+2015-09-07 13:43:53	Codex_	yup
+2015-09-07 13:44:01	BeatrixKiddo	Type of what?
+2015-09-07 13:44:16	BeatrixKiddo	It's an int wrapper.
+2015-09-07 13:44:19	Codex_	it's only compatible with other functions that take BM as parameter
+2015-09-07 13:44:24	BeatrixKiddo	struct IntWrapper { int id; };
+2015-09-07 13:44:51	Codex_	so if you try to pass BM type to a place that takes P type as parameter, it'll give compile-time error
+2015-09-07 13:44:55	BeatrixKiddo	template <typename Type> struct IntWrapper<Type> { int id; }; // for specialization
+2015-09-07 13:45:11	BeatrixKiddo	IntWrapper<Bitmap> bitmap;
+2015-09-07 13:45:26	BeatrixKiddo	Now we have meaningful names.
+2015-09-07 13:45:38	Codex_	that looks completely awful
+2015-09-07 13:45:51	Codex_	useless wrapper type
+2015-09-07 13:45:56	Codex_	and misuse of templates
+2015-09-07 13:46:25	BeatrixKiddo	I dunno. I only had to write that once and now I have an instance for whatever I need and don't need to write BM or P or what-the-fuck-ever.
+2015-09-07 13:46:47	BeatrixKiddo	I just saved myself a shitload of money by switching to templates.
+2015-09-07 13:48:45	BeatrixKiddo	I like how you say my flexible, universal version of what you have is useless compared to what you have.
+2015-09-07 13:49:20	BeatrixKiddo	I mean, if this isn't a perfect opportunity to use a template, then when is there a proper time to use a template?
+2015-09-07 13:50:05	Codex_	the api needs to be simple enough for newbies. I can't expect templates to be known.
+2015-09-07 13:50:37	Codex_	also simpler = cleaner api
+2015-09-07 13:50:51	Codex_	adding all kinds of complex templates is only going to make it worse
+2015-09-07 13:51:36	BeatrixKiddo	Ah. It makes sense now.
+2015-09-07 13:51:55	BeatrixKiddo	gameapi is geared towards morons, not those with experience or sense.
+2015-09-07 13:52:20	Codex_	obviously, whole gaming market is geared towards young people
+2015-09-07 13:52:37	Codex_	including people who create games
+2015-09-07 13:52:40	>	cofax (~David@188-167-232-49.dynamic.chello.sk) has joined #c++
+2015-09-07 13:52:55	BeatrixKiddo	Then what are you doing attempting to enter into the gaming market?
+2015-09-07 13:53:42	Codex_	it needs to be simple enough that 8 year old people who want to create their first game is going to be able to use it
+2015-09-07 13:53:47	[14]Chaosvex	BeatrixKiddo, it's a paradox. Think about it.
+2015-09-07 13:53:53	BeatrixKiddo	:O
+2015-09-07 13:54:02	[14]Chaosvex	Morons can't use GameA(pi) but you have to be a moron to use it
+2015-09-07 13:54:10	BeatrixKiddo	lmfao
+2015-09-07 13:55:05	BeatrixKiddo	So, in functional programming, it doesn't matter what I name my types or variables as long as the functions have meaningful names.
+2015-09-07 13:55:47	Codex_	the handle names need to be somehow connected to the concept being used.
+2015-09-07 13:56:01	Codex_	like BM type is clearly connected to bitmap
+2015-09-07 13:56:17	BeatrixKiddo	"Clearly" by what standard?
+2015-09-07 13:56:45	BeatrixKiddo	What is the thought process you use when determining names?
+2015-09-07 13:58:14	Codex_	I decide the api name first, for example BitmapApi. Then I decide the variable name in everyapi, for example bitmap_api. Then BM type follows that naming. Then functions have names that describe what is being done to the BM type, i.e. the mappings.
+2015-09-07 13:58:58	Codex_	the thing is that BM type is completely opaque
+2015-09-07 13:59:10	Codex_	there is no member functions or variables inside BM type.
+2015-09-07 13:59:13	<	muroid (~harric@85-76-54-74-nat.elisa-mobile.fi) has quit (Quit: gone)
+2015-09-07 13:59:27	>	julroid (~harric@i67.ip5.netikka.fi) has joined #c++
+2015-09-07 13:59:31	Codex_	it's all hidden
+2015-09-07 13:59:57	Codex_	only the mappings like BM->BM are what is available.
+2015-09-07 14:00:41	Codex_	functional programing is all about the mappings.
+2015-09-07 14:01:38	⇄	Moses is now known as MOSES
+2015-09-07 14:05:29	Codex_	the lack of member functions in BM type is what separates this approach from OO approach
+2015-09-07 14:07:50	<	Elanor (~grenoble@Elanor.users.quakenet.org) has quit (Read error: Connection reset by peer)
+2015-09-07 14:07:52	BeatrixKiddo	That's it?
+2015-09-07 14:07:59	Codex_	yup
+2015-09-07 14:08:23	BeatrixKiddo	Just because a type doesn't have member functions doesn't mean it can have a stupid fucking type name.
+2015-09-07 14:08:33	Codex_	now you can use gameapi
+2015-09-07 14:11:00	>	Elanor (~grenoble@Elanor.users.quakenet.org) has joined #c++
+2015-09-07 14:11:06	BeatrixKiddo	I'd love to use gameapi. Can I have dynamic resources?
+2015-09-07 14:11:25	Codex_	everything is dynamic
+2015-09-07 14:11:58	BeatrixKiddo	Can I add and remove resources dynamically while gameapi is running?
+2015-09-07 14:12:20	Codex_	yes
+2015-09-07 14:12:52	BD-Calvin	no
+2015-09-07 14:13:00	Codex_	but usually people load the resources at beginning, and dump the gameapi data structures before frame loop starts
+2015-09-07 14:13:44	Codex_	so the lib doesnt touch your runtime environment at all
+2015-09-07 14:14:02	BeatrixKiddo	Well, I need it to touch my runtime.
+2015-09-07 14:14:07	BD-Calvin	BeatrixKiddo: lifetimes of objects are tied to a god object, you can't free individual objects
+2015-09-07 14:14:15	BeatrixKiddo	That blows.
+2015-09-07 14:14:21	BeatrixKiddo	What good is that?
+2015-09-07 14:15:18	[14]Chaosvex	It's an advanced memory allocation pattern
+2015-09-07 14:15:22	[14]Chaosvex	It's called the arena
+2015-09-07 14:15:29	Codex_	its centralized memory management
+2015-09-07 14:15:33	[14]Chaosvex	The idea is that you quit the game to free all memory at the same time
+2015-09-07 14:15:42	[14]Chaosvex	It's far more efficient than freeing individual objects, pleb
+2015-09-07 14:16:28	<	Kuros` (Kuros@h185-31-142-251.eth.dyn.cust-ip.bdtv.se) has quit (Ping timeout)
+2015-09-07 14:16:57	Codex_	but the memory management isnt a big issue, since end users never need to deal with it
+2015-09-07 14:17:04	BD-Calvin	it's "arenas gone wrong"
+2015-09-07 14:17:07	Codex_	it's all automatically handled
+2015-09-07 14:17:16	BeatrixKiddo	I have centralized memory management that allows for dynamic allocation without freeing the central memory manager and reallocating it every time I need to add or remove a single instance to the memory manager.
+2015-09-07 14:17:34	BeatrixKiddo	It, too, is automatically handled.
+2015-09-07 14:18:16	Codex_	class Env { Env(); ~Env(); void free_memory(); }; this is the main api for memory management.
+2015-09-07 14:18:31	BeatrixKiddo	But how do I add new memory?
+2015-09-07 14:18:46	Codex_	but all Api classes require instance of this as ctor parameter.
+2015-09-07 14:19:18	>	Kuros (~Kuros@h185-31-142-251.eth.dyn.cust-ip.bdtv.se) has joined #c++
+2015-09-07 14:19:23	<	epyx (~foo@h-61-165.a163.priv.bahnhof.se) has quit (Read error: Connection reset by peer)
+2015-09-07 14:19:35	Codex_	all memory is handled automatically, you don't need to worry about it
+2015-09-07 14:20:08	BeatrixKiddo	That's a huge assumption.
+2015-09-07 14:20:27	Codex_	it did require some clever design inside gameapi
+2015-09-07 14:20:37	TinoDidriksen	BeatrixKiddo, oh you're having a go at him as well? Good luck! We've all been there.
+2015-09-07 14:21:01	BeatrixKiddo	TinoDidriksen: I've seen this argument before. I'm just bored.
+2015-09-07 14:22:24	BeatrixKiddo	Codex_: Give me an example of "clever" design.
+2015-09-07 14:22:50	Codex_	the main design of gameapi's data structures is that it defers the memory allocation point to prepare() function. Thus gameapi data structures take almost no memory at all, but it'll only be allocated once opengl wants it in a memory buffer
+2015-09-07 14:24:15	Codex_	the pattern looks like this: BM bm = ev.bitmap_api.empty(100,100); ev.sprite_api.preparesprite(bm); while(1) { ... ev.sprite_api.rendersprite(bm,10,10); }
+2015-09-07 14:24:30	Codex_	the prepare() is handled before main loop starts
+2015-09-07 14:25:01	⇄	Paprikachu is now known as PIssedOff
+2015-09-07 14:25:16	Codex_	the BM type basically takes no memory whatsoever, and definitely not enough to store 100x100 bitmap
+2015-09-07 14:26:15	BD-Calvin	that's a lie
+2015-09-07 14:26:43	Codex_	I don't allocate memory for the bitmap's pixels
+2015-09-07 14:27:42	Codex_	not until prepare() is called that is
+2015-09-07 14:29:02	[14]Chaosvex	Oh stop me, stop me, stop me
+2015-09-07 14:29:13	[14]Chaosvex	Stop me if you think that you've heard this GameA(pi) argument before
+2015-09-07 14:29:18	Codex_	the main behaviour of the gameapi is done without the memory being allocated
+2015-09-07 14:29:53	BD-Calvin	where "the memory" refers specifically to gpu resources.. cause you use a shitton of intermediate structures allocated on the heap
+2015-09-07 14:30:04	BD-Calvin	especially if you start composing functions, then memory usage shoots up through the roof
+2015-09-07 14:31:11	Codex_	the tree nodes are not allocated huge chunks of memory, even though there might be large number of them
+2015-09-07 14:31:16	<	DankMemeSupreme (~DankMemeS@ee108f9f.tor.gateway.quakenet.org) has quit (EOF from client)
+2015-09-07 14:31:31	BD-Calvin	yes, it's quite inefficient
+2015-09-07 14:31:49	Codex_	for using a tree?
+2015-09-07 14:31:56	Codex_	you gotta be kidding me
+2015-09-07 14:32:41	[14]Chaosvex	Sometimes this channel makes me feel like Bill Murray in Ground Hog Day
+2015-09-07 14:32:48	BeatrixKiddo	:D
+2015-09-07 14:33:16	BD-Calvin	it's not just one tree, it's a whole forest
+2015-09-07 14:33:20	[14]Chaosvex	Occasionally it makes me feel like Dev Patel in The Last Airbender
+2015-09-07 14:33:21	Codex_	bd-calvin: or did you jump from memory to virtual functions again?
+2015-09-07 14:33:23	[14]Chaosvex	But usually the former
+2015-09-07 14:34:39	BD-Calvin	Codex_: just pointing out that "gameapi data structure take almost no memory at all" is a lie
+2015-09-07 14:35:43	Codex_	bd-calvin: I of course compare it to what people expect the memory consumption to be when they see BM bm = ...; type statement in the code.
+2015-09-07 14:36:02	Codex_	bd-calvin: and everyone expects the pixels to be inside it
+2015-09-07 14:36:21	Codex_	which is not true
+2015-09-07 14:36:50	BD-Calvin	everyone knows that BM is the size of an int
+2015-09-07 14:37:21	[14]Chaosvex	Big Memory
+2015-09-07 14:37:24	[14]Chaosvex	Block of Memory
+2015-09-07 14:37:25	BeatrixKiddo	I love throwing users for a loop, too, giving them something that doesn't behave as they would reasonably expect it to.
+2015-09-07 14:37:25	Codex_	so when you do BM bm1 = ...; BM bm2 = ...; they would expect 2*sx*sy type of memory consumtion, but gameapi only spends O(1) memory
+2015-09-07 14:38:00	[14]Chaosvex	Wow
+2015-09-07 14:38:03	[14]Chaosvex	Buy one, get one free!
+2015-09-07 14:39:03	Codex_	beatrixkiddo: it still behaves like they expect it to
+2015-09-07 14:39:11	Codex_	just more optimized
+2015-09-07 14:39:24	BeatrixKiddo	If you say so.
+2015-09-07 14:41:04	BeatrixKiddo	BM is just a handle, isn't it?
+2015-09-07 14:41:43	Codex_	yup
+2015-09-07 14:41:56	Codex_	it's handle that points to an interface
+2015-09-07 14:42:07	BeatrixKiddo	How am I supposed to know that just looking at the name BM?
+2015-09-07 14:42:41	BeatrixKiddo	Because now that I know it's a handle and not a bitmap, I can now expect it to do handle stuff and not bitmap stuff.
+2015-09-07 14:44:02	>	HDF13 (~HDF@catv-212-96-34-35.catv.broadband.hu) has joined #c++
+2015-09-07 14:44:18	Codex_	you can pass around the handles in your code.
+2015-09-07 14:44:36	Codex_	instead of filling your code with shared_ptr's, you just use handles instead
+2015-09-07 14:44:41	BD-Calvin	like your mandelbrot example that used 460MB for some trivial stuff.. most of that memory blown on heap structures (not gpu resources)
+2015-09-07 14:45:13	Codex_	what mandelbrot example?
+2015-09-07 14:45:42	Codex_	oh, the world example had mandelbrot
+2015-09-07 14:45:47	<	cofax (~David@188-167-232-49.dynamic.chello.sk) has quit (Quit: Leaving.)
+2015-09-07 14:45:58	Codex_	that generated large amounts of data.
+2015-09-07 14:46:08	Codex_	opengl required data structures
+2015-09-07 14:46:25	Codex_	gameapi also has a feature that it doesnt break if you throw large chunks of data to it
+2015-09-07 14:46:29	>	cofax (~David@188-167-232-49.dynamic.chello.sk) has joined #c++
+2015-09-07 14:47:17	BeatrixKiddo	I prefer to use raw pointers of unique_ptrs when "sharing" data using a central memory structure.
+2015-09-07 14:47:35	BD-Calvin	the problem there was that the gpu resources accounted for something like 30MB of those.. the remaining 430MB was pure codeapi overhead
+2015-09-07 14:48:42	Codex_	yes, gameapi can generate large data structures without breaking
+2015-09-07 14:49:16	Codex_	that's what it's designed to do -- generate complexity for gaming usages.
+2015-09-07 14:49:46	Codex_	basically it handles the biggest problem game developers have -- complexity
+2015-09-07 14:49:47	BD-Calvin	problem is that it isn't useful.. it's easy to be inefficient and allocate a ton of extra stuff :)
+2015-09-07 14:50:09	Codex_	there still wasnt any performance problems
+2015-09-07 14:50:46	BeatrixKiddo	430MB is huge overhead.
+2015-09-07 14:50:53	Codex_	it's not overhead
+2015-09-07 14:50:58	Codex_	it's actually needed
+2015-09-07 14:51:09	BeatrixKiddo	I thought it was supposed to be efficient.
+2015-09-07 14:51:29	Codex_	every pixel of that mandelbrot required large vertex array chunk
+2015-09-07 14:52:31	Codex_	it was like 2 cubes per pixel
+2015-09-07 14:53:20	BD-Calvin	the actual stuff that opengl wanted was 30MB, the remaining 430 (about 15x) was pure gameapi overhead
+2015-09-07 14:54:30	Codex_	that overhead is gone before game loop starts
+2015-09-07 14:54:50	BeatrixKiddo	What's the point then?
+2015-09-07 14:55:13	Codex_	it's still needed to generate the data structures
+2015-09-07 14:55:37	Codex_	this was just few lines of code, but it generated 30Mb of vertex arrays
+2015-09-07 14:55:54	gray1	hi Codex_ how's it going mate?
+2015-09-07 14:56:02	gray1	are these guys giving you hassle again?
+2015-09-07 14:56:18	Codex_	gray1: they'll learn gameapi in the process
+2015-09-07 14:56:23	BeatrixKiddo	I don't have work today, so I need something to keep me entertained.
+2015-09-07 14:56:28	gray1	they don't want to
+2015-09-07 14:56:39	TinoDidriksen	Not much point in learning to make snake oil.
+2015-09-07 14:56:43	gray1	BeatrixKiddo: then go elsewhere you autistic unpleasnant bullying nerd
+2015-09-07 14:56:52	BeatrixKiddo	gray1: smd
+2015-09-07 14:56:56	gray1	you are
+2015-09-07 14:57:00	gray1	leave him alone
+2015-09-07 14:57:01	BeatrixKiddo	lol
+2015-09-07 14:57:06	BeatrixKiddo	Leave Brittney alone!
+2015-09-07 14:57:55	BeatrixKiddo	I like how you associate being autistic with being a bully. That's awesome.
+2015-09-07 14:58:21	gray1	that's not the association. The association is people who like to nit pick are usually autistic
+2015-09-07 14:58:29	BeatrixKiddo	Ooooh.
+2015-09-07 14:58:32	Codex_	nice thing about gameapi is that it can really handle large data structures, with very small amount of code.
+2015-09-07 14:58:55	gray1	and if you're picking apart what he has created then you're probably suffering from aspergers syndrome, like most people in this channel
+2015-09-07 14:58:55	BeatrixKiddo	So nit pickers are autistic.
+2015-09-07 14:59:01	gray1	how does it feel to be retarded?
+2015-09-07 14:59:09	Codex_	that kind of abstraction requires lots of designing to do
+2015-09-07 14:59:16	BeatrixKiddo	Picking apart things is to suffer Asperger's syndrome.
+2015-09-07 14:59:21	<	Th_Mafia (Th_Mafia@CPE78cd8e661758-CM78cd8e661755.cpe.net.cable.rogers.com) has quit (Ping timeout)
+2015-09-07 14:59:35	gray1	asperger's aka being autisic, yes.
+2015-09-07 14:59:43	TinoDidriksen	It deserves to be picked apart.
+2015-09-07 14:59:46	gray1	autistic aka being retarded, yes
+2015-09-07 14:59:52	gray1	no it doesn't
+2015-09-07 14:59:57	BeatrixKiddo	gray1: Why do you hate people with mental disabilities?
+2015-09-07 15:00:10	gray1	if it was anyone else you guys would have crushed somebody
+2015-09-07 15:00:20	TinoDidriksen	He put it online, he's telling people to use it, he's asking for feedback...
+2015-09-07 15:00:35	>	Th_Mafia (Th_Mafia@CPE78cd8e661758-CM78cd8e661755.cpe.net.cable.rogers.com) has joined #c++
+2015-09-07 15:00:51	gray1	you guys aren't constructive in any way. What has been said already is enough
+2015-09-07 15:00:54	TinoDidriksen	Clearly he can handle 100% negative feedback, 'cause that's what he's getting, and he hasn't stopped yet.
+2015-09-07 15:01:05	gray1	neither have you
+2015-09-07 15:01:06	TinoDidriksen	We've tried being constructive.
+2015-09-07 15:01:11	gray1	no, no you aren't
+2015-09-07 15:01:21	BeatrixKiddo	gray1 is an expert on what you guys did.
+2015-09-07 15:01:29	gray1	you're being unpleasant and fuckkng horrible. It's the same with everything
+2015-09-07 15:01:53	gray1	BeatrixKiddo: you have no idea on my level of expertise
+2015-09-07 15:01:58	gray1	no quiet, son
+2015-09-07 15:02:18	BeatrixKiddo	gray1: I don't. And I don't care. Because you don't matter.
+2015-09-07 15:02:29	gray1	i don't matter, let me slit my wrists already
+2015-09-07 15:02:33	BeatrixKiddo	Please.
+2015-09-07 15:02:44	gray1	so do me a favour. Leave codex and what he has created alone
+2015-09-07 15:02:48	BeatrixKiddo	No.
+2015-09-07 15:02:55	gray1	Yes.
+2015-09-07 15:02:56	<	HDF13 (~HDF@catv-212-96-34-35.catv.broadband.hu) has quit (Quit: Leaving)
+2015-09-07 15:02:58	BeatrixKiddo	Nope.
+2015-09-07 15:03:01	gray1	Yes
+2015-09-07 15:03:03	BeatrixKiddo	Nuuuuuuuuuuuuuuupe.
+2015-09-07 15:03:06	gray1	do i need to write a script for this?
+2015-09-07 15:03:08	BeatrixKiddo	Please.
+2015-09-07 15:03:13	BeatrixKiddo	lmfao
+2015-09-07 15:03:36	gray1	Codex_: i'm sorry, you should leave this channel> it's pretty much why i pretty much have
+2015-09-07 15:03:41	BeatrixKiddo	Thanks for the laugh, gray1, I needed that. You were depressing me for a moment there.
+2015-09-07 15:03:44	gray1	unpleasant people. What's the point...
+2015-09-07 15:04:10	gray1	BeatrixKiddo mr witty i see you are
+2015-09-07 15:04:35	Codex_	gray1: ##opengl has some pretty pleasant people
+2015-09-07 15:04:36	BeatrixKiddo	Yeah, I'm fucking hilarious.
+2015-09-07 15:04:54	Codex_	gray1: they're more used to people showing their products
+2015-09-07 15:08:24	Codex_	this is the code required to design and play a song: http://codepad.org/Iv4YEn9J
+2015-09-07 15:09:16	Codex_	this small piece of code basically does everything that a modern sound tracker can do.
+2015-09-07 15:09:51	BeatrixKiddo	I have to ask the "horrible" "unconstructive" question: how is that not shit?
+2015-09-07 15:10:12	<	nezrel (~nezrel@nezrel.users.quakenet.org) has quit (Ping timeout)
+2015-09-07 15:10:24	Codex_	it doesnt hide the data.
+2015-09-07 15:11:07	BeatrixKiddo	What benefit does that yield me?
+2015-09-07 15:11:20	Codex_	if you do something like : load("foo.mod"), the data wont be available in the code.
+2015-09-07 15:11:26	gray1	BeatrixKiddo: do you talk to all people in life like this?
+2015-09-07 15:11:35	gray1	i'm surprised you've gotten this far
+2015-09-07 15:11:43	BeatrixKiddo	gray1: Thanks.
+2015-09-07 15:12:02	BeatrixKiddo	gray1: Is it your day off, too?
+2015-09-07 15:12:28	BeatrixKiddo	gray1: We're essentially doing the same thing, bashing someone else for their apparent idiocy.
+2015-09-07 15:12:33	gray1	that's none of your business. But if you're spending your day off doing this then you really don't have much
+2015-09-07 15:12:43	Kuros	this channel sometimes https://www.youtube.com/watch?v=bUbT-GNpzr0#t=2h35m30s
+2015-09-07 15:12:43	Innkeeper	YouTube: Rain Man (1988) full movie HD in English [02:39:24] [537 views] [+5/-0]
+2015-09-07 15:12:52	BeatrixKiddo	lmfao Kuros 
+2015-09-07 15:14:28	BeatrixKiddo	gray1: I like you. You're a stand up guy. Defending the weak. Protecting the innocent.
+2015-09-07 15:14:57	BeatrixKiddo	gray1: You just gotta watch it with the autism and Asperger's hate.
+2015-09-07 15:15:11	gray1	go to bed, work again tomorrow
+2015-09-07 15:15:12	BeatrixKiddo	gray1: That really lowers any moral ground you have.
+2015-09-07 15:15:56	gray1	also BeatrixKiddo: http://79.99.6.232/~gray/nomming_apple.mp4
+2015-09-07 15:17:56	>	Joey172 (~Joey172@68-188-219-25.dhcp.aldl.mi.charter.com) has joined #c++
+2015-09-07 15:20:43	[14]Chaosvex	I sorted gray1's folder by date
+2015-09-07 15:21:47	[14]Chaosvex	http://79.99.6.232/~gray/cameras/
+2015-09-07 15:21:50	[14]Chaosvex	He's planning something here
+2015-09-07 15:27:41	aca20031	awkward
+2015-09-07 15:41:53	<	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has quit (Read error: Connection reset by peer)
+2015-09-07 15:42:21	>	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has joined #c++
+2015-09-07 15:46:33	freaksken	gray1 is Aiden Pearce?
+2015-09-07 15:58:13	<	cofax (~David@188-167-232-49.dynamic.chello.sk) has quit (Quit: Leaving.)
+2015-09-07 15:58:56	>	cofax (~David@188-167-232-49.dynamic.chello.sk) has joined #c++
+2015-09-07 15:59:15	>	IWishIKnew (~IWishIKne@nv-71-49-208-64.dyn.embarqhsd.net) has joined #c++
+2015-09-07 16:07:55	>	Xenoprimate (~Xenoprima@123.206.115.87.dyn.plus.net) has joined #c++
+2015-09-07 16:09:04	<	Gero (~Gerald@cpe-69-133-103-102.cinci.res.rr.com) has quit (Ping timeout)
+2015-09-07 16:11:06	<	Xenoprimate2 (~Xenoprima@123.206.115.87.dyn.plus.net) has quit (Ping timeout)
+2015-09-07 16:18:07	<	BeatrixKiddo (~omega@174-30-5-207.eugn.qwest.net) has quit (Quit: Leaving)
+2015-09-07 16:21:02	>	fr3aksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has joined #c++
+2015-09-07 16:23:48	<	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has quit (Ping timeout)
+2015-09-07 16:29:05	<	fr3aksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has quit (Ping timeout)
+2015-09-07 16:47:02	<	IWishIKnew (~IWishIKne@nv-71-49-208-64.dyn.embarqhsd.net) has quit (Quit: Quit:  Hexchat)
+2015-09-07 16:49:36	<	Ferne (~Fernerani@31-178-144-99.dynamic.chello.pl) has quit (Ping timeout)
+2015-09-07 16:50:03	>	Ferne (~Fernerani@31-178-144-99.dynamic.chello.pl) has joined #c++
+2015-09-07 16:51:15	>	DankMemeSupreme (~DankMemeS@ca0ee691.tor.gateway.quakenet.org) has joined #c++
+2015-09-07 16:56:51	>	Gero (~Gerald@cpe-69-133-103-102.cinci.res.rr.com) has joined #c++
+2015-09-07 16:57:38	<	Ferne (~Fernerani@31-178-144-99.dynamic.chello.pl) has quit (Ping timeout)
+2015-09-07 17:02:40	>	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has joined #c++
+2015-09-07 17:03:04	>	EXID123 (~EXID123@218.39.21.173) has joined #c++
+2015-09-07 17:03:08	<	EXID123 (~EXID123@218.39.21.173) has quit (EOF from client)
+2015-09-07 17:11:16	Codex_	google's "don't do evil" doesnt seem to apply when ad money is considered.
+2015-09-07 17:11:31	Codex_	they're bypassing adblocks etc
+2015-09-07 17:15:06	Lumpio-	Is it evil though? Maybe just a bit obnoxious.
+2015-09-07 17:15:19	<	Tubbles (~johan@c-9369e555.032-853-6e6b701.cust.bredbandsbolaget.se) has quit (Signed off)
+2015-09-07 17:15:46	>	fr3aksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has joined #c++
+2015-09-07 17:16:51	>	IWishIKnew (~IWishIKne@nv-71-49-208-64.dyn.embarqhsd.net) has joined #c++
+2015-09-07 17:17:34	>	PraetorOmega (~omega@174-30-5-207.eugn.qwest.net) has joined #c++
+2015-09-07 17:17:43	>	vhs55 (~vhs55@afkc245.neoplus.adsl.tpnet.pl) has joined #c++
+2015-09-07 17:18:14	⇄	PIssedOff is now known as Paprikachu
+2015-09-07 17:20:24	Codex_	though different yellow presses seem to be confused about what causes the ads to be visible in youtube
+2015-09-07 17:20:29	<	freaksken (~freaksken@host81-157-245-72.range81-157.btcentralplus.com) has quit (Ping timeout)
+2015-09-07 17:20:29	⇄	fr3aksken is now known as freaksken
+2015-09-07 17:20:57	<	M0wLaue (~M0wLaue@ip5f5adb08.dynamic.kabel-deutschland.de) has quit (Ping timeout)
+2015-09-07 17:21:35	>	Tubbles (~johan@c-9369e555.032-853-6e6b701.cust.bredbandsbolaget.se) has joined #c++

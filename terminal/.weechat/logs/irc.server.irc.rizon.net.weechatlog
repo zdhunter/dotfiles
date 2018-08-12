@@ -1,0 +1,171 @@
+2014-04-24 16:08:02	 - 	irc: connecting to server irc.rizon.net/6667...
+2014-04-24 16:08:02	 - 	irc: connected to irc.rizon.net/6667 (208.100.38.65)
+2014-04-24 16:08:03	 - 	* :Please wait while we process your connection.
+2014-04-24 16:08:03	 - 	irc.sxci.net (irc.sxci.net): *** Looking up your hostname...
+2014-04-24 16:08:03	 - 	irc.sxci.net (irc.sxci.net): *** Checking Ident
+2014-04-24 16:08:03	 - 	irc.sxci.net (irc.sxci.net): *** Couldn't look up your hostname
+2014-04-24 16:08:04	 - 	irc.sxci.net (irc.sxci.net): *** No Ident response
+2014-04-24 16:08:04	 - 	*: 2spooky :Erroneous Nickname
+2014-04-24 16:08:04	 !!! 	irc: nickname "2spooky" is invalid, trying nickname " rawks"
+2014-04-24 16:08:16	 - 	irc.sxci.net (irc.sxci.net): *** Your host is masked (1BC637D1.7D19B611.441E21D0.IP)
+2014-04-24 16:08:16	 - 	Welcome to the Rizon Internet Relay Chat Network rawks
+2014-04-24 16:08:16	 - 	Your host is irc.sxci.net[208.100.38.65/6667], running version hybrid-7.2.3+plexus-3.1.0(20130128_0-537)
+2014-04-24 16:08:16	 - 	This server was created Jan 28 2013 at 13:15:41
+2014-04-24 16:08:16	 - 	irc.sxci.net hybrid-7.2.3+plexus-3.1.0(20130128_0-537) CDFGNRSUWXabcdfgijklnopqrsuwxyz BIMNORSabcehiklmnopqstvz Iabehkloqv
+2014-04-24 16:08:16	 - 	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 TOPICLEN=390 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ NETWORK=Rizon MAXLIST=beI:250 TARGMAX=ACCEPT:,KICK:1,LIST:1,NAMES:1,NOTICE:4,PRIVMSG:4,WHOIS:1 CHANTYPES=# :are supported by this server
+2014-04-24 16:08:16	 - 	CHANLIMIT=#:75 CHANNELLEN=50 CHANMODES=beI,k,l,BCMNORScimnpstz FNC ELIST=CMNTU SAFELIST NAMESX UHNAMES AWAYLEN=160 KNOCK EXCEPTS=e INVEX=I :are supported by this server
+2014-04-24 16:08:16	 - 	08CACBN8E :your unique ID
+2014-04-24 16:08:16	 - 	There are 30 users and 22040 invisible on 17 servers
+2014-04-24 16:08:16	 - 	75 :IRC Operators online
+2014-04-24 16:08:16	 - 	856 :unknown connection(s)
+2014-04-24 16:08:16	 - 	22111 :channels formed
+2014-04-24 16:08:16	 - 	I have 22070 clients and 0 servers
+2014-04-24 16:08:16	 - 	22070 26117 :Current local users 22070, max 26117
+2014-04-24 16:08:16	 - 	22070 26117 :Current global users 22070, max 26117
+2014-04-24 16:08:16	 - 	- irc.sxci.net Message of the Day -
+2014-04-24 16:08:16	 - 	-          oo                            
+2014-04-24 16:08:16	 - 	-
+2014-04-24 16:08:16	 - 	- 88d888b. dP d888888b .d8888b. 88d888b. 
+2014-04-24 16:08:16	 - 	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+2014-04-24 16:08:16	 - 	- 88       88  .Y8P    88.  .88 88    88 
+2014-04-24 16:08:16	 - 	- dP       dP d888888P `88888P' dP    dP
+2014-04-24 16:08:16	 - 	-
+2014-04-24 16:08:16	 - 	- Rizon Chat Network -- http://rizon.net
+2014-04-24 16:08:16	 - 	-
+2014-04-24 16:08:16	 - 	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+2014-04-24 16:08:16	 - 	-
+2014-04-24 16:08:16	 - 	- Rules:
+2014-04-24 16:08:16	 - 	- o No spamming or flooding
+2014-04-24 16:08:16	 - 	- o No clones or malicious bots
+2014-04-24 16:08:16	 - 	- o No takeovers
+2014-04-24 16:08:16	 - 	- o No distribution of child pornography
+2014-04-24 16:08:16	 - 	- o Clients must respond to VERSION requests
+2014-04-24 16:08:16	 - 	- o Rizon staff may disconnect clients for any or no reason
+2014-04-24 16:08:16	 - 	-
+2014-04-24 16:08:16	 - 	- First steps:
+2014-04-24 16:08:16	 - 	- o To register your nick: /msg NickServ HELP
+2014-04-24 16:08:16	 - 	- o To register your channel: /msg ChanServ HELP
+2014-04-24 16:08:16	 - 	- o To get a vHost: /msg HostServ HELP REQUEST
+2014-04-24 16:08:16	 - 	- o For other help with Rizon: /join #help
+2014-04-24 16:08:16	 - 	-
+2014-04-24 16:08:16	 - 	- Usage of this network is a privilege, not a right. Rizon is a
+2014-04-24 16:08:16	 - 	- transit provider, therefore no person or entity involved with
+2014-04-24 16:08:16	 - 	- *.rizon.net or irc.sxci.net takes any responsibility for
+2014-04-24 16:08:16	 - 	- users' actions. Absolutely no warranty is expressed or implied.
+2014-04-24 16:08:16	 - 	End of /MOTD command.
+2014-04-24 16:08:16	 - 	User mode [+ix] by rawks
+2014-04-24 16:08:16	 - 	CTCP requested by py-ctcp: VERSION
+2014-04-24 16:08:16	 - 	CTCP reply to py-ctcp: VERSION WeeChat 0.4.2 (Oct 25 2013)
+2014-04-24 16:08:16	 - 	Global (service@rizon.net): [Logon News - May 21 2011] First time on Rizon? Be sure to read the FAQ! http://s.rizon.net/FAQ
+2014-04-24 16:08:16	 - 	Global (service@rizon.net): [Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+2014-04-24 16:08:16	 - 	Global (service@rizon.net): [Random News - Mar 20 2009] Idle on Rizon a lot? Why not play our idlerpg game, you can check it out at #RizonIRPG for more information visit the website http://idlerpg.rizon.net -Rizon Staff
+2014-04-24 16:08:16	 - 	peer (service@rizon.net): For network safety, your client is being scanned for open proxies by scanner.rizon.net (80.65.51.219). This scan will not harm your computer.
+2014-07-14 16:32:51	 - 	irc: connecting to server irc.rizon.net/6667...
+2014-07-14 16:32:51	 - 	irc: connected to irc.rizon.net/6667 (76.72.161.18)
+2014-07-14 16:32:52	 - 	* :Please wait while we process your connection.
+2014-07-14 16:32:52	 - 	irc.broke-it.com (irc.broke-it.com): *** Looking up your hostname...
+2014-07-14 16:32:52	 - 	irc.broke-it.com (irc.broke-it.com): *** Checking Ident
+2014-07-14 16:32:52	 - 	irc.broke-it.com (irc.broke-it.com): *** Couldn't look up your hostname
+2014-07-14 16:32:53	 - 	irc.broke-it.com (irc.broke-it.com): *** No Ident response
+2014-07-14 16:32:53	 - 	*: 2spooky :Erroneous Nickname
+2014-07-14 16:32:53	 !!! 	irc: nickname "2spooky" is invalid, trying nickname " rawks"
+2014-07-14 16:32:53	 - 	irc.broke-it.com (irc.broke-it.com): *** Your host is masked (56CAF3DB.E67FC6B6.441E21D0.IP)
+2014-07-14 16:32:53	 - 	Welcome to the Rizon Internet Relay Chat Network rawks
+2014-07-14 16:32:53	 - 	Your host is irc.broke-it.com, running version hybrid-7.2.3+plexus-3.1.0(20140509_0-542)
+2014-07-14 16:32:53	 - 	This server was created Jun 11 2014 at 16:40:32
+2014-07-14 16:32:53	 - 	irc.broke-it.com hybrid-7.2.3+plexus-3.1.0(20140509_0-542) CDFGNRSUWXabcdfgijklnopqrsuwxyz BIMNORSabcehiklmnopqstvz Iabehkloqv
+2014-07-14 16:32:53	 - 	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 TOPICLEN=390 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ NETWORK=Rizon MAXLIST=beI:250 TARGMAX=ACCEPT:,KICK:1,LIST:1,NAMES:1,NOTICE:4,PRIVMSG:4,WHOIS:1 CHANTYPES=# :are supported by this server
+2014-07-14 16:32:53	 - 	CHANLIMIT=#:75 CHANNELLEN=50 CHANMODES=beI,k,l,BCMNORScimnpstz AWAYLEN=160 KNOCK NAMESX UHNAMES ELIST=CMNTU SAFELIST FNC EXCEPTS=e INVEX=I :are supported by this server
+2014-07-14 16:32:53	 - 	90CAAE60K :your unique ID
+2014-07-14 16:32:53	 - 	There are 34 users and 21477 invisible on 21 servers
+2014-07-14 16:32:53	 - 	82 :IRC Operators online
+2014-07-14 16:32:53	 - 	2 :unknown connection(s)
+2014-07-14 16:32:53	 - 	21605 :channels formed
+2014-07-14 16:32:53	 - 	I have 21511 clients and 21 servers
+2014-07-14 16:32:53	 - 	21511 23046 :Current local users 21511, max 23046
+2014-07-14 16:32:53	 - 	21511 23046 :Current global users 21511, max 23046
+2014-07-14 16:32:53	 - 	- irc.broke-it.com Message of the Day -
+2014-07-14 16:32:53	 - 	-    Welcome to irc.broke-it.com
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-         Now its time for **UPDATED** conversational spanish with grimlock
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    Las ardillas. Me persiguen. Quieren mis tuercas pero no pueden tenerlas.
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    no habla? the squirrels. they chase me. they want my nuts but they
+2014-07-14 16:32:53	 - 	-    can not have them.
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    El gato en mi pantalones, quiere mi burrito. Pero el no puede
+2014-07-14 16:32:53	 - 	-    tenerlo. No compartire con el.
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    Still no habla? the cat in my pants, he wants my burrito. But he can
+2014-07-14 16:32:53	 - 	-    not have it. I will not share with him.
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    Por que el perro que lame mis bolas? Debo de haber banado en mantequilla
+2014-07-14 16:32:53	 - 	-    de mani de nuevo ...
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    Really!?!? No habla?! You really need to work on your spanglish skills..
+2014-07-14 16:32:53	 - 	-    Why is the dog licking my balls? I must have bathed in peanut butter
+2014-07-14 16:32:53	 - 	-    again...
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    Cuando salgo de la peluqueria despues de tener mi espalda afeitado, me
+2014-07-14 16:32:53	 - 	-    doy cuenta de que seria mucho mas barato tener un rebano de cabras.
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    You really need to sign up for my formal spanish lessons.  I can teach
+2014-07-14 16:32:53	 - 	-    many more useful phrases phrases!  When I leave the barber after having
+2014-07-14 16:32:53	 - 	-    my back shaved, I realize it would be much cheaper to own a herd of goats.
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    Usted dice que el tomate, digo que me gusta la leche con chocolate y
+2014-07-14 16:32:53	 - 	-    panecillos. Has visto a mi cepillo de dientes?
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    My lesson rates are very reasonable!  I can teach you to splanglish like
+2014-07-14 16:32:53	 - 	-    I do!  You say tomato, I say I like chocolate milk and bagels.  Have you
+2014-07-14 16:32:53	 - 	-    seen my toothbrush?
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    mi escroto es como un helicóptero de dolor. no recibir un golpe en el oj
+2014-07-14 16:32:53	 - 	-    o con esa mierda.
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-    I am considering expanding my lessons to french.  Did you know I spoke
+2014-07-14 16:32:53	 - 	-    french?  I speak it quite well.  My ball sack is like a helicopter of pain.
+2014-07-14 16:32:53	 - 	-    Do not get hit in the eye with that shit.
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-         This has been conversational spanish with grimlock, time for
+2014-07-14 16:32:53	 - 	-         something more serious.
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	-          oo                            
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	- 88d888b. dP d888888b .d8888b. 88d888b. 
+2014-07-14 16:32:53	 - 	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+2014-07-14 16:32:53	 - 	- 88       88  .Y8P    88.  .88 88    88 
+2014-07-14 16:32:53	 - 	- dP       dP d888888P `88888P' dP    dP
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	- Rizon Chat Network -- http://rizon.net
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	- Rules:
+2014-07-14 16:32:53	 - 	- o No spamming or flooding
+2014-07-14 16:32:53	 - 	- o No clones or malicious bots
+2014-07-14 16:32:53	 - 	- o No takeovers
+2014-07-14 16:32:53	 - 	- o No distribution of child pornography
+2014-07-14 16:32:53	 - 	- o Clients must respond to VERSION requests
+2014-07-14 16:32:53	 - 	- o Rizon staff may disconnect clients for any or no reason
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	- First steps:
+2014-07-14 16:32:53	 - 	- o To register your nick: /msg NickServ HELP
+2014-07-14 16:32:53	 - 	- o To register your channel: /msg ChanServ HELP
+2014-07-14 16:32:53	 - 	- o To get a vHost: /msg HostServ HELP REQUEST
+2014-07-14 16:32:53	 - 	- o For other help with Rizon: /join #help
+2014-07-14 16:32:53	 - 	-
+2014-07-14 16:32:53	 - 	- Usage of this network is a privilege, not a right. Rizon is a
+2014-07-14 16:32:53	 - 	- transit provider, therefore no person or entity involved with
+2014-07-14 16:32:53	 - 	- *.rizon.net or irc.broke-it.com takes any responsibility for
+2014-07-14 16:32:53	 - 	- users' actions. Absolutely no warranty is expressed or implied.
+2014-07-14 16:32:53	 - 	End of /MOTD command.
+2014-07-14 16:32:53	 - 	User mode [+ix] by rawks
+2014-07-14 16:32:53	 - 	CTCP requested by py-ctcp: VERSION
+2014-07-14 16:32:53	 - 	CTCP reply to py-ctcp: VERSION WeeChat 0.4.2 (Oct 25 2013)
+2014-07-14 16:32:53	 - 	Global (service@rizon.net): [Logon News - May 21 2011] First time on Rizon? Be sure to read the FAQ! http://s.rizon.net/FAQ
+2014-07-14 16:32:53	 - 	Global (service@rizon.net): [Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+2014-07-14 16:32:53	 - 	Global (service@rizon.net): [Random News - Mar 20 2009] Idle on Rizon a lot? Why not play our idlerpg game, you can check it out at #RizonIRPG for more information visit the website http://idlerpg.rizon.net -Rizon Staff
+2014-07-14 16:32:53	 - 	peer (service@rizon.net): For network safety, your client is being scanned for open proxies by scanner.rizon.net (80.65.51.219). This scan will not harm your computer.
+2014-07-14 16:59:56	 - 	irc: disconnected from server

@@ -1,0 +1,240 @@
+2016-03-16 17:03:14	>	alex1 (~alex@1F5863FA.D1F8A100.441E21D0.IP) has joined #c++
+2016-03-16 17:03:14	⇄	Topic for #c++ is "The place for C++ | Rule: Got Code? Paste -> http://codepad.org/?lang=C%2B%2B | Maxima omnium virtutum est Patientia | Don't ask to ask, just ask. | There's also #C and #python | If you ask and there's nobody around, it may take some time to get a reply. | C++ Compilers: http://bit.ly/1fbv20s | Book: http://www.stroustrup.com/4th.html | Walnut's Downfall: https://i.imgur.com/qDOhwvp.png"
+2016-03-16 17:03:14	⇄	Topic set by TRON (~tron@baron.von.palitroque) on lun, 12 oct 2015 21:40:54
+2016-03-16 17:03:14	⇄	Channel #c++: 116 nicks (6 ops, 6 halfops, 3 voices, 101 normals)
+2016-03-16 17:03:16	⇄	Channel created on dom, 26 feb 2006 23:05:10
+2016-03-16 17:07:37	<	Vincent7 (~NoIdent@just.where.to.go) has quit (Ping timeout: 240 seconds)
+2016-03-16 17:19:00	<	Katsuo (~Katuso@baka.no.unko) has quit (Ping timeout: 240 seconds)
+2016-03-16 17:19:11	>	XHunter (~a5p63ksp@Rizon-A06240FA.red.bezeqint.net) has joined #c++
+2016-03-16 17:20:57	<	XHunter2 (~a5p63ksp@Rizon-962AF94B.cg-dialup.net) has quit (Ping timeout: 240 seconds)
+2016-03-16 17:25:19	>	Katsuo (~Katuso@baka.no.unko) has joined #c++
+2016-03-16 17:27:31	>	trebizond952 (~trebizond@3E8215DC.70B0100A.5266FBB4.IP) has joined #c++
+2016-03-16 17:27:34	<	trebizond952 (~trebizond@3E8215DC.70B0100A.5266FBB4.IP) has quit (Connection closed)
+2016-03-16 17:31:21	@TRON	wtf do you need an arduino simulator for?
+2016-03-16 17:34:51	@TRON	http://arstechnica.com/the-multiverse/2016/03/disney-announces-new-indiana-jones-movie-with-harrison-ford/
+2016-03-16 17:35:00	@TRON	to quote darth vader "NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!"
+2016-03-16 17:36:51	freaksken	to quote luke skywalker: No, no, that's not true, that's impossible! ... NOOOOOOOOOOOOOOOOOOOOOOO!!! NOOOOOOOOO!
+2016-03-16 17:37:12	%Shahid	will it star the DO IT guy?
+2016-03-16 17:37:17	@TRON	well, it can't be as bad as that rumored crystal skull movie
+2016-03-16 17:37:43	freaksken	it needs to star short round
+2016-03-16 17:37:54	@TRON	that would be nice
+2016-03-16 17:37:57	freaksken	who's like 50 by now as well
+2016-03-16 17:38:01	@TRON	but i don't think short round is short anymore
+2016-03-16 17:39:42	freaksken	apparently he's 1.63m
+2016-03-16 17:39:46	freaksken	that's pretty short still
+2016-03-16 17:40:02	freaksken	they should get him and turn it into a comedy
+2016-03-16 17:46:51	<	XHunter (~a5p63ksp@Rizon-A06240FA.red.bezeqint.net) has quit (Quit: Nettalk6 - www.ntalk.de)
+2016-03-16 18:02:29	StereoBucket	TRON, to do some work without having an actual physical arduino 
+2016-03-16 18:03:09	StereoBucket	wew just making a single String object adds 1KB of stuff into flash memory.But that's just for the first object.
+2016-03-16 18:03:18	@TRON	https://github.com/buserror/simavr   <-- what about this?
+2016-03-16 18:03:29	@TRON	also, wtf are you doing with objects?
+2016-03-16 18:03:43	StereoBucket	Nothing now
+2016-03-16 18:03:51	StereoBucket	Just testing what does what in terms of memory usage
+2016-03-16 18:04:13	@TRON	neat
+2016-03-16 18:04:19	@TRON	this thing has VCD support
+2016-03-16 18:05:09	StereoBucket	Neat.
+2016-03-16 18:05:15	%nevodka	neato
+2016-03-16 18:05:41	%nevodka	computer architecture final in t minus 55 minutes
+2016-03-16 18:05:53	StereoBucket	I also want to find a way how much SRAM something ends up using.for a bit of experimenting here and there.
+2016-03-16 18:06:02	StereoBucket	find a way to see how*
+2016-03-16 18:06:14	@TRON	avr-nm
+2016-03-16 18:06:41	@TRON	http://www.nongnu.org/avr-libc/user-manual/FAQ.html#faq_ramoverlap
+2016-03-16 18:07:25	@TRON	http://www.nongnu.org/avr-libc/user-manual/malloc.html
+2016-03-16 18:08:15	freaksken	https://madeupandprobablydoesnotexist.com/taskbar/
+2016-03-16 18:08:17	StereoBucket	Thanks
+2016-03-16 18:09:23	StereoBucket	LOCK THE TASKBAR
+2016-03-16 18:09:24	@TRON	i click on start and nothing happens
+2016-03-16 18:09:31	freaksken	Shareef don't like it!
+2016-03-16 18:09:33	StereoBucket	lock the taskbar!
+2016-03-16 18:09:36	StereoBucket	lock the taskbar!
+2016-03-16 18:09:37	freaksken	lock the taskbah!
+2016-03-16 18:09:41	StereoBucket	:D
+2016-03-16 18:09:44	StereoBucket	I love you for that
+2016-03-16 18:09:51	@TRON	i click on the toolbars button and nothing happens either
+2016-03-16 18:09:54	freaksken	:D
+2016-03-16 18:10:07	freaksken	come on, TRON, just lock the taskbah
+2016-03-16 18:10:12	@TRON	i can't even start a task manager!
+2016-03-16 18:10:19	StereoBucket	WHERE IS YOUR GOD NOW 
+2016-03-16 18:10:27	@TRON	nothing happens?
+2016-03-16 18:11:07	StereoBucket	click lock task manager,make sure your speakers are on
+2016-03-16 18:11:11	StereoBucket	task bar*
+2016-03-16 18:11:12	StereoBucket	dammit
+2016-03-16 18:11:22	@TRON	html5 audio/video?
+2016-03-16 18:11:25	 *	TRON has that disabled
+2016-03-16 18:11:31	freaksken	your loss :)
+2016-03-16 18:11:35	StereoBucket	anyway TRON how do I use this thing you linked 
+2016-03-16 18:11:58	@TRON	it's right there on the manual
+2016-03-16 18:12:12	@TRON	"You can simply run avr-nm on your output (ELF) file. Run it with the -n option, and it will sort the symbols numerically (by default, they are sorted alphabetically)."
+2016-03-16 18:12:26	@TRON	"Look for the symbol _end, that's the first address in RAM that is not allocated by a variable."
+2016-03-16 18:13:22	StereoBucket	Yeah the problem is I don't know how to do that. 
+2016-03-16 18:14:07	StereoBucket	wew,compiler warnings are disabled by arduino IDE.
+2016-03-16 18:14:28	StereoBucket	I wonder if thats the reason everything looks good most of the time
+2016-03-16 18:18:26	@TRON	you don't know how to run a command
+2016-03-16 18:18:29	@TRON	on a terminal
+2016-03-16 18:18:35	@TRON	against a file generated by a compiler
+2016-03-16 18:19:06	StereoBucket	I don't have a terminal ,I don't even know where this thing saves the binaries 
+2016-03-16 18:19:08	>	_Sata_ (~no@ridi.pagliaccio.sul.tuo.amore.infranto) has joined #c++
+2016-03-16 18:19:18	@TRON	the maybe, just maybe
+2016-03-16 18:19:23	@TRON	you should stop using baby toys
+2016-03-16 18:19:26	StereoBucket	Anyway I found some stuff
+2016-03-16 18:19:30	@TRON	and move up to where the grown ups are at
+2016-03-16 18:19:39	&indi	^_^;
+2016-03-16 18:19:45	StereoBucket	I located avr-nm now I'm trying to find what it does with binaries
+2016-03-16 18:20:12	@TRON	probably on the same directory it keeps the hex file at
+2016-03-16 18:20:25	StereoBucket	Seems like it may be a temporary folder
+2016-03-16 18:21:18	 *	TRON can't wait until microchip kills avr
+2016-03-16 18:23:11	StereoBucket	whats up with microchip
+2016-03-16 18:23:23	@TRON	https://en.wikipedia.org/wiki/Atmel#Acquisition_by_Microchip_Technology
+2016-03-16 18:23:29	%nevodka	V_V;
+2016-03-16 18:23:49	@TRON	unlike atmel, microchip doesn't give away free compilers
+2016-03-16 18:23:52	@TRON	they sell the stuff
+2016-03-16 18:23:58	@TRON	moreover
+2016-03-16 18:24:16	@TRON	AVR microcontrollers are vastly inferior to microchip's PIC32 cores
+2016-03-16 18:24:28	@TRON	there's really no reason to keep them around
+2016-03-16 18:24:57	StereoBucket	I found the elf file
+2016-03-16 18:25:15	@TRON	now run avr-nm -n on it
+2016-03-16 18:25:22	@TRON	and look for _end
+2016-03-16 18:25:42	@TRON	subtract 0x800000 from it
+2016-03-16 18:25:56	@TRON	and the space from there to RAMEND is how much SRAM you have left over
+2016-03-16 18:26:12	@TRON	[that RAM is shared between the stack and heap]
+2016-03-16 18:26:35	@TRON	if you really are concerned about your dynamic RAM usage
+2016-03-16 18:26:43	@TRON	you can eitehr get a debugger and watch the _end symbol
+2016-03-16 18:26:58	@TRON	or you can do a hack and
+2016-03-16 18:27:02	<	freaksken (~freaksken@Rizon-B2A9E941.range109-151.btcentralplus.com) has quit (Ping timeout: 240 seconds)
+2016-03-16 18:27:04	@TRON	extern void* _end;
+2016-03-16 18:27:13	@TRON	and you will be able to use _end in your code
+2016-03-16 18:27:27	@TRON	as for the stack pointer, it is a pair of registers inside the MCU
+2016-03-16 18:27:33	@TRON	SPH and SPL, iirc
+2016-03-16 18:28:17	@TRON	http://www.avr-asm-tutorial.net/avr_gra/ports_m8.gif   <-- yep
+2016-03-16 18:28:22	@TRON	right below SREG
+2016-03-16 18:29:14	@TRON	so you can actually read the stack pointer by just reading from absolute address 0x5d and 0x5e
+2016-03-16 18:30:03	@TRON	#define STACK_POINTER *((volatile uint16_t*)0x5d)
+2016-03-16 18:30:34	@TRON	mind you, i would go with a debugger instead
+2016-03-16 18:30:51	@TRON	[then again, arduino is so mediocre that not even the hardware comes with a debugger]
+2016-03-16 18:32:00	StereoBucket	Might need something better than this modern looking IDE aswell 
+2016-03-16 18:32:17	StereoBucket	I don't really like it
+2016-03-16 18:32:45	StereoBucket	008002de N _end found the thing btw
+2016-03-16 18:33:51	@TRON	now, find RAMEND
+2016-03-16 18:33:57	@TRON	[the top address in RAM]
+2016-03-16 18:34:23	@TRON	since you have 2k = 2048 bytes = 0x800
+2016-03-16 18:34:40	StereoBucket	this was compiled for Mega which has 8 k of ram
+2016-03-16 18:35:26	@TRON	so you have about 7.5k shared between the stack and heap
+2016-03-16 18:36:17	Behemoth	do u guys use IDEs
+2016-03-16 18:36:23	Behemoth	or just text editors 
+2016-03-16 18:36:31	@TRON	depends
+2016-03-16 18:36:33	@TRON	for my latest project
+2016-03-16 18:36:39	@TRON	which has ARM code and MSP430 code
+2016-03-16 18:36:45	@TRON	i am using trusty vim
+2016-03-16 18:36:52	@TRON	and a makefile on a terminal
+2016-03-16 18:36:53	Behemoth	awww year
+2016-03-16 18:36:56	Behemoth	vim is good
+2016-03-16 18:37:15	@TRON	https://i.imgur.com/UbApt3q.png   <-- StereoBucket, just putting this out there
+2016-03-16 18:38:03	@TRON	seriously, lose the baby toys
+2016-03-16 18:38:21	Behemoth	baby toys
+2016-03-16 18:38:21	Behemoth	wut
+2016-03-16 18:38:30	@TRON	arduino "IDE"
+2016-03-16 18:38:35	StereoBucket	He wants me to ditch the arduino libraries and IDE
+2016-03-16 18:38:54	StereoBucket	what IDE do you use for this
+2016-03-16 18:38:57	Behemoth	what are you supposed to use 
+2016-03-16 18:39:16	@TRON	https://upload.wikimedia.org/wikipedia/en/d/d9/Arduino_1.0_IDE,_Ubuntu_11.10.png   <-- this is the "IDE" for arduino
+2016-03-16 18:39:29	@TRON	StereoBucket: i don't use one most of the times
+2016-03-16 18:39:40	@TRON	but i can do AVR on eclipse if i want to
+2016-03-16 18:39:44	@TRON	see screenshot
+2016-03-16 18:40:58	StereoBucket	For now I'll have to use this "IDE". I agree,it's a bit silly looking
+2016-03-16 18:41:15	Behemoth	and if you dont use the ide
+2016-03-16 18:41:17	Behemoth	what do you do
+2016-03-16 18:41:28	StereoBucket	You use other IDE =D
+2016-03-16 18:41:31	StereoBucket	or no IDE
+2016-03-16 18:41:34	@TRON	you can still code an AVR chip
+2016-03-16 18:41:48	@TRON	the arduino is just an AVR chip with a 16MHz crystal on a board
+2016-03-16 18:41:55	D9	TRON you highlighted my nick :P
+2016-03-16 18:42:02	@TRON	and some of the chip's GPIO broken out
+2016-03-16 18:42:19	@TRON	the boards are even badly designed
+2016-03-16 18:42:25	StereoBucket	Good thing is arduino IDE allows you to use external editors :3
+2016-03-16 18:42:27	@TRON	apologies
+2016-03-16 18:42:45	@TRON	for starters, modern avr chips can run at 20MHz
+2016-03-16 18:43:04	Behemoth	so are arduinos badly designed
+2016-03-16 18:43:05	Behemoth	or what
+2016-03-16 18:43:19	@TRON	they still clock them at 16MHz to keep compatibility with the first arduino board
+2016-03-16 18:43:28	@TRON	which had an ATmega8
+2016-03-16 18:43:36	@TRON	[maximum clock of 16MHz]
+2016-03-16 18:43:43	D9	arduinos are good for at home fun, but you won't see them embedded in any systems
+2016-03-16 18:43:54	@TRON	then, there's the retarded 50mil spacing between their header for PORTB and PORTD
+2016-03-16 18:44:05	>	StereoBucket_ (~StereoBuc@2401FFFF.3E120EDB.B69B63C0.IP) has joined #c++
+2016-03-16 18:44:10	@TRON	instead of the easier to prototype 100mil pinout
+2016-03-16 18:44:11	StereoBucket_	This is why we cant have nice things
+2016-03-16 18:44:33	@TRON	they keep the retarded pinout for, you guessed, compatibility
+2016-03-16 18:45:04	StereoBucket_	due goes up to 86 mhz but its an arm 
+2016-03-16 18:45:04	@TRON	then, come the arduino uno
+2016-03-16 18:45:16	@TRON	you actually get TWO microcontrollers in there
+2016-03-16 18:45:21	@TRON	the main guy
+2016-03-16 18:45:26	@TRON	and atmega32u
+2016-03-16 18:45:36	@TRON	which is programmed as a TTLserial to USB bridge
+2016-03-16 18:45:45	alex1	they are cheap anough to justify their shitty performance
+2016-03-16 18:46:04	@TRON	really? because the MSP430 experimenter boards from TI are even cheaper
+2016-03-16 18:46:09	@TRON	and miles ahead of the arduino
+2016-03-16 18:46:27	@TRON	and if you want to use the crap software that arduino ships with
+2016-03-16 18:46:34	@TRON	there's even a clone for the MSP430 boards
+2016-03-16 18:46:48	alex1	well you gotta take into account aviabilty, aruidnos are everywhere, take minutes to set up
+2016-03-16 18:46:50	@TRON	http://energia.nu/
+2016-03-16 18:47:00	<	StereoBucket (~StereoBuc@2401FFFF.3E120EDB.B69B63C0.IP) has quit (Ping timeout: 240 seconds)
+2016-03-16 18:47:14	@TRON	i must be looking at the wrong places then
+2016-03-16 18:47:32	@TRON	frankly, i am glad i don't work with avr anymore
+2016-03-16 18:47:55	@TRON	and i said it before, i can't wait for microchip to kill avr once and for all
+2016-03-16 18:48:04	D9	I personally cannot think of a single use for a microcontroller, but I have experience programming them at uni
+2016-03-16 18:48:35	StereoBucket_	https://www.arduino.cc/en/Main/ArduinoBoardTre look at this tho
+2016-03-16 18:49:15	@TRON	neat, a sitara
+2016-03-16 18:49:44	@TRON	why the hell is there still an atmega chip there?
+2016-03-16 18:49:53	@TRON	AT 16MHz
+2016-03-16 18:49:57	@TRON	WTF ARE THEY THINKING?!?
+2016-03-16 18:50:02	@TRON	SERIOUSLY
+2016-03-16 18:50:09	@TRON	the sitara runs at 3.3V
+2016-03-16 18:50:17	StereoBucket_	I dunno they put those 2 together ,cause, reasons
+2016-03-16 18:50:20	@TRON	you need to supply 5V to the atmega chip for it to run at 16MHz
+2016-03-16 18:50:28	@TRON	so now you have to bridge the two voltages
+2016-03-16 18:50:31	@TRON	and as a kicker
+2016-03-16 18:50:47	@TRON	the stuff that you use with the atmega you can't use with the sitara
+2016-03-16 18:50:49	@TRON	or vice versa
+2016-03-16 18:51:02	@TRON	yep..., well thought out...
+2016-03-16 18:51:21	StereoBucket_	I think they removed this page from products list awhile ago
+2016-03-16 18:51:21	D9	Why does it list clock speed twice? one says 16MHx, the other 1 GHz
+2016-03-16 18:51:28	D9	quite a bit of difference
+2016-03-16 18:51:31	StereoBucket_	d9 it has 2 chips
+2016-03-16 18:51:32	@TRON	the atmega runs at 16MHz
+2016-03-16 18:51:36	@TRON	the sitara runs at 1GHz
+2016-03-16 18:53:00	@TRON	http://www.ti.com/tool/TMDSSK3358 https://www.olimex.com/Products/SOM/AM3352/AM3352-SOM/
+2016-03-16 18:53:50	Behemoth	so tron
+2016-03-16 18:53:55	Behemoth	what kind of research do you do
+2016-03-16 18:54:03	@TRON	security
+2016-03-16 18:54:11	Behemoth	like advanced shit?
+2016-03-16 18:54:19	@TRON	code reuse attacks
+2016-03-16 18:54:29	Behemoth	defending against them then
+2016-03-16 18:54:35	@TRON	aye
+2016-03-16 18:54:46	Behemoth	is there a lot of hardware work involved in that then
+2016-03-16 18:56:11	@TRON	assembly level stuff
+2016-03-16 18:56:19	@TRON	and some architectural elements come into play
+2016-03-16 18:58:14	Behemoth	does it go into commercial apps
+2016-03-16 18:58:18	Behemoth	the stuff you guys research
+2016-03-16 18:59:08	@TRON	so far, we had a project with intel
+2016-03-16 18:59:16	@TRON	but i do not think it will go commercial
+2016-03-16 19:00:11	StereoBucket_	Alright gnight guys
+2016-03-16 19:00:14	StereoBucket_	Thanks for the help TRON
+2016-03-16 19:01:02	<	StereoBucket_ (~StereoBuc@2401FFFF.3E120EDB.B69B63C0.IP) has quit (Quit: Leaving)
+2016-03-16 19:01:14	@TRON	i don't know what i did, but ok
+2016-03-16 19:09:24	Behemoth	https://blog.codinghorror.com/separating-programming-sheep-from-non-programming-goats/
+2016-03-16 19:16:16	>	mr_wibble (Mibbit@696C08CD.B3494B05.A231CB70.IP) has joined #c++
+2016-03-16 19:16:19	<	mr_wibble (Mibbit@696C08CD.B3494B05.A231CB70.IP) has quit
+2016-03-16 19:21:31	<	weemsledeux (~frodo@Rizon-CFD3000.dhcp.leds.al.charter.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2016-03-16 19:40:37	<	xerox123-Mobile (uid111760@COLOUR.JIVE) has quit (Quit: Connection closed for inactivity)
+2016-03-16 20:27:10	>	Lyce (~Nyan@noob.coder) has joined #c++
+2016-03-16 20:28:18	<	_Sata_ (~no@ridi.pagliaccio.sul.tuo.amore.infranto) has quit (Ping timeout: 240 seconds)
+2016-03-16 20:29:49	<	Xylitol (~temari@user32.dll) has quit (Quit: Sharpen your sickle at sunset)
+2016-03-16 20:30:05	<	Kealy (~Nyan@noob.coder) has quit (Ping timeout: 240 seconds)
+2016-03-16 20:51:17	>	slakevc (~rose@B814A435.D4C281DB.2F8417CE.IP) has joined #c++
+2016-03-16 21:22:31	>	cbot (~FS@x.x.x) has joined #c++
+2016-03-16 21:34:32	<	Nayd (uid17537@Kernel.Is.All.Spoiled) has quit (Quit: Connection closed for inactivity)
+2016-03-16 21:55:52	>	Master_Bacon (~mrx@alcatraz.dish) has joined #c++
+2016-03-16 22:18:48	<	slakevc (~rose@B814A435.D4C281DB.2F8417CE.IP) has quit (Quit: Leaving)
+2016-03-16 22:36:21	<	Katsuo (~Katuso@baka.no.unko) has quit (Read error: Connection reset by peer)
+2016-03-16 22:38:05	>	AlphaKennyOne (~fig@60BB6584:F6C0DFF5:1F1A2C8E:IP) has joined #c++
+2016-03-16 22:38:18	<	Master_Bacon (~mrx@alcatraz.dish) has quit (Ping timeout: 240 seconds)

@@ -1,0 +1,129 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("declare" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strict_types" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [712 726]))                  
+                :type ("php" type (:type "class") nil nil))
+                nil [3 728])
+            ("session_start" function
+               (:prototype-flag t
+                :type "int")
+                nil [729 745])
+            ("require_once" function
+               (:prototype-flag t
+                :type "int")
+                nil [869 899])
+            ("include" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [976 981]))                  
+                :type "int")
+                nil [968 1000])
+            ("include" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1009 1014]))                  
+                :type "int")
+                nil [1001 1036])
+            ("include" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1045 1050]))                  
+                :type "int")
+                nil [1037 1066])
+            ("processRequest" function
+               (:prototype-flag t
+                :type "int")
+                nil [1213 1230])
+            ("processRequest" function (:type ("function" type (:type "class") nil nil)) nil [1231 3548])
+            ("dispatchRequest" function
+               (:arguments 
+                  ( ("" variable (:type ("file" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3901 3906])
+                    ("" variable (:type ("function" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3908 3917])
+                    ("" variable (:type ("parameters" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3919 3930]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [3875 4106])
+            ("validateLoginAttempt" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4236 4248]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [4205 5771])
+            ("validateLoginData" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5949 5961]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [5921 6826])
+            ("saveRequest" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6943 6955]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [6921 7743])
+            ("checkForBan" function
+               (:arguments 
+                  ( ("" variable (:type ("ip" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7827 7830]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [7805 8300]))          
+      :file "index.php"
+      :pointmax 8301
+      :fsize 8300
+      :lastmodtime '(23402 25200 589019 0)
+      :unmatched-syntax '((punctuation 7826 . 7827) (punctuation 6942 . 6943) (punctuation 5948 . 5949) (punctuation 4235 . 4236) (punctuation 3918 . 3919) (punctuation 3907 . 3908) (punctuation 3900 . 3901) (string 1050 . 1064) (punctuation 1049 . 1050) (string 1014 . 1034) (punctuation 1013 . 1014) (string 981 . 998) (punctuation 980 . 981) (string 882 . 897) (punctuation 2 . 3) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("configure" function
+               (:prototype-flag t
+                :type ("php" type (:type "class") nil nil))
+                nil [3 93])
+            ("configure" function (:type ("function" type (:type "class") nil nil)) nil [140 3057])
+            ("configureHeaderStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [3467 3759])
+            ("configureFooterStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [3761 4036])
+            ("configureNavbarStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [4038 4489])
+            ("handleException" function
+               (:arguments 
+                  ( ("" variable (:type ("e" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4697 4699]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [4670 5941])
+            ("engine" variable
+               (:default-value "new TemplateEngine()"
+                :type "int")
+                nil [5164 5194])
+            ("headerTitle" variable
+               (:default-value "array ('title' => \"PROTO_PHP - ERROR\")"
+                :type "int")
+                nil [5200 5253])
+            ("renderHeader" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("headerTitle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5281 5293]))                  
+                :type "int")
+                nil [5267 5294])
+            ("renderPage" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("configureNavbarStaticContent" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5344 5374]))                  
+                :type "int")
+                nil [5308 5376])
+            ("renderFooter" function
+               (:prototype-flag t
+                :type "int")
+                nil [5911 5926])
+            ("exit" function
+               (:prototype-flag t
+                :type "int")
+                nil [5932 5939]))          
+      :file "configure.php"
+      :pointmax 5942
+      :fsize 5941
+      :lastmodtime '(23407 37608 726963 432000)
+      :unmatched-syntax nil))
+  :file "!var!www!html!proto_php!app!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

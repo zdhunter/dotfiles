@@ -1,0 +1,137 @@
+2014-04-15 15:43:56	 ++ 	alex1 (~alex@189.153.57.41) has joined #tox-dev
+2014-04-15 15:43:56	 - 	Topic for #tox-dev is "Tox Development Channel | Tox users go to #tox | Graphic designers #tox-gd | Core repo https://github.com/irungentoo/ProjectTox-Core/ | List of DHT bootstrap nodes http://wiki.tox.im/nodes | Paste text/code to https://gist.github.com/"
+2014-04-15 15:43:56	 - 	Topic set by nurupo (~nurupo.ga@unaffiliated/nurupo) on sáb, 01 mar 2014
+2014-04-15 15:43:56	 - 	Nicks #tox-dev: [@ChanServ @irungentoo @Martijnvdc @nurupo +aitjcize +astonex +CGM +d34th +fhahn +Jfreegman +JmanGuy +mouseym +notadecent +sonOfRa +stal[GL] +stqism Ac-town afics Airwave alex1 alexandervdm ant__ Benjojo blast_hardcheese C445 camron Ceropean codehero Cyberpew Cyberworm cysm Daizz Dhole diath domainguy Dragon092 ed- eitzei gamingrobot GGMethos gigetoo gruetzkopf halycon HappyLoaf hidgw ibloat IcanFLY inara intekula- Internet13 irsol irv jayne jdiez Jin|away joepie91 kancer1 kornholi kragniz leah_twoskin liq0de LordAro ludkiller Lunchb0x Manolis master_o1_master messenjah nemo` niqnaq Nothing4You_ paracyst platos pyfgcrl redwire rndbit ro runde ryan-c Rylee rypervenche ryukafalz seshagiri shweta_ SirCmpwn sn0w75 Someguy123 staplemac t3st3r tawm THE_CIA THE_KGB toweI urras viamodulo Vinski vozz weld Wessie wiruzx Zenexer zetok zhasha zkxs zorun]
+2014-04-15 15:43:56	 - 	Channel #tox-dev: 104 nicks (4 ops, 0 halfops, 12 voices, 88 normals)
+2014-04-15 15:43:59	 - 	Mode #tox-dev [+cnpt]
+2014-04-15 15:43:59	 - 	Channel created on lun, 29 jul 2013
+2014-04-15 15:44:03	alex1	sup
+2014-04-15 15:44:15	Zenexer	Just because Stallman gets wet over old technology doesn't mean it's good.
+2014-04-15 15:44:28	+stqism	Zenexer: And...supported. Commercially.
+2014-04-15 15:44:33	+stqism	Old != bad
+2014-04-15 15:44:40	Zenexer	In this case, old == bad
+2014-04-15 15:44:40	+mouseym	my centos server isnt affected by heartbleed... because my openssl version is ancient
+2014-04-15 15:44:46	+stqism	^
+2014-04-15 15:44:46	alex1	the fuck you say about stallman
+2014-04-15 15:44:57	Zenexer	alex1: Absolutely nothing.  Move along.
+2014-04-15 15:45:08	alex1	stallman is jesus
+2014-04-15 15:45:19	alex1	he even looks like him
+2014-04-15 15:45:29	Zenexer	Right, praise the lefties and all that
+2014-04-15 15:45:40	Zenexer	stqism: Canonical doesn't count as commercial?
+2014-04-15 15:45:50	THE_KGB	COMMUNISM
+2014-04-15 15:45:56	+stqism	Zenexer: They fully do
+2014-04-15 15:45:59	+mouseym	RUSSIA STRONK
+2014-04-15 15:46:11	+stqism	Zenexer: A lot of the work on the Linux kernel is a result of commercialism
+2014-04-15 15:46:38	Zenexer	stqism: Good, so 3.x is commercially supported.
+2014-04-15 15:46:45	Zenexer	Canonical advantage.
+2014-04-15 15:47:01	+stqism	Zenexer: To be fair, Red Hat is the billion dollar company here.
+2014-04-15 15:47:17	+stal[GL]	install bsd
+2014-04-15 15:47:26	THE_KGB	BETTER DEAD THEN RED
+2014-04-15 15:47:53	alex1	isn't red hat a jew rat hole
+2014-04-15 15:48:12	+stal[GL]	racist
+2014-04-15 15:48:19	Zenexer	I used to be a Red Hat fan
+2014-04-15 15:48:19	+stqism	They do a ton of the work on the Linux kernel, to be fair
+2014-04-15 15:48:36	Zenexer	Then all of my stuff was always buggy and out of date
+2014-04-15 15:48:47	Zenexer	And Debian across the street was so much more organized
+2014-04-15 15:49:03	Zenexer	And Ubuntu was even better, with patches for everything
+2014-04-15 15:49:12	Zenexer	...so Ubuntu won
+2014-04-15 15:49:22	+stqism	You're telling me you don't use Oracle Enterprise Linux with the unbreakable kernel?
+2014-04-15 15:49:24	+mouseym	ubongo is not a centos replacement
+2014-04-15 15:49:36	+stqism	Ubreakable Enterprise Kernel, rather
+2014-04-15 15:49:44	+stqism	mouseym: +1, other marketshares
+2014-04-15 15:50:01	+stal[GL]	linux is bloat
+2014-04-15 15:50:13	+stqism	^
+2014-04-15 15:50:17	+stal[GL]	bsd does not have this problem
+2014-04-15 15:50:22	+stqism	That kernel takes forever to compile, shit
+2014-04-15 15:50:32	Zenexer	Well, I use most of said bloat
+2014-04-15 15:50:36	+stqism	XNU is actually nice to develop with
+2014-04-15 15:51:10	 ++ 	weld_ (~weld@p57A80653.dip0.t-ipconnect.de) has joined #tox-dev
+2014-04-15 15:51:14	Zenexer	I use quite a few tools that require features not available outside of Linux
+2014-04-15 15:51:40	Zenexer	For example, I'm pretty sure Docker is incompatible with BSD due to lack of kernel support
+2014-04-15 15:51:42	+stqism	Please don't say they came from freedesktop
+2014-04-15 15:52:12	Zenexer	And if BSD doesn't have upstart, there's no way in hell that I'm switching.
+2014-04-15 15:52:30	+stqism	Zenexer: If you wanted to play that game, the FreeBSD kernel has a linuxulator module, it maps Linux kernel syscalls allowing it to run native Linux binaries natively.
+2014-04-15 15:52:32	Zenexer	SysV init is lame
+2014-04-15 15:52:44	Zenexer	stqism: Sounds like bloat :)
+2014-04-15 15:52:47	gruetzkopf	sysvinit best init
+2014-04-15 15:52:59	+stal[GL]	init is bloat
+2014-04-15 15:53:01	+stqism	Zenexer: Ubuntu is moving to systemd :)
+2014-04-15 15:53:08	alex1	good
+2014-04-15 15:53:11	Zenexer	No, Ubuntu is moving to Upstart
+2014-04-15 15:53:20	 !! 	mouseym (~mousey@92.40.248.148.threembb.co.uk) has quit (Remote host closed the connection)
+2014-04-15 15:53:23	zetok	Zenexer: lol
+2014-04-15 15:53:23	Zenexer	http://upstart.ubuntu.com/
+2014-04-15 15:53:31	+stqism	upstrart was made by Ubuntu
+2014-04-15 15:53:33	+stal[GL]	upstart is dead
+2014-04-15 15:53:36	 ++ 	mouseym (~mousey@92.40.248.148.threembb.co.uk) has joined #tox-dev
+2014-04-15 15:53:36	 - 	Mode #tox-dev [+v mouseym] by ChanServ
+2014-04-15 15:53:38	 !! 	weld (~weld@p57A8134A.dip0.t-ipconnect.de) has quit (Ping timeout: 245 seconds)
+2014-04-15 15:53:40	+stqism	http://www.zdnet.com/after-linux-civil-war-ubuntu-to-adopt-systemd-7000026373/
+2014-04-15 15:53:42	+stal[GL]	superseded by launchd
+2014-04-15 15:53:47	zetok	Zenexer: Get your facts first, then you can distort them as you please. -- Mark Twain
+2014-04-15 15:53:47	Zenexer	Lies
+2014-04-15 15:53:58	+stqism	Zenexer: http://www.zdnet.com/after-linux-civil-war-ubuntu-to-adopt-systemd-7000026373/ http://www.zdnet.com/after-linux-civil-war-ubuntu-to-adopt-systemd-7000026373/ http://www.zdnet.com/after-linux-civil-war-ubuntu-to-adopt-systemd-7000026373/ http://www.zdnet.com/after-linux-civil-war-ubuntu-to-adopt-systemd-7000026373/
+2014-04-15 15:54:02	zetok	so get facts right first
+2014-04-15 15:54:07	Zenexer	Uh...
+2014-04-15 15:54:15	Zenexer	I use Ubuntu every day
+2014-04-15 15:54:20	Zenexer	Everything is upstart
+2014-04-15 15:54:25	Zenexer	So...
+2014-04-15 15:54:31	+stqism	Moving, they made upstrart and are dropping it in future releases for systemd
+2014-04-15 15:54:38	alex1	doesn't change the fact its going to systemd
+2014-04-15 15:54:38	Zenexer	Ugh
+2014-04-15 15:54:51	Zenexer	Upstart was so awesome
+2014-04-15 15:54:53	Zenexer	Whyyyyy
+2014-04-15 15:54:58	alex1	systemd is better
+2014-04-15 15:54:59	+stqism	Zenexer: Hey look, Shuttleworths personal blog stating the move http://www.markshuttleworth.com/archives/1316
+2014-04-15 15:55:09	Zenexer	I don't even know who that is
+2014-04-15 15:55:10	+stqism	Zenexer: Only Gentoo is safe on the Linux front
+2014-04-15 15:55:18	leah_twoskin	^
+2014-04-15 15:55:22	+stqism	Zenexer: He's the CEO of Canonical
+2014-04-15 15:55:23	+stal[GL]	launchd is the best
+2014-04-15 15:55:30	zetok	perhaps Slackware too
+2014-04-15 15:55:33	+stal[GL]	you can't deny it
+2014-04-15 15:55:49	+stqism	He's the damn founder of Ubuntu
+2014-04-15 15:55:56	+stqism	The Linus of the Ubuntus
+2014-04-15 15:56:05	zetok	don't call him that
+2014-04-15 15:56:13	+stqism	It's true :(
+2014-04-15 15:56:18	zetok	:/
+2014-04-15 15:56:27	Zenexer	It looks like they gave up, and they wanted to use upstart
+2014-04-15 15:56:40	+stqism	Even Debian joined them
+2014-04-15 15:56:45	Zenexer	Upstart is really slick.  It's lightweight, it's powerful, and it's easy to use
+2014-04-15 15:56:46	+stqism	Only Gentoo
+2014-04-15 15:56:47	zetok	Zenexer: even *buntu doesn't know what it really wants
+2014-04-15 15:57:03	+stqism	upstrart on Debian was actually very nice
+2014-04-15 15:57:17	Zenexer	Ugh I'm going to have to rewrite so much
+2014-04-15 15:57:57	Zenexer	"systemd is a system and session manager for Linux, compatible with SysV and LSB init scripts. systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux cgroups, supports snapshotting and restoring of the system state, maintains mount and automount points and
+2014-04-15 15:57:57	Zenexer	implements an elaborate transactional dependency-based service control logic."
+2014-04-15 15:58:04	Zenexer	I have to say, that sounds convincing.
+2014-04-15 15:58:10	+stqism	Systemd is going to kill Linux
+2014-04-15 15:58:25	leah_twoskin	mmm, segfault
+2014-04-15 15:58:27	leah_twoskin	So good.
+2014-04-15 15:59:18	+stqism	Zenexer: Passing the debug kernel parameter via grub on boot floods systemd causing it to not boot. They called this a feature, later trying to fix it by changing a kernel argument. Linus blew up on them, and refused to merge any more systemd shit
+2014-04-15 16:00:00	Zenexer	Haha
+2014-04-15 16:00:22	+stqism	Zenexer: The free desktop folks are designing things and not fixing major bugs, expecting others to work around it. They are also working on adding dhcp
+2014-04-15 16:00:22	Zenexer	Maybe Canonical sided with systemd just to fuck with Linus.
+2014-04-15 16:00:41	ro	dhcp?
+2014-04-15 16:00:54	Zenexer	If Canonical gets involved, I'm sure they'll give it a thorough cleanup.
+2014-04-15 16:00:56	+stqism	Zenexer: It's like astonex fixing a bug in Antox by breaking core with a pull request in every other client
+2014-04-15 16:01:11	Zenexer	Lost me on that one.
+2014-04-15 16:01:13	+stqism	ro: It assigns IPs and queries a dhcp server
+2014-04-15 16:01:34	Zenexer	Doesn't cloud-init already handle stuff like that?
+2014-04-15 16:01:59	Zenexer	Canonical should just do a final fork and go off in its own direction lol
+2014-04-15 16:03:03	+stqism	Zenexer: Imagine stal[GL] has an issue with poison where he used a incorrect argument in toxcore. He fixes it by switching the values around in toxcore, breaking everyone elses clients.
+2014-04-15 16:03:09	+stqism	That is what systemd does.
+2014-04-15 16:03:15	 !! 	wiruzx (~wiruzx@178.76.234.224) has quit (Remote host closed the connection)
+2014-04-15 16:04:09	Zenexer	I'm not well-versed on toxicology, sorry.
+2014-04-15 16:04:35	Zenexer	I have no idea who's doing what, etc.
+2014-04-15 16:05:00	ro	a client guy broke his client and he made it work by changing the core which breaks all the other clients
+2014-04-15 16:05:08	+stqism	Zenexer: It's like stal[GL] loosing a race, so he changes the rules and makes last place first.
+2014-04-15 16:06:01	+stal[GL]	i'm an okay runner
+2014-04-15 16:06:01	Zenexer	Yeah I got where you were going with it.  I just don't get the analogy lol
+2014-04-15 16:06:06	+stqism	The Linux kernel is laced with that shit because of systemd/wayland
+2014-04-15 16:06:17	+stal[GL]	it's unfeasible that i would finish first or last
+2014-04-15 16:06:34	+stqism	Zenexer: That's how they get around bugs.
+2014-04-15 16:08:29	ro	what's wrong with wayland?
+2014-04-15 16:10:05	 !! 	gigetoo (~gigetoo@c83-250-61-4.bredband.comhem.se) has quit (Remote host closed the connection)
+2014-04-15 16:11:36	 !! 	shweta_ (~quassel@59.94.168.74) has quit (Remote host closed the connection)
+2014-04-15 16:12:24	 ++ 	gigetoo (~gigetoo@c83-250-61-4.bredband.comhem.se) has joined #tox-dev

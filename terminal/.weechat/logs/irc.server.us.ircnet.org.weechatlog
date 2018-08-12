@@ -1,0 +1,144 @@
+2015-01-20 20:13:54	⇄	irc: connecting to server us.ircnet.org/6667...
+2015-01-20 20:13:55	⇄	irc: connected to us.ircnet.org/6667 (199.59.160.145)
+2015-01-20 20:13:55	⇄	* :Please wait while we process your connection.
+2015-01-20 20:14:27	⇄	*: 2spooky :Erroneous Nickname
+2015-01-20 20:14:27	+	irc: nickname "2spooky" is invalid, trying nickname " rawks"
+2015-01-20 20:14:27	⇄	Welcome to the Internet Relay Network rawks!~alex@189.153.231.224
+2015-01-20 20:14:27	⇄	Your host is ircnet.blacklotus.net, running version 2.11.2p3
+2015-01-20 20:14:27	⇄	This server was created Tue Apr 16 2013 at 09:51:23 UTC
+2015-01-20 20:14:27	⇄	ircnet.blacklotus.net 2.11.2p3 aoOirw abeiIklmnoOpqrRstv
+2015-01-20 20:14:27	⇄	RFC2812 PREFIX=(ov)@+ CHANTYPES=#&!+ MODES=3 CHANLIMIT=#&!+:21 NICKLEN=15 TOPICLEN=255 KICKLEN=255 MAXLIST=beIR:64 CHANNELLEN=50 IDCHAN=!:5 CHANMODES=beIR,k,l,imnpstaqr :are supported by this server
+2015-01-20 20:14:27	⇄	PENALTY FNC EXCEPTS=e INVEX=I CASEMAPPING=ascii NETWORK=IRCnet :are supported by this server
+2015-01-20 20:14:27	⇄	0PNBAX2TR :your unique ID
+2015-01-20 20:14:27	⇄	There are 42567 users and 4 services on 28 servers
+2015-01-20 20:14:27	⇄	110 :operators online
+2015-01-20 20:14:27	⇄	8 :unknown connections
+2015-01-20 20:14:27	⇄	25284 :channels formed
+2015-01-20 20:14:27	⇄	I have 1806 users, 0 services and 1 servers
+2015-01-20 20:14:27	⇄	1806 2660 :Current local users 1806, max 2660
+2015-01-20 20:14:27	⇄	42567 60206 :Current global users 42567, max 60206
+2015-01-20 20:14:27	⇄	- ircnet.blacklotus.net Message of the Day -
+2015-01-20 20:14:27	⇄	- 1/4/2013 10:58
+2015-01-20 20:14:27	⇄	-  Welcome to IRCnet!
+2015-01-20 20:14:27	⇄	-  Your connected server is: ircnet.blacklotus.net
+2015-01-20 20:14:27	⇄	-
+2015-01-20 20:14:27	⇄	-  This server is sponsored by Black Lotus Communications
+2015-01-20 20:14:27	⇄	-  Please visit our website: http://www.blacklotus.net
+2015-01-20 20:14:27	⇄	- ========================================================
+2015-01-20 20:14:27	⇄	-
+2015-01-20 20:14:27	⇄	- - We are open to all users over both IPv4 and IPv6.
+2015-01-20 20:14:27	⇄	-
+2015-01-20 20:14:27	⇄	-        - S E R V E R   R U L E S -
+2015-01-20 20:14:27	⇄	- - We reserve the right to deny service to
+2015-01-20 20:14:27	⇄	-   anyone at any time and for any reason.
+2015-01-20 20:14:27	⇄	- - We scan for open proxies on connect. If
+2015-01-20 20:14:27	⇄	-   you do not wish to be scanned, please do
+2015-01-20 20:14:27	⇄	-   not connect to this server.
+2015-01-20 20:14:27	⇄	-
+2015-01-20 20:14:27	⇄	- - Rules for shell providers and bot runners:
+2015-01-20 20:14:27	⇄	-   - Maximum of 3 clients per person/ident,
+2015-01-20 20:14:27	⇄	-   - identd is required and no ident spoofing,
+2015-01-20 20:14:27	⇄	-   - No changing a ident after a kline or giving
+2015-01-20 20:14:27	⇄	-      a single person multiple usernames
+2015-01-20 20:14:27	⇄	-
+2015-01-20 20:14:27	⇄	- - General limits (request changes via /admin):
+2015-01-20 20:14:27	⇄	-   - 3 clients per person/ident
+2015-01-20 20:14:27	⇄	-   - 3 clients per host (without ident)
+2015-01-20 20:14:27	⇄	-   - 20 clients per /24 in IPv4
+2015-01-20 20:14:27	⇄	-   - 10 clients per /48 in IPv6
+2015-01-20 20:14:27	⇄	-
+2015-01-20 20:14:27	⇄	- - If your IP range offers services to other people
+2015-01-20 20:14:27	⇄	-     (Shell providers) you must let us know.
+2015-01-20 20:14:27	⇄	- - If we notice excessive (>5) connections on different
+2015-01-20 20:14:27	⇄	-     subnets. You may be banned.
+2015-01-20 20:14:27	⇄	- - Clients connected for the purpose of stealing
+2015-01-20 20:14:27	⇄	-     nicknames are not allowed.
+2015-01-20 20:14:27	⇄	- - Breaking these rules will result in a ban
+2015-01-20 20:14:27	⇄	-     on ALL open servers.
+2015-01-20 20:14:27	⇄	-
+2015-01-20 20:14:27	⇄	- ========================================================
+2015-01-20 20:14:27	⇄	-  Black Lotus Communications - DDoS Mitigation Company
+2015-01-20 20:14:27	⇄	-  Visit our website: http://www.blacklotus.net
+2015-01-20 20:14:27	⇄	-
+2015-01-20 20:14:27	⇄	End of MOTD command.
+2015-01-20 20:14:27	⇄	User mode [+i] by rawks
+2015-01-20 20:14:28	⇄	CTCP requested by BLKUSzerg: VERSION
+2015-01-20 20:14:28	⇄	CTCP reply to BLKUSzerg: VERSION WeeChat 1.0.1 (Oct 15 2014)
+2015-01-20 20:15:38	+	irc: "quiet" command can only be executed in a channel buffer
+2015-01-20 20:16:09	⇄	irc: connecting to server us.ircnet.org/6667...
+2015-01-20 20:16:09	⇄	irc: connected to us.ircnet.org/6667 (198.50.159.156)
+2015-01-20 20:16:09	⇄	* :Please wait while we process your connection.
+2015-01-20 20:16:40	⇄	*: 2spooky :Erroneous Nickname
+2015-01-20 20:16:40	+	irc: nickname "2spooky" is invalid, trying nickname " rawks"
+2015-01-20 20:16:40	⇄	Welcome to the Internet Relay Network rawks!~alex@189.153.231.224
+2015-01-20 20:16:40	⇄	Your host is irc.ca.ircnet.net, running version 2.11.2p3
+2015-01-20 20:16:40	⇄	This server was created Sat Sep 13 2014 at 08:34:19 EDT
+2015-01-20 20:16:40	⇄	irc.ca.ircnet.net 2.11.2p3 aoOirw abeiIklmnoOpqrRstv
+2015-01-20 20:16:40	⇄	RFC2812 PREFIX=(ov)@+ CHANTYPES=#&!+ MODES=3 CHANLIMIT=#&!+:42 NICKLEN=15 TOPICLEN=255 KICKLEN=255 MAXLIST=beIR:64 CHANNELLEN=50 IDCHAN=!:5 CHANMODES=beIR,k,l,imnpstaqr :are supported by this server
+2015-01-20 20:16:40	⇄	PENALTY FNC EXCEPTS=e INVEX=I CASEMAPPING=ascii NETWORK=IRCnet :are supported by this server
+2015-01-20 20:16:40	⇄	124AAERMI :your unique ID
+2015-01-20 20:16:40	⇄	There are 42567 users and 4 services on 28 servers
+2015-01-20 20:16:40	⇄	109 :operators online
+2015-01-20 20:16:40	⇄	4 :unknown connections
+2015-01-20 20:16:40	⇄	25293 :channels formed
+2015-01-20 20:16:40	⇄	I have 1313 users, 0 services and 1 servers
+2015-01-20 20:16:40	⇄	1313 1626 :Current local users 1313, max 1626
+2015-01-20 20:16:40	⇄	42567 52778 :Current global users 42567, max 52778
+2015-01-20 20:16:40	⇄	- irc.ca.ircnet.net Message of the Day -
+2015-01-20 20:16:40	⇄	- 15/12/2014 21:53
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	-               ,%%%%%%%%,    Greetings! I'am "Singh - The Lion" :-)
+2015-01-20 20:16:40	⇄	-             ,%%/\%%%%/\%%   and I'am glad to see you here on IRCnet!
+2015-01-20 20:16:40	⇄	-            ,%%%\c "" J/%%%
+2015-01-20 20:16:40	⇄	-   %.       %%%%/ o  o \%%%  You are connected via: irc.ca.ircnet.net
+2015-01-20 20:16:40	⇄	-   `%%.     %%%%    _  |%%%
+2015-01-20 20:16:40	⇄	-    `%%     `%%%%(__Y__)%%'  Server Admin: S.P. "sps" Singh
+2015-01-20 20:16:40	⇄	-    //       ;%%%%`\-/%%%'                 <sps@rfc1459.ca>
+2015-01-20 20:16:40	⇄	-   ((       /  `%%%%%%%'
+2015-01-20 20:16:40	⇄	-    \\    .'            |    Server Operators: Simon "butcha" Thatt
+2015-01-20 20:16:40	⇄	-     \\  /       \  | | |                      Niclas "snugglo" Bolling
+2015-01-20 20:16:40	⇄	-      \\/      )  ) | | |                      Nicholas "sheppard" Foss
+2015-01-20 20:16:40	⇄	-       \      /  /_ | | |_
+2015-01-20 20:16:40	⇄	-       (___________)))))))   We are open to all users over ipv6/v4.
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	-   Note: We scan for open proxies on connect. If you do not wish to be
+2015-01-20 20:16:40	⇄	-         scanned, please disconnect now.
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	-   General limits (request changes via /admin):
+2015-01-20 20:16:40	⇄	-     - 3 clients per person/ident
+2015-01-20 20:16:40	⇄	-     - 3 clients per host (without ident)
+2015-01-20 20:16:40	⇄	-     - 20 clients per /24 in IPv4
+2015-01-20 20:16:40	⇄	-     - 10 clients per /48 in IPv6
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	-   Rules for shell providers and bot runners:
+2015-01-20 20:16:40	⇄	-     - Maximum of 3 clients per person/ident,
+2015-01-20 20:16:40	⇄	-     - identd is required and no ident spoofing,
+2015-01-20 20:16:40	⇄	-     - No changing a ident after a kline or giving
+2015-01-20 20:16:40	⇄	-       a single person multiple usernames
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	-     - If your IP range offers services to other people
+2015-01-20 20:16:40	⇄	-       (Shell providers) you must let us know.
+2015-01-20 20:16:40	⇄	-     - If we notice excessive (>5) connections on different
+2015-01-20 20:16:40	⇄	-       subnets. You may be banned.
+2015-01-20 20:16:40	⇄	-     - Clients connected for the purpose of stealing
+2015-01-20 20:16:40	⇄	-       nicknames are not allowed.
+2015-01-20 20:16:40	⇄	-     - Breaking these rules will result in a ban
+2015-01-20 20:16:40	⇄	-       on this server and ALL open servers.
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	-   [*] DISCLAIMER:-
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	-   Please use IRC as a medium to communicate with people
+2015-01-20 20:16:40	⇄	-   and share ideas. A lot of people dedicate their time and
+2015-01-20 20:16:40	⇄	-   resources to make this happen, so please respect the fact.
+2015-01-20 20:16:40	⇄	-   The server staff and friendly operators reserve the right
+2015-01-20 20:16:40	⇄	-   to remove anyone who is found violating the rules or harm
+2015-01-20 20:16:40	⇄	-   the network in any way, so yes we expect you to behave.
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	-   Incase of any questions related to this server, e-mail: irc@rfc1459.ca
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	-   Hope you enjoy your stay, thank you for using IRCnet - G'day!!
+2015-01-20 20:16:40	⇄	-
+2015-01-20 20:16:40	⇄	End of MOTD command.
+2015-01-20 20:16:40	⇄	User mode [+i] by rawks
+2015-01-20 20:16:40	⇄	CTCP requested by IRCCAzerg: VERSION
+2015-01-20 20:16:40	⇄	CTCP reply to IRCCAzerg: VERSION WeeChat 1.0.1 (Oct 15 2014)

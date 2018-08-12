@@ -1,0 +1,548 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SGL_Window.hpp" include nil nil [1 26])
+            ("SGL_Window" function
+               (:constructor-flag t
+                :parent "SGL_Window"
+                :type ("SGL_Window" type (:type "class") nil nil))
+                nil [41 102])
+            ("SGL_Window" function
+               (:destructor-flag t
+                :parent "SGL_Window"
+                :type "void")
+                nil [104 432])
+            ("destroyEverything" function
+               (:parent "SGL_Window"
+                :type "void")
+                nil [433 655])
+            ("initializeWindow" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [794 800])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [801 807])
+                    ("w" variable (:type "int") (reparse-symbol arg-sub-list) [808 814])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [815 821])
+                    ("internalW" variable (:type "int") (reparse-symbol arg-sub-list) [822 836])
+                    ("internalH" variable (:type "int") (reparse-symbol arg-sub-list) [837 851])
+                    ("windowTitle" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [870 901])
+                    ("fullscreen" variable (:type "bool") (reparse-symbol arg-sub-list) [902 918])
+                    ("FPS" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [919 931])
+                    ("iniFile" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [932 952]))                  
+                :type "void")
+                nil [760 1445])
+            ("start" function
+               (:parent "SGL_Window"
+                :type "void")
+                nil [1520 14712])
+            ("updateCamera" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("forceUpdate" variable (:type "bool") (reparse-symbol arg-sub-list) [14744 14761]))                  
+                :type "void")
+                nil [14714 14811])
+            ("cameraPosition" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("pos" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14845 14859]))                  
+                :type "void")
+                nil [14813 14900])
+            ("cameraScale" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("newScale" variable (:type "float") (reparse-symbol arg-sub-list) [14931 14946]))                  
+                :type "void")
+                nil [14902 14989])
+            ("cameraMode" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("mode" variable (:type ("CAMERA_MODE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15019 15036]))                  
+                :type "void")
+                nil [14991 15651])
+            ("getCameraPosX" function
+               (:parent "SGL_Window"
+                :type "int")
+                nil [15653 15749])
+            ("getCameraPosY" function
+               (:parent "SGL_Window"
+                :type "int")
+                nil [15752 15848])
+            ("getCameraPosW" function
+               (:parent "SGL_Window"
+                :type "int")
+                nil [15850 15946])
+            ("getCameraPosH" function
+               (:parent "SGL_Window"
+                :type "int")
+                nil [15947 16043])
+            ("setClearColor" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("color" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("SGL_Color" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16076 16099]))                  
+                :type "void")
+                nil [16045 16209])
+            ("changeWindowTitle" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("newTitle" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16264 16292]))                  
+                :type "void")
+                nil [16229 16347])
+            ("getWindowCreationSpecs" function
+               (:parent "SGL_Window"
+                :type ("WindowCreationSpecs" type (:type "class") nil nil))
+                nil [16349 16448])
+            ("setDefaultWindowIcon" function
+               (:parent "SGL_Window"
+                :type "void")
+                nil [16450 19269])
+            ("resizeWindow" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("w" variable (:type "int") (reparse-symbol arg-sub-list) [19392 19398])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [19399 19405])
+                    ("scaleInternalResolution" variable (:type "bool") (reparse-symbol arg-sub-list) [19406 19435]))                  
+                :type "void")
+                nil [19362 20275])
+            ("hasKeyboardFocus" function
+               (:parent "SGL_Window"
+                :type "bool")
+                nil [20277 20346])
+            ("hasMouseFocus" function
+               (:parent "SGL_Window"
+                :type "bool")
+                nil [20348 20411])
+            ("checkGamepads" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("gamepadID" variable (:type "int") (reparse-symbol arg-sub-list) [20489 20503]))                  
+                :type "void")
+                nil [20458 22459])
+            ("input" function
+               (:parent "SGL_Window"
+                :type ("SGL_InputFrame" type (:type "class") nil nil))
+                nil [22469 29299])
+            ("resizeGL" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [29339 29349])
+                    ("heigth" variable (:type "int") (reparse-symbol arg-sub-list) [29350 29361]))                  
+                :type "void")
+                nil [29313 29690])
+            ("startFBO" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("shader" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("SGL_Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [29719 29744]))                  
+                :type "void")
+                nil [29693 30190])
+            ("getTickCount" function
+               (:parent "SGL_Window"
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [30192 30258])
+            ("startFrame" function
+               (:parent "SGL_Window"
+                :type "void")
+                nil [30260 30602])
+            ("endFrame" function
+               (:parent "SGL_Window"
+                :type "void")
+                nil [30604 31599])
+            ("getDeltaTime" function
+               (:parent "SGL_Window"
+                :type "double")
+                nil [31601 31694])
+            ("shakeScreen" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("shakeit" variable (:type "bool") (reparse-symbol arg-sub-list) [31750 31763]))                  
+                :type "void")
+                nil [31721 31894])
+            ("chaosEffect" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("chaos" variable (:type "bool") (reparse-symbol arg-sub-list) [31925 31936]))                  
+                :type "void")
+                nil [31896 32065])
+            ("confuseEffect" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("confuse" variable (:type "bool") (reparse-symbol arg-sub-list) [32098 32111]))                  
+                :type "void")
+                nil [32067 32246])
+            ("checkForErrors" function
+               (:parent "SGL_Window"
+                :type "void")
+                nil [32249 32317])
+            ("pLoadDefaultAssets" function
+               (:parent "SGL_Window"
+                :type "void")
+                nil [32421 35721])
+            ("toggleFullScreen" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("toggle" variable (:type "bool") (reparse-symbol arg-sub-list) [35895 35907]))                  
+                :type "void")
+                nil [35861 36955])
+            ("setPostProcessorShader" function
+               (:parent "SGL_Window"
+                :arguments 
+                  ( ("shader" variable (:type ("SGL_Shader" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [36997 37015]))                  
+                :type "void")
+                nil [36957 37112]))          
+      :file "SGL_Window.cpp"
+      :pointmax 37115
+      :fsize 37128
+      :lastmodtime '(23335 1638 935032 319000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SGL_WINDOW_H" variable (:constant-flag t) nil [30 42])
+            ("GLEW_STATIC" variable (:constant-flag t) nil [53 64])
+            ("GL/glew.h" include (:system-flag t) nil [65 85])
+            ("SDL2/SDL.h" include (:system-flag t) nil [87 108])
+            ("SDL2/SDL_version.h" include (:system-flag t) nil [109 138])
+            ("iostream" include (:system-flag t) nil [140 159])
+            ("sstream" include (:system-flag t) nil [160 178])
+            ("ctime" include (:system-flag t) nil [179 195])
+            ("vector" include (:system-flag t) nil [196 213])
+            ("memory" include (:system-flag t) nil [214 231])
+            ("../deps/glm/glm.hpp" include nil nil [233 263])
+            ("../deps/glm/gtc/type_ptr.hpp" include nil nil [264 303])
+            ("../deps/glm/gtc/matrix_transform.hpp" include nil nil [304 351])
+            ("stdio.h" include (:system-flag t) nil [352 370])
+            ("ft2build.h" include (:system-flag t) nil [371 392])
+            ("../utility/SGL_AssetManager.hpp" include nil nil [427 469])
+            ("../utility/SGL_DataStructures.hpp" include nil nil [470 514])
+            ("../utility/SGL_Utility.hpp" include nil nil [515 552])
+            ("../renderer/SGL_OpenGLManager.hpp" include nil nil [568 612])
+            ("../renderer/SGL_Camera.hpp" include nil nil [613 650])
+            ("../renderer/SGL_Renderer.hpp" include nil nil [651 690])
+            ("../renderer/SGL_PostProcessor.hpp" include nil nil [739 783])
+            ("SGL_Window" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [804 812])
+                    ("pWindow" variable
+                       (:pointer 1
+                        :type ("SDL_Window" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [827 847])
+                    ("pGLContext" variable (:type ("SDL_GLContext" type (:type "class") nil nil)) (reparse-symbol classsubparts) [852 877])
+                    ("pGLVersion" variable
+                       (:constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [882 911])
+                    ("pIniParser" variable
+                       (:pointer 1
+                        :type ("SGL_IniParser" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [950 976])
+                    ("pWindowCreationSpecs" variable (:type ("WindowCreationSpecs" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1015 1056])
+                    ("pEvent" variable (:type ("SDL_Event" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1075 1092])
+                    ("pDeltaInput" variable (:type ("SGL_InputFrame" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1097 1124])
+                    ("pGamepad_1" variable
+                       (:pointer 1
+                        :type ("SDL_Joystick" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1199 1224])
+                    ("pClearScreen" variable (:type ("SGL_Color" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1286 1309])
+                    ("pT0" variable (:type "float") (reparse-symbol classsubparts) [1331 1346])
+                    ("pT1" variable (:type "float") (reparse-symbol classsubparts) [1331 1346])
+                    ("pDeltaTimeMS" variable (:type "double") (reparse-symbol classsubparts) [1351 1371])
+                    ("pTick0" variable (:type ("std::uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1376 1405])
+                    ("pTick1" variable (:type ("std::uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1376 1405])
+                    ("pChrono0" variable (:type ("std::chrono::steady_clock::time_point" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1443 1500])
+                    ("pChrono1" variable (:type ("std::chrono::steady_clock::time_point" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1443 1500])
+                    ("pChronoDeltaTime" variable (:type "double") (reparse-symbol classsubparts) [1505 1529])
+                    ("pOGLM" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("SGL_OpenGLManager" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1841 1882])
+                    ("pCamera" variable
+                       (:pointer 1
+                        :type ("SGL_Camera" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1954 1974])
+                    ("pPostProcessorFBO" variable
+                       (:pointer 1
+                        :type ("SGL_PostProcessor" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2031 2068])
+                    ("pDefaultPPShader" variable (:type ("SGL_Shader" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2073 2101])
+                    ("pAlreadyInitialized" variable (:type "bool") (reparse-symbol classsubparts) [2139 2164])
+                    ("pHasMouseFocus" variable (:type "bool") (reparse-symbol classsubparts) [2190 2243])
+                    ("pHasKeyboardFocus" variable (:type "bool") (reparse-symbol classsubparts) [2190 2243])
+                    ("pIsMinimized" variable (:type "bool") (reparse-symbol classsubparts) [2190 2243])
+                    ("pSGLVERSION" variable
+                       (:constant-flag t
+                        :default-value "0.3f"
+                        :type "float")
+                        (reparse-symbol classsubparts) [2318 2349])
+                    ("start" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2355 2368])
+                    ("pLoadDefaultAssets" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2373 2399])
+                    ("startFBO" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("shader" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("SGL_Shader" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2448 2473]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2434 2474])
+                    ("resizeGL" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [2571 2581])
+                            ("heigth" variable (:type "int") (reparse-symbol arg-sub-list) [2582 2593]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2557 2594])
+                    ("public" label nil (reparse-symbol classsubparts) [2830 2837])
+                    ("SGL_Window" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("SGL_Window" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2842 2855])
+                    ("SGL_Window" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2860 2874])
+                    ("destroyEverything" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2879 2904])
+                    ("assetManager" variable (:type ("std::unique_ptr" type
+                         (:template-specifier 
+                            ( ("SGL_AssetManager" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3109 3156])
+                    ("renderer" variable (:type ("std::unique_ptr" type
+                         (:template-specifier 
+                            ( ("SGL_Renderer" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3161 3200])
+                    ("hostData" variable (:type ("std::unique_ptr" type
+                         (:template-specifier 
+                            ( ("SGL_DeviceInfo" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [3296 3337])
+                    ("initializeWindow" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [3574 3580])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [3581 3587])
+                            ("w" variable (:type "int") (reparse-symbol arg-sub-list) [3588 3594])
+                            ("h" variable (:type "int") (reparse-symbol arg-sub-list) [3595 3601])
+                            ("internalW" variable (:type "int") (reparse-symbol arg-sub-list) [3602 3616])
+                            ("internalH" variable (:type "int") (reparse-symbol arg-sub-list) [3617 3631])
+                            ("windowTitle" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3658 3689])
+                            ("fullscreen" variable (:type "bool") (reparse-symbol arg-sub-list) [3690 3706])
+                            ("FPS" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3707 3719])
+                            ("iniFile" variable
+                               (:default-value "\"\""
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3720 3744]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [3552 3746])
+                    ("changeWindowTitle" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("newTitle" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3797 3825]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [3774 3826])
+                    ("getWindowCreationSpecs" function
+                       (:prototype-flag t
+                        :type ("WindowCreationSpecs" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3831 3876])
+                    ("setDefaultWindowIcon" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [3881 3909])
+                    ("resizeWindow" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("w" variable (:type "int") (reparse-symbol arg-sub-list) [3932 3938])
+                            ("h" variable (:type "int") (reparse-symbol arg-sub-list) [3939 3945])
+                            ("scaleInternalResolution" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [3946 3982]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [3914 3984])
+                    ("toggleFullScreen" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("toggle" variable
+                               (:default-value "true"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [4011 4029]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [3989 4031])
+                    ("hasKeyboardFocus" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol classsubparts) [4036 4060])
+                    ("hasMouseFocus" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol classsubparts) [4065 4086])
+                    ("cameraPosition" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("pos" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4225 4239]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4205 4240])
+                    ("cameraScale" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("newScale" variable (:type "float") (reparse-symbol arg-sub-list) [4262 4277]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4245 4278])
+                    ("cameraMode" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("mode" variable
+                               (:default-value "CAMERA_MODE"
+                                :type ("CAMERA_MODE" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4299 4329])
+                            ("" variable (:type ("DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4331 4339]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4283 4340])
+                    ("updateCamera" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("forceUpdate" variable
+                               (:default-value "false"
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [4363 4387]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4345 4389])
+                    ("getCameraPosX" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [4423 4443])
+                    ("getCameraPosY" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [4448 4468])
+                    ("getCameraPosW" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [4473 4493])
+                    ("getCameraPosH" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [4498 4518])
+                    ("input" function
+                       (:prototype-flag t
+                        :type ("SGL_InputFrame" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4731 4754])
+                    ("checkGamepads" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("gamepadID" variable
+                               (:default-value "0"
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [4887 4904]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [4868 4906])
+                    ("setClearColor" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("color" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("SGL_Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5108 5131]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5089 5132])
+                    ("setPostProcessorShader" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("shader" variable (:type ("SGL_Shader" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5165 5183]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5137 5184])
+                    ("shakeScreen" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("shakeit" variable (:type "bool") (reparse-symbol arg-sub-list) [5235 5248]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5218 5249])
+                    ("chaosEffect" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("chaos" variable (:type "bool") (reparse-symbol arg-sub-list) [5271 5282]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5254 5283])
+                    ("confuseEffect" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("confuse" variable (:type "bool") (reparse-symbol arg-sub-list) [5307 5320]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5288 5321])
+                    ("startFrame" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [5349 5367])
+                    ("endFrame" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [5401 5417])
+                    ("getDeltaTime" function
+                       (:prototype-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [5460 5482])
+                    ("getTickCount" function
+                       (:prototype-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5487 5511])
+                    ("checkForErrors" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [5552 5574]))                  
+                :type "class")
+                nil [785 5577]))          
+      :file "SGL_Window.hpp"
+      :pointmax 5587
+      :fsize 5586
+      :lastmodtime '(23334 61437 998403 66000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("GLEW_STATIC")
+          ("SGL_WINDOW_H")
+          )
+))
+  :file "!home!alexhg!Documents!gits!skeletongl!src!skeletonGL!window!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
