@@ -1,0 +1,9 @@
+My current UNIX work station configuration files.
+
+* REQUIREMENTS
+  - EMACS 25+
+  - URXVT
+  - TMUX
+  - MPD & NCMPCPP
+  - ZSH & OH MY ZSH
+  - WEECHAT
