@@ -12,6 +12,9 @@
       company-tooltip-limit 30
       company-idle-delay 0.2)
 
+(setq company-auto-complete t)
+(setq company-tooltip-align-annotations t)
+
 ;;HTML
 (require 'company-web-html)                          ; load company mode html backend
 (add-to-list 'company-backends 'company-web-html)

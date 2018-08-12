@@ -66,7 +66,7 @@
     js2-mode
     js2-refactor
     xref-js2
-    ;;tern ;; (MUST BE MANUALLY INSTALLED AND ADDED)
+    tern ;; (MUST BE MANUALLY INSTALLED AND ADDED)
     ;;LUA
     lua-mode
     ;;PYTHON

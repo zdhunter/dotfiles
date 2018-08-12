@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js2-mode
+      :tags 
+        '( ("startTime" function nil nil [2 350])
+            ("checkTime" function (:arguments 
+              ( ("i" variable nil (reparse-symbol FormalParameterList) [371 372]))              ) nil [352 422]))          
+      :file "utility.js"
+      :pointmax 423
+      :fsize 422
+      :lastmodtime '(23408 43243 82607 821000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js2-mode
+      :tags 
+        '( ("addRow" function nil nil [4 6667])
+            ("removeRow" function nil nil [6669 6869])
+            ("changeText" function nil nil [6919 8484])
+            ("get_defect_select_options" function nil nil [8554 9686]))          
+      :file "form_management.js"
+      :pointmax 9687
+      :fsize 9686
+      :lastmodtime '(23298 15039 787208 0)
+      :unmatched-syntax nil))
+  :file "!var!www!html!proto_php!app!static!js!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

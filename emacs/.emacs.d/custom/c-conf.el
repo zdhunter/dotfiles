@@ -43,7 +43,7 @@
 (semantic-add-system-include "/usr/include/boost" 'c++-mode)
 (semantic-add-system-include "~/linux/kernel")
 (semantic-add-system-include "~/linux/include")
-(semantic-add-system-include "/home/alexhg/Qt/5.10.1/gcc_64/include/")
+(semantic-add-system-include "/home/alexhg/Qt/5.11.1/gcc_64/include/")
 (semantic-add-system-include "/usr/include/c++/7/")
 (semantic-add-system-include "/usr/include/c++/7.3.0/")
 
@@ -70,7 +70,7 @@
 (set-default 'semantic-case-fold t)
 (require 'semantic/bovine/c)
 (add-to-list 'semantic-lex-c-preprocessor-symbol-file
-             "/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h")
+             "/usr/lib/gcc/x86_64-linux-gnu/7.3.0/include/stddef.h")
 
 ;; Mostly use it with C++ and SkeletonGL, might as well add it here
 (require 'glsl-mode)

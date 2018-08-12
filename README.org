@@ -2,6 +2,7 @@ My current UNIX work station configuration files.
 
 * REQUIREMENTS
   - EMACS 25+
+  - AWESOME WM 4+
   - URXVT
   - TMUX
   - MPD & NCMPCPP

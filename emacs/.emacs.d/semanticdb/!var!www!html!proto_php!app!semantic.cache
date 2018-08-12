@@ -83,47 +83,19 @@
                 :type ("php" type (:type "class") nil nil))
                 nil [3 93])
             ("configure" function (:type ("function" type (:type "class") nil nil)) nil [140 3057])
-            ("configureHeaderStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [3467 3759])
-            ("configureFooterStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [3761 4036])
-            ("configureNavbarStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [4038 4489])
+            ("configureHeaderStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [3467 3825])
+            ("configureFooterStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [3827 4102])
+            ("configureNavbarStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [4104 4555])
             ("handleException" function
                (:arguments 
-                  ( ("" variable (:type ("e" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4697 4699]))                  
+                  ( ("" variable (:type ("e" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4763 4765]))                  
                 :type ("function" type (:type "class") nil nil))
-                nil [4670 5941])
-            ("engine" variable
-               (:default-value "new TemplateEngine()"
-                :type "int")
-                nil [5164 5194])
-            ("headerTitle" variable
-               (:default-value "array ('title' => \"PROTO_PHP - ERROR\")"
-                :type "int")
-                nil [5200 5253])
-            ("renderHeader" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable (:type ("headerTitle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5281 5293]))                  
-                :type "int")
-                nil [5267 5294])
-            ("renderPage" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable (:type ("configureNavbarStaticContent" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5344 5374]))                  
-                :type "int")
-                nil [5308 5376])
-            ("renderFooter" function
-               (:prototype-flag t
-                :type "int")
-                nil [5911 5926])
-            ("exit" function
-               (:prototype-flag t
-                :type "int")
-                nil [5932 5939]))          
+                nil [4736 6007]))          
       :file "configure.php"
-      :pointmax 5942
-      :fsize 5941
-      :lastmodtime '(23407 37608 726963 432000)
-      :unmatched-syntax nil))
+      :pointmax 6008
+      :fsize 6007
+      :lastmodtime '(23408 39731 643033 260000)
+      :unmatched-syntax '((punctuation 4762 . 4763) (punctuation 2 . 3) (punctuation 1 . 2))))
   :file "!var!www!html!proto_php!app!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

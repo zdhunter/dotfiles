@@ -45,9 +45,6 @@
 ;;Restclient REST API tester
 (require 'restclient)
 
-
-
-
 ;;JS - JAVASCRIPT --CONFIGS--
 (require 'js2-mode)
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
@@ -71,6 +68,24 @@
 (define-key js2-mode-map (kbd "C-k") #'js2r-kill)
 
 ;;tern (must be manually installed)
+;; REQUIRES A .tern-project file present
+;; example .tern-project
+;; {
+;;   "libs": [
+;;     "jquery"
+;;   ],
+;;   "loadEagerly": [
+;;     "./**/*.js"
+;;   ],
+;;   "dontLoad": [
+;;     "./bower_components/"
+;;   ],
+;;   "plugins": {
+;;     "requirejs": {
+;;       "baseURL": "./"
+;;     }
+;;   }
+;; }
 (require 'tern)
 (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
 

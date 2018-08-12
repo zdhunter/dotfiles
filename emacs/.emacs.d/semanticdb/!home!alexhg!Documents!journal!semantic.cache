@@ -1,0 +1,18 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode js2-mode
+      :tags 
+        '( ("ass" function nil nil [5 64]))          
+      :file "test.js"
+      :pointmax 64
+      :fsize 4
+      :lastmodtime '(23408 43141 178114 632000)
+      :unmatched-syntax nil))
+  :file "!home!alexhg!Documents!journal!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -106,6 +106,8 @@ alias topoLog="git log --topo-order --decorate --first-parent"
 #apps
 alias telegram="/opt/telegram/Telegram"
 alias android-studio="/home/alexhg/Documents/exe/android-studio/bin/studio.sh"
+#quickly encrypt a file named "file" REMEMBER TO EDIT THE KEY'S EMAIL TO YOURS
+alias encrypt_file="gpg --encrypt --sign -r alejandro720@protonmail.com file"
 
 export NVM_DIR="/home/alexhg/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

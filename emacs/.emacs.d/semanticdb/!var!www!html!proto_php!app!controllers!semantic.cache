@@ -1,0 +1,94 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21 28]))                  
+                :type ("php" type (:type "class") nil nil))
+                nil [3 29])
+            ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43 48]))                  
+                :type "int")
+                nil [30 67])
+            ("entry" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [87 99]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [70 722])
+            ("loginHomepage" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [748 765]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [724 1222])
+            ("loginRequest" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1247 1259]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [1224 1721])
+            ("processError" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1746 1758]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [1723 2158]))          
+      :file "login.php"
+      :pointmax 2159
+      :fsize 2158
+      :lastmodtime '(23408 40475 965646 597000)
+      :unmatched-syntax '((punctuation 1745 . 1746) (punctuation 1246 . 1247) (punctuation 747 . 748) (punctuation 86 . 87) (string 48 . 65) (punctuation 47 . 48) (punctuation 2 . 3) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__DIR__" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21 29]))                  
+                :type ("php" type (:type "class") nil nil))
+                nil [3 50])
+            ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [64 69]))                  
+                :type "int")
+                nil [51 88])
+            ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102 107]))                  
+                :type "int")
+                nil [89 123])
+            ("entry" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [142 154]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [125 718])
+            ("homepage" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [739 757]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [720 1622])
+            ("about" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1640 1658]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [1624 2080])
+            ("author" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2099 2111]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [2082 2533]))          
+      :file "home.php"
+      :pointmax 2534
+      :fsize 2533
+      :lastmodtime '(23408 40668 281575 305000)
+      :unmatched-syntax nil))
+  :file "!var!www!html!proto_php!app!controllers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
