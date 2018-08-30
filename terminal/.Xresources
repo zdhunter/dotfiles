@@ -7,8 +7,8 @@ Xft.hintstyle:  hintfull
 !------------------------------------------------
 ! urxvt.font: xft:tewi-Regular:size=9
 ! urxvt.boldFont: xft:tewi-Regular:size=9
-urxvt.font: xft:ohsnap:bold:size=9
-urxvt.boldFont: xft:ohsnap:bold:size=9
+urxvt.font: xft:ohsnap:size=9
+urxvt.boldFont: xft:ohsnap:size=9
 ! urxvt.font: xft:ohsnap:bold:size=9
 ! urxvt.boldFont: xft:ohsnap-Bold:size=9
 ! urxvt.font: xft:TerminalVector-Regular:size=9
@@ -126,6 +126,29 @@ urxvt.keysym.F11: 			perl:fullscreen:switch
 ! urxvt*color14:     #5c737c
 ! urxvt*color15:     #E5C07B
 
+! SANCTITY TOMORROW NIGHT
+urxvt*background:  #1d1f21
+urxvt*foreground:  #c5c8c6
+urxvt*colorBD:     #f0c674
+urxvt*cursorColor: #D19A66
+
+urxvt*color0:      #969896
+urxvt*color1:      #E06C75
+urxvt*color2:      #81a2be
+urxvt*color3:      #98C379
+urxvt*color4:      #56B6C2
+urxvt*color5:      #cc6666
+urxvt*color6:      #de935f
+urxvt*color7:      #BCBCBC
+urxvt*color8:      #AEB9F5
+urxvt*color9:      #FF8787
+urxvt*color10:     #AFD787
+urxvt*color11:     #b294bb
+urxvt*color12:     #f0c674
+urxvt*color13:     #8abeb7
+urxvt*color14:     #5c737c
+urxvt*color15:     #E5C07B
+
 
 ! !MOLOKAI
 ! ! terminal colours
@@ -157,27 +180,27 @@ urxvt.keysym.F11: 			perl:fullscreen:switch
 ! urxvt*color15: #F8F8F2
 
 ! UJELLY
-urxvt*background:  #000000
-urxvt*foreground:  #ae81ff
-urxvt*colorBD:     #BCBCBC
-urxvt*cursorColor: #DCDCCC
+! urxvt*background:  #000000
+! urxvt*foreground:  #ae81ff
+! urxvt*colorBD:     #BCBCBC
+! urxvt*cursorColor: #DCDCCC
 
-urxvt*color0:      #1c1c1c
-urxvt*color1:      #cd00cd
-urxvt*color2:      #AFD787
-urxvt*color3:      #7F9F7F
-urxvt*color4:      #75b5aa
-urxvt*color5:      #DFAF8F
-urxvt*color6:      #de5577
-urxvt*color7:      #474e90
-urxvt*color8:      #7f7f7f
-urxvt*color9:      #ffb964
-urxvt*color10:     #a8ff60
-urxvt*color11:     #546a29
-urxvt*color12:     #FF8787
-urxvt*color13:     #447799
-urxvt*color14:     #fad07a
-urxvt*color15:     #ae81ff
+! urxvt*color0:      #1c1c1c
+! urxvt*color1:      #cd00cd
+! urxvt*color2:      #AFD787
+! urxvt*color3:      #7F9F7F
+! urxvt*color4:      #75b5aa
+! urxvt*color5:      #DFAF8F
+! urxvt*color6:      #de5577
+! urxvt*color7:      #474e90
+! urxvt*color8:      #7f7f7f
+! urxvt*color9:      #ffb964
+! urxvt*color10:     #a8ff60
+! urxvt*color11:     #546a29
+! urxvt*color12:     #FF8787
+! urxvt*color13:     #447799
+! urxvt*color14:     #fad07a
+! urxvt*color15:     #ae81ff
 
 
 ! ! JAZZ

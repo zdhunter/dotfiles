@@ -37,12 +37,12 @@
 
 
 ;;Font
-;; (add-to-list 'default-frame-alist '(font . "ohsnap-9" ))
-;; (add-to-list 'default-frame-alist '(font . "ohsnap-9" ))
-;; (set-face-attribute 'default t :font "ohsnap-9" )
-(add-to-list 'default-frame-alist '(font . "ohsnap-9:bold" ))
-(add-to-list 'default-frame-alist '(font . "ohsnap-9:bold" ))
-(set-face-attribute 'default t :font "ohsnap-9:bold" )
+(add-to-list 'default-frame-alist '(font . "ohsnap-9" ))
+(add-to-list 'default-frame-alist '(font . "ohsnap-9" ))
+(set-face-attribute 'default t :font "ohsnap-9" )
+;; (add-to-list 'default-frame-alist '(font . "ohsnap-9:bold" ))
+;; (add-to-list 'default-frame-alist '(font . "ohsnap-9:bold" ))
+;; (set-face-attribute 'default t :font "ohsnap-9:bold" )
 ;;(add-to-list 'default-frame-alist '(font . "tewi-9" ))
 ;;(add-to-list 'default-frame-alist '(font . "tewi-9" ))
 ;;(set-face-attribute 'default t :font "tewi-9" )

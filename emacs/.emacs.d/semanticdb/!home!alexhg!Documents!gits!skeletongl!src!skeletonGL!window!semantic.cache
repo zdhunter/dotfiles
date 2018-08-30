@@ -43,47 +43,47 @@
             ("start" function
                (:parent "SGL_Window"
                 :type "void")
-                nil [1520 14712])
+                nil [1520 14711])
             ("updateCamera" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("forceUpdate" variable (:type "bool") (reparse-symbol arg-sub-list) [14744 14761]))                  
+                  ( ("forceUpdate" variable (:type "bool") (reparse-symbol arg-sub-list) [14743 14760]))                  
                 :type "void")
-                nil [14714 14811])
+                nil [14713 14810])
             ("cameraPosition" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("pos" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14845 14859]))                  
+                  ( ("pos" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14844 14858]))                  
                 :type "void")
-                nil [14813 14900])
+                nil [14812 14899])
             ("cameraScale" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("newScale" variable (:type "float") (reparse-symbol arg-sub-list) [14931 14946]))                  
+                  ( ("newScale" variable (:type "float") (reparse-symbol arg-sub-list) [14930 14945]))                  
                 :type "void")
-                nil [14902 14989])
+                nil [14901 14988])
             ("cameraMode" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("mode" variable (:type ("CAMERA_MODE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15019 15036]))                  
+                  ( ("mode" variable (:type ("CAMERA_MODE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15018 15035]))                  
                 :type "void")
-                nil [14991 15651])
+                nil [14990 15650])
             ("getCameraPosX" function
                (:parent "SGL_Window"
                 :type "int")
-                nil [15653 15749])
+                nil [15652 15748])
             ("getCameraPosY" function
                (:parent "SGL_Window"
                 :type "int")
-                nil [15752 15848])
+                nil [15751 15847])
             ("getCameraPosW" function
                (:parent "SGL_Window"
                 :type "int")
-                nil [15850 15946])
+                nil [15849 15945])
             ("getCameraPosH" function
                (:parent "SGL_Window"
                 :type "int")
-                nil [15947 16043])
+                nil [15946 16042])
             ("setClearColor" function
                (:parent "SGL_Window"
                 :arguments 
@@ -91,9 +91,9 @@
                        (:reference 1
                         :constant-flag t
                         :type ("SGL_Color" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [16076 16099]))                  
+                        (reparse-symbol arg-sub-list) [16075 16098]))                  
                 :type "void")
-                nil [16045 16209])
+                nil [16044 16208])
             ("changeWindowTitle" function
                (:parent "SGL_Window"
                 :arguments 
@@ -101,50 +101,50 @@
                        (:reference 1
                         :constant-flag t
                         :type ("std::string" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [16264 16292]))                  
+                        (reparse-symbol arg-sub-list) [16263 16291]))                  
                 :type "void")
-                nil [16229 16347])
+                nil [16228 16346])
             ("getWindowCreationSpecs" function
                (:parent "SGL_Window"
                 :type ("WindowCreationSpecs" type (:type "class") nil nil))
-                nil [16349 16448])
+                nil [16348 16447])
             ("setDefaultWindowIcon" function
                (:parent "SGL_Window"
                 :type "void")
-                nil [16450 19269])
+                nil [16449 19268])
             ("resizeWindow" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("w" variable (:type "int") (reparse-symbol arg-sub-list) [19392 19398])
-                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [19399 19405])
-                    ("scaleInternalResolution" variable (:type "bool") (reparse-symbol arg-sub-list) [19406 19435]))                  
+                  ( ("w" variable (:type "int") (reparse-symbol arg-sub-list) [19391 19397])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [19398 19404])
+                    ("scaleInternalResolution" variable (:type "bool") (reparse-symbol arg-sub-list) [19405 19434]))                  
                 :type "void")
-                nil [19362 20275])
+                nil [19361 20274])
             ("hasKeyboardFocus" function
                (:parent "SGL_Window"
                 :type "bool")
-                nil [20277 20346])
+                nil [20276 20345])
             ("hasMouseFocus" function
                (:parent "SGL_Window"
                 :type "bool")
-                nil [20348 20411])
+                nil [20347 20410])
             ("checkGamepads" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("gamepadID" variable (:type "int") (reparse-symbol arg-sub-list) [20489 20503]))                  
+                  ( ("gamepadID" variable (:type "int") (reparse-symbol arg-sub-list) [20488 20502]))                  
                 :type "void")
-                nil [20458 22459])
+                nil [20457 22458])
             ("input" function
                (:parent "SGL_Window"
                 :type ("SGL_InputFrame" type (:type "class") nil nil))
-                nil [22469 29299])
+                nil [22468 29298])
             ("resizeGL" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [29339 29349])
-                    ("heigth" variable (:type "int") (reparse-symbol arg-sub-list) [29350 29361]))                  
+                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [29338 29348])
+                    ("heigth" variable (:type "int") (reparse-symbol arg-sub-list) [29349 29360]))                  
                 :type "void")
-                nil [29313 29690])
+                nil [29312 29689])
             ("startFBO" function
                (:parent "SGL_Window"
                 :arguments 
@@ -152,67 +152,67 @@
                        (:reference 1
                         :constant-flag t
                         :type ("SGL_Shader" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [29719 29744]))                  
+                        (reparse-symbol arg-sub-list) [29718 29743]))                  
                 :type "void")
-                nil [29693 30190])
+                nil [29692 30189])
             ("getTickCount" function
                (:parent "SGL_Window"
                 :type ("uint32_t" type (:type "class") nil nil))
-                nil [30192 30258])
+                nil [30191 30257])
             ("startFrame" function
                (:parent "SGL_Window"
                 :type "void")
-                nil [30260 30602])
+                nil [30259 30601])
             ("endFrame" function
                (:parent "SGL_Window"
                 :type "void")
-                nil [30604 31599])
+                nil [30603 31598])
             ("getDeltaTime" function
                (:parent "SGL_Window"
                 :type "double")
-                nil [31601 31694])
+                nil [31600 31693])
             ("shakeScreen" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("shakeit" variable (:type "bool") (reparse-symbol arg-sub-list) [31750 31763]))                  
+                  ( ("shakeit" variable (:type "bool") (reparse-symbol arg-sub-list) [31749 31762]))                  
                 :type "void")
-                nil [31721 31894])
+                nil [31720 31893])
             ("chaosEffect" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("chaos" variable (:type "bool") (reparse-symbol arg-sub-list) [31925 31936]))                  
+                  ( ("chaos" variable (:type "bool") (reparse-symbol arg-sub-list) [31924 31935]))                  
                 :type "void")
-                nil [31896 32065])
+                nil [31895 32064])
             ("confuseEffect" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("confuse" variable (:type "bool") (reparse-symbol arg-sub-list) [32098 32111]))                  
+                  ( ("confuse" variable (:type "bool") (reparse-symbol arg-sub-list) [32097 32110]))                  
                 :type "void")
-                nil [32067 32246])
+                nil [32066 32245])
             ("checkForErrors" function
                (:parent "SGL_Window"
                 :type "void")
-                nil [32249 32317])
+                nil [32248 32316])
             ("pLoadDefaultAssets" function
                (:parent "SGL_Window"
                 :type "void")
-                nil [32421 35721])
+                nil [32420 35720])
             ("toggleFullScreen" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("toggle" variable (:type "bool") (reparse-symbol arg-sub-list) [35895 35907]))                  
+                  ( ("toggle" variable (:type "bool") (reparse-symbol arg-sub-list) [35894 35906]))                  
                 :type "void")
-                nil [35861 36955])
+                nil [35860 36954])
             ("setPostProcessorShader" function
                (:parent "SGL_Window"
                 :arguments 
-                  ( ("shader" variable (:type ("SGL_Shader" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [36997 37015]))                  
+                  ( ("shader" variable (:type ("SGL_Shader" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [36996 37014]))                  
                 :type "void")
-                nil [36957 37112]))          
+                nil [36956 37111]))          
       :file "SGL_Window.cpp"
-      :pointmax 37115
-      :fsize 37128
-      :lastmodtime '(23335 1638 935032 319000)
+      :pointmax 37114
+      :fsize 37127
+      :lastmodtime '(23431 29286 800237 28000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode c++-mode
@@ -536,7 +536,7 @@
       :file "SGL_Window.hpp"
       :pointmax 5587
       :fsize 5586
-      :lastmodtime '(23334 61437 998403 66000)
+      :lastmodtime '(23334 61437 998403 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("GLEW_STATIC")

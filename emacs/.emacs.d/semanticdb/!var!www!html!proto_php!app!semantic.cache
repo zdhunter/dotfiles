@@ -90,12 +90,12 @@
                (:arguments 
                   ( ("" variable (:type ("e" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4763 4765]))                  
                 :type ("function" type (:type "class") nil nil))
-                nil [4736 6007]))          
+                nil [4736 6059]))          
       :file "configure.php"
-      :pointmax 6008
-      :fsize 6007
-      :lastmodtime '(23408 39731 643033 260000)
-      :unmatched-syntax '((punctuation 4762 . 4763) (punctuation 2 . 3) (punctuation 1 . 2))))
+      :pointmax 6060
+      :fsize 6059
+      :lastmodtime '(23408 56478 523009 725000)
+      :unmatched-syntax nil))
   :file "!var!www!html!proto_php!app!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")
