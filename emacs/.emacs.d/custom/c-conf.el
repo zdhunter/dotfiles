@@ -43,7 +43,7 @@
 (semantic-add-system-include "/usr/include/boost" 'c++-mode)
 (semantic-add-system-include "~/linux/kernel")
 (semantic-add-system-include "~/linux/include")
-(semantic-add-system-include "/home/alexhg/Qt/5.11.1/gcc_64/include/")
+(semantic-add-system-include "~/Qt/5.11.2/gcc_64/include/")
 (semantic-add-system-include "/usr/include/c++/7/")
 (semantic-add-system-include "/usr/include/c++/7.3.0/")
 

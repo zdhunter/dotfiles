@@ -47,15 +47,16 @@ local themes = {
     "rainbow",         -- 8
     "steamburn",       -- 9
     "vertex",          -- 10
+    "argos",           -- 11
 }
 
-local chosen_theme = themes[2]
+local chosen_theme = themes[11]
 local modkey       = "Mod4"
 local altkey       = "Mod1"
 local terminal     = "urxvt"
 local editor       = os.getenv("EDITOR") or "emacs"
 local gui_editor   = "emacs"
-local browser      = "waterfox"
+local browser      = "firefox"
 local guieditor    = "emacs"
 local scrlocker    = "xlock"
 
@@ -739,7 +740,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 --  {{{{{{{{{{ STARTUP SCRIPTS }}}}}}}}}}
 awful.spawn.with_shell("xrdb merge ~/.Xresources")
 awful.spawn.with_shell("xscreensaver -nosplash &")
-awful.spawn.with_shell("sh ~/.screenlayout/wide.sh")
+awful.spawn.with_shell("sh ~/.screenlayout/three_monitors.sh")
 awful.spawn.with_shell("nitrogen --restore")
 awful.spawn.with_shell("compton &")
 -- awful.util.spawn_with_shell("fc-cache -f -v");

@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/alexhg/.oh-my-zsh
+export ZSH=/home/argos/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -50,7 +50,7 @@ ZSH_THEME="gnzh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-extras github nyan z git_remote_branch git-hubflow git-flow history lol pip perl pyenv python rails sudo urltools web-search debian dir-history encode64 gitfast zsh-syntax-highlighting)
+plugins=(git git-extras github z git_remote_branch git-hubflow git-flow history lol pip perl pyenv python rails sudo urltools web-search debian dir-history encode64 gitfast zsh-syntax-highlighting)
 
 # User configuration
 
@@ -105,11 +105,11 @@ alias mergeNOFF="git merge --no-ff"
 alias topoLog="git log --topo-order --decorate --first-parent"
 #apps
 alias telegram="/opt/telegram/Telegram"
-alias android-studio="/home/alexhg/Documents/exe/android-studio/bin/studio.sh"
+alias android-studio="~/Documents/exe/android-studio/bin/studio.sh"
 #quickly encrypt a file named "file" REMEMBER TO EDIT THE KEY'S EMAIL TO YOURS
 alias encrypt_file="gpg --encrypt --sign -r alejandro720@protonmail.com file"
 
-export NVM_DIR="/home/alexhg/.nvm"
+export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export QT_QPA_PLATFORMTHEME=qt5ct
@@ -126,7 +126,7 @@ imgdl() {
     fi
     rm -rf ~/Downloads/imgdl/*;
     cd ~/Downloads/imgdl/;
-    python3.5 ~/Documents/Scripts/download_images.py $1 | xargs wget;  # Path to script
+    python3.6 ~/Documents/scripts/download_images.py $1 | xargs wget;  # Path to script
     gthumb .                                # Image viewer
 }
 

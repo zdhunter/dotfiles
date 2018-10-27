@@ -7,10 +7,10 @@ Xft.hintstyle:  hintfull
 !------------------------------------------------
 ! urxvt.font: xft:tewi-Regular:size=9
 ! urxvt.boldFont: xft:tewi-Regular:size=9
-urxvt.font: xft:ohsnap:size=9
-urxvt.boldFont: xft:ohsnap:size=9
-! urxvt.font: xft:ohsnap:bold:size=9
-! urxvt.boldFont: xft:ohsnap-Bold:size=9
+! urxvt.font: xft:ohsnap:size=9
+! urxvt.boldFont: xft:ohsnap:size=9
+urxvt.font: xft:ohsnap:bold:size=9
+urxvt.boldFont: xft:ohsnap-Bold:size=9
 ! urxvt.font: xft:TerminalVector-Regular:size=9
 ! urxvt.boldFont: xft:TerminalVector-Bold:size=9
 ! urxvt.font: xft:apple-Regular:size=9

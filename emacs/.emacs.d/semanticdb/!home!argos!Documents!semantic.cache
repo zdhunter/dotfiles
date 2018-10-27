@@ -1,0 +1,42 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags nil
+      :file "test.cpp"
+      :pointmax 1
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags nil
+      :file ".#test.cpp"
+      :pointmax 1
+      :fsize 27
+      :lastmodtime '(23507 26996 230435 680000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "test.c"
+      :pointmax 1
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags nil
+      :file "test.py"
+      :pointmax 6
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags nil
+      :file "test.php"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(23507 29660 852854 868000)
+      :unmatched-syntax nil))
+  :file "!home!argos!Documents!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

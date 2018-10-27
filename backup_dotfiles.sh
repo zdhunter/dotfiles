@@ -2,7 +2,8 @@
 
 set +e
 
-backup_dir="/home/$USER/Documents/rice_backup/"
+# CHANGE TO YOUR OWN GIT CLONE DIR
+backup_dir="/home/$USER/Documents/gits/dotfiles/"
 
 echo "Backing data to: ${backup_dir} "
 echo "Creating folders..."

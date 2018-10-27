@@ -5540,3 +5540,6 @@
 2018-08-29 15:35:05		script: 346 scripts for WeeChat 1.9.1
 2018-08-29 23:59:18		fifo: pipe closed
 2018-08-29 23:59:18		perl: scripts unloaded
+2018-10-27 14:33:26	+	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2018-10-27 14:33:26		perl scripts loaded: beep, buffers, iset
+2018-10-27 14:33:26		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
