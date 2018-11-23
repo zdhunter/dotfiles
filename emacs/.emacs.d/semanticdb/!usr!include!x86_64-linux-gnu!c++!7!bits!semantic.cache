@@ -313,7 +313,7 @@
       :file "c++config.h"
       :pointmax 57967
       :fsize 57966
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax '((INLINE 6866 . 6872) (INLINE 6772 . 6778))
       :lexical-table 
         '(("_GLIBCXX_USE_DUAL_ABI" . ((number "1" 6526 . 6527)))
@@ -611,7 +611,7 @@
       :file "os_defines.h"
       :pointmax 2008
       :fsize 2007
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("__NO_CTYPE" . ((number "1" 1505 . 1506)))
@@ -626,7 +626,7 @@
       :file "cpu_defines.h"
       :pointmax 1334
       :fsize 1333
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_GLIBCXX_CPU_DEFINES" . ((number "1" 1324 . 1325)))
@@ -641,7 +641,7 @@
       :file "c++allocator.h"
       :pointmax 1850
       :fsize 1849
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("__allocator_base" . 
@@ -805,7 +805,7 @@
       :file "basic_file.h"
       :pointmax 3443
       :fsize 3442
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax '((symbol 3411 . 3419) (symbol 1389 . 1402) (symbol 1385 . 1388) (symbol 1378 . 1384) (punctuation 1377 . 1378))
       :lexical-table 
         '(("_GLIBCXX_BASIC_FILE_STDIO_H" . ((number "1" 1374 . 1375)))
@@ -858,7 +858,7 @@
       :file "c++locale.h"
       :pointmax 3308
       :fsize 3307
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax '((symbol 3276 . 3284) (symbol 1768 . 1776) (semantic-list 1720 . 1731) (symbol 1712 . 1720) (string 1708 . 1711) (EXTERN 1701 . 1707) (symbol 1450 . 1463) (symbol 1446 . 1449) (symbol 1439 . 1445) (punctuation 1438 . 1439))
       :lexical-table 
         '(("_GLIBCXX_CXX_LOCALE_H" . ((number "1" 1435 . 1436)))
@@ -887,7 +887,7 @@
       :file "c++io.h"
       :pointmax 1609
       :fsize 1608
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax '((symbol 1577 . 1585))
       :lexical-table 
         '(("_GLIBCXX_CXX_IO_H" . ((number "1" 1344 . 1345)))
@@ -902,7 +902,7 @@
       :file "gthr.h"
       :pointmax 5609
       :fsize 5608
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax '((symbol 5562 . 5565) (symbol 5551 . 5561) (symbol 5547 . 5550) (symbol 5540 . 5546) (punctuation 5539 . 5540) (semantic-list 1156 . 1165) (symbol 1152 . 1156) (DEFAULT 1157 . 1164) (symbol 1141 . 1151) (DEFAULT 1157 . 1164) (symbol 1137 . 1140) (symbol 1130 . 1136) (punctuation 1129 . 1130))
       :lexical-table 
         '(("_GLIBCXX_GTHREAD_USE_WEAK" . ((number "1" 5461 . 5462)))
@@ -922,7 +922,7 @@
       :file "atomic_word.h"
       :pointmax 1519
       :fsize 1518
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_GLIBCXX_WRITE_MEM_BARRIER" . ((symbol "__atomic_thread_fence" 1470 . 1491) (semantic-list "(__ATOMIC_RELEASE)" 1492 . 1510)))
@@ -944,7 +944,7 @@
       :file "error_constants.h"
       :pointmax 5176
       :fsize 5175
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax '((symbol 5144 . 5152) (symbol 5103 . 5113) (punctuation 5098 . 5099) (symbol 5078 . 5097) (punctuation 5062 . 5063) (symbol 5053 . 5062) (punctuation 5048 . 5049) (symbol 5032 . 5047) (punctuation 4992 . 4993) (symbol 4987 . 4992) (punctuation 4983 . 4984) (symbol 4953 . 4982) (punctuation 4945 . 4946) (symbol 4939 . 4945) (punctuation 4933 . 4934) (symbol 4918 . 4932) (punctuation 4910 . 4911) (symbol 4904 . 4910) (punctuation 4899 . 4900) (symbol 4879 . 4898) (punctuation 4871 . 4872) (symbol 4865 . 4871) (punctuation 4861 . 4862) (symbol 4831 . 4860) (punctuation 4823 . 4824) (symbol 4814 . 4823) (punctuation 4808 . 4809) (symbol 4798 . 4807) (punctuation 4782 . 4783) (symbol 4775 . 4782) (punctuation 4769 . 4770) (symbol 4754 . 4768) (punctuation 4709 . 4710) (symbol 4704 . 4709) (punctuation 4698 . 4699) (symbol 4683 . 4697) (punctuation 4640 . 4641) (symbol 4625 . 4640) (punctuation 4620 . 4621) (symbol 4598 . 4619) (punctuation 4552 . 4553) (symbol 4546 . 4552) (punctuation 4541 . 4542) (symbol 4521 . 4540) (punctuation 4513 . 4514) (symbol 4507 . 4513) (punctuation 4503 . 4504) (symbol 4472 . 4502) (punctuation 4464 . 4465) (symbol 4457 . 4464) (punctuation 4453 . 4454) (symbol 4423 . 4452) (punctuation 4415 . 4416) (symbol 4410 . 4415) (punctuation 4405 . 4406) (symbol 4383 . 4404) (punctuation 4375 . 4376) (symbol 4360 . 4375) (punctuation 4355 . 4356) (symbol 4332 . 4354) (punctuation 4316 . 4317) (symbol 4310 . 4316) (punctuation 4304 . 4305) (symbol 4289 . 4303) (punctuation 4252 . 4253) (symbol 4246 . 4252) (punctuation 4241 . 4242) (symbol 4223 . 4240) (punctuation 4207 . 4208) (symbol 4197 . 4207) (punctuation 4191 . 4192) (symbol 4180 . 4190) (punctuation 4139 . 4140) (symbol 4128 . 4139) (punctuation 4123 . 4124) (symbol 4101 . 4122) (punctuation 4093 . 4094) (symbol 4083 . 4093) (punctuation 4079 . 4080) (symbol 4055 . 4078) (punctuation 4047 . 4048) (symbol 4042 . 4047) (punctuation 4038 . 4039) (symbol 4014 . 4037) (punctuation 4006 . 4007) (symbol 3995 . 4006) (punctuation 3990 . 3991) (symbol 3968 . 3989) (punctuation 3952 . 3953) (symbol 3943 . 3952) (punctuation 3938 . 3939) (symbol 3919 . 3937) (punctuation 3872 . 3873) (symbol 3865 . 3872) (punctuation 3859 . 3860) (symbol 3845 . 3858) (punctuation 3807 . 3808) (symbol 3801 . 3807) (punctuation 3796 . 3797) (symbol 3778 . 3795) (punctuation 3770 . 3771) (symbol 3762 . 3770) (punctuation 3756 . 3757) (symbol 3742 . 3755) (punctuation 3726 . 3727) (symbol 3720 . 3726) (punctuation 3714 . 3715) (symbol 3701 . 3713) (punctuation 3664 . 3665) (symbol 3656 . 3664) (punctuation 3650 . 3651) (symbol 3637 . 3649) (punctuation 3629 . 3630) (symbol 3622 . 3629) (punctuation 3617 . 3618) (symbol 3601 . 3616) (punctuation 3593 . 3594) (symbol 3588 . 3593) (punctuation 3583 . 3584) (symbol 3567 . 3582) (punctuation 3559 . 3560) (symbol 3553 . 3559) (punctuation 3549 . 3550) (symbol 3523 . 3548) (punctuation 3515 . 3516) (symbol 3509 . 3515) (punctuation 3503 . 3504) (symbol 3488 . 3502) (punctuation 3480 . 3481) (symbol 3475 . 3480) (punctuation 3471 . 3472) (symbol 3445 . 3470) (punctuation 3429 . 3430) (symbol 3424 . 3429) (punctuation 3419 . 3420) (symbol 3399 . 3418) (punctuation 3363 . 3364) (symbol 3357 . 3363) (punctuation 3352 . 3353) (symbol 3333 . 3351) (punctuation 3325 . 3326) (symbol 3314 . 3325) (punctuation 3309 . 3310) (symbol 3290 . 3308) (punctuation 3282 . 3283) (symbol 3276 . 3282) (punctuation 3270 . 3271) (symbol 3259 . 3269) (punctuation 3243 . 3244) (symbol 3236 . 3243) (punctuation 3231 . 3232) (symbol 3210 . 3230) (punctuation 3172 . 3173) (symbol 3166 . 3172) (punctuation 3161 . 3162) (symbol 3143 . 3160) (punctuation 3127 . 3128) (symbol 3120 . 3127) (punctuation 3114 . 3115) (symbol 3106 . 3113) (punctuation 3068 . 3069) (symbol 3062 . 3068) (punctuation 3057 . 3058) (symbol 3040 . 3056) (punctuation 3032 . 3033) (symbol 3025 . 3032) (punctuation 3020 . 3021) (symbol 3004 . 3019) (punctuation 2996 . 2997) (symbol 2985 . 2996) (punctuation 2980 . 2981) (symbol 2960 . 2979) (punctuation 2952 . 2953) (symbol 2943 . 2952) (punctuation 2937 . 2938) (symbol 2923 . 2936) (punctuation 2915 . 2916) (symbol 2907 . 2915) (punctuation 2901 . 2902) (symbol 2888 . 2900) (punctuation 2880 . 2881) (symbol 2872 . 2880) (punctuation 2866 . 2867) (symbol 2853 . 2865) (punctuation 2845 . 2846) (symbol 2839 . 2845) (punctuation 2833 . 2834) (symbol 2818 . 2832) (punctuation 2810 . 2811) (symbol 2807 . 2810) (punctuation 2801 . 2802) (symbol 2792 . 2800) (punctuation 2784 . 2785) (symbol 2778 . 2784) (punctuation 2772 . 2773) (symbol 2759 . 2771) (punctuation 2751 . 2752) (symbol 2745 . 2751) (punctuation 2740 . 2741) (symbol 2723 . 2739) (punctuation 2715 . 2716) (symbol 2710 . 2715) (punctuation 2704 . 2705) (symbol 2692 . 2703) (punctuation 2684 . 2685) (symbol 2678 . 2684) (punctuation 2675 . 2676) (symbol 2640 . 2674) (punctuation 2632 . 2633) (symbol 2626 . 2632) (punctuation 2621 . 2622) (symbol 2599 . 2620) (punctuation 2583 . 2584) (symbol 2578 . 2583) (punctuation 2573 . 2574) (symbol 2554 . 2572) (punctuation 2518 . 2519) (symbol 2506 . 2518) (punctuation 2501 . 2502) (symbol 2484 . 2500) (punctuation 2476 . 2477) (symbol 2470 . 2476) (punctuation 2465 . 2466) (symbol 2442 . 2464) (punctuation 2434 . 2435) (symbol 2422 . 2434) (punctuation 2417 . 2418) (symbol 2399 . 2416) (punctuation 2391 . 2392) (symbol 2386 . 2391) (punctuation 2380 . 2381) (symbol 2365 . 2379) (punctuation 2357 . 2358) (symbol 2351 . 2357) (punctuation 2338 . 2339) (symbol 2326 . 2337) (punctuation 2318 . 2319) (symbol 2311 . 2318) (punctuation 2307 . 2308) (symbol 2283 . 2306) (punctuation 2275 . 2276) (symbol 2266 . 2275) (punctuation 2261 . 2262) (symbol 2241 . 2260) (punctuation 2233 . 2234) (symbol 2228 . 2233) (punctuation 2224 . 2225) (symbol 2200 . 2223) (punctuation 2192 . 2193) (symbol 2180 . 2192) (punctuation 2176 . 2177) (symbol 2147 . 2175) (punctuation 2139 . 2140) (symbol 2134 . 2139) (punctuation 2129 . 2130) (symbol 2111 . 2128) (punctuation 2103 . 2104) (symbol 2093 . 2103) (punctuation 2088 . 2089) (symbol 2071 . 2087) (punctuation 2063 . 2064) (symbol 2051 . 2063) (punctuation 2046 . 2047) (symbol 2027 . 2045) (punctuation 2019 . 2020) (symbol 2011 . 2019) (punctuation 2007 . 2008) (symbol 1976 . 2006) (punctuation 1968 . 1969) (symbol 1956 . 1968) (punctuation 1951 . 1952) (symbol 1932 . 1950) (punctuation 1924 . 1925) (symbol 1919 . 1924) (punctuation 1913 . 1914) (symbol 1901 . 1912) (punctuation 1885 . 1886) (symbol 1878 . 1885) (punctuation 1872 . 1873) (symbol 1860 . 1871) (punctuation 1822 . 1823) (symbol 1817 . 1822) (punctuation 1812 . 1813) (symbol 1792 . 1811) (punctuation 1784 . 1785) (symbol 1778 . 1784) (punctuation 1772 . 1773) (symbol 1760 . 1771) (punctuation 1752 . 1753) (symbol 1748 . 1752) (punctuation 1743 . 1744) (symbol 1720 . 1742) (punctuation 1712 . 1713) (symbol 1707 . 1712) (punctuation 1702 . 1703) (symbol 1679 . 1701) (punctuation 1671 . 1672) (symbol 1664 . 1671) (punctuation 1659 . 1660) (symbol 1641 . 1658) (punctuation 1633 . 1634) (symbol 1620 . 1633) (punctuation 1615 . 1616) (symbol 1593 . 1614) (punctuation 1585 . 1586) (symbol 1575 . 1585) (punctuation 1569 . 1570) (symbol 1554 . 1568) (punctuation 1546 . 1547) (symbol 1534 . 1546) (punctuation 1530 . 1531) (symbol 1501 . 1529) (ENUM 1473 . 1477))
       :lexical-table 
         '(("_GLIBCXX_ERROR_CONSTANTS" . ((number "1" 1342 . 1343)))
@@ -1034,7 +1034,7 @@
       :file "ctype_base.h"
       :pointmax 2317
       :fsize 2316
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax '((symbol 2293 . 2301) (punctuation 2045 . 2046) (symbol 2036 . 2044) (punctuation 2034 . 2035) (symbol 2025 . 2033) (punctuation 2023 . 2024) (symbol 2016 . 2021) (symbol 2011 . 2015) (CONST 2005 . 2010) (STATIC 1998 . 2004)))
     (semanticdb-table "semanticdb-table"
       :major-mode c++-mode
@@ -1114,7 +1114,7 @@
       :file "ctype_inline.h"
       :pointmax 2285
       :fsize 2284
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax '((symbol 2261 . 2269)))
     (semanticdb-table "semanticdb-table"
       :major-mode c++-mode
@@ -1471,7 +1471,7 @@
       :file "gthr-default.h"
       :pointmax 24238
       :fsize 24237
-      :lastmodtime '(23250 55933 0 0)
+      :lastmodtime '(23385 48592 0 0)
       :unmatched-syntax '((semantic-list 21679 . 21719) (symbol 21672 . 21679) (punctuation 21670 . 21671) (punctuation 21669 . 21670) (semantic-list 19085 . 19092) (semantic-list 19075 . 19084))
       :lexical-table 
         '(("__GTHREAD_HAS_COND" . ((number "1" 1999 . 2000)))
@@ -1487,6 +1487,20 @@
           ("__GTHREAD_RECURSIVE_MUTEX_INIT_FUNCTION" . ((symbol "__gthread_recursive_mutex_init_function" 2481 . 2520)))
           ("__GTHREAD_MUTEX_INIT" . ((symbol "PTHREAD_MUTEX_INITIALIZER" 2031 . 2056)))
           ("__GTHREADS_CXX0X" . ((number "1" 1270 . 1271)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_BITS_OPT_RANDOM_H" variable (:constant-flag t) nil [1311 1329])
+            ("std" type (:type "namespace") nil [1409 6150]))          
+      :file "opt_random.h"
+      :pointmax 6195
+      :fsize 6194
+      :lastmodtime '(23385 48592 0 0)
+      :unmatched-syntax '((symbol 6140 . 6148) (symbol 1393 . 1406) (symbol 1389 . 1392) (symbol 1382 . 1388) (punctuation 1381 . 1382))
+      :lexical-table 
+        '(("_BITS_OPT_RANDOM_H" . ((number "1" 1330 . 1331)))
           )
 ))
   :file "!usr!include!x86_64-linux-gnu!c++!7!bits!semantic.cache"

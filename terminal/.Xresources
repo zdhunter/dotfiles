@@ -103,6 +103,29 @@ urxvt.keysym.F11: 			perl:fullscreen:switch
 ! URXVT COLORS
 !------------------------------------------------
 
+! XENID BLACK
+urxvt*background:  #0c0c0c
+urxvt*foreground:  #737F88
+urxvt*colorBD:     #56B6C2
+urxvt*cursorColor: #D19A66
+
+urxvt*color0:      #878787
+urxvt*color1:      #56B6C2
+urxvt*color2:      #E5C07B
+urxvt*color3:      #AEB9F5
+urxvt*color4:      #E06C75
+urxvt*color5:      #ff008d
+urxvt*color6:      #FF8787
+urxvt*color7:      #6CA0A3
+urxvt*color8:      #B0996A
+urxvt*color9:      #BCBCBC
+urxvt*color10:     #AFD787
+urxvt*color11:     #AAAAAA
+urxvt*color12:     #BE5046
+urxvt*color13:     #737F88
+urxvt*color14:     #B0996A
+urxvt*color15:     #85C600
+
 !ATOM ONE DARK
 ! urxvt*background:  #282C34
 ! urxvt*foreground:  #ABB2BF
@@ -110,11 +133,11 @@ urxvt.keysym.F11: 			perl:fullscreen:switch
 ! urxvt*cursorColor: #D19A66;
 
 ! urxvt*color0:      #878787
-! urxvt*color1:      #E06C75
+! urxvt*color1:      #D19A66
 ! urxvt*color2:      #AEB9F5
 ! urxvt*color3:      #98C379
 ! urxvt*color4:      #56B6C2
-! urxvt*color5:      #D19A66
+! urxvt*color5:      #E06C75
 ! urxvt*color6:      #BE5046
 ! urxvt*color7:      #6CA0A3
 ! urxvt*color8:      #BCBCBC
@@ -127,27 +150,27 @@ urxvt.keysym.F11: 			perl:fullscreen:switch
 ! urxvt*color15:     #E5C07B
 
 ! SANCTITY TOMORROW NIGHT
-urxvt*background:  #1d1f21
-urxvt*foreground:  #c5c8c6
-urxvt*colorBD:     #f0c674
-urxvt*cursorColor: #D19A66
+! urxvt*background:  #1d1f21
+! urxvt*foreground:  #c5c8c6
+! urxvt*colorBD:     #f0c674
+! urxvt*cursorColor: #D19A66
 
-urxvt*color0:      #969896
-urxvt*color1:      #E06C75
-urxvt*color2:      #81a2be
-urxvt*color3:      #98C379
-urxvt*color4:      #56B6C2
-urxvt*color5:      #cc6666
-urxvt*color6:      #de935f
-urxvt*color7:      #BCBCBC
-urxvt*color8:      #AEB9F5
-urxvt*color9:      #FF8787
-urxvt*color10:     #AFD787
-urxvt*color11:     #b294bb
-urxvt*color12:     #f0c674
-urxvt*color13:     #8abeb7
-urxvt*color14:     #5c737c
-urxvt*color15:     #E5C07B
+! urxvt*color0:      #969896
+! urxvt*color1:      #E06C75
+! urxvt*color2:      #81a2be
+! urxvt*color3:      #98C379
+! urxvt*color4:      #56B6C2
+! urxvt*color5:      #cc6666
+! urxvt*color6:      #de935f
+! urxvt*color7:      #BCBCBC
+! urxvt*color8:      #AEB9F5
+! urxvt*color9:      #FF8787
+! urxvt*color10:     #AFD787
+! urxvt*color11:     #b294bb
+! urxvt*color12:     #f0c674
+! urxvt*color13:     #8abeb7
+! urxvt*color14:     #5c737c
+! urxvt*color15:     #E5C07B
 
 
 ! !MOLOKAI

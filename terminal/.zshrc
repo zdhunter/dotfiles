@@ -131,7 +131,7 @@ imgdl() {
 }
 
 alias webmize="bash ~/Documents/scripts/webmize.sh"
-alias yt_extract_mp3="bash ~/Documents/scripts/yt_extract_mp3.sh"
+alias yt_extract_mp3="youtube-dl -x --audio-format mp3 "
 alias print_failed_ssh_cons="grep sshd.*Did /var/log/auth.log | less"
 alias print_failed_ssh_logins="grep sshd.\*Failed /var/log/auth.log | less"
 alias print_successful_ssh_logins="zgrep sshd /var/log/auth.log* | grep rhost | sed -re 's/.*rhost=([^ ]+).*/\1/' | sort -u"

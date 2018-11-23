@@ -1,0 +1,480 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GAME_MANAGER_HPP" variable (:constant-flag t) nil [34 50])
+            ("iostream" include (:system-flag t) nil [53 72])
+            ("sstream" include (:system-flag t) nil [73 91])
+            ("ctime" include (:system-flag t) nil [92 108])
+            ("vector" include (:system-flag t) nil [109 126])
+            ("memory" include (:system-flag t) nil [127 144])
+            ("stdio.h" include (:system-flag t) nil [145 163])
+            ("thread" include (:system-flag t) nil [164 181])
+            ("cstdint" include (:system-flag t) nil [182 200])
+            ("random" include (:system-flag t) nil [201 218])
+            ("gameObject.hpp" include nil nil [220 245])
+            ("player.hpp" include nil nil [246 267])
+            ("grid.hpp" include nil nil [268 287])
+            ("GAME_STATE" type
+               (:superclasses 
+                  ( ("std::int8_t" type
+                       (:protection "unspecified"
+                        :type "class")
+                        nil nil))                  
+                :type "class")
+                nil [295 414])
+            ("MENU_START_SCREEN_SELECTION" type
+               (:superclasses 
+                  ( ("std::int8_t" type
+                       (:protection "unspecified"
+                        :type "class")
+                        nil nil))                  
+                :type "class")
+                nil [420 535])
+            ("MENU_OPTIONS_SELECTION" type
+               (:superclasses 
+                  ( ("std::int8_t" type
+                       (:protection "unspecified"
+                        :type "class")
+                        nil nil))                  
+                :type "class")
+                nil [541 644])
+            ("MENU_OPTIONS_RESOLUTION_SELECTION" type
+               (:superclasses 
+                  ( ("std::int8_t" type
+                       (:protection "unspecified"
+                        :type "class")
+                        nil nil))                  
+                :type "class")
+                nil [650 797])
+            ("MENU_IN_GAME_OPTIONS" type
+               (:superclasses 
+                  ( ("std::uint8_t" type
+                       (:protection "unspecified"
+                        :type "class")
+                        nil nil))                  
+                :type "class")
+                nil [803 903])
+            ("GameManager" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [925 933])
+                    ("pWindowManager" variable
+                       (:pointer 1
+                        :type ("SGL_Window" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1356 1383])
+                    ("pDeltaTime" variable (:type "float") (reparse-symbol classsubparts) [1388 1419])
+                    ("pTimeCounter" variable (:type "float") (reparse-symbol classsubparts) [1388 1419])
+                    ("pDeltaTimeCap" variable (:type "bool") (reparse-symbol classsubparts) [1500 1519])
+                    ("pDeltaInput" variable (:type ("SGL_InputFrame" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1524 1551])
+                    ("pGameObjects" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("GameObject" type (:pointer 1) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1557 1596])
+                    ("pSprites" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::shared_ptr" type (:template-specifier 
+                                ( ("SGL_Sprite" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1680 1730])
+                    ("pGameState" variable (:type ("GAME_STATE" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1735 1757])
+                    ("pMainLoopActive" variable (:type "bool") (reparse-symbol classsubparts) [1762 1800])
+                    ("pDrawDebugPanel" variable (:type "bool") (reparse-symbol classsubparts) [1762 1800])
+                    ("pMenuCursor" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1805 1824])
+                    ("pShakeTime" variable (:type ("GLfloat" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1855 1874])
+                    ("pCameraZoom" variable (:type "float") (reparse-symbol classsubparts) [1879 1897])
+                    ("pCurrentResolution" variable (:type ("MENU_OPTIONS_RESOLUTION_SELECTION" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1925 1978])
+                    ("pGameGrid" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("Grid" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2000 2031])
+                    ("pUISprite" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("SGL_Sprite" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [2062 2099])
+                    ("pPlayerOne" variable
+                       (:pointer 1
+                        :type ("Player" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2105 2124])
+                    ("public" label nil (reparse-symbol classsubparts) [2125 2132])
+                    ("GameManager" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("GameManager" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2138 2152])
+                    ("GameManager" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2157 2172])
+                    ("createSGLWindow" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [2178 2200])
+                    ("mainLoop" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2206 2222])
+                    ("render" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("gameState" variable (:type ("GAME_STATE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2239 2260]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2227 2261])
+                    ("update" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("gameState" variable (:type ("GAME_STATE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2278 2299]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2266 2300])
+                    ("input" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("gameState" variable (:type ("GAME_STATE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2316 2337]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2305 2338])
+                    ("loadAssets" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2400 2418])
+                    ("drawDebugPanel" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [2494 2502])
+                            ("y" variable (:type "float") (reparse-symbol arg-sub-list) [2503 2511])
+                            ("fontSize" variable (:type "float") (reparse-symbol arg-sub-list) [2512 2527])
+                            ("color" variable (:type ("SGL_Color" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2528 2544]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2474 2545])
+                    ("renderMainMenu" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2578 2600])
+                    ("renderOptionsMenu" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2605 2630])
+                    ("renderCreditsMenu" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2635 2660])
+                    ("renderGame" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2665 2683])
+                    ("processMenu" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("menu" variable (:type ("GAME_STATE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2747 2763])
+                            ("cursor" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2764 2778]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2730 2779]))                  
+                :type "class")
+                nil [905 2783]))          
+      :file "gameManager.hpp"
+      :pointmax 2794
+      :fsize 2793
+      :lastmodtime '(23438 40638 0 0)
+      :unmatched-syntax '((punctuation 1192 . 1193) (DELETE 1186 . 1192) (punctuation 1184 . 1185) (semantic-list 1167 . 1183) (punctuation 1165 . 1166) (OPERATOR 1156 . 1164) (punctuation 1181 . 1182) (punctuation 1155 . 1156) (symbol 1143 . 1154) (punctuation 1181 . 1182) (punctuation 1137 . 1138) (DELETE 1131 . 1137) (punctuation 1129 . 1130) (semantic-list 1112 . 1128) (symbol 1101 . 1112) (punctuation 1126 . 1127) (punctuation 1095 . 1096) (DELETE 1089 . 1095) (punctuation 1087 . 1088) (semantic-list 1065 . 1086) (punctuation 1063 . 1064) (OPERATOR 1054 . 1062) (punctuation 1053 . 1054) (symbol 1041 . 1052) (punctuation 1035 . 1036) (DELETE 1029 . 1035) (punctuation 1027 . 1028) (semantic-list 1006 . 1026) (symbol 995 . 1006) (number 899 . 900) (punctuation 897 . 898) (symbol 888 . 896) (punctuation 886 . 887) (number 885 . 886) (punctuation 883 . 884) (symbol 865 . 882) (punctuation 863 . 864) (number 862 . 863) (punctuation 860 . 861) (symbol 847 . 859) (ENUM 798 . 802) (number 794 . 795) (punctuation 792 . 793) (symbol 783 . 791) (punctuation 781 . 782) (number 780 . 781) (punctuation 778 . 779) (symbol 763 . 777) (punctuation 761 . 762) (number 760 . 761) (punctuation 758 . 759) (symbol 748 . 757) (punctuation 746 . 747) (number 745 . 746) (punctuation 743 . 744) (symbol 734 . 742) (punctuation 732 . 733) (number 731 . 732) (punctuation 729 . 730) (symbol 720 . 728) (punctuation 718 . 719) (number 717 . 718) (punctuation 715 . 716) (symbol 706 . 714) (ENUM 645 . 649) (number 641 . 642) (punctuation 639 . 640) (symbol 630 . 638) (punctuation 628 . 629) (number 627 . 628) (punctuation 625 . 626) (symbol 619 . 624) (punctuation 617 . 618) (number 616 . 617) (punctuation 614 . 615) (symbol 602 . 613) (punctuation 600 . 601) (number 599 . 600) (punctuation 597 . 598) (symbol 586 . 596) (ENUM 536 . 540) (number 532 . 533) (punctuation 530 . 531) (symbol 521 . 529) (punctuation 519 . 520) (number 518 . 519) (punctuation 516 . 517) (symbol 511 . 515) (punctuation 509 . 510) (number 508 . 509) (punctuation 506 . 507) (symbol 498 . 505) (punctuation 496 . 497) (number 495 . 496) (punctuation 493 . 494) (symbol 485 . 492) (punctuation 483 . 484) (number 482 . 483) (punctuation 480 . 481) (symbol 469 . 479) (ENUM 415 . 419) (number 411 . 412) (punctuation 409 . 410) (symbol 400 . 408) (punctuation 398 . 399) (number 397 . 398) (punctuation 395 . 396) (symbol 387 . 394) (punctuation 385 . 386) (number 384 . 385) (punctuation 382 . 383) (symbol 369 . 381) (punctuation 367 . 368) (number 366 . 367) (punctuation 364 . 365) (symbol 351 . 363) (punctuation 349 . 350) (number 348 . 349) (punctuation 346 . 347) (symbol 328 . 345) (ENUM 290 . 294))
+      :lexical-table 
+        '(("GAME_MANAGER_HPP")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "gameObject.hpp"
+      :fsize 1146
+      :lastmodtime '(23204 27905 0 0))
+    (semanticdb-table "semanticdb-table"
+      :file "player.hpp"
+      :fsize 563
+      :lastmodtime '(23204 30210 0 0))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GRID_HPP" variable (:constant-flag t) nil [26 34])
+            ("string" include (:system-flag t) nil [36 53])
+            ("vector" include (:system-flag t) nil [54 71])
+            ("memory" include (:system-flag t) nil [72 89])
+            ("iostream" include (:system-flag t) nil [90 109])
+            ("cstdint" include (:system-flag t) nil [110 128])
+            ("list" include (:system-flag t) nil [129 144])
+            ("skeletonGL/skeletonGL.hpp" include nil nil [145 181])
+            ("DIRECTION" type
+               (:superclasses 
+                  ( ("std::int8_t" type
+                       (:protection "unspecified"
+                        :type "class")
+                        nil nil))                  
+                :type "class")
+                nil [188 290])
+            ("COLLISION" type
+               (:superclasses 
+                  ( ("std::int8_t" type
+                       (:protection "unspecified"
+                        :type "class")
+                        nil nil))                  
+                :type "class")
+                nil [296 390])
+            ("Tile" type
+               (:members 
+                  ( ("position" variable (:type ("glm::vec4" type (:type "class") nil nil)) (reparse-symbol classsubparts) [410 429])
+                    ("color" variable (:type ("SGL_Color" type (:type "class") nil nil)) (reparse-symbol classsubparts) [434 450])
+                    ("selected" variable (:type "bool") (reparse-symbol classsubparts) [455 469])
+                    ("id" variable (:type "int") (reparse-symbol classsubparts) [474 481])
+                    ("sprite" variable (:type ("SGL_Sprite" type (:type "class") nil nil)) (reparse-symbol classsubparts) [486 504])
+                    ("Tile" function
+                       (:constructor-flag t
+                        :type ("Tile" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [510 560]))                  
+                :type "struct")
+                nil [392 563])
+            ("Snake" type
+               (:members 
+                  ( ("x" variable (:type "int") (reparse-symbol classsubparts) [584 593])
+                    ("y" variable (:type "int") (reparse-symbol classsubparts) [584 593])
+                    ("bodyPiece" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [598 616])
+                    ("sprite" variable (:type ("SGL_Sprite" type (:type "class") nil nil)) (reparse-symbol classsubparts) [621 639]))                  
+                :type "struct")
+                nil [565 642])
+            ("Food" type
+               (:members 
+                  ( ("x" variable (:type "int") (reparse-symbol classsubparts) [662 671])
+                    ("y" variable (:type "int") (reparse-symbol classsubparts) [662 671])
+                    ("sprite" variable (:type ("SGL_Sprite" type (:type "class") nil nil)) (reparse-symbol classsubparts) [676 694])
+                    ("active" variable (:type "bool") (reparse-symbol classsubparts) [699 711]))                  
+                :type "struct")
+                nil [644 714])
+            ("Grid" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [729 737])
+                    ("pWidth" variable (:type "int") (reparse-symbol classsubparts) [742 773])
+                    ("pHeight" variable (:type "int") (reparse-symbol classsubparts) [742 773])
+                    ("pTileSize" variable (:type "int") (reparse-symbol classsubparts) [742 773])
+                    ("pPosX" variable (:type "int") (reparse-symbol classsubparts) [778 795])
+                    ("pPosY" variable (:type "int") (reparse-symbol classsubparts) [778 795])
+                    ("pColor" variable (:type ("SGL_Color" type (:type "class") nil nil)) (reparse-symbol classsubparts) [800 817])
+                    ("pNextMove" variable (:type ("DIRECTION" type (:type "class") nil nil)) (reparse-symbol classsubparts) [822 842])
+                    ("pSpeed" variable (:type "float") (reparse-symbol classsubparts) [847 860])
+                    ("pTimeCounter" variable (:type "float") (reparse-symbol classsubparts) [884 914])
+                    ("pGameTime" variable (:type "float") (reparse-symbol classsubparts) [884 914])
+                    ("pHead" variable (:type ("Snake" type (:type "class") nil nil)) (reparse-symbol classsubparts) [987 999])
+                    ("pBody" variable (:type ("std::list" type
+                         (:template-specifier 
+                            ( ("Snake" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1004 1027])
+                    ("pTiles" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("Tile" type (:pointer 1) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1032 1059])
+                    ("pFood" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("Food" type (:pointer 1) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1064 1090])
+                    ("pSelectedTileIndex" variable
+                       (:default-value "0"
+                        :type ("uint16_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1095 1127])
+                    ("generateGrid" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1133 1153])
+                    ("checkForCollision" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dx" variable (:type "int") (reparse-symbol arg-sub-list) [1186 1193])
+                            ("dy" variable (:type "int") (reparse-symbol arg-sub-list) [1194 1201]))                          
+                        :type ("COLLISION" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1158 1202])
+                    ("increaseScore" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1207 1228])
+                    ("moveSnake" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dx" variable (:type "int") (reparse-symbol arg-sub-list) [1248 1255])
+                            ("dy" variable (:type "int") (reparse-symbol arg-sub-list) [1256 1263]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1233 1264])
+                    ("public" label nil (reparse-symbol classsubparts) [1266 1273])
+                    ("Grid" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [1283 1289])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [1290 1296])
+                            ("w" variable (:type "int") (reparse-symbol arg-sub-list) [1297 1303])
+                            ("h" variable (:type "int") (reparse-symbol arg-sub-list) [1304 1310])
+                            ("size" variable (:type "int") (reparse-symbol arg-sub-list) [1311 1320])
+                            ("color" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("SGL_Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1321 1344])
+                            ("texture" variable (:type ("SGL_Texture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1345 1365]))                          
+                        :type ("Grid" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1278 1366])
+                    ("Grid" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1371 1379])
+                    ("setPlayerTexture" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("texture" variable (:type ("SGL_Texture" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1407 1427]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1385 1428])
+                    ("update" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("deltaTime" variable (:type "float") (reparse-symbol arg-sub-list) [1446 1462]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1434 1463])
+                    ("update" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("mouseX" variable (:type "int") (reparse-symbol arg-sub-list) [1480 1491])
+                            ("mouseY" variable (:type "int") (reparse-symbol arg-sub-list) [1492 1503]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1468 1504])
+                    ("render" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("r" variable
+                               (:reference 1
+                                :type ("SGL_Renderer" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1521 1537])
+                            ("am" variable
+                               (:reference 1
+                                :type ("SGL_AssetManager" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1538 1559]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1509 1560])
+                    ("setColor" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("color" variable
+                               (:reference 1
+                                :type ("SGL_Color" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1579 1596]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1565 1597])
+                    ("moveSnake" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dir" variable (:type ("DIRECTION" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1632 1646]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1617 1647])
+                    ("destroyTiles" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1655 1675])
+                    ("selectedTile" function
+                       (:prototype-flag t
+                        :type ("uint16_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1680 1704]))                  
+                :type "class")
+                nil [716 1707]))          
+      :file "grid.hpp"
+      :pointmax 1716
+      :fsize 1715
+      :lastmodtime '(23236 7453 0 0)
+      :unmatched-syntax '((number 387 . 388) (punctuation 385 . 386) (symbol 376 . 384) (punctuation 374 . 375) (number 373 . 374) (punctuation 371 . 372) (symbol 366 . 370) (punctuation 364 . 365) (number 363 . 364) (punctuation 361 . 362) (symbol 355 . 360) (punctuation 353 . 354) (number 352 . 353) (punctuation 350 . 351) (symbol 345 . 349) (punctuation 343 . 344) (number 342 . 343) (punctuation 340 . 341) (symbol 327 . 339) (ENUM 291 . 295) (number 287 . 288) (punctuation 285 . 286) (symbol 276 . 284) (punctuation 274 . 275) (number 273 . 274) (punctuation 271 . 272) (symbol 258 . 270) (punctuation 256 . 257) (number 255 . 256) (punctuation 253 . 254) (symbol 247 . 252) (punctuation 245 . 246) (number 244 . 245) (punctuation 242 . 243) (symbol 237 . 241) (punctuation 235 . 236) (number 234 . 235) (punctuation 232 . 233) (symbol 227 . 231) (punctuation 225 . 226) (number 224 . 225) (punctuation 222 . 223) (symbol 219 . 221) (ENUM 183 . 187))
+      :lexical-table 
+        '(("GRID_HPP")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("gameManager.hpp" include nil nil [1 27])
+            ("GameManager" function
+               (:constructor-flag t
+                :parent "GameManager"
+                :type ("GameManager" type (:type "class") nil nil))
+                nil [29 299])
+            ("GameManager" function
+               (:destructor-flag t
+                :parent "GameManager"
+                :type "void")
+                nil [301 359])
+            ("createSGLWindow" function
+               (:parent "GameManager"
+                :type "int")
+                nil [361 915])
+            ("mainLoop" function
+               (:parent "GameManager"
+                :type "void")
+                nil [917 5398])
+            ("update" function
+               (:parent "GameManager"
+                :arguments 
+                  ( ("gameState" variable (:type ("GAME_STATE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5425 5446]))                  
+                :type "void")
+                nil [5400 7119])
+            ("input" function
+               (:parent "GameManager"
+                :arguments 
+                  ( ("gameState" variable (:type ("GAME_STATE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7145 7166]))                  
+                :type "void")
+                nil [7121 11388])
+            ("render" function
+               (:parent "GameManager"
+                :arguments 
+                  ( ("gameState" variable (:type ("GAME_STATE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11415 11436]))                  
+                :type "void")
+                nil [11390 12121])
+            ("renderGame" function
+               (:parent "GameManager"
+                :type "void")
+                nil [12123 14925])
+            ("renderMainMenu" function
+               (:parent "GameManager"
+                :type "void")
+                nil [14935 16410])
+            ("renderOptionsMenu" function
+               (:parent "GameManager"
+                :type "void")
+                nil [16411 20907])
+            ("renderCreditsMenu" function
+               (:parent "GameManager"
+                :type "void")
+                nil [20909 20951])
+            ("drawDebugPanel" function
+               (:parent "GameManager"
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [21034 21042])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [21043 21051])
+                    ("fontSize" variable (:type "float") (reparse-symbol arg-sub-list) [21052 21067])
+                    ("color" variable (:type ("SGL_Color" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21068 21084]))                  
+                :type "void")
+                nil [21001 30840])
+            ("processMenu" function
+               (:parent "GameManager"
+                :arguments 
+                  ( ("menu" variable (:type ("GAME_STATE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30872 30888])
+                    ("cursor" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30889 30903]))                  
+                :type "void")
+                nil [30842 34896])
+            ("loadAssets" function
+               (:parent "GameManager"
+                :type "void")
+                nil [34951 37441]))          
+      :file "gameManager.cpp"
+      :pointmax 37442
+      :fsize 37441
+      :lastmodtime '(23524 29072 688679 110000)
+      :unmatched-syntax nil))
+  :file "!home!argos!Documents!gits!sgl!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

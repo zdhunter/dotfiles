@@ -15,7 +15,7 @@ local theme                                     = {}
 theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/themes/argos"
 theme.wallpaper                                 = theme.dir .. "/default_wallpaper.jpg"
 theme.font                                      = "ohsnap bold 9"
-theme.fg_normal                                 = "#DDDDDD"
+theme.fg_normal                                 = "#878787"
 theme.fg_focus                                  = "#E5C07B"
 theme.fg_minimize                               = "#737F88"
 theme.bg_normal                                 = "#0c0c0c"
@@ -92,9 +92,13 @@ local red    = "#EB8F8F"
 local green  = "#8FEB8F"
 
 -- Textclock
---os.setlocale(os.getenv("LANG")) -- to localize the clock
-local mytextclock = wibox.widget.textclock("<span font='ohsnap 9'> </span>%H:%M ")
-mytextclock.font = theme.font
+local clockicon = wibox.widget.imagebox(theme.widget_clock)
+local mytextclock = awful.widget.watch(
+    "date +'%a %d %b %R'", 60,
+    function(widget, stdout)
+        widget:set_markup(" " .. markup.font(theme.font, stdout))
+    end
+)
 
 -- Calendar
 lain.widget.calendar({
@@ -207,6 +211,11 @@ local fsbg = wibox.container.background(fsbar, "#474747", gears.shape.rectangle)
 local fswidget = wibox.container.margin(fsbg, 2, 7, 4, 4)
 
 -- ALSA volume bar
+-- MOTE: This plugin picks the default sound card ID which may NOT be thee one you actually use.
+-- To change the default sound card make a file called /etc/asound.conf with the following:
+--   defaults.pcm.card ID#
+--   defaults.ctl.card ID#
+-- Then restart.
 local volicon = wibox.widget.imagebox(theme.vol)
 theme.volume = lain.widget.alsabar({
     width = 59, border_width = 0, ticks = true, ticks_size = 6,

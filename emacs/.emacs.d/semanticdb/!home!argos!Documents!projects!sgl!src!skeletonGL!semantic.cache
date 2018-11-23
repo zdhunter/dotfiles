@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SRC_SKELETONGL_SKELETONGL_H" variable (:constant-flag t) nil [334 361])
+            ("utility/SGL_AssetManager.hpp" include nil nil [383 422])
+            ("utility/SGL_DataStructures.hpp" include nil nil [423 464])
+            ("utility/SGL_Utility.hpp" include nil nil [465 499])
+            ("renderer/SGL_OpenGLManager.hpp" include nil nil [513 554])
+            ("renderer/SGL_Camera.hpp" include nil nil [555 589])
+            ("renderer/SGL_PostProcessor.hpp" include nil nil [590 631])
+            ("renderer/SGL_Shader.hpp" include nil nil [632 666])
+            ("renderer/SGL_Renderer.hpp" include nil nil [667 703])
+            ("renderer/SGL_Texture.hpp" include nil nil [704 739])
+            ("window/SGL_Window.hpp" include nil nil [761 793]))          
+      :file "skeletonGL.hpp"
+      :pointmax 833
+      :fsize 832
+      :lastmodtime '(23514 21037 689419 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SRC_SKELETONGL_SKELETONGL_H")
+          )
+))
+  :file "!home!argos!Documents!projects!sgl!src!skeletonGL!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

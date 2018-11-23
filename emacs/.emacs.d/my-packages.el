@@ -115,6 +115,7 @@
     goto-chg
     auctex
     markdown-mode
+    latex-preview-pane
     ;; ;;THEMES -- ONLY ENABLE ONCE TO DOWNLOAD THEM THEN SET WITH M-X CUSTOMIZE-THEMES
     base16-theme
     abyss-theme
