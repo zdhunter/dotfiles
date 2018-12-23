@@ -20,7 +20,7 @@
       :file "skeletonGL.hpp"
       :pointmax 833
       :fsize 832
-      :lastmodtime '(23514 21037 689419 0)
+      :lastmodtime '(23565 50533 214221 886000)
       :unmatched-syntax nil
       :lexical-table 
         '(("SRC_SKELETONGL_SKELETONGL_H")

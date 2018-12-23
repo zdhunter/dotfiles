@@ -6,7 +6,7 @@
 # mpd stuff
 mpd_host = "127.0.0.1"
 mpd_port = "8451"
-mpd_music_dir = "/run/media/alexhg/HDD_A/Music/"
+mpd_music_dir = "/home/argos/Music/"
 mpd_connection_timeout = "5"
 
 

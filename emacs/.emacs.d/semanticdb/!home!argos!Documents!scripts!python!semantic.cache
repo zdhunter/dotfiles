@@ -1,0 +1,61 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("csv" include nil nil [1 11])
+            ("f" variable nil nil [13 50])
+            ("counter" variable nil nil [51 62])
+            ("for" code nil nil [63 252]))          
+      :file "csvtosql.py"
+      :pointmax 252
+      :fsize 251
+      :lastmodtime '(23407 16987 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("re" include nil nil [1 10])
+            ("optparse" include nil nil [11 26])
+            ("os" include nil nil [27 36])
+            ("sqlite3" include nil nil [37 51])
+            ("show_downloads" function (:arguments 
+              ( ("db" variable nil (reparse-symbol function_parameters) [72 74]))              ) nil [53 398])
+            ("show_cookies" function (:arguments 
+              ( ("db" variable nil (reparse-symbol function_parameters) [417 419]))              ) nil [400 941])
+            ("show_history" function (:arguments 
+              ( ("db" variable nil (reparse-symbol function_parameters) [959 961]))              ) nil [942 1407]))          
+      :file "firefox_data.py"
+      :pointmax 1409
+      :fsize 1408
+      :lastmodtime '(23407 16987 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("urllib.request" include nil nil [105 138])
+            ("optparse" include nil nil [139 154])
+            ("urllib.parse" include nil nil [156 189])
+            ("os.path" include nil nil [190 218])
+            ("bs4" include nil nil [219 248])
+            ("PIL" include nil nil [249 270])
+            ("PIL.ExifTags" include nil nil [271 300])
+            ("scan_for_images" function (:arguments 
+              ( ("url" variable nil (reparse-symbol function_parameters) [322 325]))              ) nil [302 811])
+            ("download_image" function (:arguments 
+              ( ("img_tag" variable nil (reparse-symbol function_parameters) [832 839]))              ) nil [813 1198])
+            ("test_for_exif" function (:arguments 
+              ( ("img_file_name" variable nil (reparse-symbol function_parameters) [1217 1230]))              ) nil [1199 1685])
+            ("main" function nil nil [1686 2157])
+            ("if" code nil nil [2158 2196]))          
+      :file "img_metadata.py"
+      :pointmax 2198
+      :fsize 2197
+      :lastmodtime '(23407 16987 0 0)
+      :unmatched-syntax nil))
+  :file "!home!argos!Documents!scripts!python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

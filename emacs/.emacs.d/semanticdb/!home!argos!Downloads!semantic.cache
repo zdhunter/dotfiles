@@ -1,0 +1,35 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("ubuntu_xboxdrv/xboxdrv.service at master · raelgc/ubuntu_xboxdrv" section nil nil [1196 6530])
+            ("Skip to content" section (:members 
+              ( ("Skip to content" anchor nil nil [6643 6646])
+                ("Please verify your email address to access all of GitHub’s features." section (:members 
+                  ( ("13" anchor nil nil [35694 35697]))                  ) nil [26541 35856])
+                ("raelgc" section (:members 
+                  ( ("Find file" anchor nil nil [45621 45624])
+                    ("Users who have contributed to this file" section (:members 
+                      ( ("Security" anchor nil nil [58525 58528])
+                        ("Status" anchor nil nil [58642 58645])
+                        ("Pricing" anchor nil nil [59913 59916])
+                        ("API" anchor nil nil [60042 60045])
+                        ("Training" anchor nil nil [60161 60164])
+                        ("Blog" anchor nil nil [60296 60299]))                      ) nil [48944 61549]))                  ) nil [35856 61549]))              ) nil [6530 61549])
+            ("You signed in with another tab or window. <a href=\"\">Reload" section nil nil [61549 61821])
+            ("You signed in with another tab or window. <a href=\"\">Reload" section nil nil [61821 62102])
+            ("You signed in with another tab or window. <a href=\"\">Reload" section (:members 
+              ( ("Reload" anchor nil nil [62974 62977])
+                ("Reload" anchor nil nil [63108 63111]))              ) nil [62102 65097]))          
+      :file "xboxdrv.service"
+      :pointmax 65097
+      :fsize 65125
+      :lastmodtime '(23579 61793 530881 874000)
+      :unmatched-syntax nil))
+  :file "!home!argos!Downloads!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

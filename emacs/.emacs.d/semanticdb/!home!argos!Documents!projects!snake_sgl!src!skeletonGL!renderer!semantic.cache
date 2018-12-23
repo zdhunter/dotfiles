@@ -677,8 +677,8 @@
       :file "SGL_OpenGLManager.hpp"
       :pointmax 8536
       :fsize 8535
-      :lastmodtime '(23517 6308 278594 0)
-      :unmatched-syntax '((punctuation 2675 . 2676) (punctuation 2674 . 2675))
+      :lastmodtime '(23565 51453 974387 350000)
+      :unmatched-syntax nil
       :lexical-table 
         '(("SRC_SKELETONGL_RENDERER_OPENGLMANAGER_HPP")
           )
@@ -896,8 +896,8 @@
       :file "SGL_PostProcessor.hpp"
       :pointmax 3542
       :fsize 3541
-      :lastmodtime '(23489 380 0 0)
-      :unmatched-syntax '((punctuation 2270 . 2271) (DELETE 2264 . 2270) (punctuation 2262 . 2263) (semantic-list 2239 . 2261) (punctuation 2237 . 2238) (OPERATOR 2228 . 2236) (punctuation 2259 . 2260) (punctuation 2227 . 2228) (symbol 2209 . 2226) (punctuation 2259 . 2260) (punctuation 2203 . 2204) (DELETE 2197 . 2203) (punctuation 2195 . 2196) (semantic-list 2172 . 2194) (symbol 2155 . 2172) (punctuation 2192 . 2193) (punctuation 2149 . 2150) (DELETE 2143 . 2149) (punctuation 2141 . 2142) (semantic-list 2114 . 2140) (punctuation 2112 . 2113) (OPERATOR 2103 . 2111) (punctuation 2102 . 2103) (symbol 2084 . 2101) (punctuation 2078 . 2079) (DELETE 2072 . 2078) (punctuation 2070 . 2071) (semantic-list 2043 . 2069) (symbol 2026 . 2043))
+      :lastmodtime '(23565 51451 686426 791000)
+      :unmatched-syntax nil
       :lexical-table 
         '(("SRC_SKELETONGL_RENDERER_POST_PROCESSOR_HPP")
           )
@@ -1189,8 +1189,8 @@
       :file "SGL_Shader.hpp"
       :pointmax 3523
       :fsize 3522
-      :lastmodtime '(23490 26439 0 0)
-      :unmatched-syntax '((number 819 . 820) (punctuation 817 . 818) (symbol 808 . 816) (punctuation 806 . 807) (number 805 . 806) (punctuation 803 . 804) (symbol 788 . 802) (punctuation 786 . 787) (number 785 . 786) (punctuation 783 . 784) (symbol 778 . 782) (punctuation 776 . 777) (number 775 . 776) (punctuation 773 . 774) (symbol 768 . 772) (punctuation 766 . 767) (number 765 . 766) (punctuation 763 . 764) (symbol 757 . 762) (punctuation 755 . 756) (number 754 . 755) (punctuation 752 . 753) (symbol 747 . 751) (punctuation 745 . 746) (number 744 . 745) (punctuation 742 . 743) (symbol 735 . 741) (punctuation 733 . 734) (number 732 . 733) (punctuation 730 . 731) (symbol 720 . 729) (ENUM 681 . 685))
+      :lastmodtime '(23565 51443 742563 757000)
+      :unmatched-syntax nil
       :lexical-table 
         '(("SRC_SKELETONGL_RENDERER_SHADERMANAGER_H")
           )
@@ -1496,10 +1496,165 @@
       :file "SGL_Texture.hpp"
       :pointmax 1285
       :fsize 1284
-      :lastmodtime '(23490 29403 0 0)
+      :lastmodtime '(23565 51441 790597 418000)
       :unmatched-syntax nil
       :lexical-table 
         '(("SRC_SKELETONGL_RENDERER_TEXTURE2D_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("PARTICLEG_H" variable (:constant-flag t) nil [29 40])
+            ("GL/glew.h" include (:system-flag t) nil [42 62])
+            ("../deps/glm/glm.hpp" include nil nil [63 93])
+            ("../deps/glm/gtc/matrix_transform.hpp" include nil nil [94 141])
+            ("vector" include (:system-flag t) nil [142 159])
+            ("string" include (:system-flag t) nil [160 177])
+            ("../debugging/consoleLog.hpp" include nil nil [179 217])
+            ("texture2D.hpp" include nil nil [218 242])
+            ("shaderManager.hpp" include nil nil [243 271])
+            ("oglManager.hpp" include nil nil [272 297])
+            ("../data/SGL_DataStructures.hpp" include nil nil [298 339])
+            ("spriteRenderer.hpp" include nil nil [340 369])
+            ("primitiveRenderer.hpp" include nil nil [370 402])
+            ("Particle" type
+               (:members 
+                  ( ("position" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol classsubparts) [445 489])
+                    ("velocity" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol classsubparts) [445 489])
+                    ("disperseAngle" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol classsubparts) [445 489])
+                    ("color" variable (:type ("glm::vec4" type (:type "class") nil nil)) (reparse-symbol classsubparts) [494 510])
+                    ("rotation" variable (:type "float") (reparse-symbol classsubparts) [515 536])
+                    ("size" variable (:type "float") (reparse-symbol classsubparts) [515 536])
+                    ("life" variable (:type ("GLfloat" type (:type "class") nil nil)) (reparse-symbol classsubparts) [541 554])
+                    ("Particle" function
+                       (:constructor-flag t
+                        :type ("Particle" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [560 680]))                  
+                :type "struct")
+                nil [423 683])
+            ("ParticleGenerator" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [711 719])
+                    ("pOGLM" variable
+                       (:pointer 1
+                        :type ("OGLManager" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [753 771])
+                    ("pClassName" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [777 800])
+                    ("pParticles" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("Particle" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [805 838])
+                    ("pAmount" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [843 858])
+                    ("pShader" variable (:type ("ShaderManager" type (:type "class") nil nil)) (reparse-symbol classsubparts) [863 885])
+                    ("pTexture" variable (:type ("Texture2D" type (:type "class") nil nil)) (reparse-symbol classsubparts) [890 909])
+                    ("pVAO" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [914 937])
+                    ("pVBO" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [914 937])
+                    ("pEnableDisperse" variable (:type ("GLboolean" type (:type "class") nil nil)) (reparse-symbol classsubparts) [984 1010])
+                    ("pEnableRotation" variable (:type ("GLboolean" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1015 1041])
+                    ("pLastUsedParticle" variable
+                       (:default-value "0"
+                        :type ("GLuint" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1046 1075])
+                    ("pDefaultParticleSize" variable (:type ("GLfloat" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1080 1109])
+                    ("loadBuffers" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1115 1134])
+                    ("firstUnusedParticle" function
+                       (:prototype-flag t
+                        :type ("GLuint" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1139 1168])
+                    ("respawnParticle" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("particle" variable
+                               (:reference 1
+                                :type ("Particle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1194 1213])
+                            ("position" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1214 1233])
+                            ("velocity" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1234 1253])
+                            ("size" variable (:type "float") (reparse-symbol arg-sub-list) [1254 1265])
+                            ("offset" variable
+                               (:default-value "glm::vec2(0.0f, 0.0f)"
+                                :type ("glm::vec2" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1266 1306]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1173 1308])
+                    ("public" label nil (reparse-symbol classsubparts) [1611 1618])
+                    ("ParticleGenerator" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("className" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1641 1663])
+                            ("shader" variable (:type ("ShaderManager" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1664 1685])
+                            ("texture" variable (:type ("Texture2D" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1686 1704])
+                            ("amount" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1705 1719]))                          
+                        :type ("ParticleGenerator" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1623 1720])
+                    ("ParticleGenerator" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1725 1746])
+                    ("update" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dt" variable (:type ("GLfloat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1764 1775])
+                            ("position" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1776 1795])
+                            ("velocity" variable (:type ("glm::vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1796 1815])
+                            ("newParticles" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1816 1836])
+                            ("size" variable (:type "float") (reparse-symbol arg-sub-list) [1837 1848])
+                            ("offset" variable
+                               (:default-value "glm::vec2(0.0f, 0.0f)"
+                                :type ("glm::vec2" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1865 1905])
+                            ("decay" variable
+                               (:default-value "0"
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [1907 1920]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1752 1922])
+                    ("draw" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [1927 1939])
+                    ("render" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("renderer" variable
+                               (:reference 1
+                                :type ("SpriteRenderer" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1956 1981])
+                            ("primitiveRenderer" variable
+                               (:reference 1
+                                :type ("PrimitiveRenderer" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1982 2019]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1944 2020])
+                    ("getTotalMemory" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "float")
+                        (reparse-symbol classsubparts) [2025 2054])
+                    ("enableDispersion" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2059 2083])
+                    ("disableDispersion" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [2088 2113]))                  
+                :type "class")
+                nil [685 2116]))          
+      :file "particleGenerator.hpp"
+      :pointmax 2125
+      :fsize 2124
+      :lastmodtime '(23204 29098 0 0)
+      :unmatched-syntax '((punctuation 1609 . 1610) (DELETE 1603 . 1609) (punctuation 1601 . 1602) (semantic-list 1578 . 1600) (punctuation 1576 . 1577) (OPERATOR 1567 . 1575) (punctuation 1598 . 1599) (punctuation 1566 . 1567) (symbol 1548 . 1565) (punctuation 1598 . 1599) (punctuation 1542 . 1543) (DELETE 1536 . 1542) (punctuation 1534 . 1535) (semantic-list 1511 . 1533) (symbol 1494 . 1511) (punctuation 1531 . 1532) (punctuation 1488 . 1489) (DELETE 1482 . 1488) (punctuation 1480 . 1481) (semantic-list 1453 . 1479) (punctuation 1451 . 1452) (OPERATOR 1442 . 1450) (punctuation 1441 . 1442) (symbol 1423 . 1440) (punctuation 1417 . 1418) (DELETE 1411 . 1417) (punctuation 1409 . 1410) (semantic-list 1382 . 1408) (symbol 1365 . 1382))
+      :lexical-table 
+        '(("PARTICLEG_H")
           )
 ))
   :file "!home!argos!Documents!projects!snake_sgl!src!skeletonGL!renderer!semantic.cache"

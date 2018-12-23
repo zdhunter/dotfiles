@@ -384,8 +384,8 @@
       :file "SGL_DataStructures.hpp"
       :pointmax 8309
       :fsize 8308
-      :lastmodtime '(23522 7906 840455 0)
-      :unmatched-syntax '((punctuation 1308 . 1309) (string 1300 . 1308) (punctuation 1298 . 1299) (symbol 1288 . 1297) (punctuation 1286 . 1287) (symbol 1278 . 1285) (punctuation 1276 . 1277) (symbol 1267 . 1275) (symbol 1260 . 1266) (punctuation 1259 . 1260) (punctuation 1258 . 1259) (symbol 1255 . 1258) (CONST 1249 . 1254) (punctuation 1243 . 1244) (string 1232 . 1243) (punctuation 1230 . 1231) (symbol 1220 . 1229) (punctuation 1218 . 1219) (symbol 1210 . 1217) (punctuation 1208 . 1209) (symbol 1198 . 1207) (symbol 1191 . 1197) (punctuation 1190 . 1191) (punctuation 1189 . 1190) (symbol 1186 . 1189) (CONST 1180 . 1185) (punctuation 1174 . 1175) (string 1164 . 1174) (punctuation 1162 . 1163) (symbol 1152 . 1161) (punctuation 1150 . 1151) (symbol 1142 . 1149) (punctuation 1140 . 1141) (symbol 1129 . 1139) (symbol 1122 . 1128) (punctuation 1121 . 1122) (punctuation 1120 . 1121) (symbol 1117 . 1120) (CONST 1111 . 1116) (punctuation 1105 . 1106) (string 1097 . 1105) (punctuation 1095 . 1096) (symbol 1085 . 1094) (punctuation 1083 . 1084) (symbol 1075 . 1082) (punctuation 1073 . 1074) (symbol 1064 . 1072) (symbol 1057 . 1063) (punctuation 1056 . 1057) (punctuation 1055 . 1056) (symbol 1052 . 1055) (CONST 1046 . 1051))
+      :lastmodtime '(23565 51460 454275 659000)
+      :unmatched-syntax nil
       :lexical-table 
         '(("SGL_DATA_STRUCTURES")
           )

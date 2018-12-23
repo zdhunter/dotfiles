@@ -1,0 +1,76 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [1 11])
+            ("colorsys" include nil nil [12 27])
+            ("colorz" include nil nil [28 53])
+            ("math" include nil nil [54 75])
+            ("try" code nil nil [77 145])
+            ("if" code nil nil [146 244])
+            ("print" code nil nil [246 263])
+            ("WALLPAPER" variable nil nil [265 288])
+            ("filename" variable nil nil [289 326])
+            ("COLORS" variable nil nil [327 366])
+            ("XRESOURCES" variable nil nil [367 408])
+            ("SAMPLE" variable nil nil [409 452])
+            ("cols" variable nil nil [454 463])
+            ("xres" variable nil nil [464 473])
+            ("torgb" function (:arguments 
+              ( ("hexv" variable nil (reparse-symbol function_parameters) [485 489]))              ) nil [475 661])
+            ("normalize" function (:arguments 
+              ( ("hexv" variable nil (reparse-symbol function_parameters) [676 680])
+                ("minv" variable nil (reparse-symbol function_parameters) [682 686])
+                ("maxv" variable nil (reparse-symbol function_parameters) [692 696]))              ) nil [662 1013])
+            ("darkness" function (:arguments 
+              ( ("hexv" variable nil (reparse-symbol function_parameters) [1027 1031]))              ) nil [1014 1144])
+            ("to_hsv" function (:arguments 
+              ( ("c" variable nil (reparse-symbol function_parameters) [1156 1157]))              ) nil [1145 1245])
+            ("hex_color_to_rgb" function (:arguments 
+              ( ("color" variable nil (reparse-symbol function_parameters) [1267 1272]))              ) nil [1246 1432])
+            ("create_sample" function (:arguments 
+              ( ("f" variable nil (reparse-symbol function_parameters) [1451 1452])
+                ("colors" variable nil (reparse-symbol function_parameters) [1454 1460]))              ) nil [1433 1779])
+            ("if" code nil nil [1780 2638]))          
+      :file "color_detect.py"
+      :pointmax 2638
+      :fsize 2637
+      :lastmodtime '(23407 16987 0 0)
+      :unmatched-syntax '((NAME 1279 . 1284) (IF 1297 . 1299) (ELSE 1314 . 1318)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("collections" include nil nil [1 35])
+            ("math" include nil nil [36 57])
+            ("random" include nil nil [58 71])
+            ("try" code nil nil [72 140])
+            ("Point" variable nil nil [141 191])
+            ("Cluster" variable nil nil [192 250])
+            ("get_points" function (:arguments 
+              ( ("img" variable nil (reparse-symbol function_parameters) [267 270]))              ) nil [252 419])
+            ("rtoh" variable nil nil [420 481])
+            ("colorz" function (:arguments 
+              ( ("filename" variable nil (reparse-symbol function_parameters) [494 502])
+                ("n" variable nil (reparse-symbol function_parameters) [504 505]))              ) nil [483 741])
+            ("euclidean" function (:arguments 
+              ( ("p1" variable nil (reparse-symbol function_parameters) [756 758])
+                ("p2" variable nil (reparse-symbol function_parameters) [760 762]))              ) nil [742 859])
+            ("calculate_center" function (:arguments 
+              ( ("points" variable nil (reparse-symbol function_parameters) [881 887])
+                ("n" variable nil (reparse-symbol function_parameters) [889 890]))              ) nil [860 1105])
+            ("kmeans" function (:arguments 
+              ( ("points" variable nil (reparse-symbol function_parameters) [1117 1123])
+                ("k" variable nil (reparse-symbol function_parameters) [1125 1126])
+                ("min_diff" variable nil (reparse-symbol function_parameters) [1128 1136]))              ) nil [1106 1932]))          
+      :file "colorz.py"
+      :pointmax 1932
+      :fsize 1931
+      :lastmodtime '(23407 16987 0 0)
+      :unmatched-syntax nil))
+  :file "!home!argos!Documents!scripts!py!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

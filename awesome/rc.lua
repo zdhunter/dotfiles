@@ -743,6 +743,7 @@ awful.spawn.with_shell("xscreensaver -nosplash &")
 awful.spawn.with_shell("sh ~/.screenlayout/three_monitors.sh")
 awful.spawn.with_shell("nitrogen --restore")
 awful.spawn.with_shell("compton &")
+awful.spawn.with_shell("modprobe xpad")
 -- awful.util.spawn_with_shell("fc-cache -f -v");
 -- awful.util.spawn_with_shell("nvidia-settings --load-config-only")
 -- awful.util.spawn_with_shell("compton --config ~/.config/compton.conf -b")

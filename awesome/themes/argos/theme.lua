@@ -16,15 +16,15 @@ theme.dir                                       = os.getenv("HOME") .. "/.config
 theme.wallpaper                                 = theme.dir .. "/default_wallpaper.jpg"
 theme.font                                      = "ohsnap bold 9"
 theme.fg_normal                                 = "#878787"
-theme.fg_focus                                  = "#E5C07B"
-theme.fg_minimize                               = "#737F88"
+theme.fg_focus                                  = "#85C600"
+theme.fg_minimize                               = "#E06C75"
 theme.bg_normal                                 = "#0c0c0c"
 theme.bg_focus                                  = "#0c0c0c"
 theme.fg_urgent                                 = "#0c0c0c"
 theme.bg_urgent                                 = "#DDDDDD"
 theme.border_width                              = 1
 theme.border_normal                             = "#141414"
-theme.border_focus                              = "#93B6FF"
+theme.border_focus                              = "#8a8acf"
 theme.taglist_fg_focus                          = "#ff008d"
 theme.taglist_bg_focus                          = "#0c0c0c"
 theme.taglist_bg_normal                         = "#0c0c0c"
@@ -49,18 +49,18 @@ theme.bat_no                                    = theme.dir .. "/icons/bat_no.pn
 theme.play                                      = theme.dir .. "/icons/play.png"
 theme.pause                                     = theme.dir .. "/icons/pause.png"
 theme.stop                                      = theme.dir .. "/icons/stop.png"
-theme.layout_tile                               = theme.dir .. "/icons/tile.png"
-theme.layout_tileleft                           = theme.dir .. "/icons/tileleft.png"
-theme.layout_tilebottom                         = theme.dir .. "/icons/tilebottom.png"
-theme.layout_tiletop                            = theme.dir .. "/icons/tiletop.png"
-theme.layout_fairv                              = theme.dir .. "/icons/fairv.png"
-theme.layout_fairh                              = theme.dir .. "/icons/fairh.png"
-theme.layout_spiral                             = theme.dir .. "/icons/spiral.png"
-theme.layout_dwindle                            = theme.dir .. "/icons/dwindle.png"
-theme.layout_max                                = theme.dir .. "/icons/max.png"
-theme.layout_fullscreen                         = theme.dir .. "/icons/fullscreen.png"
-theme.layout_magnifier                          = theme.dir .. "/icons/magnifier.png"
-theme.layout_floating                           = theme.dir .. "/icons/floating.png"
+theme.layout_tile                               = "[tile]"
+theme.layout_tileleft                           = "[tile left]"
+theme.layout_tilebottom                         = "[tile bottom]"
+theme.layout_tiletop                            = "[tile top]"
+theme.layout_fairv                              = "[fair vertical]"
+theme.layout_fairh                              = "[fair horizontal]"
+theme.layout_spiral                             = "[spiral]"
+theme.layout_dwindle                            = "[dwindle]"
+theme.layout_max                                = "[max]"
+theme.layout_fullscreen                         = "[fullscreen]"
+theme.layout_magnifier                          = "[magnifier]"
+theme.layout_floating                           = "[floating]"
 theme.useless_gap                               = 0
 theme.titlebar_close_button_focus               = theme.dir .. "/icons/titlebar/close_focus.png"
 theme.titlebar_close_button_normal              = theme.dir .. "/icons/titlebar/close_normal.png"
@@ -197,7 +197,7 @@ local fsbar = wibox.widget {
     widget           = wibox.widget.progressbar,
 }
 theme.fs = lain.widget.fs({
-    notification_preset = { fg = theme.fg_normal, bg = theme.bg_normal, font = "ohsnap 9" },
+    notification_preset = { fg = theme.fg_normal, bg = theme.bg_normal, font = "ohsnap bold 9" },
     settings  = function()
         if fs_now["/home"].percentage < 90 then
             fsbar:set_color(theme.fg_normal)
@@ -235,7 +235,7 @@ theme.volume = lain.widget.alsabar({
     colors = {
         background   = theme.bg_normal,
         mute         = red,
-        unmute       = theme.fg_normal
+        unmute       = theme.border_focus
     }
 })
 theme.volume.tooltip.wibox.fg = theme.fg_focus
@@ -264,10 +264,11 @@ local volumebg = wibox.container.background(theme.volume.bar, "#474747", gears.s
 local volumewidget = wibox.container.margin(volumebg, 2, 7, 4, 4)
 
 -- Separators
-local first     = wibox.widget.textbox(markup.font("Tamzen 3", " "))
+local first     = wibox.widget.textbox(markup.font("ohsnap bold 9", " "))
 local spr       = wibox.widget.textbox(' ')
-local small_spr = wibox.widget.textbox(markup.font("Tamzen 4", " "))
-local bar_spr   = wibox.widget.textbox(markup.font("Tamzen 3", " ") .. markup.fontfg(theme.font, "#333333", "|") .. markup.font("Tamzen 5", " "))
+local small_spr = wibox.widget.textbox(markup.font("ohsnap bold 9", " "))
+-- local bar_spr   = wibox.widget.textbox(markup.font("Tamzen 3", " ") .. markup.fontfg(theme.font, "#333333", "|") .. markup.font("Tamzen 5", " "))
+local bar_spr   =  wibox.widget.textbox(markup.font("ohsnap bold 9", " ") .. markup.fontfg(theme.font, "#D19A66", "|") .. markup.font("ohsnap bold 9", " "))
 
 -- Eminent-like task filtering
 local orig_filter = awful.widget.taglist.filter.all
@@ -319,10 +320,11 @@ function theme.at_screen_connect(s)
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
             small_spr,
-            s.mylayoutbox,
+            small_spr,
+            s.mytaglist,
             first,
             bar_spr,
-            s.mytaglist,
+            s.mylayoutbox,
             bar_spr,
             first,
             s.mypromptbox,
@@ -337,10 +339,11 @@ function theme.at_screen_connect(s)
             -- baticon,
             -- batwidget,
             bar_spr,
-            volicon,
+            -- volicon,
             volumewidget,
             bar_spr,
             mytextclock,
+            small_spr,
         },
     }
 end
