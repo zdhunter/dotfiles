@@ -3,7 +3,7 @@ audio_device_state:1:My ALSA Device
 audio_device_state:0:my_fifo
 audio_device_state:0:MPD
 state: stop
-current: 2
+current: 145
 random: 0
 repeat: 0
 single: 0
@@ -12,34 +12,181 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Metalingus-Alter Bridge.mp3
-1:Quantic - Time Is The Enemy (256  kbps).mp3
-2:Julian Lennon - Valotte with lyrics.flv (192  kbps).mp3
-3:07. Newbop.mp3
-4:Caravan Palace - Lone Digger (192  kbps).mp3
-5:Ｐｕｍｐｅｄ Ｕｐ Ｋｉｃｋｓ ＶＡＰＯＲＷＡＶＥ (若者が履く流行のスニーカー) (192  kbps).mp3
-6:Iggy Pop - The Passenger (192  kbps).mp3
-7:02 - I Talk To The Wind.mp3
-8:06 - Sultans Of Swing.mp3
-9:07 - Wake Up.mp3
-10:13.- Every Breath You Take (1).mp3
-11:Breaking Benjamin - Unknown Soldier - Lyrics (192  kbps).mp3
-12:haruka nakamura - Lamp feat.Nujabes 【Official MV】 (192  kbps).mp3
-13:Kavinsky - Nightcall (Drive Original Movie Soundtrack) (Official Audio) (192  kbps)(1).mp3
-14:Persistent-mnJjMzxiH44.mp3
-15:Foster The People - Pumped up Kicks (192  kbps).mp3
-16:Yes We Can - Official Lyric Video - Me In Motion (192  kbps).mp3
-17:Zelda_ Wind Waker Music - Dragon Roost Island (192  kbps).mp3
-18:Pixies - Where Is My Mind - High Definition (192  kbps).mp3
-19:Haruka Nakamura - Twilight (192  kbps).mp3
-20:Halo 2 OST - Breaking Benjamin - Blow Me Away (192  kbps).mp3
-21:Coming Home - Cheeseburger with lyrics-KUX30kkjHiM.mp3
-22:13.- Every Breath You Take.mp3
-23:06 - Switchback.mp3
-24:06 - Know Your Enemy.mp3
-25:02 - Killing In The Name Of.mp3
-26:Haruka Nakamura - Twilight (192  kbps) (1).mp3
-27:Buckethead/11 King James.flac
-28:Buckethead/13 Final Wars.flac
-29:Kavinsky - Nightcall (Drive Original Movie Soundtrack) (Official Audio) (192  kbps).mp3
+0:Buckethead/11 King James.flac
+1:Buckethead/13 Final Wars.flac
+2:Ghost B.C/2013 - Infestissumam/01. Infestissumam.mp3
+3:Ghost B.C/Ghost - Infestissumam 2013 Metal 320kbps CBR MP3 [VX] [P2PDL]/06 Ghost - Year Zero.mp3
+4:Ghost B.C/Ghost - Infestissumam 2013 Metal 320kbps CBR MP3 [VX] [P2PDL]/08 Ghost - Idolatrine.mp3
+5:Ghost B.C/Ghost - Prequelle 2018/03. Faith.mp3
+6:Ghost B.C/Ghost - Prequelle 2018/05. Miasma.mp3
+7:Ghost B.C/Ghost - Prequelle 2018/10. Life Eternal.mp3
+8:Ghost B.C/Ghost - Prequelle 2018/11 It's a Sin.mp3
+9:Ghost B.C/Ghost - Prequelle 2018/01. Ashes.mp3
+10:Ghost B.C/Ghost - Prequelle 2018/02. Rats.mp3
+11:Ghost B.C/Ghost - Prequelle 2018/04. See The Light.mp3
+12:Ghost B.C/Ghost - Prequelle 2018/06. Dance Macabre.mp3
+13:Ghost B.C/Ghost - Prequelle 2018/07. Pro Memoria.mp3
+14:Ghost B.C/Ghost - Prequelle 2018/08. Witch Image.mp3
+15:Ghost B.C/Ghost - Prequelle 2018/09. Helvetesfonster.mp3
+16:Ghost B.C/Ghost - Prequelle 2018/12 Avalanche.mp3
+17:Ghost B.C/Ghost - 2010 - Opus Eponymous/01 Deus Culpa.mp3
+18:Ghost B.C/Ghost - 2010 - Opus Eponymous/02 Con Clavi Con Dio.mp3
+19:Ghost B.C/Ghost - 2010 - Opus Eponymous/03 Ritual.mp3
+20:Ghost B.C/Ghost - 2010 - Opus Eponymous/06 Satan Prayer.mp3
+21:Ghost B.C/Ghost - 2010 - Opus Eponymous/08 Prime Mover.mp3
+22:Ghost B.C/Ghost - 2010 - Opus Eponymous/09 Genesis.mp3
+23:No Album/02 - I Talk To The Wind.mp3
+24:No Album/02 - Butterfly Garden.mp3
+25:No Album/04 - Changa Masala.mp3
+26:No Album/06 - Switchback.mp3
+27:No Album/13.- Every Breath You Take (1).mp3
+28:No Album/Haruka Nakamura - Faure feat. Uyama Hiroto-U0GpV8IgDZc.mp3
+29:No Album/Haruka Nakamura - Twilight (192  kbps) (1).mp3
+30:No Album/Harvest.mp3
+31:No Album/Iggy Pop - The Passenger (192  kbps).mp3
+32:No Album/Music Videos - Cheeseburger - Winner-9N1KIO2ttow.mp3
+33:No Album/Persistent-mnJjMzxiH44.mp3
+34:No Album/Quantic - Time Is The Enemy (256  kbps).mp3
+35:No Album/Kori - All This Time-ehKigUoEJNU.mp3
+36:No Album/haruka nakamura - Lamp feat.Nujabes 【Official MV】 (192  kbps) (1).mp3
+37:No Album/07. Newbop.mp3
+38:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1983 Local Hero/Mark Knopfler - The Rocks and the River - Local Hero - 01.mp3
+39:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1983 Local Hero/Mark Knopfler - Wild Theme - Local Hero - 02.mp3
+40:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1983 Local Hero/Mark Knopfler - Freeway Flyer - Local Hero - 03.mp3
+41:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1983 Local Hero/Mark Knopfler - Whistle Theme - Local Hero - 10.mp3
+42:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1983 Local Hero/Mark Knopfler - Smooching - Local Hero - 11.mp3
+43:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1983 Local Hero/Mark Knopfler - Stargazer - Local Hero - 12.mp3
+44:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/01_Darling_Pretty.mp3
+45:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/02_Imelda.mp3
+46:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/03_Golden_Heart.mp3
+47:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/04_No_Can_Do.mp3
+48:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/05_Vic_And_Ray.mp3
+49:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/06_Don't_You_Get_It.mp3
+50:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/07_A_Night_In_Summer_Long_Ago.mp3
+51:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/08_Cannibals.mp3
+52:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/09_I'm_The_Fool.mp3
+53:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/10_Je_Suis_DÚsolÚ.mp3
+54:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/11_Rudiger.mp3
+55:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/12_Nobody's_Got_The_Gun.mp3
+56:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/13_Done_With_Bonaparte.mp3
+57:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-1996 Golden Heart/14_Are_We_In_Trouble_Now.mp3
+58:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/01_What_it_is.mp3
+59:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/02_Sailing_to_Philadelphia.mp3
+60:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/03_Who's_your_baby_now.mp3
+61:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/04_Baloney_again.mp3
+62:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/05_The_last_laugh.mp3
+63:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/06_Silvertown_blues.mp3
+64:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/07_El_macho.mp3
+65:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/08_Prairie_wedding.mp3
+66:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/09_Wanderlust.mp3
+67:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/10_Speedway_at_Nazareth.mp3
+68:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/11_Junkie_doll.mp3
+69:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/12_Sands_of_Nevada.mp3
+70:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2000 Sailing to Philadelphia/13_One_more_matinee.mp3
+71:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/01 - Sons of Scotland.mp3
+72:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/05 - The New Laird.mp3
+73:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/06 - Say Too Much.mp3
+74:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/07 - Four in a Row.mp3
+75:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/08 - All That I Have in the World.mp3
+76:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/09 - Sons of Scotland - Quiet Theme.mp3
+77:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/04 - Training.mp3
+78:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/01_Irish_Boy.mp3
+79:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/02_Irish_Love.mp3
+80:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/03_Father_And_Son.mp3
+81:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/04_Potato_Picking.mp3
+82:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/05_The_Long_Road.mp3
+83:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/06_A_Love_Idea.mp3
+84:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/07_Victims.mp3
+85:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/08_Finale_-_Last_Exit_To_Brooklyn.mp3
+86:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/09_Once_Upon_A_Time..._Storybook_Love.mp3
+87:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/10_Morning_Ride.mp3
+88:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/11_The_Friends'_Song.mp3
+89:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/12_Guide_My_Sword.mp3
+90:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/13_A_Happy_Ending.mp3
+91:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/14_Wild_Theme.mp3
+92:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/15_Boomtown_(_Variation_Louis'_Favourite_).mp3
+93:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/16_The_Mist_Covered_Mountians.mp3
+94:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/17_Smooching.mp3
+95:DIRE STRAITS DISCOGRAPHY/Mark Knopfler.-1993 Screenplaying/18_Going_Home_-_Theme_Of_The_Local_Hero.mp3
+96:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 01 - Mark Knopfler - Why aye man.mp3
+97:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD2 - 01 - Mark Knopfler - Why Aye Man (live).mp3
+98:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 02 - Mark Knopfler - Devil baby.mp3
+99:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD2 - 02 - Mark Knopfler - Quality Shoe (live).mp3
+100:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 03 - Mark Knopfler - Hill farmer's blues.mp3
+101:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD2 - 04 - Mark Knopfler - Brothers in Arms (live).mp3
+102:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 05 - Mark Knopfler - Quality shoe.mp3
+103:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 07 - Mark Knopfler - Marbletown.mp3
+104:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 08 - Mark Knopfler - You don't know you're born.mp3
+105:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 09 - Mark Knopfler - Coyote.mp3
+106:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 10 - Mark Knopfler - The ragpicker's dream.mp3
+107:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 11 - Mark Knopfler - Daddy's gone to Knoxville.mp3
+108:DIRE STRAITS DISCOGRAPHY/Mark.Knopfler.-2002 The.Ragpickers Dream/CD1 - 12 - Mark Knopfler - Old Pigweed.mp3
+109:DIRE STRAITS DISCOGRAPHY/(1984) Cal/01-Irish Boy_33.wma
+110:DIRE STRAITS DISCOGRAPHY/(1984) Cal/02-The Road_33.wma
+111:DIRE STRAITS DISCOGRAPHY/(1984) Cal/03-Waiting For Her_33.wma
+112:DIRE STRAITS DISCOGRAPHY/(1984) Cal/04-Irish Love_33.wma
+113:DIRE STRAITS DISCOGRAPHY/(1984) Cal/05-A Secret Place Where Will You Go_33.wma
+114:DIRE STRAITS DISCOGRAPHY/(1984) Cal/06-Father And Son_33.wma
+115:DIRE STRAITS DISCOGRAPHY/(1984) Cal/07-Meeting Under The Trees_33.wma
+116:DIRE STRAITS DISCOGRAPHY/(1984) Cal/08-Potato Picking_33.wma
+117:DIRE STRAITS DISCOGRAPHY/(1984) Cal/09-In A Secret Place_33.wma
+118:DIRE STRAITS DISCOGRAPHY/(1984) Cal/10-Fear And Hatred_33.wma
+119:DIRE STRAITS DISCOGRAPHY/(1984) Cal/11-Love And Guilt_33.wma
+120:DIRE STRAITS DISCOGRAPHY/(1984) Cal/12-The Long Road_33.wma
+121:DIRE STRAITS DISCOGRAPHY/Mark Knopler.-1989 Last Exit To Brooklyn/01-Last Exit To Brooklyn_33.wma
+122:DIRE STRAITS DISCOGRAPHY/Mark Knopler.-1989 Last Exit To Brooklyn/02-Victims_33.wma
+123:DIRE STRAITS DISCOGRAPHY/Mark Knopler.-1989 Last Exit To Brooklyn/03-Think Fast_33.wma
+124:DIRE STRAITS DISCOGRAPHY/Mark Knopler.-1989 Last Exit To Brooklyn/04-A Love Idea_33.wma
+125:DIRE STRAITS DISCOGRAPHY/Mark Knopler.-1989 Last Exit To Brooklyn/05-Tralala_33.wma
+126:DIRE STRAITS DISCOGRAPHY/Mark Knopler.-1989 Last Exit To Brooklyn/06-Riot_33.wma
+127:DIRE STRAITS DISCOGRAPHY/Mark Knopler.-1989 Last Exit To Brooklyn/07-The Reckoning_33.wma
+128:DIRE STRAITS DISCOGRAPHY/Mark Knopler.-1989 Last Exit To Brooklyn/08-As Low As It Gets_33.wma
+129:DIRE STRAITS DISCOGRAPHY/Mark Knopler.-1989 Last Exit To Brooklyn/09-Finale-Last Exit To Brooklyn_33.wma
+130:Slayer/2001 - God Hates Us All (320)/02 - Disciple.mp3
+131:No Album/Harvest.mp3
+132:No Album/Metalingus-Alter Bridge.mp3
+133:DIRE STRAITS DISCOGRAPHY/(1978) Dire Straits/06 - Sultans Of Swing.mp3
+134:DIRE STRAITS DISCOGRAPHY/(1998) Sultans Of Swing (Limited Ed)/05 - Private Investigation.mp3
+135:Slayer/Soundtrack to the Apocalypse/Slayer_Soundtrack to the Apocalypse_34_Disorder Judgement Night (Ft Ice T).mp3
+136:DIRE STRAITS DISCOGRAPHY/(1978) Dire Straits/06 - Sultans Of Swing.mp3
+137:DIRE STRAITS DISCOGRAPHY/(1978) Dire Straits/06 - Sultans Of Swing.mp3
+138:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/02 - Hard Cases.mp3
+139:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/03 - He's the Man.mp3
+140:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/10 - It's Over.mp3
+141:DIRE STRAITS DISCOGRAPHY/Mark Knopfler .-2001 B.S.O. A shot at glory/11 - Wild Mountain Thyme.mp3
+142:No Album/Kori - All This Time-ehKigUoEJNU.mp3
+143:No Album/Metalingus-Alter Bridge.mp3
+144:DIRE STRAITS DISCOGRAPHY/(1978) Dire Straits/06 - Sultans Of Swing.mp3
+145:DIRE STRAITS DISCOGRAPHY/(1978) Dire Straits/06 - Sultans Of Swing.mp3
+146:DIRE STRAITS DISCOGRAPHY/(1998) Sultans Of Swing (Limited Ed)/06 - Twisting By The Pool.mp3
+147:No Album/Ｐｕｍｐｅｄ Ｕｐ Ｋｉｃｋｓ ＶＡＰＯＲＷＡＶＥ (若者が履く流行のスニーカー) (192  kbps).mp3
+148:No Album/Yes We Can - Official Lyric Video - Me In Motion (192  kbps).mp3
+149:No Album/Persistent-mnJjMzxiH44 (1).mp3
+150:No Album/Julian Lennon - Valotte with lyrics.flv (192  kbps).mp3
+151:No Album/Breaking Benjamin - Unknown Soldier - Lyrics (192  kbps).mp3
+152:No Album/07 - Wake Up.mp3
+153:No Album/06 - Sultans Of Swing.mp3
+154:No Album/01 - Sunday Morning.flac
+155:No Album/Foster The People - Pumped up Kicks (192  kbps).mp3
+156:No Album/Coming Home - Cheeseburger with lyrics-KUX30kkjHiM.mp3
+157:No Album/8bit MADOKA MAGICA-Xz_g8XVbtW8.ogg
+158:No Album/Ambiguous [8bit]-aBldJIzX9nQ.ogg
+159:No Album/04 - Moonchild Including The Dream And The Illusion.mp3
+160:No Album/03 - Far Memory.mp3
+161:No Album/02 - Losing My religion.MP3
+162:No Album/02 - Killing In The Name Of.mp3
+163:No Album/Working!! Opening 1 - Someone Else (8bit)-fXwjCSRBLTM.opus
+164:No Album/Sword Art Online - Crossing Field (Chiptune) TV SIZE-eoKU-fIQia8.ogg
+165:No Album/弱虫モンブラン (Coward Mont Blanc) - 8 Bit-EY1dvzlJ23o.ogg
+166:No Album/らき☆すたＯＰ　ファミコン風-1Al8oEL6lNI.ogg
+167:No Album/ハロ／ハワユ (Hello_How are you) - 8 Bit-2lXqYdptoU8.ogg
+168:No Album/Undertale - Megalovania (192  kbps).mp3
+169:No Album/U & I (K-On!! Chiptune Cover)-uNewelu7s5g.opus
+170:No Album/Pixies - Where Is My Mind - High Definition (192  kbps).mp3
+171:No Album/NES Ver. Renai Circulation _ ピコピコ恋愛サーキュレーション-_YyHAQvZK7E.ogg
+172:No Album/Kavinsky - Nightcall (Drive Original Movie Soundtrack) (Official Audio) (192  kbps).mp3
+173:No Album/Isshuukan Friends ED [8-Bits]-u_hC8_oH1Y8.opus
+174:No Album/God Knows... ver. FC_NES-otjmcP66KLU.opus
+175:Tool - Complete Discography/Toolshed (demo)/05 - sober.mp3
+176:Tool - Complete Discography/Undertow/02 - prison sex.mp3
 playlist_end

@@ -1,0 +1,252 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("SPI.h" include (:system-flag t) nil [2 18])
+            ("Wire.h" include (:system-flag t) nil [19 36])
+            ("Adafruit_GFX.h" include (:system-flag t) nil [37 62])
+            ("Adafruit_SSD1306.h" include (:system-flag t) nil [63 92])
+            ("SCREEN_WIDTH" variable (:constant-flag t) nil [102 114])
+            ("SCREEN_HEIGHT" variable (:constant-flag t) nil [160 173])
+            ("OLED_RESET" variable (:constant-flag t) nil [291 301])
+            ("display" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("Wire" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [415 420]))                  
+                :type ("Adafruit_SSD1306" type (:type "class") nil nil))
+                nil [360 433])
+            ("NUMFLAKES" variable (:constant-flag t) nil [443 452])
+            ("buttonPin" variable
+               (:constant-flag t
+                :default-value "9"
+                :type "int")
+                nil [511 535])
+            ("relayPin" variable
+               (:constant-flag t
+                :default-value "12"
+                :type "int")
+                nil [576 601])
+            ("buttonState" variable
+               (:default-value "0"
+                :type "int")
+                nil [637 657])
+            ("relayState" variable
+               (:default-value "1"
+                :type "int")
+                nil [712 731])
+            ("previousPush" variable
+               (:default-value "LOW"
+                :type "int")
+                nil [752 775])
+            ("time" variable
+               (:default-value "0"
+                :type "long")
+                nil [776 790])
+            ("debounce" variable
+               (:default-value "200"
+                :type "long")
+                nil [791 811])
+            ("uptimeHours" variable
+               (:default-value "12"
+                :type "short int")
+                nil [839 866])
+            ("downtimeHours" variable
+               (:default-value "abs(uptimeHours - 24)"
+                :type "short int")
+                nil [867 915])
+            ("previousTime" variable
+               (:default-value "0"
+                :type "unsigned long")
+                nil [931 962])
+            ("seconds" variable (:type ("byte" type (:type "class") nil nil)) nil [963 976])
+            ("minutes" variable (:type ("byte" type (:type "class") nil nil)) nil [977 990])
+            ("hours" variable (:type ("byte" type (:type "class") nil nil)) nil [991 1002])
+            ("setup" function (:type "void") nil [1004 1531])
+            ("splashScreen" function (:type "void") nil [1533 2154])
+            ("mainDisplay" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2173 2178]))                  
+                :type "void")
+                nil [2156 3345])
+            ("loop" function (:type "void") nil [3347 5038])
+            ("clearTimer" function (:type "void") nil [5040 5110])
+            ("flipRelay" function (:type "void") nil [5112 5500]))          
+      :file "lampduino.c"
+      :pointmax 5501
+      :fsize 5500
+      :lastmodtime '(23688 1614 936439 0)
+      :unmatched-syntax '((number "4" 421 . 431) (punctuation 414 . 415) (number "64" 399 . 412) (number "128" 385 . 397))
+      :lexical-table 
+        '(("SCREEN_WIDTH" . ((number "128" 115 . 118)))
+          ("SCREEN_HEIGHT" . ((number "64" 174 . 176)))
+          ("OLED_RESET" . ((number "4" 306 . 307)))
+          ("NUMFLAKES" . ((number "10" 457 . 459)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("SPI.h" include (:system-flag t) nil [2 18])
+            ("Wire.h" include (:system-flag t) nil [19 36])
+            ("Adafruit_GFX.h" include (:system-flag t) nil [37 62])
+            ("Adafruit_SSD1306.h" include (:system-flag t) nil [63 92])
+            ("buttonPin1" variable
+               (:constant-flag t
+                :default-value "8"
+                :type "int")
+                nil [94 119])
+            ("buttonPin2" variable
+               (:constant-flag t
+                :default-value "9"
+                :type "int")
+                nil [120 145])
+            ("buttonPin3" variable
+               (:constant-flag t
+                :default-value "10"
+                :type "int")
+                nil [146 172])
+            ("relayPin1" variable
+               (:constant-flag t
+                :default-value "2"
+                :type "int")
+                nil [174 199])
+            ("relayPin2" variable
+               (:constant-flag t
+                :default-value "3"
+                :type "int")
+                nil [200 225])
+            ("relayPin3" variable
+               (:constant-flag t
+                :default-value "4"
+                :type "int")
+                nil [226 251])
+            ("relayPin4" variable
+               (:constant-flag t
+                :default-value "5"
+                :type "int")
+                nil [252 277])
+            ("buttonState" variable
+               (:default-value "0"
+                :type "int")
+                nil [279 299])
+            ("relayState" variable
+               (:default-value "1"
+                :type "int")
+                nil [354 373])
+            ("previousPush" variable
+               (:default-value "LOW"
+                :type "int")
+                nil [394 417])
+            ("time" variable
+               (:default-value "0"
+                :type "long")
+                nil [418 432])
+            ("debounce" variable
+               (:default-value "200"
+                :type "long")
+                nil [433 453])
+            ("setup" function (:type "void") nil [456 757])
+            ("mainDisplay" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [759 759]))                  
+                :type "void")
+                nil [759 759])
+            ("loop" function (:type "void") nil [760 2451])
+            ("clearTimer" function (:type "void") nil [2453 2523])
+            ("flipRelay" function (:type "void") nil [2525 2913]))          
+      :file "input-test.c"
+      :pointmax 2914
+      :fsize 2913
+      :lastmodtime '(23705 25286 824054 984000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("SPI.h" include (:system-flag t) nil [2 18])
+            ("Wire.h" include (:system-flag t) nil [19 36])
+            ("Adafruit_GFX.h" include (:system-flag t) nil [37 62])
+            ("Adafruit_SSD1306.h" include (:system-flag t) nil [63 92])
+            ("SCREEN_WIDTH" variable (:constant-flag t) nil [102 114])
+            ("SCREEN_HEIGHT" variable (:constant-flag t) nil [160 173])
+            ("OLED_RESET" variable (:constant-flag t) nil [291 301])
+            ("display" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("Wire" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [415 420]))                  
+                :type ("Adafruit_SSD1306" type (:type "class") nil nil))
+                nil [360 433])
+            ("NUMFLAKES" variable (:constant-flag t) nil [443 452])
+            ("buttonPin" variable
+               (:constant-flag t
+                :default-value "9"
+                :type "int")
+                nil [511 535])
+            ("relayPin" variable
+               (:constant-flag t
+                :default-value "12"
+                :type "int")
+                nil [576 601])
+            ("buttonState" variable
+               (:default-value "0"
+                :type "int")
+                nil [637 657])
+            ("relayState" variable
+               (:default-value "1"
+                :type "int")
+                nil [712 731])
+            ("previousPush" variable
+               (:default-value "LOW"
+                :type "int")
+                nil [752 775])
+            ("time" variable
+               (:default-value "0"
+                :type "long")
+                nil [776 790])
+            ("debounce" variable
+               (:default-value "200"
+                :type "long")
+                nil [791 811])
+            ("uptimeHours" variable
+               (:default-value "12"
+                :type "short int")
+                nil [839 866])
+            ("downtimeHours" variable
+               (:default-value "abs(uptimeHours - 24)"
+                :type "short int")
+                nil [867 915])
+            ("previousTime" variable
+               (:default-value "0"
+                :type "unsigned long")
+                nil [931 962])
+            ("seconds" variable (:type ("byte" type (:type "class") nil nil)) nil [963 976])
+            ("minutes" variable (:type ("byte" type (:type "class") nil nil)) nil [977 990])
+            ("hours" variable (:type ("byte" type (:type "class") nil nil)) nil [991 1002])
+            ("setup" function (:type "void") nil [1004 1531])
+            ("splashScreen" function (:type "void") nil [1533 2154])
+            ("mainDisplay" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2173 2178]))                  
+                :type "void")
+                nil [2156 3345])
+            ("loop" function (:type "void") nil [3347 5038])
+            ("clearTimer" function (:type "void") nil [5040 5110])
+            ("flipRelay" function (:type "void") nil [5112 5500]))          
+      :file "proto1.c"
+      :pointmax 5501
+      :fsize 5500
+      :lastmodtime '(23713 29690 152370 364000)
+      :unmatched-syntax '((number "4" 421 . 431) (punctuation 414 . 415) (number "64" 399 . 412) (number "128" 385 . 397))
+      :lexical-table 
+        '(("SCREEN_WIDTH" . ((number "128" 115 . 118)))
+          ("SCREEN_HEIGHT" . ((number "64" 174 . 176)))
+          ("OLED_RESET" . ((number "4" 306 . 307)))
+          ("NUMFLAKES" . ((number "10" 457 . 459)))
+          )
+))
+  :file "!home!alexhg!Documents!projects!lampduino!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

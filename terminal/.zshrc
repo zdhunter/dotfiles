@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/argos/.oh-my-zsh
+export ZSH=/home/alexhg/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -129,6 +129,8 @@ imgdl() {
     python3.6 ~/Documents/scripts/download_images.py $1 | xargs wget;  # Path to script
     gthumb .                                # Image viewer
 }
+
+cs() { cd "$1" && ls; }
 
 alias webmize="bash ~/Documents/scripts/webmize.sh"
 alias yt_extract_mp3="youtube-dl -x --audio-format mp3 "

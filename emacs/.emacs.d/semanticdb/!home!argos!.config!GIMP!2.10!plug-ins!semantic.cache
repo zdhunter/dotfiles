@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("gimpfu" include nil nil [895 915])
+            ("python_RetroVHSHologram" function (:arguments 
+              ( ("image" variable nil (reparse-symbol function_parameters) [970 975])
+                ("layer" variable nil (reparse-symbol function_parameters) [977 982])
+                ("shift_pixels" variable nil (reparse-symbol function_parameters) [984 996]))              ) nil [942 3540])
+            ("register" code nil nil [3553 4679])
+            ("main" code nil nil [4681 4687]))          
+      :file "RetroVHSHologram.py"
+      :pointmax 4688
+      :fsize 4797
+      :lastmodtime '(22811 28508 0 0)
+      :unmatched-syntax nil))
+  :file "!home!argos!.config!GIMP!2.10!plug-ins!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

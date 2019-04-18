@@ -1,0 +1,394 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_Adafruit_SSD1306_H_" variable (:constant-flag t) nil [860 880])
+            ("SSD1306_128_32" variable (:constant-flag t) nil [1019 1033])
+            ("Wire.h" include (:system-flag t) nil [1415 1432])
+            ("SPI.h" include (:system-flag t) nil [1433 1449])
+            ("Adafruit_GFX.h" include (:system-flag t) nil [1450 1475])
+            ("BLACK" variable (:constant-flag t) nil [1888 1893])
+            ("WHITE" variable (:constant-flag t) nil [1952 1957])
+            ("INVERSE" variable (:constant-flag t) nil [2015 2022])
+            ("SSD1306_MEMORYMODE" variable (:constant-flag t) nil [2076 2094])
+            ("SSD1306_COLUMNADDR" variable (:constant-flag t) nil [2136 2154])
+            ("SSD1306_PAGEADDR" variable (:constant-flag t) nil [2196 2212])
+            ("SSD1306_SETCONTRAST" variable (:constant-flag t) nil [2256 2275])
+            ("SSD1306_CHARGEPUMP" variable (:constant-flag t) nil [2316 2334])
+            ("SSD1306_SEGREMAP" variable (:constant-flag t) nil [2376 2392])
+            ("SSD1306_DISPLAYALLON_RESUME" variable (:constant-flag t) nil [2436 2463])
+            ("SSD1306_DISPLAYALLON" variable (:constant-flag t) nil [2496 2516])
+            ("SSD1306_NORMALDISPLAY" variable (:constant-flag t) nil [2561 2582])
+            ("SSD1306_INVERTDISPLAY" variable (:constant-flag t) nil [2621 2642])
+            ("SSD1306_SETMULTIPLEX" variable (:constant-flag t) nil [2681 2701])
+            ("SSD1306_DISPLAYOFF" variable (:constant-flag t) nil [2741 2759])
+            ("SSD1306_DISPLAYON" variable (:constant-flag t) nil [2801 2818])
+            ("SSD1306_COMSCANINC" variable (:constant-flag t) nil [2861 2879])
+            ("SSD1306_COMSCANDEC" variable (:constant-flag t) nil [2926 2944])
+            ("SSD1306_SETDISPLAYOFFSET" variable (:constant-flag t) nil [2986 3010])
+            ("SSD1306_SETDISPLAYCLOCKDIV" variable (:constant-flag t) nil [3046 3072])
+            ("SSD1306_SETPRECHARGE" variable (:constant-flag t) nil [3106 3126])
+            ("SSD1306_SETCOMPINS" variable (:constant-flag t) nil [3166 3184])
+            ("SSD1306_SETVCOMDETECT" variable (:constant-flag t) nil [3226 3247])
+            ("SSD1306_SETLOWCOLUMN" variable (:constant-flag t) nil [3287 3307])
+            ("SSD1306_SETHIGHCOLUMN" variable (:constant-flag t) nil [3352 3373])
+            ("SSD1306_SETSTARTLINE" variable (:constant-flag t) nil [3417 3437])
+            ("SSD1306_EXTERNALVCC" variable (:constant-flag t) nil [3478 3497])
+            ("SSD1306_SWITCHCAPVCC" variable (:constant-flag t) nil [3556 3576])
+            ("SSD1306_RIGHT_HORIZONTAL_SCROLL" variable (:constant-flag t) nil [3634 3665])
+            ("SSD1306_LEFT_HORIZONTAL_SCROLL" variable (:constant-flag t) nil [3712 3742])
+            ("SSD1306_VERTICAL_AND_RIGHT_HORIZONTAL_SCROLL" variable (:constant-flag t) nil [3792 3836])
+            ("SSD1306_VERTICAL_AND_LEFT_HORIZONTAL_SCROLL" variable (:constant-flag t) nil [3872 3915])
+            ("SSD1306_DEACTIVATE_SCROLL" variable (:constant-flag t) nil [3952 3977])
+            ("SSD1306_ACTIVATE_SCROLL" variable (:constant-flag t) nil [4027 4050])
+            ("SSD1306_SET_VERTICAL_SCROLL_AREA" variable (:constant-flag t) nil [4103 4135])
+            ("SSD1306_LCDWIDTH" variable (:constant-flag t) nil [4476 4492])
+            ("SSD1306_LCDHEIGHT" variable (:constant-flag t) nil [4555 4572])
+            ("Adafruit_SSD1306" type
+               (:superclasses 
+                  ( ("Adafruit_GFX" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [4986 4993])
+                    ("Adafruit_SSD1306" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("w" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5067 5077])
+                            ("h" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5078 5088])
+                            ("twi" variable
+                               (:pointer 1
+                                :default-value "&Wire"
+                                :type ("TwoWire" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5089 5107])
+                            ("rst_pin" variable
+                               (:default-value "-1"
+                                :type ("int8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5109 5126])
+                            ("clkDuring" variable
+                               (:default-value "400000UL"
+                                :type ("uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5132 5159])
+                            ("clkAfter" variable
+                               (:default-value "100000UL"
+                                :type ("uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5161 5187]))                          
+                        :type ("Adafruit_SSD1306" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5050 5189])
+                    ("Adafruit_SSD1306" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("w" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5209 5219])
+                            ("h" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5220 5230])
+                            ("mosi_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5231 5247])
+                            ("sclk_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5248 5264])
+                            ("dc_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5269 5283])
+                            ("rst_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5284 5299])
+                            ("cs_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5300 5314]))                          
+                        :type ("Adafruit_SSD1306" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5192 5315])
+                    ("Adafruit_SSD1306" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("w" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5335 5345])
+                            ("h" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5346 5356])
+                            ("spi" variable
+                               (:pointer 1
+                                :type ("SPIClass" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5357 5371])
+                            ("dc_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5376 5390])
+                            ("rst_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5391 5406])
+                            ("cs_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5407 5421])
+                            ("bitrate" variable
+                               (:default-value "8000000UL"
+                                :type ("uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5422 5448]))                          
+                        :type ("Adafruit_SSD1306" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5318 5450])
+                    ("Adafruit_SSD1306" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("mosi_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5548 5564])
+                            ("sclk_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5565 5581])
+                            ("dc_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5582 5596])
+                            ("rst_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5601 5616])
+                            ("cs_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5617 5631]))                          
+                        :type ("Adafruit_SSD1306" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5531 5632])
+                    ("Adafruit_SSD1306" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("dc_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5652 5666])
+                            ("rst_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5667 5682])
+                            ("cs_pin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5683 5697]))                          
+                        :type ("Adafruit_SSD1306" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5635 5698])
+                    ("Adafruit_SSD1306" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("rst_pin" variable
+                               (:default-value "-1"
+                                :type ("int8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5718 5737]))                          
+                        :type ("Adafruit_SSD1306" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5701 5739])
+                    ("Adafruit_SSD1306" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5761 5766]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5743 5767])
+                    ("begin" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("switchvcc" variable
+                               (:default-value "SSD1306_SWITCHCAPVCC"
+                                :type ("uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5790 5828])
+                            ("i2caddr" variable
+                               (:default-value "0"
+                                :type ("uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5847 5864])
+                            ("reset" variable
+                               (:default-value "true"
+                                :type ("boolean" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5866 5884])
+                            ("periphBegin" variable
+                               (:default-value "true"
+                                :type ("boolean" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5903 5927]))                          
+                        :type ("boolean" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5771 5929])
+                    ("display" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5953 5958]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5932 5959])
+                    ("clearDisplay" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5988 5993]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5962 5994])
+                    ("invertDisplay" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("i" variable (:type ("boolean" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6024 6034]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [5997 6035])
+                    ("dim" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dim" variable (:type ("boolean" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6055 6067]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6038 6068])
+                    ("drawPixel" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6094 6104])
+                            ("y" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6105 6115])
+                            ("color" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6116 6131]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6071 6132])
+                    ("drawFastHLine" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("x" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6162 6172])
+                            ("y" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6173 6183])
+                            ("w" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6184 6194])
+                            ("color" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6195 6210]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6135 6211])
+                    ("drawFastVLine" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("x" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6241 6251])
+                            ("y" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6252 6262])
+                            ("h" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6263 6273])
+                            ("color" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6274 6289]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6214 6290])
+                    ("startscrollright" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("start" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6323 6337])
+                            ("stop" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6338 6351]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6293 6352])
+                    ("startscrollleft" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("start" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6384 6398])
+                            ("stop" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6399 6412]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6355 6413])
+                    ("startscrolldiagright" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("start" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6450 6464])
+                            ("stop" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6465 6478]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6416 6479])
+                    ("startscrolldiagleft" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("start" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6515 6529])
+                            ("stop" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6530 6543]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6482 6544])
+                    ("stopscroll" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6571 6576]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6547 6577])
+                    ("ssd1306_command" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("c" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6609 6619]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6580 6620])
+                    ("getPixel" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6645 6655])
+                            ("y" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6656 6666]))                          
+                        :type ("boolean" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6623 6667])
+                    ("getBuffer" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6693 6698]))                          
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6670 6699])
+                    ("private" label nil (reparse-symbol classsubparts) [6702 6710])
+                    ("SPIwrite" function
+                       (:prototype-flag t
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("d" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6735 6745]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6713 6777])
+                    ("drawFastHLineInternal" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6815 6825])
+                            ("y" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6826 6836])
+                            ("w" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6837 6847])
+                            ("color" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6865 6880]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6780 6881])
+                    ("drawFastVLineInternal" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6919 6929])
+                            ("y" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6930 6940])
+                            ("h" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6941 6951])
+                            ("color" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6969 6984]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6884 6985])
+                    ("ssd1306_command1" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("c" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7018 7028]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [6988 7029])
+                    ("ssd1306_commandList" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("c" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7065 7082])
+                            ("n" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7083 7093]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [7032 7094])
+                    ("spi" variable
+                       (:pointer 1
+                        :type ("SPIClass" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [7098 7115])
+                    ("wire" variable
+                       (:pointer 1
+                        :type ("TwoWire" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [7118 7136])
+                    ("buffer" variable
+                       (:pointer 1
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [7139 7159])
+                    ("i2caddr" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7162 7203])
+                    ("vccstate" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7162 7203])
+                    ("page_end" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7162 7203])
+                    ("mosiPin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7206 7272])
+                    ("clkPin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7206 7272])
+                    ("dcPin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7206 7272])
+                    ("csPin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7206 7272])
+                    ("rstPin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7206 7272]))                  
+                :type "class")
+                nil [4938 7655]))          
+      :file "Adafruit_SSD1306.h"
+      :pointmax 7688
+      :fsize 7687
+      :lastmodtime '(23548 46160 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SSD1306_128_32")
+          ("INVERSE" . ((number "2" 2046 . 2047)))
+          ("SSD1306_NORMALDISPLAY" . ((number "0xA6" 2589 . 2593)))
+          ("SSD1306_SETHIGHCOLUMN" . ((number "0x10" 3380 . 3384)))
+          ("SSD1306_SETCOMPINS" . ((number "0xDA" 3194 . 3198)))
+          ("SSD1306_RIGHT_HORIZONTAL_SCROLL" . ((number "0x26" 3679 . 3683)))
+          ("SSD1306_COLUMNADDR" . ((number "0x21" 2164 . 2168)))
+          ("SSD1306_CHARGEPUMP" . ((number "0x8D" 2344 . 2348)))
+          ("SSD1306_SEGREMAP" . ((number "0xA0" 2404 . 2408)))
+          ("SSD1306_SETDISPLAYOFFSET" . ((number "0xD3" 3014 . 3018)))
+          ("SSD1306_SETVCOMDETECT" . ((number "0xDB" 3254 . 3258)))
+          ("SSD1306_SETLOWCOLUMN" . ((number "0x00" 3315 . 3319)))
+          ("SSD1306_ACTIVATE_SCROLL" . ((number "0x2F" 4072 . 4076)))
+          ("SSD1306_LCDHEIGHT" . ((number "32" 4574 . 4576)))
+          ("BLACK" . ((number "0" 1919 . 1920)))
+          ("SSD1306_MEMORYMODE" . ((number "0x20" 2104 . 2108)))
+          ("SSD1306_DISPLAYALLON" . ((number "0xA5" 2524 . 2528)))
+          ("SSD1306_SETSTARTLINE" . ((number "0x40" 3445 . 3449)))
+          ("SSD1306_LCDWIDTH" . ((number "128" 4494 . 4497)))
+          ("SSD1306_DISPLAYALLON_RESUME" . ((number "0xA4" 2464 . 2468)))
+          ("SSD1306_DISPLAYON" . ((number "0xAF" 2829 . 2833)))
+          ("SSD1306_COMSCANDEC" . ((number "0xC8" 2954 . 2958)))
+          ("SSD1306_SETDISPLAYCLOCKDIV" . ((number "0xD5" 3074 . 3078)))
+          ("SSD1306_SET_VERTICAL_SCROLL_AREA" . ((number "0xA3" 4148 . 4152)))
+          ("SSD1306_PAGEADDR" . ((number "0x22" 2224 . 2228)))
+          ("SSD1306_DEACTIVATE_SCROLL" . ((number "0x2E" 3997 . 4001)))
+          ("_Adafruit_SSD1306_H_")
+          ("SSD1306_EXTERNALVCC" . ((number "0x01" 3506 . 3510)))
+          ("SSD1306_LEFT_HORIZONTAL_SCROLL" . ((number "0x27" 3757 . 3761)))
+          ("SSD1306_VERTICAL_AND_LEFT_HORIZONTAL_SCROLL" . ((number "0x2A" 3917 . 3921)))
+          ("SSD1306_DISPLAYOFF" . ((number "0xAE" 2769 . 2773)))
+          ("SSD1306_SETPRECHARGE" . ((number "0xD9" 3134 . 3138)))
+          ("SSD1306_VERTICAL_AND_RIGHT_HORIZONTAL_SCROLL" . ((number "0x29" 3837 . 3841)))
+          ("SSD1306_SWITCHCAPVCC" . ((number "0x02" 3584 . 3588)))
+          ("WHITE" . ((number "1" 1983 . 1984)))
+          ("SSD1306_INVERTDISPLAY" . ((number "0xA7" 2649 . 2653)))
+          ("SSD1306_SETMULTIPLEX" . ((number "0xA8" 2709 . 2713)))
+          ("SSD1306_SETCONTRAST" . ((number "0x81" 2284 . 2288)))
+          ("SSD1306_COMSCANINC" . ((number "0xC0" 2889 . 2893)))
+          )
+))
+  :file "!home!argos!sketchbook!libraries!Adafruit_SSD1306!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

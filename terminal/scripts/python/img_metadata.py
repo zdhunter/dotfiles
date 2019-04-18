@@ -27,11 +27,10 @@ def scan_for_images(url):
 
 def download_image(img_tag):
     try:
-        print("Downloading image...")
+        print("Downloading: {}".format(img_tag))
         img_src = img_tag['src']
         img_content = urllib2.urlopen(img_src).read()
         img_file_name = basename(urlsplit(img_src)[2])
-
         img_file = open(img_file_name, 'wb')
         img_file.write(img_content)
         img_file.close()

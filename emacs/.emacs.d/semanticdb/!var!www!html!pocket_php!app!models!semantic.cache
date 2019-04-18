@@ -1,0 +1,59 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__DIR__" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21 29]))                  
+                :type ("php" type (:type "class") nil nil))
+                nil [3 50])
+            ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [64 69]))                  
+                :type "int")
+                nil [51 88])
+            ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102 107]))                  
+                :type "int")
+                nil [89 123])
+            ("getBlogArchive" function
+               (:arguments 
+                  ( ("" variable (:type ("category" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [356 371]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [331 967])
+            ("get10LatestBlogPosts" function
+               (:arguments 
+                  ( ("" variable (:type ("category" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1000 1015]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [969 1568])
+            ("getBlogPost" function
+               (:arguments 
+                  ( ("" variable (:type ("postID" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1592 1599]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [1570 2589])
+            ("generateArchiveList" function
+               (:arguments 
+                  ( ("" variable (:type ("blogData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2645 2654]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [2615 3225])
+            ("generateBlogPost" function
+               (:arguments 
+                  ( ("" variable (:type ("blogData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3254 3263]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [3227 4310]))          
+      :file "blog_models.php"
+      :pointmax 4311
+      :fsize 4310
+      :lastmodtime '(23684 45375 321322 851000)
+      :unmatched-syntax '((punctuation 3253 . 3254) (punctuation 2644 . 2645) (punctuation 1591 . 1592) (punctuation 999 . 1000) (punctuation 355 . 356) (semantic-list 140 . 327) (symbol 131 . 139) (CLASS 125 . 130) (punctuation 311 . 312) (PUBLIC 304 . 310) (punctuation 283 . 284) (PUBLIC 276 . 282) (punctuation 254 . 255) (PUBLIC 247 . 253) (punctuation 229 . 230) (PUBLIC 222 . 228) (punctuation 202 . 203) (PUBLIC 195 . 201) (punctuation 176 . 177) (PUBLIC 169 . 175) (punctuation 153 . 154) (PUBLIC 146 . 152) (punctuation 311 . 312) (PUBLIC 304 . 310) (punctuation 283 . 284) (PUBLIC 276 . 282) (punctuation 254 . 255) (PUBLIC 247 . 253) (punctuation 229 . 230) (PUBLIC 222 . 228) (punctuation 202 . 203) (PUBLIC 195 . 201) (punctuation 176 . 177) (PUBLIC 169 . 175) (punctuation 153 . 154) (PUBLIC 146 . 152) (string 107 . 121) (punctuation 106 . 107) (string 69 . 86) (punctuation 68 . 69) (string 29 . 48) (punctuation 28 . 29) (punctuation 2 . 3) (punctuation 1 . 2) (punctuation 3253 . 3254))))
+  :file "!var!www!html!pocket_php!app!models!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

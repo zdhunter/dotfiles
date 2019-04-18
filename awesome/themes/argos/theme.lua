@@ -14,7 +14,7 @@ local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
 local theme                                     = {}
 theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/themes/argos"
 theme.wallpaper                                 = theme.dir .. "/default_wallpaper.jpg"
-theme.font                                      = "ohsnap bold 9"
+theme.font                                      = "Inconsolata bold 11"
 theme.fg_normal                                 = "#878787"
 theme.fg_focus                                  = "#85C600"
 theme.fg_minimize                               = "#E06C75"
@@ -22,12 +22,12 @@ theme.bg_normal                                 = "#0c0c0c"
 theme.bg_focus                                  = "#0c0c0c"
 theme.fg_urgent                                 = "#0c0c0c"
 theme.bg_urgent                                 = "#DDDDDD"
-theme.border_width                              = 1
-theme.border_normal                             = "#141414"
-theme.border_focus                              = "#8a8acf"
-theme.taglist_fg_focus                          = "#ff008d"
-theme.taglist_bg_focus                          = "#0c0c0c"
-theme.taglist_bg_normal                         = "#0c0c0c"
+theme.border_width                              = 2
+theme.border_normal                             = "#6E6E6E"
+theme.border_focus                              = "#FFA600"
+theme.taglist_fg_focus                          = "#0c0c0c"
+theme.taglist_bg_focus                          = "#ff008d"
+theme.taglist_bg_normal                         = "#B81B54"
 theme.titlebar_bg_normal                        = "#0c0c0c"
 theme.titlebar_bg_focus                         = "#262626"
 theme.menu_height                               = 16
@@ -183,32 +183,6 @@ theme.mpd = lain.widget.mpd({
     end
 })
 
--- /home fs
-local fsicon = wibox.widget.imagebox(theme.disk)
-local fsbar = wibox.widget {
-    forced_height    = 1,
-    forced_width     = 59,
-    color            = theme.fg_normal,
-    background_color = theme.bg_normal,
-    margins          = 1,
-    paddings         = 1,
-    ticks            = true,
-    ticks_size       = 6,
-    widget           = wibox.widget.progressbar,
-}
-theme.fs = lain.widget.fs({
-    notification_preset = { fg = theme.fg_normal, bg = theme.bg_normal, font = "ohsnap bold 9" },
-    settings  = function()
-        if fs_now["/home"].percentage < 90 then
-            fsbar:set_color(theme.fg_normal)
-        else
-            fsbar:set_color("#EB8F8F")
-        end
-        fsbar:set_value(fs_now["/home"].percentage / 100)
-    end
-})
-local fsbg = wibox.container.background(fsbar, "#474747", gears.shape.rectangle)
-local fswidget = wibox.container.margin(fsbg, 2, 7, 4, 4)
 
 -- ALSA volume bar
 -- MOTE: This plugin picks the default sound card ID which may NOT be thee one you actually use.
@@ -264,11 +238,11 @@ local volumebg = wibox.container.background(theme.volume.bar, "#474747", gears.s
 local volumewidget = wibox.container.margin(volumebg, 2, 7, 4, 4)
 
 -- Separators
-local first     = wibox.widget.textbox(markup.font("ohsnap bold 9", " "))
+local first     = wibox.widget.textbox(markup.font("ohsnap bold 12", " "))
 local spr       = wibox.widget.textbox(' ')
-local small_spr = wibox.widget.textbox(markup.font("ohsnap bold 9", " "))
+local small_spr = wibox.widget.textbox(markup.font("ohsnap bold 12", " "))
 -- local bar_spr   = wibox.widget.textbox(markup.font("Tamzen 3", " ") .. markup.fontfg(theme.font, "#333333", "|") .. markup.font("Tamzen 5", " "))
-local bar_spr   =  wibox.widget.textbox(markup.font("ohsnap bold 9", " ") .. markup.fontfg(theme.font, "#D19A66", "|") .. markup.font("ohsnap bold 9", " "))
+local bar_spr   =  wibox.widget.textbox(markup.font("ohsnap bold 12", " ") .. markup.fontfg(theme.font, "#D19A66", "|") .. markup.font("ohsnap bold 12", " "))
 
 -- Eminent-like task filtering
 local orig_filter = awful.widget.taglist.filter.all

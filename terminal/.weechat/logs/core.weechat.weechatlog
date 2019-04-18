@@ -5546,3 +5546,9 @@
 2018-11-08 11:04:21	+	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
 2018-11-08 11:04:21		perl scripts loaded: beep, buffers, iset
 2018-11-08 11:04:21		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2019-01-04 15:36:15	+	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-01-04 15:36:15		perl scripts loaded: beep, buffers, iset
+2019-01-04 15:36:16		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2019-03-18 12:58:00	+	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2019-03-18 12:58:00		perl scripts loaded: beep, buffers, iset
+2019-03-18 12:58:00		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer

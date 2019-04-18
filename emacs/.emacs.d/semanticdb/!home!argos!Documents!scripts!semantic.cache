@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("bs4" include nil nil [1 30])
+            ("urllib.request" include nil nil [31 52])
+            ("re" include nil nil [53 62])
+            ("sys" include nil nil [63 73])
+            ("use" code nil nil [84 87])
+            ("list" code nil nil [192 196])
+            ("found" code nil nil [202 207])
+            ("assert" code nil nil [704 760])
+            ("url" variable nil nil [761 778])
+            ("req" variable nil nil [779 854])
+            ("con" variable nil nil [855 890])
+            ("html" variable nil nil [891 935])
+            ("img_list" variable nil nil [937 950])
+            ("for" code nil nil [951 1089])
+            ("print" code nil nil [1090 1121]))          
+      :file "download_images.py"
+      :pointmax 1122
+      :fsize 1121
+      :lastmodtime '(23628 53915 701422 726000)
+      :unmatched-syntax nil))
+  :file "!home!argos!Documents!scripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

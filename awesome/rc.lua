@@ -108,23 +108,23 @@ awful.layout.layouts = {
     awful.layout.suit.tile.left,
     awful.layout.suit.tile.bottom,
     awful.layout.suit.tile.top,
-    --awful.layout.suit.fair,
-    --awful.layout.suit.fair.horizontal,
-    --awful.layout.suit.spiral,
-    --awful.layout.suit.spiral.dwindle,
-    --awful.layout.suit.max,
-    --awful.layout.suit.max.fullscreen,
-    --awful.layout.suit.magnifier,
-    --awful.layout.suit.corner.nw,
-    --awful.layout.suit.corner.ne,
-    --awful.layout.suit.corner.sw,
-    --awful.layout.suit.corner.se,
-    --lain.layout.cascade,
-    --lain.layout.cascade.tile,
-    --lain.layout.centerwork,
-    --lain.layout.centerwork.horizontal,
-    --lain.layout.termfair,
-    --lain.layout.termfair.center,
+    awful.layout.suit.fair,
+    awful.layout.suit.fair.horizontal,
+    awful.layout.suit.spiral,
+    awful.layout.suit.spiral.dwindle,
+    awful.layout.suit.max,
+    awful.layout.suit.max.fullscreen,
+    awful.layout.suit.magnifier,
+    awful.layout.suit.corner.nw,
+    awful.layout.suit.corner.ne,
+    awful.layout.suit.corner.sw,
+    awful.layout.suit.corner.se,
+    lain.layout.cascade,
+    lain.layout.cascade.tile,
+    lain.layout.centerwork,
+    lain.layout.centerwork.horizontal,
+    lain.layout.termfair,
+    lain.layout.termfair.center,
 }
 awful.util.taglist_buttons = my_table.join(
                     awful.button({ }, 1, function(t) t:view_only() end),
@@ -740,10 +740,10 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 --  {{{{{{{{{{ STARTUP SCRIPTS }}}}}}}}}}
 awful.spawn.with_shell("xrdb merge ~/.Xresources")
 awful.spawn.with_shell("xscreensaver -nosplash &")
-awful.spawn.with_shell("sh ~/.screenlayout/three_monitors.sh")
+awful.spawn.with_shell("sh ~/.screenlayout/monitors.sh")
 awful.spawn.with_shell("nitrogen --restore")
 awful.spawn.with_shell("compton &")
-awful.spawn.with_shell("modprobe xpad")
+-- awful.spawn.with_shell("modprobe xpad")
 -- awful.util.spawn_with_shell("fc-cache -f -v");
 -- awful.util.spawn_with_shell("nvidia-settings --load-config-only")
 -- awful.util.spawn_with_shell("compton --config ~/.config/compton.conf -b")

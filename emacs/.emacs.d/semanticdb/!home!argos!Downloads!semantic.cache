@@ -29,6 +29,121 @@
       :pointmax 65097
       :fsize 65125
       :lastmodtime '(23579 61793 530881 874000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [977 995])
+            ("stdlib.h" include (:system-flag t) nil [1039 1058])
+            ("stdint.h" include (:system-flag t) nil [1060 1079])
+            ("string.h" include (:system-flag t) nil [1103 1122])
+            ("unistd.h" include (:system-flag t) nil [1159 1178])
+            ("fcntl.h" include (:system-flag t) nil [1222 1240])
+            ("errno.h" include (:system-flag t) nil [1275 1293])
+            ("termios.h" include (:system-flag t) nil [1328 1348])
+            ("sys/ioctl.h" include (:system-flag t) nil [1391 1413])
+            ("getopt.h" include (:system-flag t) nil [1414 1433])
+            ("usage" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1446 1451]))                  
+                :type "void")
+                nil [1435 1452])
+            ("serialport_init" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("serialport" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1473 1496])
+                    ("baud" variable (:type "int") (reparse-symbol arg-sub-list) [1497 1506]))                  
+                :type "int")
+                nil [1453 1507])
+            ("serialport_writebyte" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [1533 1540])
+                    ("b" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1541 1551]))                  
+                :type "int")
+                nil [1508 1552])
+            ("serialport_write" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [1574 1581])
+                    ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1582 1598]))                  
+                :type "int")
+                nil [1553 1599])
+            ("serialport_read_until" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [1626 1633])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1634 1644])
+                    ("until" variable (:type "char") (reparse-symbol arg-sub-list) [1645 1656]))                  
+                :type "int")
+                nil [1600 1657])
+            ("usage" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1670 1675]))                  
+                :type "void")
+                nil [1659 2475])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2486 2495])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2496 2509]))                  
+                :type "int")
+                nil [2477 4308])
+            ("serialport_writebyte" function
+               (:arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [4352 4359])
+                    ("b" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4360 4370]))                  
+                :type "int")
+                nil [4326 4449])
+            ("serialport_write" function
+               (:arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [4472 4479])
+                    ("str" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4480 4496]))                  
+                :type "int")
+                nil [4451 4611])
+            ("serialport_read_until" function
+               (:arguments 
+                  ( ("fd" variable (:type "int") (reparse-symbol arg-sub-list) [4639 4646])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4647 4657])
+                    ("until" variable (:type "char") (reparse-symbol arg-sub-list) [4658 4669]))                  
+                :type "int")
+                nil [4613 5050])
+            ("serialport_init" function
+               (:arguments 
+                  ( ("serialport" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5326 5349])
+                    ("baud" variable (:type "int") (reparse-symbol arg-sub-list) [5350 5359]))                  
+                :type "int")
+                nil [5306 7072]))          
+      :file "arduino-serial.c"
+      :pointmax 7073
+      :fsize 7072
+      :lastmodtime '(23625 24402 134766 769000)
       :unmatched-syntax nil))
   :file "!home!argos!Downloads!semantic.cache"
   :semantic-tag-version "2.0"

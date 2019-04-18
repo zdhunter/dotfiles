@@ -24,6 +24,71 @@
                   ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102 107]))                  
                 :type "int")
                 nil [89 123])
+            ("entry" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [142 154]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [125 519])
+            ("about" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [537 555]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [521 1023]))          
+      :file "home.php"
+      :pointmax 1107
+      :fsize 1106
+      :lastmodtime '(23720 2765 58753 856000)
+      :unmatched-syntax '((punctuation 536 . 537) (punctuation 141 . 142) (string 107 . 121) (punctuation 106 . 107) (string 69 . 86) (punctuation 68 . 69) (string 29 . 48) (punctuation 28 . 29) (punctuation 2 . 3) (punctuation 1 . 2) (punctuation 536 . 537)))
+
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__DIR__" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21 29]))                  
+                :type ("php" type (:type "class") nil nil))
+                nil [3 50])
+            ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [64 69]))                  
+                :type "int")
+                nil [51 88])
+            ("entry" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [182 194]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [165 675]))          
+      :file "error.php"
+      :pointmax 676
+      :fsize 675
+      :lastmodtime '(23720 651 223442 479000)
+      :unmatched-syntax '((punctuation 181 . 182) (string 69 . 86) (punctuation 68 . 69) (string 29 . 48) (punctuation 28 . 29) (punctuation 2 . 3) (punctuation 1 . 2)))
+
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__DIR__" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21 29]))                  
+                :type ("php" type (:type "class") nil nil))
+                nil [3 50])
+            ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [64 69]))                  
+                :type "int")
+                nil [51 88])
+            ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102 107]))                  
+                :type "int")
+                nil [89 123])
             ("require_once" function
                (:prototype-flag t
                 :arguments 
@@ -40,21 +105,64 @@
                (:arguments 
                   ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [246 258]))                  
                 :type ("function" type (:type "class") nil nil))
-                nil [229 725])
-            ("homepage" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [747 765]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [728 2571])
+                nil [229 623])
             ("about" function
                (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2589 2607]))                  
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [641 659]))                  
                 :type ("function" type (:type "class") nil nil))
-                nil [2573 3408]))          
-      :file "home.php"
-      :pointmax 3409
-      :fsize 3408
-      :lastmodtime '(23573 62342 328322 497000)
+                nil [625 1545]))          
+      :file "about.php"
+      :pointmax 1546
+      :fsize 1023
+      :lastmodtime '(23720 3112 97027 710000)
+      :unmatched-syntax '((punctuation 640 . 641) (punctuation 245 . 246) (string 197 . 225) (punctuation 196 . 197) (string 145 . 173) (punctuation 144 . 145) (string 107 . 121) (punctuation 106 . 107) (string 69 . 86) (punctuation 68 . 69) (string 29 . 48) (punctuation 28 . 29) (punctuation 2 . 3) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20 27]))                  
+                :type ("php" type (:type "class") nil nil))
+                nil [3 28])
+            ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42 47]))                  
+                :type "int")
+                nil [29 66])
+            ("entry" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [326 338]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [309 1066])
+            ("loginHomepage" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1092 1109]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [1068 1421])
+            ("loginRequest" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1446 1458]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [1423 1840])
+            ("processError" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1865 1877]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [1842 2276]))          
+      :file "login.php"
+      :pointmax 2277
+      :fsize 2276
+      :lastmodtime '(23720 651 223442 479000)
+      :unmatched-syntax '((punctuation 1864 . 1865) (punctuation 1445 . 1446) (punctuation 1091 . 1092) (punctuation 325 . 326) (string 47 . 64) (punctuation 46 . 47) (punctuation 2 . 3) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags nil
+      :file "logout.php"
+      :pointmax 163
+      :fsize 162
+      :lastmodtime '(23720 651 223442 479000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode php-mode
@@ -81,140 +189,21 @@
                (:arguments 
                   ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [142 154]))                  
                 :type ("function" type (:type "class") nil nil))
-                nil [125 839])
-            ("customNavbar" function (:type ("function" type (:type "class") nil nil)) nil [929 989])
-            ("projects" function
+                nil [125 837])
+            ("user_guide" function
                (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1011 1029]))                  
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [861 879]))                  
                 :type ("function" type (:type "class") nil nil))
-                nil [992 2402])
-            ("pocket_php" function
+                nil [840 1398])
+            ("license" function
                (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2425 2443]))                  
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1418 1436]))                  
                 :type ("function" type (:type "class") nil nil))
-                nil [2404 3231])
-            ("dotfiles" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3252 3270]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [3233 4268])
-            ("skeletongl" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4291 4309]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [4270 5374]))          
-      :file "projects.php"
-      :pointmax 5375
-      :fsize 5374
-      :lastmodtime '(23577 57867 897145 980000)
-      :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table"
-      :major-mode php-mode
-      :tags 
-        '( ("require_once" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable (:type ("__DIR__" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21 29]))                  
-                :type ("php" type (:type "class") nil nil))
-                nil [3 50])
-            ("require_once" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [64 69]))                  
-                :type "int")
-                nil [51 88])
-            ("require_once" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102 107]))                  
-                :type "int")
-                nil [89 123])
-            ("entry" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [142 154]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [125 832])
-            ("customNavbar" function (:type ("function" type (:type "class") nil nil)) nil [921 1219])
-            ("gallery" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1405 1423]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [1387 2101])
-            ("photographs" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2125 2143]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [2103 2941])
-            ("screenshots" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2965 2983]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [2943 3781])
-            ("videos" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3801 3819]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [3784 4617])
-            ("generateImageList" function
-               (:arguments 
-                  ( ("" variable (:type ("dir" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4777 4785]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [4749 5736]))          
-      :file "gallery.php"
-      :pointmax 5737
-      :fsize 5736
-      :lastmodtime '(23569 53790 797469 672000)
-      :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table"
-      :major-mode php-mode
-      :tags 
-        '( ("require_once" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable (:type ("__DIR__" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21 29]))                  
-                :type ("php" type (:type "class") nil nil))
-                nil [3 50])
-            ("require_once" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [64 69]))                  
-                :type "int")
-                nil [51 88])
-            ("require_once" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable (:type ("__DIR__" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [102 110]))                  
-                :type "int")
-                nil [89 140])
-            ("entry" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [160 172]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [143 933])
-            ("blog" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [950 968]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [935 2619])
-            ("archive" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2639 2657]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [2621 3818])
-            ("devlogs" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3838 3850]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [3820 5440])
-            ("blog_id" function
-               (:arguments 
-                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5461 5479]))                  
-                :type ("function" type (:type "class") nil nil))
-                nil [5443 7067]))          
-      :file "blog.php"
-      :pointmax 7068
-      :fsize 7067
-      :lastmodtime '(23569 64464 270558 144000)
+                nil [1400 1819]))          
+      :file "project.php"
+      :pointmax 1820
+      :fsize 1819
+      :lastmodtime '(23720 3379 432078 269000)
       :unmatched-syntax nil))
   :file "!var!www!html!pocket_php!app!controllers!semantic.cache"
   :semantic-tag-version "2.0"

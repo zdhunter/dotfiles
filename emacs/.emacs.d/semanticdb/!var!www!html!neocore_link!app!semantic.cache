@@ -1,0 +1,29 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("configure" function
+               (:prototype-flag t
+                :type ("php" type (:type "class") nil nil))
+                nil [3 93])
+            ("configure" function (:type ("function" type (:type "class") nil nil)) nil [142 3731])
+            ("configureHeaderStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [4142 4589])
+            ("configureFooterStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [4591 4751])
+            ("configureNavbarStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [4753 5366])
+            ("handleException" function
+               (:arguments 
+                  ( ("" variable (:type ("e" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5574 5576]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [5547 7010]))          
+      :file "configure.php"
+      :pointmax 7011
+      :fsize 7010
+      :lastmodtime '(23726 20409 4260 959000)
+      :unmatched-syntax nil))
+  :file "!var!www!html!neocore_link!app!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

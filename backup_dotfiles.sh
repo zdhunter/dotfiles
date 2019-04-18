@@ -42,7 +42,7 @@ cp  ~/.tmux.conf  "${backup_dir}/terminal/"
 cp  ~/.zshrc  "${backup_dir}/terminal/"
 cp  -r ~/.urxvt/  "${backup_dir}/terminal/"
 cp  -r ~/.weechat/  "${backup_dir}/terminal/"
-cp  -r ~/.fonts  "${backup_dir}/terminal/"
+# cp  -r ~/.fonts  "${backup_dir}/terminal/"
 cp  -r ~/Documents/scripts/ "${backup_dir}/terminal/"
 
 # MPD & NCMPCPP

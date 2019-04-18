@@ -1,0 +1,22 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("require_once" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__DIR__" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22 30]))                  
+                :type ("php" type (:type "class") nil nil))
+                nil [4 51]))          
+      :file "HTTPRequest.php"
+      :pointmax 8779
+      :fsize 8778
+      :lastmodtime '(23633 15749 259387 0)
+      :unmatched-syntax '((semantic-list 427 . 8778) (symbol 415 . 426) (CLASS 409 . 414) (punctuation 7671 . 7672) (PRIVATE 7643 . 7650) (PRIVATE 6789 . 6796) (PRIVATE 5097 . 5104) (punctuation 1117 . 1118) (punctuation 949 . 950) (PUBLIC 942 . 948) (punctuation 919 . 920) (PUBLIC 912 . 918) (punctuation 887 . 888) (PUBLIC 880 . 886) (punctuation 850 . 851) (PUBLIC 843 . 849) (punctuation 748 . 749) (PUBLIC 741 . 747) (punctuation 649 . 650) (PUBLIC 642 . 648) (punctuation 615 . 616) (PUBLIC 608 . 614) (punctuation 581 . 582) (PUBLIC 574 . 580) (punctuation 549 . 550) (PUBLIC 542 . 548) (punctuation 519 . 520) (PUBLIC 512 . 518) (punctuation 493 . 494) (PUBLIC 486 . 492) (punctuation 463 . 464) (PUBLIC 456 . 462) (punctuation 440 . 441) (PUBLIC 433 . 439) (punctuation 7671 . 7672) (PRIVATE 7643 . 7650) (PRIVATE 6789 . 6796) (PRIVATE 5097 . 5104) (punctuation 1117 . 1118) (punctuation 949 . 950) (PUBLIC 942 . 948) (punctuation 919 . 920) (PUBLIC 912 . 918) (punctuation 887 . 888) (PUBLIC 880 . 886) (punctuation 850 . 851) (PUBLIC 843 . 849) (punctuation 748 . 749) (PUBLIC 741 . 747) (punctuation 649 . 650) (PUBLIC 642 . 648) (punctuation 615 . 616) (PUBLIC 608 . 614) (punctuation 581 . 582) (PUBLIC 574 . 580) (punctuation 549 . 550) (PUBLIC 542 . 548) (punctuation 519 . 520) (PUBLIC 512 . 518) (punctuation 493 . 494) (PUBLIC 486 . 492) (punctuation 463 . 464) (PUBLIC 456 . 462) (punctuation 440 . 441) (PUBLIC 433 . 439) (semantic-list 83 . 167) (symbol 68 . 82) (CLASS 62 . 67) (symbol 53 . 61) (string 30 . 49) (punctuation 29 . 30) (punctuation 3 . 4) (punctuation 2 . 3))))
+  :file "!var!www!html!pocket_php_git!app!core!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

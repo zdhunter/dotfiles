@@ -1,0 +1,58 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("buttonA" variable
+               (:constant-flag t
+                :default-value "2"
+                :type "int")
+                nil [35 57])
+            ("buttonB" variable
+               (:constant-flag t
+                :default-value "3"
+                :type "int")
+                nil [58 80])
+            ("buttonC" variable
+               (:constant-flag t
+                :default-value "4"
+                :type "int")
+                nil [81 103])
+            ("relay1" variable
+               (:constant-flag t
+                :default-value "5"
+                :type "int")
+                nil [105 126])
+            ("relay2" variable
+               (:constant-flag t
+                :default-value "6"
+                :type "int")
+                nil [127 148])
+            ("relay3" variable
+               (:constant-flag t
+                :default-value "7"
+                :type "int")
+                nil [149 170])
+            ("relay4" variable
+               (:constant-flag t
+                :default-value "8"
+                :type "int")
+                nil [171 192])
+            ("buttonStatus" variable
+               (:default-value "0"
+                :type "int")
+                nil [194 215])
+            ("setup" function (:type "void") nil [216 464])
+            ("loop" function (:type "void") nil [466 1043]))          
+      :file "ard.c"
+      :pointmax 1044
+      :fsize 1043
+      :lastmodtime '(23721 7190 87110 632000)
+      :unmatched-syntax nil))
+  :file "!tmp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

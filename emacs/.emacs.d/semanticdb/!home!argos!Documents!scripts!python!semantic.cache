@@ -46,15 +46,15 @@
             ("scan_for_images" function (:arguments 
               ( ("url" variable nil (reparse-symbol function_parameters) [322 325]))              ) nil [302 811])
             ("download_image" function (:arguments 
-              ( ("img_tag" variable nil (reparse-symbol function_parameters) [832 839]))              ) nil [813 1198])
+              ( ("img_tag" variable nil (reparse-symbol function_parameters) [832 839]))              ) nil [813 1208])
             ("test_for_exif" function (:arguments 
-              ( ("img_file_name" variable nil (reparse-symbol function_parameters) [1217 1230]))              ) nil [1199 1685])
-            ("main" function nil nil [1686 2157])
-            ("if" code nil nil [2158 2196]))          
+              ( ("img_file_name" variable nil (reparse-symbol function_parameters) [1227 1240]))              ) nil [1209 1695])
+            ("main" function nil nil [1696 2167])
+            ("if" code nil nil [2168 2206]))          
       :file "img_metadata.py"
-      :pointmax 2198
-      :fsize 2197
-      :lastmodtime '(23407 16987 0 0)
+      :pointmax 2208
+      :fsize 2207
+      :lastmodtime '(23628 53515 420100 123000)
       :unmatched-syntax nil))
   :file "!home!argos!Documents!scripts!python!semantic.cache"
   :semantic-tag-version "2.0"

@@ -1,0 +1,101 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("configure" function
+               (:prototype-flag t
+                :type ("php" type (:type "class") nil nil))
+                nil [3 93])
+            ("configure" function (:type ("function" type (:type "class") nil nil)) nil [142 3715])
+            ("configureHeaderStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [4126 4573])
+            ("configureFooterStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [4575 4735])
+            ("configureNavbarStaticContent" function (:type ("function" type (:type "class") nil nil)) nil [4737 5169])
+            ("handleException" function
+               (:arguments 
+                  ( ("" variable (:type ("e" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5377 5379]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [5350 6813]))          
+      :file "configure.php"
+      :pointmax 6814
+      :fsize 6813
+      :lastmodtime '(23633 17172 915512 0)
+      :unmatched-syntax '((punctuation 5376 . 5377) (punctuation 2 . 3) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode php-mode
+      :tags 
+        '( ("declare" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strict_types" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1636 1650]))                  
+                :type ("php" type (:type "class") nil nil))
+                nil [3 1652])
+            ("session_start" function
+               (:prototype-flag t
+                :type "int")
+                nil [1653 1669])
+            ("require_once" function
+               (:prototype-flag t
+                :type "int")
+                nil [1794 1824])
+            ("include" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1901 1906]))                  
+                :type "int")
+                nil [1893 1925])
+            ("include" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1934 1939]))                  
+                :type "int")
+                nil [1926 1961])
+            ("include" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("CORE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1970 1975]))                  
+                :type "int")
+                nil [1962 1991])
+            ("processRequest" function
+               (:prototype-flag t
+                :type "int")
+                nil [2138 2155])
+            ("processRequest" function (:type ("function" type (:type "class") nil nil)) nil [2156 4637])
+            ("dispatchRequest" function
+               (:arguments 
+                  ( ("" variable (:type ("file" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4990 4995])
+                    ("" variable (:type ("function" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4997 5006])
+                    ("" variable (:type ("parameters" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5008 5019]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [4964 5195])
+            ("validateLoginAttempt" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5325 5337]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [5294 6915])
+            ("validateLoginData" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7087 7099]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [7059 7964])
+            ("saveRequest" function
+               (:arguments 
+                  ( ("" variable (:type ("requestData" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8081 8093]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [8059 8881])
+            ("checkForBan" function
+               (:arguments 
+                  ( ("" variable (:type ("ip" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8965 8968]))                  
+                :type ("function" type (:type "class") nil nil))
+                nil [8943 9438]))          
+      :file "index.php"
+      :pointmax 9439
+      :fsize 9438
+      :lastmodtime '(23633 17706 666579 0)
+      :unmatched-syntax '((punctuation 8964 . 8965) (punctuation 8080 . 8081) (punctuation 7086 . 7087) (punctuation 5324 . 5325) (punctuation 5007 . 5008) (punctuation 4996 . 4997) (punctuation 4989 . 4990) (string 1975 . 1989) (punctuation 1974 . 1975) (string 1939 . 1959) (punctuation 1938 . 1939) (string 1906 . 1923) (punctuation 1905 . 1906) (string 1807 . 1822) (punctuation 2 . 3) (punctuation 1 . 2))))
+  :file "!var!www!html!pocket_php_git!app!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

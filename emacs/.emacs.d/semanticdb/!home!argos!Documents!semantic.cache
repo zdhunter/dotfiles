@@ -4,38 +4,81 @@
   :tables
   (list
     (semanticdb-table "semanticdb-table"
-      :major-mode c++-mode
-      :tags nil
-      :file "test.cpp"
-      :pointmax 1
-      :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table"
-      :major-mode c++-mode
-      :tags nil
-      :file ".#test.cpp"
-      :pointmax 1
-      :fsize 27
-      :lastmodtime '(23507 26996 230435 680000)
+      :major-mode c-mode
+      :tags 
+        '( ("ledPin" variable
+               (:constant-flag t
+                :default-value "8"
+                :type "int")
+                nil [67 89])
+            ("buttonPin" variable
+               (:constant-flag t
+                :default-value "9"
+                :type "int")
+                nil [124 148])
+            ("relayPin" variable
+               (:constant-flag t
+                :default-value "12"
+                :type "int")
+                nil [189 214])
+            ("buttonState" variable
+               (:default-value "0"
+                :type "int")
+                nil [276 296])
+            ("relayStatus" variable
+               (:default-value "0"
+                :type "int")
+                nil [351 371])
+            ("previousPush" variable
+               (:default-value "LOW"
+                :type "int")
+                nil [373 396])
+            ("time" variable
+               (:default-value "0"
+                :type "long")
+                nil [397 411])
+            ("debounce" variable
+               (:default-value "200"
+                :type "long")
+                nil [412 432])
+            ("setup" function (:type "void") nil [435 626])
+            ("loop" function (:type "void") nil [628 1255]))          
+      :file "tmp.c"
+      :pointmax 1256
+      :fsize 1255
+      :lastmodtime '(23646 37841 370535 309000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags nil
-      :file "test.c"
+      :file "lampduino.c"
       :pointmax 1
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
-      :major-mode python-mode
-      :tags nil
-      :file "test.py"
-      :pointmax 6
-      :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table"
-      :major-mode php-mode
-      :tags nil
-      :file "test.php"
-      :pointmax 1
-      :fsize 0
-      :lastmodtime '(23507 29660 852854 868000)
+      :major-mode c-mode
+      :tags 
+        '( ("Stepper.h" include (:system-flag t) nil [623 643])
+            ("stepsPerRevolution" variable
+               (:constant-flag t
+                :default-value "2038"
+                :type "int")
+                nil [645 681])
+            ("myStepper" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("stepsPerRevolution" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [833 852]))                  
+                :type ("Stepper" type (:type "class") nil nil))
+                nil [815 867])
+            ("serialRecv" variable
+               (:default-value "0x00"
+                :type ("byte" type (:type "class") nil nil))
+                nil [868 891])
+            ("setup" function (:type "void") nil [893 1010])
+            ("loop" function (:type "void") nil [1012 1457]))          
+      :file "camduino.c"
+      :pointmax 1459
+      :fsize 1458
+      :lastmodtime '(23694 48792 325163 972000)
       :unmatched-syntax nil))
   :file "!home!argos!Documents!semantic.cache"
   :semantic-tag-version "2.0"

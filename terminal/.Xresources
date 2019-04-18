@@ -9,12 +9,12 @@ Xft.hintstyle:  hintfull
 ! urxvt.boldFont: xft:tewi-Regular:size=9
 ! urxvt.font: xft:ohsnap:size=9
 ! urxvt.boldFont: xft:ohsnap:size=9
-urxvt.font: xft:ohsnap:bold:size=9
-urxvt.boldFont: xft:ohsnap-Bold:size=9
-! urxvt.font: xft:TerminalVector-Regular:size=9
-! urxvt.boldFont: xft:TerminalVector-Bold:size=9
-! urxvt.font: xft:apple-Regular:size=9
-! urxvt.boldFont: xft:apple-Bold:size=9
+! urxvt.font: xft:ohsnap:bold:size=12
+! urxvt.boldFont: xft:ohsnap-Bold:size=12
+! urxvt.font: xft:TerminalVector-Regular:size=12
+! urxvt.boldFont: xft:TerminalVector-Bold:size=12
+urxvt.font: xft:Inconsolata:bold:size=11
+urxvt.boldFont: xft:Inconsolata:bold:size=11
 
 
 
@@ -104,7 +104,7 @@ urxvt.keysym.F11: 			perl:fullscreen:switch
 !------------------------------------------------
 
 ! XENID BLACK
-urxvt*background:  #0c0c0c
+urxvt*background:  #1D1F21
 urxvt*foreground:  #737F88
 urxvt*colorBD:     #56B6C2
 urxvt*cursorColor: #D19A66
